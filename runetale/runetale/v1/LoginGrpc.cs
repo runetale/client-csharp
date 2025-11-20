@@ -65,6 +65,14 @@ namespace Protos {
         __Marshaller_protos_LoginNodeResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Protobuf.WellKnownTypes.Empty> __Method_Logout = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Protobuf.WellKnownTypes.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Logout",
+        __Marshaller_google_protobuf_Empty,
+        __Marshaller_google_protobuf_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.LoginSessionResponse> __Method_LoginSession = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.LoginSessionResponse>(
         grpc::MethodType.DuplexStreaming,
         __ServiceName,
@@ -92,6 +100,12 @@ namespace Protos {
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Protos.LoginNodeResponse> LoginNode(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Google.Protobuf.WellKnownTypes.Empty> Logout(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -158,6 +172,26 @@ namespace Protos {
         return CallInvoker.AsyncUnaryCall(__Method_LoginNode, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty Logout(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Logout(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Google.Protobuf.WellKnownTypes.Empty Logout(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Logout, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> LogoutAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return LogoutAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> LogoutAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Logout, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncDuplexStreamingCall<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.LoginSessionResponse> LoginSession(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return LoginSession(new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -202,6 +236,7 @@ namespace Protos {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_LoginNode, serviceImpl.LoginNode)
+          .AddMethod(__Method_Logout, serviceImpl.Logout)
           .AddMethod(__Method_LoginSession, serviceImpl.LoginSession)
           .AddMethod(__Method_GetInvitation, serviceImpl.GetInvitation).Build();
     }
@@ -214,6 +249,7 @@ namespace Protos {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, LoginServiceBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_LoginNode, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.LoginNodeResponse>(serviceImpl.LoginNode));
+      serviceBinder.AddMethod(__Method_Logout, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.Logout));
       serviceBinder.AddMethod(__Method_LoginSession, serviceImpl == null ? null : new grpc::DuplexStreamingServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.LoginSessionResponse>(serviceImpl.LoginSession));
       serviceBinder.AddMethod(__Method_GetInvitation, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.GetInvitationRequest, global::Protos.GetInvitationResponse>(serviceImpl.GetInvitation));
     }

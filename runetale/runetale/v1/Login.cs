@@ -34,12 +34,14 @@ namespace Protos {
             "c3QYBiABKAkSGAoQc2lnbmFsU2VydmVyUG9ydBgHIAEoBCIqChRHZXRJbnZp",
             "dGF0aW9uUmVxdWVzdBISCgppbnZpdGVDb2RlGAEgASgJIjoKFUdldEludml0",
             "YXRpb25SZXNwb25zZRINCgVlbWFpbBgBIAEoCRISCgppbnZpdGVDb2RlGAIg",
-            "ASgJMuwBCgxMb2dpblNlcnZpY2USQAoJTG9naW5Ob2RlEhYuZ29vZ2xlLnBy",
-            "b3RvYnVmLkVtcHR5GhkucHJvdG9zLkxvZ2luTm9kZVJlc3BvbnNlIgASSgoM",
-            "TG9naW5TZXNzaW9uEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhwucHJvdG9z",
-            "LkxvZ2luU2Vzc2lvblJlc3BvbnNlIgAoATABEk4KDUdldEludml0YXRpb24S",
-            "HC5wcm90b3MuR2V0SW52aXRhdGlvblJlcXVlc3QaHS5wcm90b3MuR2V0SW52",
-            "aXRhdGlvblJlc3BvbnNlIgBCCVoHLi9sb2dpbmIGcHJvdG8z"));
+            "ASgJMqgCCgxMb2dpblNlcnZpY2USQAoJTG9naW5Ob2RlEhYuZ29vZ2xlLnBy",
+            "b3RvYnVmLkVtcHR5GhkucHJvdG9zLkxvZ2luTm9kZVJlc3BvbnNlIgASOgoG",
+            "TG9nb3V0EhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhYuZ29vZ2xlLnByb3Rv",
+            "YnVmLkVtcHR5IgASSgoMTG9naW5TZXNzaW9uEhYuZ29vZ2xlLnByb3RvYnVm",
+            "LkVtcHR5GhwucHJvdG9zLkxvZ2luU2Vzc2lvblJlc3BvbnNlIgAoATABEk4K",
+            "DUdldEludml0YXRpb24SHC5wcm90b3MuR2V0SW52aXRhdGlvblJlcXVlc3Qa",
+            "HS5wcm90b3MuR2V0SW52aXRhdGlvblJlc3BvbnNlIgBCCVoHLi9sb2dpbmIG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

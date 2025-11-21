@@ -25,27 +25,28 @@ namespace Protos {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiBydW5ldGFsZS9ydW5ldGFsZS92MS9sb2dpbi5wcm90bxIGcHJvdG9zGhtn",
-            "b29nbGUvcHJvdG9idWYvZW1wdHkucHJvdG8ifQoRTG9naW5Ob2RlUmVzcG9u",
-            "c2USFAoMaXNSZWdpc3RlcmVkGAEgASgIEhAKCGxvZ2luVXJsGAIgASgJEgoK",
-            "AmlwGAMgAygJEgwKBGNpZHIYBCABKAkSEgoKc2lnbmFsSG9zdBgFIAEoCRIS",
-            "CgpzaWduYWxQb3J0GAYgASgEIpQBChRMb2dpblNlc3Npb25SZXNwb25zZRIK",
-            "CgJpcBgBIAMoCRIMCgRjaWRyGAIgASgJEgwKBGhvc3QYAyABKAkSCgoCb3MY",
-            "BCABKAkSFAoMY29tcHV0ZXJOYW1lGAUgASgJEhgKEHNpZ25hbFNlcnZlckhv",
-            "c3QYBiABKAkSGAoQc2lnbmFsU2VydmVyUG9ydBgHIAEoBCIqChRHZXRJbnZp",
-            "dGF0aW9uUmVxdWVzdBISCgppbnZpdGVDb2RlGAEgASgJIjoKFUdldEludml0",
-            "YXRpb25SZXNwb25zZRINCgVlbWFpbBgBIAEoCRISCgppbnZpdGVDb2RlGAIg",
-            "ASgJMqgCCgxMb2dpblNlcnZpY2USQAoJTG9naW5Ob2RlEhYuZ29vZ2xlLnBy",
-            "b3RvYnVmLkVtcHR5GhkucHJvdG9zLkxvZ2luTm9kZVJlc3BvbnNlIgASOgoG",
-            "TG9nb3V0EhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhYuZ29vZ2xlLnByb3Rv",
-            "YnVmLkVtcHR5IgASSgoMTG9naW5TZXNzaW9uEhYuZ29vZ2xlLnByb3RvYnVm",
-            "LkVtcHR5GhwucHJvdG9zLkxvZ2luU2Vzc2lvblJlc3BvbnNlIgAoATABEk4K",
-            "DUdldEludml0YXRpb24SHC5wcm90b3MuR2V0SW52aXRhdGlvblJlcXVlc3Qa",
-            "HS5wcm90b3MuR2V0SW52aXRhdGlvblJlc3BvbnNlIgBCCVoHLi9sb2dpbmIG",
-            "cHJvdG8z"));
+            "b29nbGUvcHJvdG9idWYvZW1wdHkucHJvdG8ixAEKEUxvZ2luTm9kZVJlc3Bv",
+            "bnNlEhQKDGlzUmVnaXN0ZXJlZBgBIAEoCBIQCghsb2dpblVybBgCIAEoCRIK",
+            "CgJpcBgDIAMoCRIMCgRjaWRyGAQgASgJEhIKCnNpZ25hbEhvc3QYBSABKAkS",
+            "EgoKc2lnbmFsUG9ydBgGIAEoBBIOCgZ1c2VySWQYByABKAQSDQoFZW1haWwY",
+            "CCABKAkSEwoLZGlzcGxheU5hbWUYCSABKAkSEQoJbG9naW5OYW1lGAogASgJ",
+            "IpQBChRMb2dpblNlc3Npb25SZXNwb25zZRIKCgJpcBgBIAMoCRIMCgRjaWRy",
+            "GAIgASgJEgwKBGhvc3QYAyABKAkSCgoCb3MYBCABKAkSFAoMY29tcHV0ZXJO",
+            "YW1lGAUgASgJEhgKEHNpZ25hbFNlcnZlckhvc3QYBiABKAkSGAoQc2lnbmFs",
+            "U2VydmVyUG9ydBgHIAEoBCIqChRHZXRJbnZpdGF0aW9uUmVxdWVzdBISCgpp",
+            "bnZpdGVDb2RlGAEgASgJIjoKFUdldEludml0YXRpb25SZXNwb25zZRINCgVl",
+            "bWFpbBgBIAEoCRISCgppbnZpdGVDb2RlGAIgASgJMqgCCgxMb2dpblNlcnZp",
+            "Y2USQAoJTG9naW5Ob2RlEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhkucHJv",
+            "dG9zLkxvZ2luTm9kZVJlc3BvbnNlIgASOgoGTG9nb3V0EhYuZ29vZ2xlLnBy",
+            "b3RvYnVmLkVtcHR5GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5IgASSgoMTG9n",
+            "aW5TZXNzaW9uEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhwucHJvdG9zLkxv",
+            "Z2luU2Vzc2lvblJlc3BvbnNlIgAoATABEk4KDUdldEludml0YXRpb24SHC5w",
+            "cm90b3MuR2V0SW52aXRhdGlvblJlcXVlc3QaHS5wcm90b3MuR2V0SW52aXRh",
+            "dGlvblJlc3BvbnNlIgBCCVoHLi9sb2dpbmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.LoginNodeResponse), global::Protos.LoginNodeResponse.Parser, new[]{ "IsRegistered", "LoginUrl", "Ip", "Cidr", "SignalHost", "SignalPort" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.LoginNodeResponse), global::Protos.LoginNodeResponse.Parser, new[]{ "IsRegistered", "LoginUrl", "Ip", "Cidr", "SignalHost", "SignalPort", "UserId", "Email", "DisplayName", "LoginName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.LoginSessionResponse), global::Protos.LoginSessionResponse.Parser, new[]{ "Ip", "Cidr", "Host", "Os", "ComputerName", "SignalServerHost", "SignalServerPort" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.GetInvitationRequest), global::Protos.GetInvitationRequest.Parser, new[]{ "InviteCode" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.GetInvitationResponse), global::Protos.GetInvitationResponse.Parser, new[]{ "Email", "InviteCode" }, null, null, null, null)
@@ -95,6 +96,10 @@ namespace Protos {
       cidr_ = other.cidr_;
       signalHost_ = other.signalHost_;
       signalPort_ = other.signalPort_;
+      userId_ = other.userId_;
+      email_ = other.email_;
+      displayName_ = other.displayName_;
+      loginName_ = other.loginName_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -175,6 +180,54 @@ namespace Protos {
       }
     }
 
+    /// <summary>Field number for the "userId" field.</summary>
+    public const int UserIdFieldNumber = 7;
+    private ulong userId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong UserId {
+      get { return userId_; }
+      set {
+        userId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "email" field.</summary>
+    public const int EmailFieldNumber = 8;
+    private string email_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Email {
+      get { return email_; }
+      set {
+        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "displayName" field.</summary>
+    public const int DisplayNameFieldNumber = 9;
+    private string displayName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DisplayName {
+      get { return displayName_; }
+      set {
+        displayName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "loginName" field.</summary>
+    public const int LoginNameFieldNumber = 10;
+    private string loginName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string LoginName {
+      get { return loginName_; }
+      set {
+        loginName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -196,6 +249,10 @@ namespace Protos {
       if (Cidr != other.Cidr) return false;
       if (SignalHost != other.SignalHost) return false;
       if (SignalPort != other.SignalPort) return false;
+      if (UserId != other.UserId) return false;
+      if (Email != other.Email) return false;
+      if (DisplayName != other.DisplayName) return false;
+      if (LoginName != other.LoginName) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -209,6 +266,10 @@ namespace Protos {
       if (Cidr.Length != 0) hash ^= Cidr.GetHashCode();
       if (SignalHost.Length != 0) hash ^= SignalHost.GetHashCode();
       if (SignalPort != 0UL) hash ^= SignalPort.GetHashCode();
+      if (UserId != 0UL) hash ^= UserId.GetHashCode();
+      if (Email.Length != 0) hash ^= Email.GetHashCode();
+      if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
+      if (LoginName.Length != 0) hash ^= LoginName.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -248,6 +309,22 @@ namespace Protos {
         output.WriteRawTag(48);
         output.WriteUInt64(SignalPort);
       }
+      if (UserId != 0UL) {
+        output.WriteRawTag(56);
+        output.WriteUInt64(UserId);
+      }
+      if (Email.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Email);
+      }
+      if (DisplayName.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(DisplayName);
+      }
+      if (LoginName.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(LoginName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -279,6 +356,22 @@ namespace Protos {
         output.WriteRawTag(48);
         output.WriteUInt64(SignalPort);
       }
+      if (UserId != 0UL) {
+        output.WriteRawTag(56);
+        output.WriteUInt64(UserId);
+      }
+      if (Email.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Email);
+      }
+      if (DisplayName.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(DisplayName);
+      }
+      if (LoginName.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(LoginName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -304,6 +397,18 @@ namespace Protos {
       }
       if (SignalPort != 0UL) {
         size += 1 + pb::CodedOutputStream.ComputeUInt64Size(SignalPort);
+      }
+      if (UserId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(UserId);
+      }
+      if (Email.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
+      }
+      if (DisplayName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DisplayName);
+      }
+      if (LoginName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(LoginName);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -332,6 +437,18 @@ namespace Protos {
       }
       if (other.SignalPort != 0UL) {
         SignalPort = other.SignalPort;
+      }
+      if (other.UserId != 0UL) {
+        UserId = other.UserId;
+      }
+      if (other.Email.Length != 0) {
+        Email = other.Email;
+      }
+      if (other.DisplayName.Length != 0) {
+        DisplayName = other.DisplayName;
+      }
+      if (other.LoginName.Length != 0) {
+        LoginName = other.LoginName;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -372,6 +489,22 @@ namespace Protos {
             SignalPort = input.ReadUInt64();
             break;
           }
+          case 56: {
+            UserId = input.ReadUInt64();
+            break;
+          }
+          case 66: {
+            Email = input.ReadString();
+            break;
+          }
+          case 74: {
+            DisplayName = input.ReadString();
+            break;
+          }
+          case 82: {
+            LoginName = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -409,6 +542,22 @@ namespace Protos {
           }
           case 48: {
             SignalPort = input.ReadUInt64();
+            break;
+          }
+          case 56: {
+            UserId = input.ReadUInt64();
+            break;
+          }
+          case 66: {
+            Email = input.ReadString();
+            break;
+          }
+          case 74: {
+            DisplayName = input.ReadString();
+            break;
+          }
+          case 82: {
+            LoginName = input.ReadString();
             break;
           }
         }

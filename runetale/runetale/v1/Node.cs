@@ -34,45 +34,46 @@ namespace Protos {
             "YWZmaWMYCCADKAsyFS5wcm90b3MuUGFja2V0Rmxvd0xvZyKAAQoNUGFja2V0",
             "Rmxvd0xvZxINCgVQcm90bxgBIAEoDRILCgNTcmMYAiABKAkSCwoDRHN0GAMg",
             "ASgJEhEKCVR4UGFja2V0cxgEIAEoBBIPCgdUeEJ5dGVzGAUgASgEEhEKCVJ4",
-            "UGFja2V0cxgGIAEoBBIPCgdSeEJ5dGVzGAcgASgEIm4KBE5vZGUSDAoEbmFt",
+            "UGFja2V0cxgGIAEoBBIPCgdSeEJ5dGVzGAcgASgEIn4KBE5vZGUSDAoEbmFt",
             "ZRgBIAEoCRIOCgZub2RlSWQYAiABKAQSDwoHbm9kZUtleRgDIAEoCRIQCgh3",
             "Z1B1YktleRgEIAEoCRISCgphbGxvd2VkSVBzGAUgAygJEhEKCWFkZHJlc3Nl",
-            "cxgGIAMoCSIvChNDb21wb3NlTm9kZVJlc3BvbnNlEgoKAmlwGAEgASgJEgwK",
-            "BGNpZHIYAiABKAkijQEKDE5ldFBvcnRSYW5nZRIKCgJpcBgBIAEoCRItCgVw",
-            "b3J0cxgCIAEoCzIeLnByb3Rvcy5OZXRQb3J0UmFuZ2UucG9ydFJhbmdlEhgK",
-            "EGFkdmVydGlzZWRSb3V0ZXMYAyABKAkaKAoJcG9ydFJhbmdlEg0KBWZpcnN0",
-            "GAEgASgEEgwKBGxhc3QYAiABKAQiUQoKRmlsdGVyUnVsZRIOCgZzcmNJcHMY",
-            "ASADKAkSIgoEZHN0cxgCIAMoCzIULnByb3Rvcy5OZXRQb3J0UmFuZ2USDwoH",
-            "aVBQcm90bxgDIAMoDSLNAgoSTmV0d29ya01hcFJlc3BvbnNlEgsKA3NlcRgB",
-            "IAEoBBIaCgRub2RlGAIgASgLMgwucHJvdG9zLk5vZGUSGwoFcGVlcnMYAyAD",
-            "KAsyDC5wcm90b3MuTm9kZRIiCgxwZWVyc0NoYW5nZWQYBCADKAsyDC5wcm90",
-            "b3MuTm9kZRIUCgxwZWVyc1JlbW92ZWQYBSADKAQSKAoMcGFja2V0RmlsdGVy",
-            "GAYgAygLMhIucHJvdG9zLkZpbHRlclJ1bGUSFwoPYWR2ZXJ0aXNlZFJvdXRl",
-            "GAcgASgJEg4KBmphaWxlZBgIIAEoCBIeCghpY2VUYWJsZRgJIAMoCzIMLnBy",
-            "b3Rvcy5Ob2RlEh4KA2RucxgKIAEoCzIRLnByb3Rvcy5ETlNDb25maWcSJAoJ",
-            "YXBwTGlua2VyGAsgAygLMhEucHJvdG9zLkFwcExpbmtlciI6CglBcHBMaW5r",
-            "ZXISDAoEbmFtZRgBIAEoCRIPCgdkb21haW5zGAIgAygJEg4KBnJvdXRlcxgD",
-            "IAMoCSIYCghSZXNvbHZlchIMCgRhZGRyGAEgASgJIjAKCVJlc29sdmVycxIj",
-            "CglyZXNvbHZlcnMYASADKAsyEC5wcm90b3MuUmVzb2x2ZXIi6wEKCUROU0Nv",
-            "bmZpZxIjCglyZXNvbHZlcnMYASADKAsyEC5wcm90b3MuUmVzb2x2ZXISLQoG",
-            "cm91dGVzGAIgAygLMh0ucHJvdG9zLkROU0NvbmZpZy5Sb3V0ZXNFbnRyeRIV",
-            "Cg1zZWFyY2hEb21haW5zGAMgAygJEhcKD2V4aXROb2RlRmlsdGVyZBgEIAMo",
-            "CRIYChBlbmFibGVkV29uZGVyRE5TGAUgASgIGkAKC1JvdXRlc0VudHJ5EgsK",
-            "A2tleRgBIAEoCRIgCgV2YWx1ZRgCIAEoCzIRLnByb3Rvcy5SZXNvbHZlcnM6",
-            "AjgBMsECCgtOb2RlU2VydmljZRJECgtDb21wb3NlTm9kZRIWLmdvb2dsZS5w",
-            "cm90b2J1Zi5FbXB0eRobLnByb3Rvcy5Db21wb3NlTm9kZVJlc3BvbnNlIgAS",
-            "RQoNR2V0TmV0d29ya01hcBIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoaLnBy",
-            "b3Rvcy5OZXR3b3JrTWFwUmVzcG9uc2UiABJWChZDb25uZWN0TmV0d29ya01h",
-            "cFRhYmxlEhoucHJvdG9zLk5ldHdvcmtNYXBSZXNwb25zZRoaLnByb3Rvcy5O",
-            "ZXR3b3JrTWFwUmVzcG9uc2UiACgBMAESTQoTVXBsb2FkUGFja2V0Rmxvd0xv",
-            "ZxIcLnByb3Rvcy5QYWNrZXRGbG93TG9nUmVxdWVzdBoWLmdvb2dsZS5wcm90",
-            "b2J1Zi5FbXB0eSIAQghaBi4vbm9kZWIGcHJvdG8z"));
+            "cxgGIAMoCRIOCgZ1c2VySWQYByABKAQiLwoTQ29tcG9zZU5vZGVSZXNwb25z",
+            "ZRIKCgJpcBgBIAEoCRIMCgRjaWRyGAIgASgJIo0BCgxOZXRQb3J0UmFuZ2US",
+            "CgoCaXAYASABKAkSLQoFcG9ydHMYAiABKAsyHi5wcm90b3MuTmV0UG9ydFJh",
+            "bmdlLnBvcnRSYW5nZRIYChBhZHZlcnRpc2VkUm91dGVzGAMgASgJGigKCXBv",
+            "cnRSYW5nZRINCgVmaXJzdBgBIAEoBBIMCgRsYXN0GAIgASgEIlEKCkZpbHRl",
+            "clJ1bGUSDgoGc3JjSXBzGAEgAygJEiIKBGRzdHMYAiADKAsyFC5wcm90b3Mu",
+            "TmV0UG9ydFJhbmdlEg8KB2lQUHJvdG8YAyADKA0izQIKEk5ldHdvcmtNYXBS",
+            "ZXNwb25zZRILCgNzZXEYASABKAQSGgoEbm9kZRgCIAEoCzIMLnByb3Rvcy5O",
+            "b2RlEhsKBXBlZXJzGAMgAygLMgwucHJvdG9zLk5vZGUSIgoMcGVlcnNDaGFu",
+            "Z2VkGAQgAygLMgwucHJvdG9zLk5vZGUSFAoMcGVlcnNSZW1vdmVkGAUgAygE",
+            "EigKDHBhY2tldEZpbHRlchgGIAMoCzISLnByb3Rvcy5GaWx0ZXJSdWxlEhcK",
+            "D2FkdmVydGlzZWRSb3V0ZRgHIAEoCRIOCgZqYWlsZWQYCCABKAgSHgoIaWNl",
+            "VGFibGUYCSADKAsyDC5wcm90b3MuTm9kZRIeCgNkbnMYCiABKAsyES5wcm90",
+            "b3MuRE5TQ29uZmlnEiQKCWFwcExpbmtlchgLIAMoCzIRLnByb3Rvcy5BcHBM",
+            "aW5rZXIiOgoJQXBwTGlua2VyEgwKBG5hbWUYASABKAkSDwoHZG9tYWlucxgC",
+            "IAMoCRIOCgZyb3V0ZXMYAyADKAkiGAoIUmVzb2x2ZXISDAoEYWRkchgBIAEo",
+            "CSIwCglSZXNvbHZlcnMSIwoJcmVzb2x2ZXJzGAEgAygLMhAucHJvdG9zLlJl",
+            "c29sdmVyIusBCglETlNDb25maWcSIwoJcmVzb2x2ZXJzGAEgAygLMhAucHJv",
+            "dG9zLlJlc29sdmVyEi0KBnJvdXRlcxgCIAMoCzIdLnByb3Rvcy5ETlNDb25m",
+            "aWcuUm91dGVzRW50cnkSFQoNc2VhcmNoRG9tYWlucxgDIAMoCRIXCg9leGl0",
+            "Tm9kZUZpbHRlcmQYBCADKAkSGAoQZW5hYmxlZFdvbmRlckROUxgFIAEoCBpA",
+            "CgtSb3V0ZXNFbnRyeRILCgNrZXkYASABKAkSIAoFdmFsdWUYAiABKAsyES5w",
+            "cm90b3MuUmVzb2x2ZXJzOgI4ATLBAgoLTm9kZVNlcnZpY2USRAoLQ29tcG9z",
+            "ZU5vZGUSFi5nb29nbGUucHJvdG9idWYuRW1wdHkaGy5wcm90b3MuQ29tcG9z",
+            "ZU5vZGVSZXNwb25zZSIAEkUKDUdldE5ldHdvcmtNYXASFi5nb29nbGUucHJv",
+            "dG9idWYuRW1wdHkaGi5wcm90b3MuTmV0d29ya01hcFJlc3BvbnNlIgASVgoW",
+            "Q29ubmVjdE5ldHdvcmtNYXBUYWJsZRIaLnByb3Rvcy5OZXR3b3JrTWFwUmVz",
+            "cG9uc2UaGi5wcm90b3MuTmV0d29ya01hcFJlc3BvbnNlIgAoATABEk0KE1Vw",
+            "bG9hZFBhY2tldEZsb3dMb2cSHC5wcm90b3MuUGFja2V0Rmxvd0xvZ1JlcXVl",
+            "c3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkiAEIIWgYuL25vZGViBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PacketFlowLogRequest), global::Protos.PacketFlowLogRequest.Parser, new[]{ "NodeId", "LoggedAt", "StartedAt", "EndedAt", "PeerTraffic", "LanTraffic", "ExitNodeTraffic", "TransportTraffic" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PacketFlowLog), global::Protos.PacketFlowLog.Parser, new[]{ "Proto", "Src", "Dst", "TxPackets", "TxBytes", "RxPackets", "RxBytes" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Node), global::Protos.Node.Parser, new[]{ "Name", "NodeId", "NodeKey", "WgPubKey", "AllowedIPs", "Addresses" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Node), global::Protos.Node.Parser, new[]{ "Name", "NodeId", "NodeKey", "WgPubKey", "AllowedIPs", "Addresses", "UserId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.ComposeNodeResponse), global::Protos.ComposeNodeResponse.Parser, new[]{ "Ip", "Cidr" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange), global::Protos.NetPortRange.Parser, new[]{ "Ip", "Ports", "AdvertisedRoutes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange.Types.portRange), global::Protos.NetPortRange.Types.portRange.Parser, new[]{ "First", "Last" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilterRule), global::Protos.FilterRule.Parser, new[]{ "SrcIps", "Dsts", "IPProto" }, null, null, null, null),
@@ -963,6 +964,7 @@ namespace Protos {
       wgPubKey_ = other.wgPubKey_;
       allowedIPs_ = other.allowedIPs_.Clone();
       addresses_ = other.addresses_.Clone();
+      userId_ = other.userId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1045,6 +1047,18 @@ namespace Protos {
       get { return addresses_; }
     }
 
+    /// <summary>Field number for the "userId" field.</summary>
+    public const int UserIdFieldNumber = 7;
+    private ulong userId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong UserId {
+      get { return userId_; }
+      set {
+        userId_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1066,6 +1080,7 @@ namespace Protos {
       if (WgPubKey != other.WgPubKey) return false;
       if(!allowedIPs_.Equals(other.allowedIPs_)) return false;
       if(!addresses_.Equals(other.addresses_)) return false;
+      if (UserId != other.UserId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1079,6 +1094,7 @@ namespace Protos {
       if (WgPubKey.Length != 0) hash ^= WgPubKey.GetHashCode();
       hash ^= allowedIPs_.GetHashCode();
       hash ^= addresses_.GetHashCode();
+      if (UserId != 0UL) hash ^= UserId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1115,6 +1131,10 @@ namespace Protos {
       }
       allowedIPs_.WriteTo(output, _repeated_allowedIPs_codec);
       addresses_.WriteTo(output, _repeated_addresses_codec);
+      if (UserId != 0UL) {
+        output.WriteRawTag(56);
+        output.WriteUInt64(UserId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1143,6 +1163,10 @@ namespace Protos {
       }
       allowedIPs_.WriteTo(ref output, _repeated_allowedIPs_codec);
       addresses_.WriteTo(ref output, _repeated_addresses_codec);
+      if (UserId != 0UL) {
+        output.WriteRawTag(56);
+        output.WriteUInt64(UserId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1167,6 +1191,9 @@ namespace Protos {
       }
       size += allowedIPs_.CalculateSize(_repeated_allowedIPs_codec);
       size += addresses_.CalculateSize(_repeated_addresses_codec);
+      if (UserId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(UserId);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1193,6 +1220,9 @@ namespace Protos {
       }
       allowedIPs_.Add(other.allowedIPs_);
       addresses_.Add(other.addresses_);
+      if (other.UserId != 0UL) {
+        UserId = other.UserId;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1232,6 +1262,10 @@ namespace Protos {
             addresses_.AddEntriesFrom(input, _repeated_addresses_codec);
             break;
           }
+          case 56: {
+            UserId = input.ReadUInt64();
+            break;
+          }
         }
       }
     #endif
@@ -1269,6 +1303,10 @@ namespace Protos {
           }
           case 50: {
             addresses_.AddEntriesFrom(ref input, _repeated_addresses_codec);
+            break;
+          }
+          case 56: {
+            UserId = input.ReadUInt64();
             break;
           }
         }

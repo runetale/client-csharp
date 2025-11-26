@@ -55,16 +55,28 @@ namespace Protos {
             "dXJsGAggASgJEhMKC2lzX2xvY2FsX2lwGAkgASgIIh0KDkNvbXBvc2VSZXF1",
             "ZXN0EgsKA2tleRgBIAEoCSI1CgtQaW5nUmVxdWVzdBIKCgJpcBgBIAEoCRIM",
             "CgR0eXBlGAIgASgJEgwKBHNpemUYAyABKAUiHQoLU3RvcFJlcXVlc3QSDgoG",
-            "cmVhc29uGAEgASgJMpADCgxIYXNoaVNlcnZpY2USNwoGU3RhdHVzEhYuZ29v",
-            "Z2xlLnByb3RvYnVmLkVtcHR5GhMucHJvdG9zLkhhc2hpU3RhdHVzIgASMQoE",
-            "UGluZxITLnByb3Rvcy5QaW5nUmVxdWVzdBoSLnByb3Rvcy5QaW5nUmVzdWx0",
-            "IgASNgoFTG9naW4SFi5nb29nbGUucHJvdG9idWYuRW1wdHkaEy5wcm90b3Mu",
-            "SGFzaGlTdGF0dXMiABI4CgdDb21wb3NlEhYucHJvdG9zLkNvbXBvc2VSZXF1",
-            "ZXN0GhMucHJvdG9zLkhhc2hpU3RhdHVzIgASNwoGTG9nb3V0EhYuZ29vZ2xl",
-            "LnByb3RvYnVmLkVtcHR5GhMucHJvdG9zLkhhc2hpU3RhdHVzIgASMgoEU3Rv",
-            "cBITLnByb3Rvcy5TdG9wUmVxdWVzdBoTLnByb3Rvcy5IYXNoaVN0YXR1cyIA",
-            "EjUKBERpYWwSFi5nb29nbGUucHJvdG9idWYuRW1wdHkaEy5wcm90b3MuSGFz",
-            "aGlTdGF0dXMiAEIJWgcuL2hhc2hpYgZwcm90bzM="));
+            "cmVhc29uGAEgASgJIsEDCg5OZXRDaGVja1JlcG9ydBInCgNub3cYASABKAsy",
+            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEgsKA3VkcBgCIAEoCBIMCgRp",
+            "cHY2GAMgASgIEgwKBGlwdjQYBCABKAgSFQoNaXB2Nl9jYW5fc2VuZBgFIAEo",
+            "CBIVCg1pcHY0X2Nhbl9zZW5kGAYgASgIEhMKC29zX2hhc19pcHY2GAcgASgI",
+            "EhEKCWdsb2JhbF92NBgIIAEoCRIRCglnbG9iYWxfdjYYCSABKAkSPQoMc3R1",
+            "bl9sYXRlbmN5GAogAygLMicucHJvdG9zLk5ldENoZWNrUmVwb3J0LlN0dW5M",
+            "YXRlbmN5RW50cnkSPQoMdHVybl9sYXRlbmN5GAsgAygLMicucHJvdG9zLk5l",
+            "dENoZWNrUmVwb3J0LlR1cm5MYXRlbmN5RW50cnkSDgoGZXJyb3JzGAwgAygJ",
+            "GjIKEFN0dW5MYXRlbmN5RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIg",
+            "ASgDOgI4ARoyChBUdXJuTGF0ZW5jeUVudHJ5EgsKA2tleRgBIAEoCRINCgV2",
+            "YWx1ZRgCIAEoAzoCOAEyzgMKDEhhc2hpU2VydmljZRI3CgZTdGF0dXMSFi5n",
+            "b29nbGUucHJvdG9idWYuRW1wdHkaEy5wcm90b3MuSGFzaGlTdGF0dXMiABIx",
+            "CgRQaW5nEhMucHJvdG9zLlBpbmdSZXF1ZXN0GhIucHJvdG9zLlBpbmdSZXN1",
+            "bHQiABI2CgVMb2dpbhIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoTLnByb3Rv",
+            "cy5IYXNoaVN0YXR1cyIAEjgKB0NvbXBvc2USFi5wcm90b3MuQ29tcG9zZVJl",
+            "cXVlc3QaEy5wcm90b3MuSGFzaGlTdGF0dXMiABI3CgZMb2dvdXQSFi5nb29n",
+            "bGUucHJvdG9idWYuRW1wdHkaEy5wcm90b3MuSGFzaGlTdGF0dXMiABIyCgRT",
+            "dG9wEhMucHJvdG9zLlN0b3BSZXF1ZXN0GhMucHJvdG9zLkhhc2hpU3RhdHVz",
+            "IgASNQoERGlhbBIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoTLnByb3Rvcy5I",
+            "YXNoaVN0YXR1cyIAEjwKCE5ldENoZWNrEhYuZ29vZ2xlLnByb3RvYnVmLkVt",
+            "cHR5GhYucHJvdG9zLk5ldENoZWNrUmVwb3J0IgBCCVoHLi9oYXNoaWIGcHJv",
+            "dG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -76,7 +88,8 @@ namespace Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PingResult), global::Protos.PingResult.Parser, new[]{ "Ip", "NodeIp", "NodeName", "Err", "LatencySeconds", "Endpoint", "PeerApiPort", "PeerApiUrl", "IsLocalIp" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.ComposeRequest), global::Protos.ComposeRequest.Parser, new[]{ "Key" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PingRequest), global::Protos.PingRequest.Parser, new[]{ "Ip", "Type", "Size" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.StopRequest), global::Protos.StopRequest.Parser, new[]{ "Reason" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.StopRequest), global::Protos.StopRequest.Parser, new[]{ "Reason" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetCheckReport), global::Protos.NetCheckReport.Parser, new[]{ "Now", "Udp", "Ipv6", "Ipv4", "Ipv6CanSend", "Ipv4CanSend", "OsHasIpv6", "GlobalV4", "GlobalV6", "StunLatency", "TurnLatency", "Errors" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, })
           }));
     }
     #endregion
@@ -3064,6 +3077,611 @@ namespace Protos {
             break;
           case 10: {
             Reason = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class NetCheckReport : pb::IMessage<NetCheckReport>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NetCheckReport> _parser = new pb::MessageParser<NetCheckReport>(() => new NetCheckReport());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NetCheckReport> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.HashiReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetCheckReport() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetCheckReport(NetCheckReport other) : this() {
+      now_ = other.now_ != null ? other.now_.Clone() : null;
+      udp_ = other.udp_;
+      ipv6_ = other.ipv6_;
+      ipv4_ = other.ipv4_;
+      ipv6CanSend_ = other.ipv6CanSend_;
+      ipv4CanSend_ = other.ipv4CanSend_;
+      osHasIpv6_ = other.osHasIpv6_;
+      globalV4_ = other.globalV4_;
+      globalV6_ = other.globalV6_;
+      stunLatency_ = other.stunLatency_.Clone();
+      turnLatency_ = other.turnLatency_.Clone();
+      errors_ = other.errors_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetCheckReport Clone() {
+      return new NetCheckReport(this);
+    }
+
+    /// <summary>Field number for the "now" field.</summary>
+    public const int NowFieldNumber = 1;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp now_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp Now {
+      get { return now_; }
+      set {
+        now_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "udp" field.</summary>
+    public const int UdpFieldNumber = 2;
+    private bool udp_;
+    /// <summary>
+    /// a UDP STUN round trip completed
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Udp {
+      get { return udp_; }
+      set {
+        udp_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ipv6" field.</summary>
+    public const int Ipv6FieldNumber = 3;
+    private bool ipv6_;
+    /// <summary>
+    /// an IPv6 STUN round trip completed
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Ipv6 {
+      get { return ipv6_; }
+      set {
+        ipv6_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ipv4" field.</summary>
+    public const int Ipv4FieldNumber = 4;
+    private bool ipv4_;
+    /// <summary>
+    /// an IPv4 STUN round trip completed
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Ipv4 {
+      get { return ipv4_; }
+      set {
+        ipv4_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ipv6_can_send" field.</summary>
+    public const int Ipv6CanSendFieldNumber = 5;
+    private bool ipv6CanSend_;
+    /// <summary>
+    /// an IPv6 packet was able to be sent
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Ipv6CanSend {
+      get { return ipv6CanSend_; }
+      set {
+        ipv6CanSend_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ipv4_can_send" field.</summary>
+    public const int Ipv4CanSendFieldNumber = 6;
+    private bool ipv4CanSend_;
+    /// <summary>
+    /// an IPv4 packet was able to be sent
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Ipv4CanSend {
+      get { return ipv4CanSend_; }
+      set {
+        ipv4CanSend_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "os_has_ipv6" field.</summary>
+    public const int OsHasIpv6FieldNumber = 7;
+    private bool osHasIpv6_;
+    /// <summary>
+    /// could bind a socket to ::1
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool OsHasIpv6 {
+      get { return osHasIpv6_; }
+      set {
+        osHasIpv6_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "global_v4" field.</summary>
+    public const int GlobalV4FieldNumber = 8;
+    private string globalV4_ = "";
+    /// <summary>
+    /// best IPv4 global address (netip.AddrPort as string)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string GlobalV4 {
+      get { return globalV4_; }
+      set {
+        globalV4_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "global_v6" field.</summary>
+    public const int GlobalV6FieldNumber = 9;
+    private string globalV6_ = "";
+    /// <summary>
+    /// best IPv6 global address (netip.AddrPort as string)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string GlobalV6 {
+      get { return globalV6_; }
+      set {
+        globalV6_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "stun_latency" field.</summary>
+    public const int StunLatencyFieldNumber = 10;
+    private static readonly pbc::MapField<string, long>.Codec _map_stunLatency_codec
+        = new pbc::MapField<string, long>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForInt64(16, 0L), 82);
+    private readonly pbc::MapField<string, long> stunLatency_ = new pbc::MapField<string, long>();
+    /// <summary>
+    /// STUN server URI -> latency in milliseconds
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::MapField<string, long> StunLatency {
+      get { return stunLatency_; }
+    }
+
+    /// <summary>Field number for the "turn_latency" field.</summary>
+    public const int TurnLatencyFieldNumber = 11;
+    private static readonly pbc::MapField<string, long>.Codec _map_turnLatency_codec
+        = new pbc::MapField<string, long>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForInt64(16, 0L), 90);
+    private readonly pbc::MapField<string, long> turnLatency_ = new pbc::MapField<string, long>();
+    /// <summary>
+    /// TURN server URI -> latency in milliseconds
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::MapField<string, long> TurnLatency {
+      get { return turnLatency_; }
+    }
+
+    /// <summary>Field number for the "errors" field.</summary>
+    public const int ErrorsFieldNumber = 12;
+    private static readonly pb::FieldCodec<string> _repeated_errors_codec
+        = pb::FieldCodec.ForString(98);
+    private readonly pbc::RepeatedField<string> errors_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// errors encountered during the check
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Errors {
+      get { return errors_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NetCheckReport);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NetCheckReport other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Now, other.Now)) return false;
+      if (Udp != other.Udp) return false;
+      if (Ipv6 != other.Ipv6) return false;
+      if (Ipv4 != other.Ipv4) return false;
+      if (Ipv6CanSend != other.Ipv6CanSend) return false;
+      if (Ipv4CanSend != other.Ipv4CanSend) return false;
+      if (OsHasIpv6 != other.OsHasIpv6) return false;
+      if (GlobalV4 != other.GlobalV4) return false;
+      if (GlobalV6 != other.GlobalV6) return false;
+      if (!StunLatency.Equals(other.StunLatency)) return false;
+      if (!TurnLatency.Equals(other.TurnLatency)) return false;
+      if(!errors_.Equals(other.errors_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (now_ != null) hash ^= Now.GetHashCode();
+      if (Udp != false) hash ^= Udp.GetHashCode();
+      if (Ipv6 != false) hash ^= Ipv6.GetHashCode();
+      if (Ipv4 != false) hash ^= Ipv4.GetHashCode();
+      if (Ipv6CanSend != false) hash ^= Ipv6CanSend.GetHashCode();
+      if (Ipv4CanSend != false) hash ^= Ipv4CanSend.GetHashCode();
+      if (OsHasIpv6 != false) hash ^= OsHasIpv6.GetHashCode();
+      if (GlobalV4.Length != 0) hash ^= GlobalV4.GetHashCode();
+      if (GlobalV6.Length != 0) hash ^= GlobalV6.GetHashCode();
+      hash ^= StunLatency.GetHashCode();
+      hash ^= TurnLatency.GetHashCode();
+      hash ^= errors_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (now_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Now);
+      }
+      if (Udp != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Udp);
+      }
+      if (Ipv6 != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Ipv6);
+      }
+      if (Ipv4 != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(Ipv4);
+      }
+      if (Ipv6CanSend != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(Ipv6CanSend);
+      }
+      if (Ipv4CanSend != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(Ipv4CanSend);
+      }
+      if (OsHasIpv6 != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(OsHasIpv6);
+      }
+      if (GlobalV4.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(GlobalV4);
+      }
+      if (GlobalV6.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(GlobalV6);
+      }
+      stunLatency_.WriteTo(output, _map_stunLatency_codec);
+      turnLatency_.WriteTo(output, _map_turnLatency_codec);
+      errors_.WriteTo(output, _repeated_errors_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (now_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Now);
+      }
+      if (Udp != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Udp);
+      }
+      if (Ipv6 != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Ipv6);
+      }
+      if (Ipv4 != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(Ipv4);
+      }
+      if (Ipv6CanSend != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(Ipv6CanSend);
+      }
+      if (Ipv4CanSend != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(Ipv4CanSend);
+      }
+      if (OsHasIpv6 != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(OsHasIpv6);
+      }
+      if (GlobalV4.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(GlobalV4);
+      }
+      if (GlobalV6.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(GlobalV6);
+      }
+      stunLatency_.WriteTo(ref output, _map_stunLatency_codec);
+      turnLatency_.WriteTo(ref output, _map_turnLatency_codec);
+      errors_.WriteTo(ref output, _repeated_errors_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (now_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Now);
+      }
+      if (Udp != false) {
+        size += 1 + 1;
+      }
+      if (Ipv6 != false) {
+        size += 1 + 1;
+      }
+      if (Ipv4 != false) {
+        size += 1 + 1;
+      }
+      if (Ipv6CanSend != false) {
+        size += 1 + 1;
+      }
+      if (Ipv4CanSend != false) {
+        size += 1 + 1;
+      }
+      if (OsHasIpv6 != false) {
+        size += 1 + 1;
+      }
+      if (GlobalV4.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(GlobalV4);
+      }
+      if (GlobalV6.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(GlobalV6);
+      }
+      size += stunLatency_.CalculateSize(_map_stunLatency_codec);
+      size += turnLatency_.CalculateSize(_map_turnLatency_codec);
+      size += errors_.CalculateSize(_repeated_errors_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NetCheckReport other) {
+      if (other == null) {
+        return;
+      }
+      if (other.now_ != null) {
+        if (now_ == null) {
+          Now = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        Now.MergeFrom(other.Now);
+      }
+      if (other.Udp != false) {
+        Udp = other.Udp;
+      }
+      if (other.Ipv6 != false) {
+        Ipv6 = other.Ipv6;
+      }
+      if (other.Ipv4 != false) {
+        Ipv4 = other.Ipv4;
+      }
+      if (other.Ipv6CanSend != false) {
+        Ipv6CanSend = other.Ipv6CanSend;
+      }
+      if (other.Ipv4CanSend != false) {
+        Ipv4CanSend = other.Ipv4CanSend;
+      }
+      if (other.OsHasIpv6 != false) {
+        OsHasIpv6 = other.OsHasIpv6;
+      }
+      if (other.GlobalV4.Length != 0) {
+        GlobalV4 = other.GlobalV4;
+      }
+      if (other.GlobalV6.Length != 0) {
+        GlobalV6 = other.GlobalV6;
+      }
+      stunLatency_.Add(other.stunLatency_);
+      turnLatency_.Add(other.turnLatency_);
+      errors_.Add(other.errors_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (now_ == null) {
+              Now = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Now);
+            break;
+          }
+          case 16: {
+            Udp = input.ReadBool();
+            break;
+          }
+          case 24: {
+            Ipv6 = input.ReadBool();
+            break;
+          }
+          case 32: {
+            Ipv4 = input.ReadBool();
+            break;
+          }
+          case 40: {
+            Ipv6CanSend = input.ReadBool();
+            break;
+          }
+          case 48: {
+            Ipv4CanSend = input.ReadBool();
+            break;
+          }
+          case 56: {
+            OsHasIpv6 = input.ReadBool();
+            break;
+          }
+          case 66: {
+            GlobalV4 = input.ReadString();
+            break;
+          }
+          case 74: {
+            GlobalV6 = input.ReadString();
+            break;
+          }
+          case 82: {
+            stunLatency_.AddEntriesFrom(input, _map_stunLatency_codec);
+            break;
+          }
+          case 90: {
+            turnLatency_.AddEntriesFrom(input, _map_turnLatency_codec);
+            break;
+          }
+          case 98: {
+            errors_.AddEntriesFrom(input, _repeated_errors_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (now_ == null) {
+              Now = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Now);
+            break;
+          }
+          case 16: {
+            Udp = input.ReadBool();
+            break;
+          }
+          case 24: {
+            Ipv6 = input.ReadBool();
+            break;
+          }
+          case 32: {
+            Ipv4 = input.ReadBool();
+            break;
+          }
+          case 40: {
+            Ipv6CanSend = input.ReadBool();
+            break;
+          }
+          case 48: {
+            Ipv4CanSend = input.ReadBool();
+            break;
+          }
+          case 56: {
+            OsHasIpv6 = input.ReadBool();
+            break;
+          }
+          case 66: {
+            GlobalV4 = input.ReadString();
+            break;
+          }
+          case 74: {
+            GlobalV6 = input.ReadString();
+            break;
+          }
+          case 82: {
+            stunLatency_.AddEntriesFrom(ref input, _map_stunLatency_codec);
+            break;
+          }
+          case 90: {
+            turnLatency_.AddEntriesFrom(ref input, _map_turnLatency_codec);
+            break;
+          }
+          case 98: {
+            errors_.AddEntriesFrom(ref input, _repeated_errors_codec);
             break;
           }
         }

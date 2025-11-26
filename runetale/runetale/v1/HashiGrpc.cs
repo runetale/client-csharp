@@ -61,6 +61,8 @@ namespace Protos {
     static readonly grpc::Marshaller<global::Protos.ComposeRequest> __Marshaller_protos_ComposeRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.ComposeRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Protos.StopRequest> __Marshaller_protos_StopRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.StopRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.NetCheckReport> __Marshaller_protos_NetCheckReport = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetCheckReport.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.HashiStatus> __Method_Status = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.HashiStatus>(
@@ -118,6 +120,14 @@ namespace Protos {
         __Marshaller_google_protobuf_Empty,
         __Marshaller_protos_HashiStatus);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetCheckReport> __Method_NetCheck = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetCheckReport>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NetCheck",
+        __Marshaller_google_protobuf_Empty,
+        __Marshaller_protos_NetCheckReport);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -166,6 +176,12 @@ namespace Protos {
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Protos.HashiStatus> Dial(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.NetCheckReport> NetCheck(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -339,6 +355,26 @@ namespace Protos {
       {
         return CallInvoker.AsyncUnaryCall(__Method_Dial, null, options, request);
       }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.NetCheckReport NetCheck(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NetCheck(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.NetCheckReport NetCheck(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NetCheck, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.NetCheckReport> NetCheckAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NetCheckAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.NetCheckReport> NetCheckAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NetCheck, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override HashiServiceClient NewInstance(ClientBaseConfiguration configuration)
@@ -359,7 +395,8 @@ namespace Protos {
           .AddMethod(__Method_Compose, serviceImpl.Compose)
           .AddMethod(__Method_Logout, serviceImpl.Logout)
           .AddMethod(__Method_Stop, serviceImpl.Stop)
-          .AddMethod(__Method_Dial, serviceImpl.Dial).Build();
+          .AddMethod(__Method_Dial, serviceImpl.Dial)
+          .AddMethod(__Method_NetCheck, serviceImpl.NetCheck).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -376,6 +413,7 @@ namespace Protos {
       serviceBinder.AddMethod(__Method_Logout, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.HashiStatus>(serviceImpl.Logout));
       serviceBinder.AddMethod(__Method_Stop, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.StopRequest, global::Protos.HashiStatus>(serviceImpl.Stop));
       serviceBinder.AddMethod(__Method_Dial, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.HashiStatus>(serviceImpl.Dial));
+      serviceBinder.AddMethod(__Method_NetCheck, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetCheckReport>(serviceImpl.NetCheck));
     }
 
   }

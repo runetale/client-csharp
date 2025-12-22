@@ -78,8 +78,7 @@ namespace Protos {
             "VGFibGUSGi5wcm90b3MuTmV0d29ya01hcFJlc3BvbnNlGhoucHJvdG9zLk5l",
             "dHdvcmtNYXBSZXNwb25zZSIAKAEwARJNChNVcGxvYWRQYWNrZXRGbG93TG9n",
             "EhwucHJvdG9zLlBhY2tldEZsb3dMb2dSZXF1ZXN0GhYuZ29vZ2xlLnByb3Rv",
-            "YnVmLkVtcHR5IgBCPlo8Z2l0aHViLmNvbS9ydW5ldGFsZS9jbGllbnQtZ28v",
-            "cnVuZXRhbGUvcnVuZXRhbGUvdjEvbm9kZTtub2RlYgZwcm90bzM="));
+            "YnVmLkVtcHR5IgBCCFoGLi9ub2RlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

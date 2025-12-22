@@ -34,53 +34,65 @@ namespace Protos {
             "YWZmaWMYCCADKAsyFS5wcm90b3MuUGFja2V0Rmxvd0xvZyKAAQoNUGFja2V0",
             "Rmxvd0xvZxINCgVQcm90bxgBIAEoDRILCgNTcmMYAiABKAkSCwoDRHN0GAMg",
             "ASgJEhEKCVR4UGFja2V0cxgEIAEoBBIPCgdUeEJ5dGVzGAUgASgEEhEKCVJ4",
-            "UGFja2V0cxgGIAEoBBIPCgdSeEJ5dGVzGAcgASgEItYBCgROb2RlEgwKBG5h",
+            "UGFja2V0cxgGIAEoBBIPCgdSeEJ5dGVzGAcgASgEIvABCgROb2RlEgwKBG5h",
             "bWUYASABKAkSDgoGbm9kZUlkGAIgASgEEg8KB25vZGVLZXkYAyABKAkSEAoI",
             "d2dQdWJLZXkYBCABKAkSEgoKYWxsb3dlZElQcxgFIAMoCRIRCglhZGRyZXNz",
             "ZXMYBiADKAkSDgoGdXNlcklkGAcgASgEEg0KBWVtYWlsGAggASgJEhMKC2Rp",
             "c3BsYXlOYW1lGAkgASgJEhEKCWxvZ2luTmFtZRgKIAEoCRIOCgZob3N0T1MY",
-            "CyABKAkSDwoHcnVuZUtleRgMIAEoCSJ2ChNDb21wb3NlTm9kZVJlc3BvbnNl",
-            "EgoKAmlwGAEgASgJEgwKBGNpZHIYAiABKAkSDgoGdXNlcklkGAMgASgEEg0K",
-            "BWVtYWlsGAQgASgJEhMKC2Rpc3BsYXlOYW1lGAUgASgJEhEKCWxvZ2luTmFt",
-            "ZRgGIAEoCSKNAQoMTmV0UG9ydFJhbmdlEgoKAmlwGAEgASgJEi0KBXBvcnRz",
-            "GAIgASgLMh4ucHJvdG9zLk5ldFBvcnRSYW5nZS5wb3J0UmFuZ2USGAoQYWR2",
-            "ZXJ0aXNlZFJvdXRlcxgDIAEoCRooCglwb3J0UmFuZ2USDQoFZmlyc3QYASAB",
-            "KAQSDAoEbGFzdBgCIAEoBCJRCgpGaWx0ZXJSdWxlEg4KBnNyY0lwcxgBIAMo",
-            "CRIiCgRkc3RzGAIgAygLMhQucHJvdG9zLk5ldFBvcnRSYW5nZRIPCgdpUFBy",
-            "b3RvGAMgAygNIs0CChJOZXR3b3JrTWFwUmVzcG9uc2USCwoDc2VxGAEgASgE",
-            "EhoKBG5vZGUYAiABKAsyDC5wcm90b3MuTm9kZRIbCgVwZWVycxgDIAMoCzIM",
-            "LnByb3Rvcy5Ob2RlEiIKDHBlZXJzQ2hhbmdlZBgEIAMoCzIMLnByb3Rvcy5O",
-            "b2RlEhQKDHBlZXJzUmVtb3ZlZBgFIAMoBBIoCgxwYWNrZXRGaWx0ZXIYBiAD",
-            "KAsyEi5wcm90b3MuRmlsdGVyUnVsZRIXCg9hZHZlcnRpc2VkUm91dGUYByAB",
-            "KAkSDgoGamFpbGVkGAggASgIEh4KCGljZVRhYmxlGAkgAygLMgwucHJvdG9z",
-            "Lk5vZGUSHgoDZG5zGAogASgLMhEucHJvdG9zLkROU0NvbmZpZxIkCglhcHBM",
-            "aW5rZXIYCyADKAsyES5wcm90b3MuQXBwTGlua2VyIjoKCUFwcExpbmtlchIM",
-            "CgRuYW1lGAEgASgJEg8KB2RvbWFpbnMYAiADKAkSDgoGcm91dGVzGAMgAygJ",
-            "IhgKCFJlc29sdmVyEgwKBGFkZHIYASABKAkiMAoJUmVzb2x2ZXJzEiMKCXJl",
-            "c29sdmVycxgBIAMoCzIQLnByb3Rvcy5SZXNvbHZlciLrAQoJRE5TQ29uZmln",
-            "EiMKCXJlc29sdmVycxgBIAMoCzIQLnByb3Rvcy5SZXNvbHZlchItCgZyb3V0",
-            "ZXMYAiADKAsyHS5wcm90b3MuRE5TQ29uZmlnLlJvdXRlc0VudHJ5EhUKDXNl",
-            "YXJjaERvbWFpbnMYAyADKAkSFwoPZXhpdE5vZGVGaWx0ZXJkGAQgAygJEhgK",
-            "EGVuYWJsZWRXb25kZXJETlMYBSABKAgaQAoLUm91dGVzRW50cnkSCwoDa2V5",
-            "GAEgASgJEiAKBXZhbHVlGAIgASgLMhEucHJvdG9zLlJlc29sdmVyczoCOAEy",
-            "wQIKC05vZGVTZXJ2aWNlEkQKC0NvbXBvc2VOb2RlEhYuZ29vZ2xlLnByb3Rv",
-            "YnVmLkVtcHR5GhsucHJvdG9zLkNvbXBvc2VOb2RlUmVzcG9uc2UiABJFCg1H",
-            "ZXROZXR3b3JrTWFwEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhoucHJvdG9z",
-            "Lk5ldHdvcmtNYXBSZXNwb25zZSIAElYKFkNvbm5lY3ROZXR3b3JrTWFwVGFi",
-            "bGUSGi5wcm90b3MuTmV0d29ya01hcFJlc3BvbnNlGhoucHJvdG9zLk5ldHdv",
-            "cmtNYXBSZXNwb25zZSIAKAEwARJNChNVcGxvYWRQYWNrZXRGbG93TG9nEhwu",
-            "cHJvdG9zLlBhY2tldEZsb3dMb2dSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVm",
-            "LkVtcHR5IgBCCFoGLi9ub2RlYgZwcm90bzM="));
+            "CyABKAkSDwoHcnVuZUtleRgMIAEoCRIYChBjZXJmSG9tZVJlZ2lvbklkGA0g",
+            "ASgNInYKE0NvbXBvc2VOb2RlUmVzcG9uc2USCgoCaXAYASABKAkSDAoEY2lk",
+            "chgCIAEoCRIOCgZ1c2VySWQYAyABKAQSDQoFZW1haWwYBCABKAkSEwoLZGlz",
+            "cGxheU5hbWUYBSABKAkSEQoJbG9naW5OYW1lGAYgASgJIo0BCgxOZXRQb3J0",
+            "UmFuZ2USCgoCaXAYASABKAkSLQoFcG9ydHMYAiABKAsyHi5wcm90b3MuTmV0",
+            "UG9ydFJhbmdlLnBvcnRSYW5nZRIYChBhZHZlcnRpc2VkUm91dGVzGAMgASgJ",
+            "GigKCXBvcnRSYW5nZRINCgVmaXJzdBgBIAEoBBIMCgRsYXN0GAIgASgEIlEK",
+            "CkZpbHRlclJ1bGUSDgoGc3JjSXBzGAEgAygJEiIKBGRzdHMYAiADKAsyFC5w",
+            "cm90b3MuTmV0UG9ydFJhbmdlEg8KB2lQUHJvdG8YAyADKA0ijAMKEk5ldHdv",
+            "cmtNYXBSZXNwb25zZRILCgNzZXEYASABKAQSGgoEbm9kZRgCIAEoCzIMLnBy",
+            "b3Rvcy5Ob2RlEhsKBXBlZXJzGAMgAygLMgwucHJvdG9zLk5vZGUSIgoMcGVl",
+            "cnNDaGFuZ2VkGAQgAygLMgwucHJvdG9zLk5vZGUSFAoMcGVlcnNSZW1vdmVk",
+            "GAUgAygEEigKDHBhY2tldEZpbHRlchgGIAMoCzISLnByb3Rvcy5GaWx0ZXJS",
+            "dWxlEhcKD2FkdmVydGlzZWRSb3V0ZRgHIAEoCRIOCgZqYWlsZWQYCCABKAgS",
+            "HgoIaWNlVGFibGUYCSADKAsyDC5wcm90b3MuTm9kZRIeCgNkbnMYCiABKAsy",
+            "ES5wcm90b3MuRE5TQ29uZmlnEiQKCWFwcExpbmtlchgLIAMoCzIRLnByb3Rv",
+            "cy5BcHBMaW5rZXISIAoHY2VyZk1hcBgUIAEoCzIPLnByb3Rvcy5DZXJmTWFw",
+            "EhsKE2RlZmF1bHRDZXJmUmVnaW9uSWQYFSABKA0iLgoHQ2VyZk1hcBIjCgdy",
+            "ZWdpb25zGAEgAygLMhIucHJvdG9zLkNlcmZSZWdpb24iUwoKQ2VyZlJlZ2lv",
+            "bhIQCghyZWdpb25JZBgBIAEoDRISCgpyZWdpb25Db2RlGAIgASgJEh8KBW5v",
+            "ZGVzGAMgAygLMhAucHJvdG9zLkNlcmZOb2RlIooBCghDZXJmTm9kZRIMCgRu",
+            "YW1lGAEgASgJEhAKCGhvc3ROYW1lGAIgASgJEhAKCGNlcmZQb3J0GAMgASgN",
+            "EhAKCHN0dW5Qb3J0GAQgASgNEhUKDXdlYnNvY2tldE9ubHkYBSABKAgSEQoJ",
+            "Zm9yY2VIdHRwGAYgASgIEhAKCHN0dW5Pbmx5GAcgASgIIjoKCUFwcExpbmtl",
+            "chIMCgRuYW1lGAEgASgJEg8KB2RvbWFpbnMYAiADKAkSDgoGcm91dGVzGAMg",
+            "AygJIhgKCFJlc29sdmVyEgwKBGFkZHIYASABKAkiMAoJUmVzb2x2ZXJzEiMK",
+            "CXJlc29sdmVycxgBIAMoCzIQLnByb3Rvcy5SZXNvbHZlciLrAQoJRE5TQ29u",
+            "ZmlnEiMKCXJlc29sdmVycxgBIAMoCzIQLnByb3Rvcy5SZXNvbHZlchItCgZy",
+            "b3V0ZXMYAiADKAsyHS5wcm90b3MuRE5TQ29uZmlnLlJvdXRlc0VudHJ5EhUK",
+            "DXNlYXJjaERvbWFpbnMYAyADKAkSFwoPZXhpdE5vZGVGaWx0ZXJkGAQgAygJ",
+            "EhgKEGVuYWJsZWRXb25kZXJETlMYBSABKAgaQAoLUm91dGVzRW50cnkSCwoD",
+            "a2V5GAEgASgJEiAKBXZhbHVlGAIgASgLMhEucHJvdG9zLlJlc29sdmVyczoC",
+            "OAEywQIKC05vZGVTZXJ2aWNlEkQKC0NvbXBvc2VOb2RlEhYuZ29vZ2xlLnBy",
+            "b3RvYnVmLkVtcHR5GhsucHJvdG9zLkNvbXBvc2VOb2RlUmVzcG9uc2UiABJF",
+            "Cg1HZXROZXR3b3JrTWFwEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhoucHJv",
+            "dG9zLk5ldHdvcmtNYXBSZXNwb25zZSIAElYKFkNvbm5lY3ROZXR3b3JrTWFw",
+            "VGFibGUSGi5wcm90b3MuTmV0d29ya01hcFJlc3BvbnNlGhoucHJvdG9zLk5l",
+            "dHdvcmtNYXBSZXNwb25zZSIAKAEwARJNChNVcGxvYWRQYWNrZXRGbG93TG9n",
+            "EhwucHJvdG9zLlBhY2tldEZsb3dMb2dSZXF1ZXN0GhYuZ29vZ2xlLnByb3Rv",
+            "YnVmLkVtcHR5IgBCPlo8Z2l0aHViLmNvbS9ydW5ldGFsZS9jbGllbnQtZ28v",
+            "cnVuZXRhbGUvcnVuZXRhbGUvdjEvbm9kZTtub2RlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PacketFlowLogRequest), global::Protos.PacketFlowLogRequest.Parser, new[]{ "NodeId", "LoggedAt", "StartedAt", "EndedAt", "PeerTraffic", "LanTraffic", "ExitNodeTraffic", "TransportTraffic" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PacketFlowLog), global::Protos.PacketFlowLog.Parser, new[]{ "Proto", "Src", "Dst", "TxPackets", "TxBytes", "RxPackets", "RxBytes" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Node), global::Protos.Node.Parser, new[]{ "Name", "NodeId", "NodeKey", "WgPubKey", "AllowedIPs", "Addresses", "UserId", "Email", "DisplayName", "LoginName", "HostOS", "RuneKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Node), global::Protos.Node.Parser, new[]{ "Name", "NodeId", "NodeKey", "WgPubKey", "AllowedIPs", "Addresses", "UserId", "Email", "DisplayName", "LoginName", "HostOS", "RuneKey", "CerfHomeRegionId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.ComposeNodeResponse), global::Protos.ComposeNodeResponse.Parser, new[]{ "Ip", "Cidr", "UserId", "Email", "DisplayName", "LoginName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange), global::Protos.NetPortRange.Parser, new[]{ "Ip", "Ports", "AdvertisedRoutes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange.Types.portRange), global::Protos.NetPortRange.Types.portRange.Parser, new[]{ "First", "Last" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilterRule), global::Protos.FilterRule.Parser, new[]{ "SrcIps", "Dsts", "IPProto" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapResponse), global::Protos.NetworkMapResponse.Parser, new[]{ "Seq", "Node", "Peers", "PeersChanged", "PeersRemoved", "PacketFilter", "AdvertisedRoute", "Jailed", "IceTable", "Dns", "AppLinker" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapResponse), global::Protos.NetworkMapResponse.Parser, new[]{ "Seq", "Node", "Peers", "PeersChanged", "PeersRemoved", "PacketFilter", "AdvertisedRoute", "Jailed", "IceTable", "Dns", "AppLinker", "CerfMap", "DefaultCerfRegionId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfMap), global::Protos.CerfMap.Parser, new[]{ "Regions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfRegion), global::Protos.CerfRegion.Parser, new[]{ "RegionId", "RegionCode", "Nodes" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfNode), global::Protos.CerfNode.Parser, new[]{ "Name", "HostName", "CerfPort", "StunPort", "WebsocketOnly", "ForceHttp", "StunOnly" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.AppLinker), global::Protos.AppLinker.Parser, new[]{ "Name", "Domains", "Routes" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Resolver), global::Protos.Resolver.Parser, new[]{ "Addr" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Resolvers), global::Protos.Resolvers.Parser, new[]{ "Resolvers_" }, null, null, null, null),
@@ -973,6 +985,7 @@ namespace Protos {
       loginName_ = other.loginName_;
       hostOS_ = other.hostOS_;
       runeKey_ = other.runeKey_;
+      cerfHomeRegionId_ = other.cerfHomeRegionId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1127,6 +1140,22 @@ namespace Protos {
       }
     }
 
+    /// <summary>Field number for the "cerfHomeRegionId" field.</summary>
+    public const int CerfHomeRegionIdFieldNumber = 13;
+    private uint cerfHomeRegionId_;
+    /// <summary>
+    /// cerfHomeRegionId is this node's home CERF region ID.
+    /// The server must always set this (defaulting to NetworkMapResponse.defaultCerfRegionId).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint CerfHomeRegionId {
+      get { return cerfHomeRegionId_; }
+      set {
+        cerfHomeRegionId_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1154,6 +1183,7 @@ namespace Protos {
       if (LoginName != other.LoginName) return false;
       if (HostOS != other.HostOS) return false;
       if (RuneKey != other.RuneKey) return false;
+      if (CerfHomeRegionId != other.CerfHomeRegionId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1173,6 +1203,7 @@ namespace Protos {
       if (LoginName.Length != 0) hash ^= LoginName.GetHashCode();
       if (HostOS.Length != 0) hash ^= HostOS.GetHashCode();
       if (RuneKey.Length != 0) hash ^= RuneKey.GetHashCode();
+      if (CerfHomeRegionId != 0) hash ^= CerfHomeRegionId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1233,6 +1264,10 @@ namespace Protos {
         output.WriteRawTag(98);
         output.WriteString(RuneKey);
       }
+      if (CerfHomeRegionId != 0) {
+        output.WriteRawTag(104);
+        output.WriteUInt32(CerfHomeRegionId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1285,6 +1320,10 @@ namespace Protos {
         output.WriteRawTag(98);
         output.WriteString(RuneKey);
       }
+      if (CerfHomeRegionId != 0) {
+        output.WriteRawTag(104);
+        output.WriteUInt32(CerfHomeRegionId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1326,6 +1365,9 @@ namespace Protos {
       }
       if (RuneKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RuneKey);
+      }
+      if (CerfHomeRegionId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(CerfHomeRegionId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1370,6 +1412,9 @@ namespace Protos {
       }
       if (other.RuneKey.Length != 0) {
         RuneKey = other.RuneKey;
+      }
+      if (other.CerfHomeRegionId != 0) {
+        CerfHomeRegionId = other.CerfHomeRegionId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1434,6 +1479,10 @@ namespace Protos {
             RuneKey = input.ReadString();
             break;
           }
+          case 104: {
+            CerfHomeRegionId = input.ReadUInt32();
+            break;
+          }
         }
       }
     #endif
@@ -1495,6 +1544,10 @@ namespace Protos {
           }
           case 98: {
             RuneKey = input.ReadString();
+            break;
+          }
+          case 104: {
+            CerfHomeRegionId = input.ReadUInt32();
             break;
           }
         }
@@ -2696,6 +2749,8 @@ namespace Protos {
       iceTable_ = other.iceTable_.Clone();
       dns_ = other.dns_ != null ? other.dns_.Clone() : null;
       appLinker_ = other.appLinker_.Clone();
+      cerfMap_ = other.cerfMap_ != null ? other.cerfMap_.Clone() : null;
+      defaultCerfRegionId_ = other.defaultCerfRegionId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2858,6 +2913,36 @@ namespace Protos {
       get { return appLinker_; }
     }
 
+    /// <summary>Field number for the "cerfMap" field.</summary>
+    public const int CerfMapFieldNumber = 20;
+    private global::Protos.CerfMap cerfMap_;
+    /// <summary>
+    /// cerfMap describes available CERF relay nodes.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Protos.CerfMap CerfMap {
+      get { return cerfMap_; }
+      set {
+        cerfMap_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "defaultCerfRegionId" field.</summary>
+    public const int DefaultCerfRegionIdFieldNumber = 21;
+    private uint defaultCerfRegionId_;
+    /// <summary>
+    /// defaultCerfRegionId is the default region to use when a peer's Node.cerfHomeRegionId is unset.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint DefaultCerfRegionId {
+      get { return defaultCerfRegionId_; }
+      set {
+        defaultCerfRegionId_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2884,6 +2969,8 @@ namespace Protos {
       if(!iceTable_.Equals(other.iceTable_)) return false;
       if (!object.Equals(Dns, other.Dns)) return false;
       if(!appLinker_.Equals(other.appLinker_)) return false;
+      if (!object.Equals(CerfMap, other.CerfMap)) return false;
+      if (DefaultCerfRegionId != other.DefaultCerfRegionId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2902,6 +2989,8 @@ namespace Protos {
       hash ^= iceTable_.GetHashCode();
       if (dns_ != null) hash ^= Dns.GetHashCode();
       hash ^= appLinker_.GetHashCode();
+      if (cerfMap_ != null) hash ^= CerfMap.GetHashCode();
+      if (DefaultCerfRegionId != 0) hash ^= DefaultCerfRegionId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2946,6 +3035,14 @@ namespace Protos {
         output.WriteMessage(Dns);
       }
       appLinker_.WriteTo(output, _repeated_appLinker_codec);
+      if (cerfMap_ != null) {
+        output.WriteRawTag(162, 1);
+        output.WriteMessage(CerfMap);
+      }
+      if (DefaultCerfRegionId != 0) {
+        output.WriteRawTag(168, 1);
+        output.WriteUInt32(DefaultCerfRegionId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2982,6 +3079,14 @@ namespace Protos {
         output.WriteMessage(Dns);
       }
       appLinker_.WriteTo(ref output, _repeated_appLinker_codec);
+      if (cerfMap_ != null) {
+        output.WriteRawTag(162, 1);
+        output.WriteMessage(CerfMap);
+      }
+      if (DefaultCerfRegionId != 0) {
+        output.WriteRawTag(168, 1);
+        output.WriteUInt32(DefaultCerfRegionId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3013,6 +3118,12 @@ namespace Protos {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Dns);
       }
       size += appLinker_.CalculateSize(_repeated_appLinker_codec);
+      if (cerfMap_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(CerfMap);
+      }
+      if (DefaultCerfRegionId != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeUInt32Size(DefaultCerfRegionId);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3052,6 +3163,15 @@ namespace Protos {
         Dns.MergeFrom(other.Dns);
       }
       appLinker_.Add(other.appLinker_);
+      if (other.cerfMap_ != null) {
+        if (cerfMap_ == null) {
+          CerfMap = new global::Protos.CerfMap();
+        }
+        CerfMap.MergeFrom(other.CerfMap);
+      }
+      if (other.DefaultCerfRegionId != 0) {
+        DefaultCerfRegionId = other.DefaultCerfRegionId;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3116,6 +3236,17 @@ namespace Protos {
           }
           case 90: {
             appLinker_.AddEntriesFrom(input, _repeated_appLinker_codec);
+            break;
+          }
+          case 162: {
+            if (cerfMap_ == null) {
+              CerfMap = new global::Protos.CerfMap();
+            }
+            input.ReadMessage(CerfMap);
+            break;
+          }
+          case 168: {
+            DefaultCerfRegionId = input.ReadUInt32();
             break;
           }
         }
@@ -3184,6 +3315,879 @@ namespace Protos {
             appLinker_.AddEntriesFrom(ref input, _repeated_appLinker_codec);
             break;
           }
+          case 162: {
+            if (cerfMap_ == null) {
+              CerfMap = new global::Protos.CerfMap();
+            }
+            input.ReadMessage(CerfMap);
+            break;
+          }
+          case 168: {
+            DefaultCerfRegionId = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class CerfMap : pb::IMessage<CerfMap>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CerfMap> _parser = new pb::MessageParser<CerfMap>(() => new CerfMap());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CerfMap> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[7]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CerfMap() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CerfMap(CerfMap other) : this() {
+      regions_ = other.regions_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CerfMap Clone() {
+      return new CerfMap(this);
+    }
+
+    /// <summary>Field number for the "regions" field.</summary>
+    public const int RegionsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Protos.CerfRegion> _repeated_regions_codec
+        = pb::FieldCodec.ForMessage(10, global::Protos.CerfRegion.Parser);
+    private readonly pbc::RepeatedField<global::Protos.CerfRegion> regions_ = new pbc::RepeatedField<global::Protos.CerfRegion>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Protos.CerfRegion> Regions {
+      get { return regions_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CerfMap);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CerfMap other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!regions_.Equals(other.regions_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= regions_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      regions_.WriteTo(output, _repeated_regions_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      regions_.WriteTo(ref output, _repeated_regions_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += regions_.CalculateSize(_repeated_regions_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CerfMap other) {
+      if (other == null) {
+        return;
+      }
+      regions_.Add(other.regions_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            regions_.AddEntriesFrom(input, _repeated_regions_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            regions_.AddEntriesFrom(ref input, _repeated_regions_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class CerfRegion : pb::IMessage<CerfRegion>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CerfRegion> _parser = new pb::MessageParser<CerfRegion>(() => new CerfRegion());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CerfRegion> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CerfRegion() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CerfRegion(CerfRegion other) : this() {
+      regionId_ = other.regionId_;
+      regionCode_ = other.regionCode_;
+      nodes_ = other.nodes_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CerfRegion Clone() {
+      return new CerfRegion(this);
+    }
+
+    /// <summary>Field number for the "regionId" field.</summary>
+    public const int RegionIdFieldNumber = 1;
+    private uint regionId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint RegionId {
+      get { return regionId_; }
+      set {
+        regionId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "regionCode" field.</summary>
+    public const int RegionCodeFieldNumber = 2;
+    private string regionCode_ = "";
+    /// <summary>
+    /// e.g. "tokyo"
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string RegionCode {
+      get { return regionCode_; }
+      set {
+        regionCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "nodes" field.</summary>
+    public const int NodesFieldNumber = 3;
+    private static readonly pb::FieldCodec<global::Protos.CerfNode> _repeated_nodes_codec
+        = pb::FieldCodec.ForMessage(26, global::Protos.CerfNode.Parser);
+    private readonly pbc::RepeatedField<global::Protos.CerfNode> nodes_ = new pbc::RepeatedField<global::Protos.CerfNode>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Protos.CerfNode> Nodes {
+      get { return nodes_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CerfRegion);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CerfRegion other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (RegionId != other.RegionId) return false;
+      if (RegionCode != other.RegionCode) return false;
+      if(!nodes_.Equals(other.nodes_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (RegionId != 0) hash ^= RegionId.GetHashCode();
+      if (RegionCode.Length != 0) hash ^= RegionCode.GetHashCode();
+      hash ^= nodes_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (RegionId != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(RegionId);
+      }
+      if (RegionCode.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(RegionCode);
+      }
+      nodes_.WriteTo(output, _repeated_nodes_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (RegionId != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(RegionId);
+      }
+      if (RegionCode.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(RegionCode);
+      }
+      nodes_.WriteTo(ref output, _repeated_nodes_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (RegionId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(RegionId);
+      }
+      if (RegionCode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RegionCode);
+      }
+      size += nodes_.CalculateSize(_repeated_nodes_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CerfRegion other) {
+      if (other == null) {
+        return;
+      }
+      if (other.RegionId != 0) {
+        RegionId = other.RegionId;
+      }
+      if (other.RegionCode.Length != 0) {
+        RegionCode = other.RegionCode;
+      }
+      nodes_.Add(other.nodes_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            RegionId = input.ReadUInt32();
+            break;
+          }
+          case 18: {
+            RegionCode = input.ReadString();
+            break;
+          }
+          case 26: {
+            nodes_.AddEntriesFrom(input, _repeated_nodes_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            RegionId = input.ReadUInt32();
+            break;
+          }
+          case 18: {
+            RegionCode = input.ReadString();
+            break;
+          }
+          case 26: {
+            nodes_.AddEntriesFrom(ref input, _repeated_nodes_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class CerfNode : pb::IMessage<CerfNode>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CerfNode> _parser = new pb::MessageParser<CerfNode>(() => new CerfNode());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CerfNode> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CerfNode() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CerfNode(CerfNode other) : this() {
+      name_ = other.name_;
+      hostName_ = other.hostName_;
+      cerfPort_ = other.cerfPort_;
+      stunPort_ = other.stunPort_;
+      websocketOnly_ = other.websocketOnly_;
+      forceHttp_ = other.forceHttp_;
+      stunOnly_ = other.stunOnly_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CerfNode Clone() {
+      return new CerfNode(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "hostName" field.</summary>
+    public const int HostNameFieldNumber = 2;
+    private string hostName_ = "";
+    /// <summary>
+    /// e.g. cerftokyo.runetale.com
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string HostName {
+      get { return hostName_; }
+      set {
+        hostName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "cerfPort" field.</summary>
+    public const int CerfPortFieldNumber = 3;
+    private uint cerfPort_;
+    /// <summary>
+    /// typically 443
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint CerfPort {
+      get { return cerfPort_; }
+      set {
+        cerfPort_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "stunPort" field.</summary>
+    public const int StunPortFieldNumber = 4;
+    private uint stunPort_;
+    /// <summary>
+    /// typically 3478
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint StunPort {
+      get { return stunPort_; }
+      set {
+        stunPort_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "websocketOnly" field.</summary>
+    public const int WebsocketOnlyFieldNumber = 5;
+    private bool websocketOnly_;
+    /// <summary>
+    /// prefer websocket transport when available
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool WebsocketOnly {
+      get { return websocketOnly_; }
+      set {
+        websocketOnly_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "forceHttp" field.</summary>
+    public const int ForceHttpFieldNumber = 6;
+    private bool forceHttp_;
+    /// <summary>
+    /// dev/test override
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool ForceHttp {
+      get { return forceHttp_; }
+      set {
+        forceHttp_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "stunOnly" field.</summary>
+    public const int StunOnlyFieldNumber = 7;
+    private bool stunOnly_;
+    /// <summary>
+    /// STUN-only node (no /cerf relay)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool StunOnly {
+      get { return stunOnly_; }
+      set {
+        stunOnly_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CerfNode);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CerfNode other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (HostName != other.HostName) return false;
+      if (CerfPort != other.CerfPort) return false;
+      if (StunPort != other.StunPort) return false;
+      if (WebsocketOnly != other.WebsocketOnly) return false;
+      if (ForceHttp != other.ForceHttp) return false;
+      if (StunOnly != other.StunOnly) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (HostName.Length != 0) hash ^= HostName.GetHashCode();
+      if (CerfPort != 0) hash ^= CerfPort.GetHashCode();
+      if (StunPort != 0) hash ^= StunPort.GetHashCode();
+      if (WebsocketOnly != false) hash ^= WebsocketOnly.GetHashCode();
+      if (ForceHttp != false) hash ^= ForceHttp.GetHashCode();
+      if (StunOnly != false) hash ^= StunOnly.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (HostName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(HostName);
+      }
+      if (CerfPort != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(CerfPort);
+      }
+      if (StunPort != 0) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(StunPort);
+      }
+      if (WebsocketOnly != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(WebsocketOnly);
+      }
+      if (ForceHttp != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(ForceHttp);
+      }
+      if (StunOnly != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(StunOnly);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (HostName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(HostName);
+      }
+      if (CerfPort != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(CerfPort);
+      }
+      if (StunPort != 0) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(StunPort);
+      }
+      if (WebsocketOnly != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(WebsocketOnly);
+      }
+      if (ForceHttp != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(ForceHttp);
+      }
+      if (StunOnly != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(StunOnly);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (HostName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(HostName);
+      }
+      if (CerfPort != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(CerfPort);
+      }
+      if (StunPort != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(StunPort);
+      }
+      if (WebsocketOnly != false) {
+        size += 1 + 1;
+      }
+      if (ForceHttp != false) {
+        size += 1 + 1;
+      }
+      if (StunOnly != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CerfNode other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.HostName.Length != 0) {
+        HostName = other.HostName;
+      }
+      if (other.CerfPort != 0) {
+        CerfPort = other.CerfPort;
+      }
+      if (other.StunPort != 0) {
+        StunPort = other.StunPort;
+      }
+      if (other.WebsocketOnly != false) {
+        WebsocketOnly = other.WebsocketOnly;
+      }
+      if (other.ForceHttp != false) {
+        ForceHttp = other.ForceHttp;
+      }
+      if (other.StunOnly != false) {
+        StunOnly = other.StunOnly;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            HostName = input.ReadString();
+            break;
+          }
+          case 24: {
+            CerfPort = input.ReadUInt32();
+            break;
+          }
+          case 32: {
+            StunPort = input.ReadUInt32();
+            break;
+          }
+          case 40: {
+            WebsocketOnly = input.ReadBool();
+            break;
+          }
+          case 48: {
+            ForceHttp = input.ReadBool();
+            break;
+          }
+          case 56: {
+            StunOnly = input.ReadBool();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            HostName = input.ReadString();
+            break;
+          }
+          case 24: {
+            CerfPort = input.ReadUInt32();
+            break;
+          }
+          case 32: {
+            StunPort = input.ReadUInt32();
+            break;
+          }
+          case 40: {
+            WebsocketOnly = input.ReadBool();
+            break;
+          }
+          case 48: {
+            ForceHttp = input.ReadBool();
+            break;
+          }
+          case 56: {
+            StunOnly = input.ReadBool();
+            break;
+          }
         }
       }
     }
@@ -3205,7 +4209,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3459,7 +4463,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3648,7 +4652,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3826,7 +4830,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

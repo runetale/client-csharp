@@ -68,7 +68,10 @@ namespace Protos {
             "SUZJRUQQABITCg9QQVRIX1NUQVRFX0NFUkYQARISCg5QQVRIX1NUQVRFX0lD",
             "RRACEhIKDlBBVEhfU1RBVEVfVURQEAMqUgoIUmVjdktpbmQSGQoVUkVDVl9L",
             "SU5EX1VOU1BFQ0lGSUVEEAASFwoTUkVDVl9LSU5EX1dJUkVHVUFSRBABEhIK",
-            "DlJFQ1ZfS0lORF9SVU5FEAJCDVoLLi90ZWxlbWV0cnliBnByb3RvMw=="));
+            "DlJFQ1ZfS0lORF9SVU5FEAIyawoQVGVsZW1ldHJ5U2VydmljZRJXChRVcGxv",
+            "YWRUZWxlbWV0cnlCYXRjaBIdLnByb3Rvcy5UZWxlbWV0cnlCYXRjaFJlcXVl",
+            "c3QaHi5wcm90b3MuVGVsZW1ldHJ5QmF0Y2hSZXNwb25zZSIAQg1aCy4vdGVs",
+            "ZW1ldHJ5YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Protos.Transport), typeof(global::Protos.PathState), typeof(global::Protos.RecvKind), }, null, new pbr::GeneratedClrTypeInfo[] {

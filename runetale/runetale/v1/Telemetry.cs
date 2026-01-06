@@ -62,16 +62,43 @@ namespace Protos {
             "YXNvbhgCIAEoCSJ+CgxGaWx0ZXJSZXN1bHQSHQoZRklMVEVSX1JFU1VMVF9V",
             "TlNQRUNJRklFRBAAEhgKFEZJTFRFUl9SRVNVTFRfQUNDRVBUEAESFgoSRklM",
             "VEVSX1JFU1VMVF9EUk9QEAISHQoZRklMVEVSX1JFU1VMVF9EUk9QX1NJTEVO",
-            "VBADKmAKCVRyYW5zcG9ydBIZChVUUkFOU1BPUlRfVU5TUEVDSUZJRUQQABIS",
-            "Cg5UUkFOU1BPUlRfQ0VSRhABEhEKDVRSQU5TUE9SVF9JQ0UQAhIRCg1UUkFO",
-            "U1BPUlRfVURQEAMqZAoJUGF0aFN0YXRlEhoKFlBBVEhfU1RBVEVfVU5TUEVD",
-            "SUZJRUQQABITCg9QQVRIX1NUQVRFX0NFUkYQARISCg5QQVRIX1NUQVRFX0lD",
-            "RRACEhIKDlBBVEhfU1RBVEVfVURQEAMqUgoIUmVjdktpbmQSGQoVUkVDVl9L",
-            "SU5EX1VOU1BFQ0lGSUVEEAASFwoTUkVDVl9LSU5EX1dJUkVHVUFSRBABEhIK",
-            "DlJFQ1ZfS0lORF9SVU5FEAIyawoQVGVsZW1ldHJ5U2VydmljZRJXChRVcGxv",
-            "YWRUZWxlbWV0cnlCYXRjaBIdLnByb3Rvcy5UZWxlbWV0cnlCYXRjaFJlcXVl",
-            "c3QaHi5wcm90b3MuVGVsZW1ldHJ5QmF0Y2hSZXNwb25zZSIAQg1aCy4vdGVs",
-            "ZW1ldHJ5YgZwcm90bzM="));
+            "VBADIqYBChBHZXRFdmVudHNSZXF1ZXN0Eg4KBm5vZGVJZBgBIAEoBBIRCglz",
+            "ZXNzaW9uSWQYAiABKAkSKAoEZnJvbRgDIAEoCzIaLmdvb2dsZS5wcm90b2J1",
+            "Zi5UaW1lc3RhbXASJgoCdG8YBCABKAsyGi5nb29nbGUucHJvdG9idWYuVGlt",
+            "ZXN0YW1wEg0KBWxpbWl0GAUgASgFEg4KBm9mZnNldBgGIAEoBSJVChFHZXRF",
+            "dmVudHNSZXNwb25zZRIsCgZldmVudHMYASADKAsyHC5wcm90b3MuU3RvcmVk",
+            "VGVsZW1ldHJ5RXZlbnQSEgoKdG90YWxDb3VudBgCIAEoAyKGAwoUU3RvcmVk",
+            "VGVsZW1ldHJ5RXZlbnQSCgoCaWQYASABKAQSDgoGbm9kZUlkGAIgASgEEhEK",
+            "CXNlc3Npb25JZBgDIAEoCRIVCg1jbGllbnRWZXJzaW9uGAQgASgJEi4KCnJl",
+            "Y2VpdmVkQXQYBSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEisK",
+            "B2V2ZW50QXQYBiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEiwK",
+            "CGV2ZW50RGF5GAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIQ",
+            "CghwZWVySGFzaBgIIAEoDBIQCghyZWdpb25JZBgJIAEoDRIkCgl0cmFuc3Bv",
+            "cnQYCiABKA4yES5wcm90b3MuVHJhbnNwb3J0EhMKC3BheWxvYWRUeXBlGAsg",
+            "ASgJEg8KB3BheWxvYWQYDCABKAkSLQoJY3JlYXRlZEF0GA0gASgLMhouZ29v",
+            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcCKJAQoVR2V0RGFpbHlDb3VudHNSZXF1",
+            "ZXN0Eg4KBm5vZGVJZBgBIAEoBBIOCgZtZXRyaWMYAiABKAkSKAoEZnJvbRgD",
+            "IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASJgoCdG8YBCABKAsy",
+            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIjwKFkdldERhaWx5Q291bnRz",
+            "UmVzcG9uc2USIgoGY291bnRzGAEgAygLMhIucHJvdG9zLkRhaWx5Q291bnQi",
+            "1AEKCkRhaWx5Q291bnQSJwoDZGF5GAEgASgLMhouZ29vZ2xlLnByb3RvYnVm",
+            "LlRpbWVzdGFtcBIOCgZub2RlSWQYAiABKAQSDgoGbWV0cmljGAMgASgJEhAK",
+            "CGxhYmVsS2V5GAQgASgJEg0KBWNvdW50GAUgASgDEi0KCWNyZWF0ZWRBdBgG",
+            "IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLQoJdXBkYXRlZEF0",
+            "GAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCpgCglUcmFuc3Bv",
+            "cnQSGQoVVFJBTlNQT1JUX1VOU1BFQ0lGSUVEEAASEgoOVFJBTlNQT1JUX0NF",
+            "UkYQARIRCg1UUkFOU1BPUlRfSUNFEAISEQoNVFJBTlNQT1JUX1VEUBADKmQK",
+            "CVBhdGhTdGF0ZRIaChZQQVRIX1NUQVRFX1VOU1BFQ0lGSUVEEAASEwoPUEFU",
+            "SF9TVEFURV9DRVJGEAESEgoOUEFUSF9TVEFURV9JQ0UQAhISCg5QQVRIX1NU",
+            "QVRFX1VEUBADKlIKCFJlY3ZLaW5kEhkKFVJFQ1ZfS0lORF9VTlNQRUNJRklF",
+            "RBAAEhcKE1JFQ1ZfS0lORF9XSVJFR1VBUkQQARISCg5SRUNWX0tJTkRfUlVO",
+            "RRACMoICChBUZWxlbWV0cnlTZXJ2aWNlElcKFFVwbG9hZFRlbGVtZXRyeUJh",
+            "dGNoEh0ucHJvdG9zLlRlbGVtZXRyeUJhdGNoUmVxdWVzdBoeLnByb3Rvcy5U",
+            "ZWxlbWV0cnlCYXRjaFJlc3BvbnNlIgASQgoJR2V0RXZlbnRzEhgucHJvdG9z",
+            "LkdldEV2ZW50c1JlcXVlc3QaGS5wcm90b3MuR2V0RXZlbnRzUmVzcG9uc2Ui",
+            "ABJRCg5HZXREYWlseUNvdW50cxIdLnByb3Rvcy5HZXREYWlseUNvdW50c1Jl",
+            "cXVlc3QaHi5wcm90b3MuR2V0RGFpbHlDb3VudHNSZXNwb25zZSIAQg1aCy4v",
+            "dGVsZW1ldHJ5YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Protos.Transport), typeof(global::Protos.PathState), typeof(global::Protos.RecvKind), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -83,7 +110,13 @@ namespace Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.RecvResult), global::Protos.RecvResult.Parser, new[]{ "Ok", "Kind", "Bytes", "ErrCode" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfConnEvent), global::Protos.CerfConnEvent.Parser, new[]{ "ConnGen", "State", "Detail" }, null, new[]{ typeof(global::Protos.CerfConnEvent.Types.CerfConnState) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.IceEvent), global::Protos.IceEvent.Parser, new[]{ "State", "Detail" }, null, new[]{ typeof(global::Protos.IceEvent.Types.IceState) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilterDecision), global::Protos.FilterDecision.Parser, new[]{ "Result", "Reason" }, null, new[]{ typeof(global::Protos.FilterDecision.Types.FilterResult) }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilterDecision), global::Protos.FilterDecision.Parser, new[]{ "Result", "Reason" }, null, new[]{ typeof(global::Protos.FilterDecision.Types.FilterResult) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.GetEventsRequest), global::Protos.GetEventsRequest.Parser, new[]{ "NodeId", "SessionId", "From", "To", "Limit", "Offset" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.GetEventsResponse), global::Protos.GetEventsResponse.Parser, new[]{ "Events", "TotalCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.StoredTelemetryEvent), global::Protos.StoredTelemetryEvent.Parser, new[]{ "Id", "NodeId", "SessionId", "ClientVersion", "ReceivedAt", "EventAt", "EventDay", "PeerHash", "RegionId", "Transport", "PayloadType", "Payload", "CreatedAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.GetDailyCountsRequest), global::Protos.GetDailyCountsRequest.Parser, new[]{ "NodeId", "Metric", "From", "To" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.GetDailyCountsResponse), global::Protos.GetDailyCountsResponse.Parser, new[]{ "Counts" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.DailyCount), global::Protos.DailyCount.Parser, new[]{ "Day", "NodeId", "Metric", "LabelKey", "Count", "CreatedAt", "UpdatedAt" }, null, null, null, null)
           }));
     }
     #endregion
@@ -3027,6 +3060,2259 @@ namespace Protos {
 
     }
     #endregion
+
+  }
+
+  /// <summary>
+  /// GetEventsRequest はテレメトリイベントの取得リクエストです。
+  /// </summary>
+  public sealed partial class GetEventsRequest : pb::IMessage<GetEventsRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GetEventsRequest> _parser = new pb::MessageParser<GetEventsRequest>(() => new GetEventsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GetEventsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.TelemetryReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetEventsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetEventsRequest(GetEventsRequest other) : this() {
+      nodeId_ = other.nodeId_;
+      sessionId_ = other.sessionId_;
+      from_ = other.from_ != null ? other.from_.Clone() : null;
+      to_ = other.to_ != null ? other.to_.Clone() : null;
+      limit_ = other.limit_;
+      offset_ = other.offset_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetEventsRequest Clone() {
+      return new GetEventsRequest(this);
+    }
+
+    /// <summary>Field number for the "nodeId" field.</summary>
+    public const int NodeIdFieldNumber = 1;
+    private ulong nodeId_;
+    /// <summary>
+    /// node_id でフィルタ（0 の場合は全ノード）
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong NodeId {
+      get { return nodeId_; }
+      set {
+        nodeId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "sessionId" field.</summary>
+    public const int SessionIdFieldNumber = 2;
+    private string sessionId_ = "";
+    /// <summary>
+    /// session_id でフィルタ（空の場合は全セッション）
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SessionId {
+      get { return sessionId_; }
+      set {
+        sessionId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "from" field.</summary>
+    public const int FromFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp from_;
+    /// <summary>
+    /// 期間フィルタ（from &lt;= event_day &lt;= to）
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp From {
+      get { return from_; }
+      set {
+        from_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "to" field.</summary>
+    public const int ToFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp to_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp To {
+      get { return to_; }
+      set {
+        to_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "limit" field.</summary>
+    public const int LimitFieldNumber = 5;
+    private int limit_;
+    /// <summary>
+    /// ページネーション
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Limit {
+      get { return limit_; }
+      set {
+        limit_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "offset" field.</summary>
+    public const int OffsetFieldNumber = 6;
+    private int offset_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Offset {
+      get { return offset_; }
+      set {
+        offset_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GetEventsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GetEventsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (NodeId != other.NodeId) return false;
+      if (SessionId != other.SessionId) return false;
+      if (!object.Equals(From, other.From)) return false;
+      if (!object.Equals(To, other.To)) return false;
+      if (Limit != other.Limit) return false;
+      if (Offset != other.Offset) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (NodeId != 0UL) hash ^= NodeId.GetHashCode();
+      if (SessionId.Length != 0) hash ^= SessionId.GetHashCode();
+      if (from_ != null) hash ^= From.GetHashCode();
+      if (to_ != null) hash ^= To.GetHashCode();
+      if (Limit != 0) hash ^= Limit.GetHashCode();
+      if (Offset != 0) hash ^= Offset.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (NodeId != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(NodeId);
+      }
+      if (SessionId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(SessionId);
+      }
+      if (from_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(From);
+      }
+      if (to_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(To);
+      }
+      if (Limit != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(Limit);
+      }
+      if (Offset != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(Offset);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (NodeId != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(NodeId);
+      }
+      if (SessionId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(SessionId);
+      }
+      if (from_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(From);
+      }
+      if (to_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(To);
+      }
+      if (Limit != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(Limit);
+      }
+      if (Offset != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(Offset);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (NodeId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(NodeId);
+      }
+      if (SessionId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionId);
+      }
+      if (from_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(From);
+      }
+      if (to_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(To);
+      }
+      if (Limit != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Limit);
+      }
+      if (Offset != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Offset);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GetEventsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.NodeId != 0UL) {
+        NodeId = other.NodeId;
+      }
+      if (other.SessionId.Length != 0) {
+        SessionId = other.SessionId;
+      }
+      if (other.from_ != null) {
+        if (from_ == null) {
+          From = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        From.MergeFrom(other.From);
+      }
+      if (other.to_ != null) {
+        if (to_ == null) {
+          To = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        To.MergeFrom(other.To);
+      }
+      if (other.Limit != 0) {
+        Limit = other.Limit;
+      }
+      if (other.Offset != 0) {
+        Offset = other.Offset;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            SessionId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (from_ == null) {
+              From = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(From);
+            break;
+          }
+          case 34: {
+            if (to_ == null) {
+              To = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(To);
+            break;
+          }
+          case 40: {
+            Limit = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            Offset = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            SessionId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (from_ == null) {
+              From = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(From);
+            break;
+          }
+          case 34: {
+            if (to_ == null) {
+              To = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(To);
+            break;
+          }
+          case 40: {
+            Limit = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            Offset = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// GetEventsResponse はテレメトリイベントの取得レスポンスです。
+  /// </summary>
+  public sealed partial class GetEventsResponse : pb::IMessage<GetEventsResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GetEventsResponse> _parser = new pb::MessageParser<GetEventsResponse>(() => new GetEventsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GetEventsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.TelemetryReflection.Descriptor.MessageTypes[10]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetEventsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetEventsResponse(GetEventsResponse other) : this() {
+      events_ = other.events_.Clone();
+      totalCount_ = other.totalCount_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetEventsResponse Clone() {
+      return new GetEventsResponse(this);
+    }
+
+    /// <summary>Field number for the "events" field.</summary>
+    public const int EventsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Protos.StoredTelemetryEvent> _repeated_events_codec
+        = pb::FieldCodec.ForMessage(10, global::Protos.StoredTelemetryEvent.Parser);
+    private readonly pbc::RepeatedField<global::Protos.StoredTelemetryEvent> events_ = new pbc::RepeatedField<global::Protos.StoredTelemetryEvent>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Protos.StoredTelemetryEvent> Events {
+      get { return events_; }
+    }
+
+    /// <summary>Field number for the "totalCount" field.</summary>
+    public const int TotalCountFieldNumber = 2;
+    private long totalCount_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long TotalCount {
+      get { return totalCount_; }
+      set {
+        totalCount_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GetEventsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GetEventsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!events_.Equals(other.events_)) return false;
+      if (TotalCount != other.TotalCount) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= events_.GetHashCode();
+      if (TotalCount != 0L) hash ^= TotalCount.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      events_.WriteTo(output, _repeated_events_codec);
+      if (TotalCount != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(TotalCount);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      events_.WriteTo(ref output, _repeated_events_codec);
+      if (TotalCount != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(TotalCount);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += events_.CalculateSize(_repeated_events_codec);
+      if (TotalCount != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(TotalCount);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GetEventsResponse other) {
+      if (other == null) {
+        return;
+      }
+      events_.Add(other.events_);
+      if (other.TotalCount != 0L) {
+        TotalCount = other.TotalCount;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            events_.AddEntriesFrom(input, _repeated_events_codec);
+            break;
+          }
+          case 16: {
+            TotalCount = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            events_.AddEntriesFrom(ref input, _repeated_events_codec);
+            break;
+          }
+          case 16: {
+            TotalCount = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// StoredTelemetryEvent はサーバーに保存されたテレメトリイベントです。
+  /// TelemetryEvent に加えて、サーバー側のメタデータを含みます。
+  /// </summary>
+  public sealed partial class StoredTelemetryEvent : pb::IMessage<StoredTelemetryEvent>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StoredTelemetryEvent> _parser = new pb::MessageParser<StoredTelemetryEvent>(() => new StoredTelemetryEvent());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StoredTelemetryEvent> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.TelemetryReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StoredTelemetryEvent() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StoredTelemetryEvent(StoredTelemetryEvent other) : this() {
+      id_ = other.id_;
+      nodeId_ = other.nodeId_;
+      sessionId_ = other.sessionId_;
+      clientVersion_ = other.clientVersion_;
+      receivedAt_ = other.receivedAt_ != null ? other.receivedAt_.Clone() : null;
+      eventAt_ = other.eventAt_ != null ? other.eventAt_.Clone() : null;
+      eventDay_ = other.eventDay_ != null ? other.eventDay_.Clone() : null;
+      peerHash_ = other.peerHash_;
+      regionId_ = other.regionId_;
+      transport_ = other.transport_;
+      payloadType_ = other.payloadType_;
+      payload_ = other.payload_;
+      createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StoredTelemetryEvent Clone() {
+      return new StoredTelemetryEvent(this);
+    }
+
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private ulong id_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong Id {
+      get { return id_; }
+      set {
+        id_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "nodeId" field.</summary>
+    public const int NodeIdFieldNumber = 2;
+    private ulong nodeId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong NodeId {
+      get { return nodeId_; }
+      set {
+        nodeId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "sessionId" field.</summary>
+    public const int SessionIdFieldNumber = 3;
+    private string sessionId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SessionId {
+      get { return sessionId_; }
+      set {
+        sessionId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "clientVersion" field.</summary>
+    public const int ClientVersionFieldNumber = 4;
+    private string clientVersion_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ClientVersion {
+      get { return clientVersion_; }
+      set {
+        clientVersion_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "receivedAt" field.</summary>
+    public const int ReceivedAtFieldNumber = 5;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp receivedAt_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp ReceivedAt {
+      get { return receivedAt_; }
+      set {
+        receivedAt_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "eventAt" field.</summary>
+    public const int EventAtFieldNumber = 6;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp eventAt_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp EventAt {
+      get { return eventAt_; }
+      set {
+        eventAt_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "eventDay" field.</summary>
+    public const int EventDayFieldNumber = 7;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp eventDay_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp EventDay {
+      get { return eventDay_; }
+      set {
+        eventDay_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "peerHash" field.</summary>
+    public const int PeerHashFieldNumber = 8;
+    private pb::ByteString peerHash_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString PeerHash {
+      get { return peerHash_; }
+      set {
+        peerHash_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "regionId" field.</summary>
+    public const int RegionIdFieldNumber = 9;
+    private uint regionId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint RegionId {
+      get { return regionId_; }
+      set {
+        regionId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "transport" field.</summary>
+    public const int TransportFieldNumber = 10;
+    private global::Protos.Transport transport_ = global::Protos.Transport.Unspecified;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Protos.Transport Transport {
+      get { return transport_; }
+      set {
+        transport_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "payloadType" field.</summary>
+    public const int PayloadTypeFieldNumber = 11;
+    private string payloadType_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string PayloadType {
+      get { return payloadType_; }
+      set {
+        payloadType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "payload" field.</summary>
+    public const int PayloadFieldNumber = 12;
+    private string payload_ = "";
+    /// <summary>
+    /// JSON string
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Payload {
+      get { return payload_; }
+      set {
+        payload_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdAt" field.</summary>
+    public const int CreatedAtFieldNumber = 13;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
+      get { return createdAt_; }
+      set {
+        createdAt_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StoredTelemetryEvent);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StoredTelemetryEvent other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Id != other.Id) return false;
+      if (NodeId != other.NodeId) return false;
+      if (SessionId != other.SessionId) return false;
+      if (ClientVersion != other.ClientVersion) return false;
+      if (!object.Equals(ReceivedAt, other.ReceivedAt)) return false;
+      if (!object.Equals(EventAt, other.EventAt)) return false;
+      if (!object.Equals(EventDay, other.EventDay)) return false;
+      if (PeerHash != other.PeerHash) return false;
+      if (RegionId != other.RegionId) return false;
+      if (Transport != other.Transport) return false;
+      if (PayloadType != other.PayloadType) return false;
+      if (Payload != other.Payload) return false;
+      if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Id != 0UL) hash ^= Id.GetHashCode();
+      if (NodeId != 0UL) hash ^= NodeId.GetHashCode();
+      if (SessionId.Length != 0) hash ^= SessionId.GetHashCode();
+      if (ClientVersion.Length != 0) hash ^= ClientVersion.GetHashCode();
+      if (receivedAt_ != null) hash ^= ReceivedAt.GetHashCode();
+      if (eventAt_ != null) hash ^= EventAt.GetHashCode();
+      if (eventDay_ != null) hash ^= EventDay.GetHashCode();
+      if (PeerHash.Length != 0) hash ^= PeerHash.GetHashCode();
+      if (RegionId != 0) hash ^= RegionId.GetHashCode();
+      if (Transport != global::Protos.Transport.Unspecified) hash ^= Transport.GetHashCode();
+      if (PayloadType.Length != 0) hash ^= PayloadType.GetHashCode();
+      if (Payload.Length != 0) hash ^= Payload.GetHashCode();
+      if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Id != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(Id);
+      }
+      if (NodeId != 0UL) {
+        output.WriteRawTag(16);
+        output.WriteUInt64(NodeId);
+      }
+      if (SessionId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(SessionId);
+      }
+      if (ClientVersion.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(ClientVersion);
+      }
+      if (receivedAt_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(ReceivedAt);
+      }
+      if (eventAt_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(EventAt);
+      }
+      if (eventDay_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(EventDay);
+      }
+      if (PeerHash.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteBytes(PeerHash);
+      }
+      if (RegionId != 0) {
+        output.WriteRawTag(72);
+        output.WriteUInt32(RegionId);
+      }
+      if (Transport != global::Protos.Transport.Unspecified) {
+        output.WriteRawTag(80);
+        output.WriteEnum((int) Transport);
+      }
+      if (PayloadType.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(PayloadType);
+      }
+      if (Payload.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(Payload);
+      }
+      if (createdAt_ != null) {
+        output.WriteRawTag(106);
+        output.WriteMessage(CreatedAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(Id);
+      }
+      if (NodeId != 0UL) {
+        output.WriteRawTag(16);
+        output.WriteUInt64(NodeId);
+      }
+      if (SessionId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(SessionId);
+      }
+      if (ClientVersion.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(ClientVersion);
+      }
+      if (receivedAt_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(ReceivedAt);
+      }
+      if (eventAt_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(EventAt);
+      }
+      if (eventDay_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(EventDay);
+      }
+      if (PeerHash.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteBytes(PeerHash);
+      }
+      if (RegionId != 0) {
+        output.WriteRawTag(72);
+        output.WriteUInt32(RegionId);
+      }
+      if (Transport != global::Protos.Transport.Unspecified) {
+        output.WriteRawTag(80);
+        output.WriteEnum((int) Transport);
+      }
+      if (PayloadType.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(PayloadType);
+      }
+      if (Payload.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(Payload);
+      }
+      if (createdAt_ != null) {
+        output.WriteRawTag(106);
+        output.WriteMessage(CreatedAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Id != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(Id);
+      }
+      if (NodeId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(NodeId);
+      }
+      if (SessionId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionId);
+      }
+      if (ClientVersion.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClientVersion);
+      }
+      if (receivedAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ReceivedAt);
+      }
+      if (eventAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EventAt);
+      }
+      if (eventDay_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EventDay);
+      }
+      if (PeerHash.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(PeerHash);
+      }
+      if (RegionId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(RegionId);
+      }
+      if (Transport != global::Protos.Transport.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Transport);
+      }
+      if (PayloadType.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PayloadType);
+      }
+      if (Payload.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Payload);
+      }
+      if (createdAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StoredTelemetryEvent other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Id != 0UL) {
+        Id = other.Id;
+      }
+      if (other.NodeId != 0UL) {
+        NodeId = other.NodeId;
+      }
+      if (other.SessionId.Length != 0) {
+        SessionId = other.SessionId;
+      }
+      if (other.ClientVersion.Length != 0) {
+        ClientVersion = other.ClientVersion;
+      }
+      if (other.receivedAt_ != null) {
+        if (receivedAt_ == null) {
+          ReceivedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        ReceivedAt.MergeFrom(other.ReceivedAt);
+      }
+      if (other.eventAt_ != null) {
+        if (eventAt_ == null) {
+          EventAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        EventAt.MergeFrom(other.EventAt);
+      }
+      if (other.eventDay_ != null) {
+        if (eventDay_ == null) {
+          EventDay = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        EventDay.MergeFrom(other.EventDay);
+      }
+      if (other.PeerHash.Length != 0) {
+        PeerHash = other.PeerHash;
+      }
+      if (other.RegionId != 0) {
+        RegionId = other.RegionId;
+      }
+      if (other.Transport != global::Protos.Transport.Unspecified) {
+        Transport = other.Transport;
+      }
+      if (other.PayloadType.Length != 0) {
+        PayloadType = other.PayloadType;
+      }
+      if (other.Payload.Length != 0) {
+        Payload = other.Payload;
+      }
+      if (other.createdAt_ != null) {
+        if (createdAt_ == null) {
+          CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        CreatedAt.MergeFrom(other.CreatedAt);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Id = input.ReadUInt64();
+            break;
+          }
+          case 16: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 26: {
+            SessionId = input.ReadString();
+            break;
+          }
+          case 34: {
+            ClientVersion = input.ReadString();
+            break;
+          }
+          case 42: {
+            if (receivedAt_ == null) {
+              ReceivedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(ReceivedAt);
+            break;
+          }
+          case 50: {
+            if (eventAt_ == null) {
+              EventAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(EventAt);
+            break;
+          }
+          case 58: {
+            if (eventDay_ == null) {
+              EventDay = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(EventDay);
+            break;
+          }
+          case 66: {
+            PeerHash = input.ReadBytes();
+            break;
+          }
+          case 72: {
+            RegionId = input.ReadUInt32();
+            break;
+          }
+          case 80: {
+            Transport = (global::Protos.Transport) input.ReadEnum();
+            break;
+          }
+          case 90: {
+            PayloadType = input.ReadString();
+            break;
+          }
+          case 98: {
+            Payload = input.ReadString();
+            break;
+          }
+          case 106: {
+            if (createdAt_ == null) {
+              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(CreatedAt);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Id = input.ReadUInt64();
+            break;
+          }
+          case 16: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 26: {
+            SessionId = input.ReadString();
+            break;
+          }
+          case 34: {
+            ClientVersion = input.ReadString();
+            break;
+          }
+          case 42: {
+            if (receivedAt_ == null) {
+              ReceivedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(ReceivedAt);
+            break;
+          }
+          case 50: {
+            if (eventAt_ == null) {
+              EventAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(EventAt);
+            break;
+          }
+          case 58: {
+            if (eventDay_ == null) {
+              EventDay = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(EventDay);
+            break;
+          }
+          case 66: {
+            PeerHash = input.ReadBytes();
+            break;
+          }
+          case 72: {
+            RegionId = input.ReadUInt32();
+            break;
+          }
+          case 80: {
+            Transport = (global::Protos.Transport) input.ReadEnum();
+            break;
+          }
+          case 90: {
+            PayloadType = input.ReadString();
+            break;
+          }
+          case 98: {
+            Payload = input.ReadString();
+            break;
+          }
+          case 106: {
+            if (createdAt_ == null) {
+              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(CreatedAt);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// GetDailyCountsRequest は日次集計の取得リクエストです。
+  /// </summary>
+  public sealed partial class GetDailyCountsRequest : pb::IMessage<GetDailyCountsRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GetDailyCountsRequest> _parser = new pb::MessageParser<GetDailyCountsRequest>(() => new GetDailyCountsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GetDailyCountsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.TelemetryReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetDailyCountsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetDailyCountsRequest(GetDailyCountsRequest other) : this() {
+      nodeId_ = other.nodeId_;
+      metric_ = other.metric_;
+      from_ = other.from_ != null ? other.from_.Clone() : null;
+      to_ = other.to_ != null ? other.to_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetDailyCountsRequest Clone() {
+      return new GetDailyCountsRequest(this);
+    }
+
+    /// <summary>Field number for the "nodeId" field.</summary>
+    public const int NodeIdFieldNumber = 1;
+    private ulong nodeId_;
+    /// <summary>
+    /// node_id でフィルタ（0 の場合は全ノード）
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong NodeId {
+      get { return nodeId_; }
+      set {
+        nodeId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "metric" field.</summary>
+    public const int MetricFieldNumber = 2;
+    private string metric_ = "";
+    /// <summary>
+    /// metric でフィルタ（空の場合は全メトリクス）
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Metric {
+      get { return metric_; }
+      set {
+        metric_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "from" field.</summary>
+    public const int FromFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp from_;
+    /// <summary>
+    /// 期間フィルタ（from &lt;= day &lt;= to）
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp From {
+      get { return from_; }
+      set {
+        from_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "to" field.</summary>
+    public const int ToFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp to_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp To {
+      get { return to_; }
+      set {
+        to_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GetDailyCountsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GetDailyCountsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (NodeId != other.NodeId) return false;
+      if (Metric != other.Metric) return false;
+      if (!object.Equals(From, other.From)) return false;
+      if (!object.Equals(To, other.To)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (NodeId != 0UL) hash ^= NodeId.GetHashCode();
+      if (Metric.Length != 0) hash ^= Metric.GetHashCode();
+      if (from_ != null) hash ^= From.GetHashCode();
+      if (to_ != null) hash ^= To.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (NodeId != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(NodeId);
+      }
+      if (Metric.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Metric);
+      }
+      if (from_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(From);
+      }
+      if (to_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(To);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (NodeId != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(NodeId);
+      }
+      if (Metric.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Metric);
+      }
+      if (from_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(From);
+      }
+      if (to_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(To);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (NodeId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(NodeId);
+      }
+      if (Metric.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Metric);
+      }
+      if (from_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(From);
+      }
+      if (to_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(To);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GetDailyCountsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.NodeId != 0UL) {
+        NodeId = other.NodeId;
+      }
+      if (other.Metric.Length != 0) {
+        Metric = other.Metric;
+      }
+      if (other.from_ != null) {
+        if (from_ == null) {
+          From = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        From.MergeFrom(other.From);
+      }
+      if (other.to_ != null) {
+        if (to_ == null) {
+          To = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        To.MergeFrom(other.To);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            Metric = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (from_ == null) {
+              From = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(From);
+            break;
+          }
+          case 34: {
+            if (to_ == null) {
+              To = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(To);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            Metric = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (from_ == null) {
+              From = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(From);
+            break;
+          }
+          case 34: {
+            if (to_ == null) {
+              To = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(To);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// GetDailyCountsResponse は日次集計の取得レスポンスです。
+  /// </summary>
+  public sealed partial class GetDailyCountsResponse : pb::IMessage<GetDailyCountsResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GetDailyCountsResponse> _parser = new pb::MessageParser<GetDailyCountsResponse>(() => new GetDailyCountsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GetDailyCountsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.TelemetryReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetDailyCountsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetDailyCountsResponse(GetDailyCountsResponse other) : this() {
+      counts_ = other.counts_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetDailyCountsResponse Clone() {
+      return new GetDailyCountsResponse(this);
+    }
+
+    /// <summary>Field number for the "counts" field.</summary>
+    public const int CountsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Protos.DailyCount> _repeated_counts_codec
+        = pb::FieldCodec.ForMessage(10, global::Protos.DailyCount.Parser);
+    private readonly pbc::RepeatedField<global::Protos.DailyCount> counts_ = new pbc::RepeatedField<global::Protos.DailyCount>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Protos.DailyCount> Counts {
+      get { return counts_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GetDailyCountsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GetDailyCountsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!counts_.Equals(other.counts_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= counts_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      counts_.WriteTo(output, _repeated_counts_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      counts_.WriteTo(ref output, _repeated_counts_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += counts_.CalculateSize(_repeated_counts_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GetDailyCountsResponse other) {
+      if (other == null) {
+        return;
+      }
+      counts_.Add(other.counts_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            counts_.AddEntriesFrom(input, _repeated_counts_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            counts_.AddEntriesFrom(ref input, _repeated_counts_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// DailyCount は1日分の集計データです。
+  /// </summary>
+  public sealed partial class DailyCount : pb::IMessage<DailyCount>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DailyCount> _parser = new pb::MessageParser<DailyCount>(() => new DailyCount());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<DailyCount> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.TelemetryReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DailyCount() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DailyCount(DailyCount other) : this() {
+      day_ = other.day_ != null ? other.day_.Clone() : null;
+      nodeId_ = other.nodeId_;
+      metric_ = other.metric_;
+      labelKey_ = other.labelKey_;
+      count_ = other.count_;
+      createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
+      updatedAt_ = other.updatedAt_ != null ? other.updatedAt_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DailyCount Clone() {
+      return new DailyCount(this);
+    }
+
+    /// <summary>Field number for the "day" field.</summary>
+    public const int DayFieldNumber = 1;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp day_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp Day {
+      get { return day_; }
+      set {
+        day_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "nodeId" field.</summary>
+    public const int NodeIdFieldNumber = 2;
+    private ulong nodeId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong NodeId {
+      get { return nodeId_; }
+      set {
+        nodeId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "metric" field.</summary>
+    public const int MetricFieldNumber = 3;
+    private string metric_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Metric {
+      get { return metric_; }
+      set {
+        metric_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "labelKey" field.</summary>
+    public const int LabelKeyFieldNumber = 4;
+    private string labelKey_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string LabelKey {
+      get { return labelKey_; }
+      set {
+        labelKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "count" field.</summary>
+    public const int CountFieldNumber = 5;
+    private long count_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long Count {
+      get { return count_; }
+      set {
+        count_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "createdAt" field.</summary>
+    public const int CreatedAtFieldNumber = 6;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
+      get { return createdAt_; }
+      set {
+        createdAt_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "updatedAt" field.</summary>
+    public const int UpdatedAtFieldNumber = 7;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp updatedAt_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp UpdatedAt {
+      get { return updatedAt_; }
+      set {
+        updatedAt_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as DailyCount);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(DailyCount other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Day, other.Day)) return false;
+      if (NodeId != other.NodeId) return false;
+      if (Metric != other.Metric) return false;
+      if (LabelKey != other.LabelKey) return false;
+      if (Count != other.Count) return false;
+      if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
+      if (!object.Equals(UpdatedAt, other.UpdatedAt)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (day_ != null) hash ^= Day.GetHashCode();
+      if (NodeId != 0UL) hash ^= NodeId.GetHashCode();
+      if (Metric.Length != 0) hash ^= Metric.GetHashCode();
+      if (LabelKey.Length != 0) hash ^= LabelKey.GetHashCode();
+      if (Count != 0L) hash ^= Count.GetHashCode();
+      if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
+      if (updatedAt_ != null) hash ^= UpdatedAt.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (day_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Day);
+      }
+      if (NodeId != 0UL) {
+        output.WriteRawTag(16);
+        output.WriteUInt64(NodeId);
+      }
+      if (Metric.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Metric);
+      }
+      if (LabelKey.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(LabelKey);
+      }
+      if (Count != 0L) {
+        output.WriteRawTag(40);
+        output.WriteInt64(Count);
+      }
+      if (createdAt_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(CreatedAt);
+      }
+      if (updatedAt_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(UpdatedAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (day_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Day);
+      }
+      if (NodeId != 0UL) {
+        output.WriteRawTag(16);
+        output.WriteUInt64(NodeId);
+      }
+      if (Metric.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Metric);
+      }
+      if (LabelKey.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(LabelKey);
+      }
+      if (Count != 0L) {
+        output.WriteRawTag(40);
+        output.WriteInt64(Count);
+      }
+      if (createdAt_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(CreatedAt);
+      }
+      if (updatedAt_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(UpdatedAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (day_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Day);
+      }
+      if (NodeId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(NodeId);
+      }
+      if (Metric.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Metric);
+      }
+      if (LabelKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(LabelKey);
+      }
+      if (Count != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Count);
+      }
+      if (createdAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
+      }
+      if (updatedAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdatedAt);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(DailyCount other) {
+      if (other == null) {
+        return;
+      }
+      if (other.day_ != null) {
+        if (day_ == null) {
+          Day = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        Day.MergeFrom(other.Day);
+      }
+      if (other.NodeId != 0UL) {
+        NodeId = other.NodeId;
+      }
+      if (other.Metric.Length != 0) {
+        Metric = other.Metric;
+      }
+      if (other.LabelKey.Length != 0) {
+        LabelKey = other.LabelKey;
+      }
+      if (other.Count != 0L) {
+        Count = other.Count;
+      }
+      if (other.createdAt_ != null) {
+        if (createdAt_ == null) {
+          CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        CreatedAt.MergeFrom(other.CreatedAt);
+      }
+      if (other.updatedAt_ != null) {
+        if (updatedAt_ == null) {
+          UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        UpdatedAt.MergeFrom(other.UpdatedAt);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (day_ == null) {
+              Day = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Day);
+            break;
+          }
+          case 16: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 26: {
+            Metric = input.ReadString();
+            break;
+          }
+          case 34: {
+            LabelKey = input.ReadString();
+            break;
+          }
+          case 40: {
+            Count = input.ReadInt64();
+            break;
+          }
+          case 50: {
+            if (createdAt_ == null) {
+              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(CreatedAt);
+            break;
+          }
+          case 58: {
+            if (updatedAt_ == null) {
+              UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(UpdatedAt);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (day_ == null) {
+              Day = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Day);
+            break;
+          }
+          case 16: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 26: {
+            Metric = input.ReadString();
+            break;
+          }
+          case 34: {
+            LabelKey = input.ReadString();
+            break;
+          }
+          case 40: {
+            Count = input.ReadInt64();
+            break;
+          }
+          case 50: {
+            if (createdAt_ == null) {
+              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(CreatedAt);
+            break;
+          }
+          case 58: {
+            if (updatedAt_ == null) {
+              UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(UpdatedAt);
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 

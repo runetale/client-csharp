@@ -68,6 +68,14 @@ namespace Protos {
     static readonly grpc::Marshaller<global::Protos.TelemetryBatchRequest> __Marshaller_protos_TelemetryBatchRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.TelemetryBatchRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Protos.TelemetryBatchResponse> __Marshaller_protos_TelemetryBatchResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.TelemetryBatchResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.GetEventsRequest> __Marshaller_protos_GetEventsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.GetEventsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.GetEventsResponse> __Marshaller_protos_GetEventsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.GetEventsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.GetDailyCountsRequest> __Marshaller_protos_GetDailyCountsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.GetDailyCountsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.GetDailyCountsResponse> __Marshaller_protos_GetDailyCountsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.GetDailyCountsResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Protos.TelemetryBatchRequest, global::Protos.TelemetryBatchResponse> __Method_UploadTelemetryBatch = new grpc::Method<global::Protos.TelemetryBatchRequest, global::Protos.TelemetryBatchResponse>(
@@ -76,6 +84,22 @@ namespace Protos {
         "UploadTelemetryBatch",
         __Marshaller_protos_TelemetryBatchRequest,
         __Marshaller_protos_TelemetryBatchResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.GetEventsRequest, global::Protos.GetEventsResponse> __Method_GetEvents = new grpc::Method<global::Protos.GetEventsRequest, global::Protos.GetEventsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetEvents",
+        __Marshaller_protos_GetEventsRequest,
+        __Marshaller_protos_GetEventsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.GetDailyCountsRequest, global::Protos.GetDailyCountsResponse> __Method_GetDailyCounts = new grpc::Method<global::Protos.GetDailyCountsRequest, global::Protos.GetDailyCountsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetDailyCounts",
+        __Marshaller_protos_GetDailyCountsRequest,
+        __Marshaller_protos_GetDailyCountsResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -87,8 +111,38 @@ namespace Protos {
     [grpc::BindServiceMethod(typeof(TelemetryService), "BindService")]
     public abstract partial class TelemetryServiceBase
     {
+      /// <summary>
+      /// UploadTelemetryBatch receives telemetry events from clients.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Protos.TelemetryBatchResponse> UploadTelemetryBatch(global::Protos.TelemetryBatchRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// GetEvents retrieves stored telemetry events for analysis/debugging.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.GetEventsResponse> GetEvents(global::Protos.GetEventsRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// GetDailyCounts retrieves aggregated daily counts for dashboards/trends.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.GetDailyCountsResponse> GetDailyCounts(global::Protos.GetDailyCountsRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -122,25 +176,149 @@ namespace Protos {
       {
       }
 
+      /// <summary>
+      /// UploadTelemetryBatch receives telemetry events from clients.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Protos.TelemetryBatchResponse UploadTelemetryBatch(global::Protos.TelemetryBatchRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UploadTelemetryBatch(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// UploadTelemetryBatch receives telemetry events from clients.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Protos.TelemetryBatchResponse UploadTelemetryBatch(global::Protos.TelemetryBatchRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_UploadTelemetryBatch, null, options, request);
       }
+      /// <summary>
+      /// UploadTelemetryBatch receives telemetry events from clients.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Protos.TelemetryBatchResponse> UploadTelemetryBatchAsync(global::Protos.TelemetryBatchRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return UploadTelemetryBatchAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// UploadTelemetryBatch receives telemetry events from clients.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Protos.TelemetryBatchResponse> UploadTelemetryBatchAsync(global::Protos.TelemetryBatchRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_UploadTelemetryBatch, null, options, request);
+      }
+      /// <summary>
+      /// GetEvents retrieves stored telemetry events for analysis/debugging.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.GetEventsResponse GetEvents(global::Protos.GetEventsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetEvents(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// GetEvents retrieves stored telemetry events for analysis/debugging.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.GetEventsResponse GetEvents(global::Protos.GetEventsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetEvents, null, options, request);
+      }
+      /// <summary>
+      /// GetEvents retrieves stored telemetry events for analysis/debugging.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.GetEventsResponse> GetEventsAsync(global::Protos.GetEventsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetEventsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// GetEvents retrieves stored telemetry events for analysis/debugging.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.GetEventsResponse> GetEventsAsync(global::Protos.GetEventsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetEvents, null, options, request);
+      }
+      /// <summary>
+      /// GetDailyCounts retrieves aggregated daily counts for dashboards/trends.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.GetDailyCountsResponse GetDailyCounts(global::Protos.GetDailyCountsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetDailyCounts(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// GetDailyCounts retrieves aggregated daily counts for dashboards/trends.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.GetDailyCountsResponse GetDailyCounts(global::Protos.GetDailyCountsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetDailyCounts, null, options, request);
+      }
+      /// <summary>
+      /// GetDailyCounts retrieves aggregated daily counts for dashboards/trends.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.GetDailyCountsResponse> GetDailyCountsAsync(global::Protos.GetDailyCountsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetDailyCountsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// GetDailyCounts retrieves aggregated daily counts for dashboards/trends.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.GetDailyCountsResponse> GetDailyCountsAsync(global::Protos.GetDailyCountsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetDailyCounts, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -156,7 +334,9 @@ namespace Protos {
     public static grpc::ServerServiceDefinition BindService(TelemetryServiceBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_UploadTelemetryBatch, serviceImpl.UploadTelemetryBatch).Build();
+          .AddMethod(__Method_UploadTelemetryBatch, serviceImpl.UploadTelemetryBatch)
+          .AddMethod(__Method_GetEvents, serviceImpl.GetEvents)
+          .AddMethod(__Method_GetDailyCounts, serviceImpl.GetDailyCounts).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -167,6 +347,8 @@ namespace Protos {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, TelemetryServiceBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_UploadTelemetryBatch, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.TelemetryBatchRequest, global::Protos.TelemetryBatchResponse>(serviceImpl.UploadTelemetryBatch));
+      serviceBinder.AddMethod(__Method_GetEvents, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.GetEventsRequest, global::Protos.GetEventsResponse>(serviceImpl.GetEvents));
+      serviceBinder.AddMethod(__Method_GetDailyCounts, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.GetDailyCountsRequest, global::Protos.GetDailyCountsResponse>(serviceImpl.GetDailyCounts));
     }
 
   }

@@ -126,15 +126,15 @@ namespace Protos {
             "RE9XUxAKEhIKDlBMQVRGT1JNX09USEVSEAsqgwEKB0lQUHJvdG8SGAoUSVBf",
             "UFJPVE9fVU5TUEVDSUZJRUQQABIQCgxJUF9QUk9UT19BTEwQARIQCgxJUF9Q",
             "Uk9UT19UQ1AQAhIQCgxJUF9QUk9UT19VRFAQAxITCg9JUF9QUk9UT19JQ01Q",
-            "VjQQBBITCg9JUF9QUk9UT19JQ01QVjYQBSqGAQoMRXhwaXJlbHlUaW1lEh0K",
-            "GUVYUElSRUxZX1RJTUVfVU5TUEVDSUZJRUQQABIbChdFWFBJUkVMWV9USU1F",
-            "X09ORV9NT05USBABEhsKF0VYUElSRUxZX1RJTUVfVFdPX01PTlRIEAISHQoZ",
-            "RVhQSVJFTFlfVElNRV9USFJFRV9NT05USBADKk8KCVVzZXJSb2xlcxIZChVV",
-            "U0VSX1JPTEVfVU5TUEVDSUZJRUQQABITCg9VU0VSX1JPTEVfQURNSU4QARIS",
-            "Cg5VU0VSX1JPTEVfVVNFUhACQghaBi4vZHRvc2IGcHJvdG8z"));
+            "VjQQBBITCg9JUF9QUk9UT19JQ01QVjYQBSp8CgpFeHBpcnlUaW1lEhsKF0VY",
+            "UElSWV9USU1FX1VOU1BFQ0lGSUVEEAASGQoVRVhQSVJZX1RJTUVfT05FX01P",
+            "TlRIEAESGQoVRVhQSVJZX1RJTUVfVFdPX01PTlRIEAISGwoXRVhQSVJZX1RJ",
+            "TUVfVEhSRUVfTU9OVEgQAypPCglVc2VyUm9sZXMSGQoVVVNFUl9ST0xFX1VO",
+            "U1BFQ0lGSUVEEAASEwoPVVNFUl9ST0xFX0FETUlOEAESEgoOVVNFUl9ST0xF",
+            "X1VTRVIQAkIIWgYuL2R0b3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Protos.OS), typeof(global::Protos.Platform), typeof(global::Protos.IPProto), typeof(global::Protos.ExpirelyTime), typeof(global::Protos.UserRoles), }, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Protos.OS), typeof(global::Protos.Platform), typeof(global::Protos.IPProto), typeof(global::Protos.ExpiryTime), typeof(global::Protos.UserRoles), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Timestamp), global::Protos.Timestamp.Parser, new[]{ "Seconds", "Nanos" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.LogoutResponse), global::Protos.LogoutResponse.Parser, new[]{ "Success" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.OkResponse), global::Protos.OkResponse.Parser, new[]{ "Ok" }, null, null, null, null),
@@ -212,11 +212,11 @@ namespace Protos {
     [pbr::OriginalName("IP_PROTO_ICMPV6")] Icmpv6 = 5,
   }
 
-  public enum ExpirelyTime {
-    [pbr::OriginalName("EXPIRELY_TIME_UNSPECIFIED")] Unspecified = 0,
-    [pbr::OriginalName("EXPIRELY_TIME_ONE_MONTH")] OneMonth = 1,
-    [pbr::OriginalName("EXPIRELY_TIME_TWO_MONTH")] TwoMonth = 2,
-    [pbr::OriginalName("EXPIRELY_TIME_THREE_MONTH")] ThreeMonth = 3,
+  public enum ExpiryTime {
+    [pbr::OriginalName("EXPIRY_TIME_UNSPECIFIED")] Unspecified = 0,
+    [pbr::OriginalName("EXPIRY_TIME_ONE_MONTH")] OneMonth = 1,
+    [pbr::OriginalName("EXPIRY_TIME_TWO_MONTH")] TwoMonth = 2,
+    [pbr::OriginalName("EXPIRY_TIME_THREE_MONTH")] ThreeMonth = 3,
   }
 
   public enum UserRoles {

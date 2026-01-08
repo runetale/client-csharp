@@ -25,91 +25,84 @@ namespace Protos {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiBydW5ldGFsZS9ydW5ldGFsZS92MS9vcmJpdC5wcm90bxIGcHJvdG9zGh9n",
-            "b29nbGUvcHJvdG9idWYvdGltZXN0YW1wLnByb3RvImsKEU9yYml0QmF0Y2hS",
-            "ZXF1ZXN0Eg4KBm5vZGVJZBgBIAEoBBIRCglzZXNzaW9uSWQYAiABKAkSDwoH",
-            "dmVyc2lvbhgDIAEoCRIiCgZldmVudHMYBCADKAsyEi5wcm90b3MuT3JiaXRF",
-            "dmVudCJHChJPcmJpdEJhdGNoUmVzcG9uc2USEAoIYWNjZXB0ZWQYASABKA0S",
-            "DwoHZHJvcHBlZBgCIAEoDRIOCgZyZWFzb24YAyABKAkiiQMKCk9yYml0RXZl",
-            "bnQSJgoCYXQYASABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhAK",
-            "CHBlZXJIYXNoGAIgASgMEhAKCHJlZ2lvbklkGAMgASgNEiQKCXRyYW5zcG9y",
-            "dBgEIAEoDjIRLnByb3Rvcy5UcmFuc3BvcnQSMQoPcGF0aF90cmFuc2l0aW9u",
-            "GAogASgLMhYucHJvdG9zLlBhdGhUcmFuc2l0aW9uSAASKQoLc2VuZF9yZXN1",
-            "bHQYCyABKAsyEi5wcm90b3MuU2VuZFJlc3VsdEgAEikKC3JlY3ZfcmVzdWx0",
-            "GAwgASgLMhIucHJvdG9zLlJlY3ZSZXN1bHRIABIqCgljZXJmX2Nvbm4YDSAB",
-            "KAsyFS5wcm90b3MuQ2VyZkNvbm5FdmVudEgAEh8KA2ljZRgOIAEoCzIQLnBy",
-            "b3Rvcy5JY2VFdmVudEgAEigKBmZpbHRlchgPIAEoCzIWLnByb3Rvcy5GaWx0",
-            "ZXJEZWNpc2lvbkgAQgkKB3BheWxvYWQicAoOUGF0aFRyYW5zaXRpb24SHwoE",
-            "ZnJvbRgBIAEoDjIRLnByb3Rvcy5QYXRoU3RhdGUSHQoCdG8YAiABKA4yES5w",
-            "cm90b3MuUGF0aFN0YXRlEg4KBnJlYXNvbhgDIAEoCRIOCgZkZXRhaWwYBCAB",
-            "KAkiOAoKU2VuZFJlc3VsdBIKCgJvaxgBIAEoCBINCgVieXRlcxgCIAEoDRIP",
-            "CgdlcnJDb2RlGAMgASgJIlgKClJlY3ZSZXN1bHQSCgoCb2sYASABKAgSHgoE",
-            "a2luZBgCIAEoDjIQLnByb3Rvcy5SZWN2S2luZBINCgVieXRlcxgDIAEoDRIP",
-            "CgdlcnJDb2RlGAQgASgJIrwCCg1DZXJmQ29ubkV2ZW50Eg8KB2Nvbm5HZW4Y",
-            "ASABKAUSMgoFc3RhdGUYAiABKA4yIy5wcm90b3MuQ2VyZkNvbm5FdmVudC5D",
-            "ZXJmQ29ublN0YXRlEg4KBmRldGFpbBgDIAEoCSLVAQoNQ2VyZkNvbm5TdGF0",
-            "ZRIfChtDRVJGX0NPTk5fU1RBVEVfVU5TUEVDSUZJRUQQABIdChlDRVJGX0NP",
-            "Tk5fU1RBVEVfQ09OTkVDVEVEEAESHwobQ0VSRl9DT05OX1NUQVRFX1JFQ09O",
-            "TkVDVEVEEAISHgoaQ0VSRl9DT05OX1NUQVRFX1JFQ1ZfRVJST1IQAxIeChpD",
-            "RVJGX0NPTk5fU1RBVEVfU0VORF9FUlJPUhAEEiMKH0NFUkZfQ09OTl9TVEFU",
-            "RV9SRUdJT05fRkFJTE9WRVIQBSLwAQoISWNlRXZlbnQSKAoFc3RhdGUYASAB",
-            "KA4yGS5wcm90b3MuSWNlRXZlbnQuSWNlU3RhdGUSDgoGZGV0YWlsGAIgASgJ",
-            "IqkBCghJY2VTdGF0ZRIZChVJQ0VfU1RBVEVfVU5TUEVDSUZJRUQQABIZChVJ",
-            "Q0VfU1RBVEVfQUdFTlRfU1RBUlQQARIVChFJQ0VfU1RBVEVfQ09OTl9VUBAC",
-            "EhcKE0lDRV9TVEFURV9DT05OX0RPV04QAxIYChRJQ0VfU1RBVEVfU0VORF9F",
-            "UlJPUhAEEh0KGUlDRV9TVEFURV9FTkRQT0lOVF9VUERBVEUQBSLVAQoORmls",
-            "dGVyRGVjaXNpb24SMwoGcmVzdWx0GAEgASgOMiMucHJvdG9zLkZpbHRlckRl",
-            "Y2lzaW9uLkZpbHRlclJlc3VsdBIOCgZyZWFzb24YAiABKAkifgoMRmlsdGVy",
-            "UmVzdWx0Eh0KGUZJTFRFUl9SRVNVTFRfVU5TUEVDSUZJRUQQABIYChRGSUxU",
-            "RVJfUkVTVUxUX0FDQ0VQVBABEhYKEkZJTFRFUl9SRVNVTFRfRFJPUBACEh0K",
-            "GUZJTFRFUl9SRVNVTFRfRFJPUF9TSUxFTlQQAyKmAQoQR2V0RXZlbnRzUmVx",
-            "dWVzdBIOCgZub2RlSWQYASABKAQSEQoJc2Vzc2lvbklkGAIgASgJEigKBGZy",
-            "b20YAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEiYKAnRvGAQg",
-            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBINCgVsaW1pdBgFIAEo",
-            "BRIOCgZvZmZzZXQYBiABKAUiUQoRR2V0RXZlbnRzUmVzcG9uc2USKAoGZXZl",
-            "bnRzGAEgAygLMhgucHJvdG9zLlN0b3JlZE9yYml0RXZlbnQSEgoKdG90YWxD",
-            "b3VudBgCIAEoAyKCAwoQU3RvcmVkT3JiaXRFdmVudBIKCgJpZBgBIAEoBBIO",
-            "CgZub2RlSWQYAiABKAQSEQoJc2Vzc2lvbklkGAMgASgJEhUKDWNsaWVudFZl",
-            "cnNpb24YBCABKAkSLgoKcmVjZWl2ZWRBdBgFIAEoCzIaLmdvb2dsZS5wcm90",
-            "b2J1Zi5UaW1lc3RhbXASKwoHZXZlbnRBdBgGIAEoCzIaLmdvb2dsZS5wcm90",
-            "b2J1Zi5UaW1lc3RhbXASLAoIZXZlbnREYXkYByABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuVGltZXN0YW1wEhAKCHBlZXJIYXNoGAggASgMEhAKCHJlZ2lvbklk",
-            "GAkgASgNEiQKCXRyYW5zcG9ydBgKIAEoDjIRLnByb3Rvcy5UcmFuc3BvcnQS",
-            "EwoLcGF5bG9hZFR5cGUYCyABKAkSDwoHcGF5bG9hZBgMIAEoCRItCgljcmVh",
-            "dGVkQXQYDSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIokBChVH",
-            "ZXREYWlseUNvdW50c1JlcXVlc3QSDgoGbm9kZUlkGAEgASgEEg4KBm1ldHJp",
-            "YxgCIAEoCRIoCgRmcm9tGAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
-            "dGFtcBImCgJ0bxgEIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAi",
-            "PAoWR2V0RGFpbHlDb3VudHNSZXNwb25zZRIiCgZjb3VudHMYASADKAsyEi5w",
-            "cm90b3MuRGFpbHlDb3VudCLUAQoKRGFpbHlDb3VudBInCgNkYXkYASABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEg4KBm5vZGVJZBgCIAEoBBIO",
-            "CgZtZXRyaWMYAyABKAkSEAoIbGFiZWxLZXkYBCABKAkSDQoFY291bnQYBSAB",
-            "KAMSLQoJY3JlYXRlZEF0GAYgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
-            "dGFtcBItCgl1cGRhdGVkQXQYByABKAsyGi5nb29nbGUucHJvdG9idWYuVGlt",
-            "ZXN0YW1wKmAKCVRyYW5zcG9ydBIZChVUUkFOU1BPUlRfVU5TUEVDSUZJRUQQ",
-            "ABISCg5UUkFOU1BPUlRfQ0VSRhABEhEKDVRSQU5TUE9SVF9JQ0UQAhIRCg1U",
-            "UkFOU1BPUlRfVURQEAMqZAoJUGF0aFN0YXRlEhoKFlBBVEhfU1RBVEVfVU5T",
-            "UEVDSUZJRUQQABITCg9QQVRIX1NUQVRFX0NFUkYQARISCg5QQVRIX1NUQVRF",
-            "X0lDRRACEhIKDlBBVEhfU1RBVEVfVURQEAMqUgoIUmVjdktpbmQSGQoVUkVD",
-            "Vl9LSU5EX1VOU1BFQ0lGSUVEEAASFwoTUkVDVl9LSU5EX1dJUkVHVUFSRBAB",
-            "EhIKDlJFQ1ZfS0lORF9SVU5FEAIy8gEKDE9yYml0U2VydmljZRJLChBVcGxv",
-            "YWRPcmJpdEJhdGNoEhkucHJvdG9zLk9yYml0QmF0Y2hSZXF1ZXN0GhoucHJv",
-            "dG9zLk9yYml0QmF0Y2hSZXNwb25zZSIAEkIKCUdldEV2ZW50cxIYLnByb3Rv",
-            "cy5HZXRFdmVudHNSZXF1ZXN0GhkucHJvdG9zLkdldEV2ZW50c1Jlc3BvbnNl",
-            "IgASUQoOR2V0RGFpbHlDb3VudHMSHS5wcm90b3MuR2V0RGFpbHlDb3VudHNS",
-            "ZXF1ZXN0Gh4ucHJvdG9zLkdldERhaWx5Q291bnRzUmVzcG9uc2UiAEIJWgcu",
-            "L29yYml0YgZwcm90bzM="));
+            "b29nbGUvcHJvdG9idWYvdGltZXN0YW1wLnByb3RvIm0KEU9yYml0QmF0Y2hS",
+            "ZXF1ZXN0Eg8KB3ZlcnNpb24YASABKAkSEgoKc2Vzc2lvbl9pZBgCIAEoCRIP",
+            "Cgdub2RlX2lkGAMgASgEEiIKBmV2ZW50cxgEIAMoCzISLnByb3Rvcy5PcmJp",
+            "dEV2ZW50IkcKEk9yYml0QmF0Y2hSZXNwb25zZRIQCghhY2NlcHRlZBgBIAEo",
+            "DRIPCgdkcm9wcGVkGAIgASgNEg4KBnJlYXNvbhgDIAEoCSKXAwoKT3JiaXRF",
+            "dmVudBImCgJhdBgBIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAS",
+            "EQoJcGVlcl9oYXNoGAIgASgMEhEKCXJlZ2lvbl9pZBgDIAEoDRIkCgl0cmFu",
+            "c3BvcnQYBCABKA4yES5wcm90b3MuVHJhbnNwb3J0Ei4KC3NlbmRfcmVzdWx0",
+            "GAogASgLMhcucHJvdG9zLlNlbmRSZXN1bHRFdmVudEgAEi4KC3JlY3ZfcmVz",
+            "dWx0GAsgASgLMhcucHJvdG9zLlJlY3ZSZXN1bHRFdmVudEgAEioKCWNlcmZf",
+            "Y29ubhgMIAEoCzIVLnByb3Rvcy5DZXJmQ29ubkV2ZW50SAASHwoDaWNlGA0g",
+            "ASgLMhAucHJvdG9zLkljZUV2ZW50SAASJQoGZmlsdGVyGA4gASgLMhMucHJv",
+            "dG9zLkZpbHRlckV2ZW50SAASNgoPcGF0aF90cmFuc2l0aW9uGA8gASgLMhsu",
+            "cHJvdG9zLlBhdGhUcmFuc2l0aW9uRXZlbnRIAEIJCgdwYXlsb2FkIiwKD1Nl",
+            "bmRSZXN1bHRFdmVudBIKCgJvaxgBIAEoCBINCgVlcnJvchgCIAEoCSItCg9S",
+            "ZWN2UmVzdWx0RXZlbnQSDAoEa2luZBgBIAEoBRIMCgRzaXplGAIgASgNIvIB",
+            "Cg1DZXJmQ29ubkV2ZW50EioKBXN0YXRlGAEgASgOMhsucHJvdG9zLkNlcmZD",
+            "b25uRXZlbnQuU3RhdGUSDQoFZXJyb3IYAiABKAkipQEKBVN0YXRlEhsKF0NF",
+            "UkZfQ09OTl9TVEFURV9VTktOT1dOEAASHgoaQ0VSRl9DT05OX1NUQVRFX0NP",
+            "Tk5FQ1RJTkcQARIdChlDRVJGX0NPTk5fU1RBVEVfQ09OTkVDVEVEEAISIAoc",
+            "Q0VSRl9DT05OX1NUQVRFX0RJU0NPTk5FQ1RFRBADEh4KGkNFUkZfQ09OTl9T",
+            "VEFURV9SRUNWX0VSUk9SEAQi/AEKCEljZUV2ZW50EiUKBXN0YXRlGAEgASgO",
+            "MhYucHJvdG9zLkljZUV2ZW50LlN0YXRlEhYKDmNhbmRpZGF0ZV90eXBlGAIg",
+            "ASgJIrABCgVTdGF0ZRIVChFJQ0VfU1RBVEVfVU5LTk9XThAAEhYKEklDRV9T",
+            "VEFURV9DSEVDS0lORxABEhcKE0lDRV9TVEFURV9DT05ORUNURUQQAhIXChNJ",
+            "Q0VfU1RBVEVfQ09NUExFVEVEEAMSFAoQSUNFX1NUQVRFX0ZBSUxFRBAEEhoK",
+            "FklDRV9TVEFURV9ESVNDT05ORUNURUQQBRIUChBJQ0VfU1RBVEVfQ0xPU0VE",
+            "EAYioAEKC0ZpbHRlckV2ZW50EioKBnJlc3VsdBgBIAEoDjIaLnByb3Rvcy5G",
+            "aWx0ZXJFdmVudC5SZXN1bHQSDgoGcmVhc29uGAIgASgJIlUKBlJlc3VsdBIZ",
+            "ChVGSUxURVJfUkVTVUxUX1VOS05PV04QABIYChRGSUxURVJfUkVTVUxUX0FD",
+            "Q0VQVBABEhYKEkZJTFRFUl9SRVNVTFRfRFJPUBACImUKE1BhdGhUcmFuc2l0",
+            "aW9uRXZlbnQSHwoEZnJvbRgBIAEoDjIRLnByb3Rvcy5UcmFuc3BvcnQSHQoC",
+            "dG8YAiABKA4yES5wcm90b3MuVHJhbnNwb3J0Eg4KBnJlYXNvbhgDIAEoCSKo",
+            "AQoQR2V0RXZlbnRzUmVxdWVzdBIPCgdub2RlX2lkGAEgASgEEhIKCnNlc3Np",
+            "b25faWQYAiABKAkSKAoEZnJvbRgDIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5U",
+            "aW1lc3RhbXASJgoCdG8YBCABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0",
+            "YW1wEg0KBWxpbWl0GAUgASgFEg4KBm9mZnNldBgGIAEoBSJSChFHZXRFdmVu",
+            "dHNSZXNwb25zZRIoCgZldmVudHMYASADKAsyGC5wcm90b3MuU3RvcmVkT3Ji",
+            "aXRFdmVudBITCgt0b3RhbF9jb3VudBgCIAEoAyKMAwoQU3RvcmVkT3JiaXRF",
+            "dmVudBIKCgJpZBgBIAEoBBIPCgdub2RlX2lkGAIgASgEEhIKCnNlc3Npb25f",
+            "aWQYAyABKAkSFgoOY2xpZW50X3ZlcnNpb24YBCABKAkSLwoLcmVjZWl2ZWRf",
+            "YXQYBSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEiwKCGV2ZW50",
+            "X2F0GAYgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBItCglldmVu",
+            "dF9kYXkYByABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhEKCXBl",
+            "ZXJfaGFzaBgIIAEoDBIRCglyZWdpb25faWQYCSABKA0SJAoJdHJhbnNwb3J0",
+            "GAogASgOMhEucHJvdG9zLlRyYW5zcG9ydBIUCgxwYXlsb2FkX3R5cGUYCyAB",
+            "KAkSDwoHcGF5bG9hZBgMIAEoCRIuCgpjcmVhdGVkX2F0GA0gASgLMhouZ29v",
+            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcCKKAQoVR2V0RGFpbHlDb3VudHNSZXF1",
+            "ZXN0Eg8KB25vZGVfaWQYASABKAQSDgoGbWV0cmljGAIgASgJEigKBGZyb20Y",
+            "AyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEiYKAnRvGAQgASgL",
+            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCI8ChZHZXREYWlseUNvdW50",
+            "c1Jlc3BvbnNlEiIKBmNvdW50cxgBIAMoCzISLnByb3Rvcy5EYWlseUNvdW50",
+            "ItgBCgpEYWlseUNvdW50EicKA2RheRgBIAEoCzIaLmdvb2dsZS5wcm90b2J1",
+            "Zi5UaW1lc3RhbXASDwoHbm9kZV9pZBgCIAEoBBIOCgZtZXRyaWMYAyABKAkS",
+            "EQoJbGFiZWxfa2V5GAQgASgJEg0KBWNvdW50GAUgASgDEi4KCmNyZWF0ZWRf",
+            "YXQYBiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi4KCnVwZGF0",
+            "ZWRfYXQYByABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wKnMKCVRy",
+            "YW5zcG9ydBIVChFUUkFOU1BPUlRfVU5LTk9XThAAEhEKDVRSQU5TUE9SVF9V",
+            "RFAQARIRCg1UUkFOU1BPUlRfSUNFEAISEgoOVFJBTlNQT1JUX0NFUkYQAxIV",
+            "ChFUUkFOU1BPUlRfQ0VSRl9XUxAEMvIBCgxPcmJpdFNlcnZpY2USSwoQVXBs",
+            "b2FkT3JiaXRCYXRjaBIZLnByb3Rvcy5PcmJpdEJhdGNoUmVxdWVzdBoaLnBy",
+            "b3Rvcy5PcmJpdEJhdGNoUmVzcG9uc2UiABJCCglHZXRFdmVudHMSGC5wcm90",
+            "b3MuR2V0RXZlbnRzUmVxdWVzdBoZLnByb3Rvcy5HZXRFdmVudHNSZXNwb25z",
+            "ZSIAElEKDkdldERhaWx5Q291bnRzEh0ucHJvdG9zLkdldERhaWx5Q291bnRz",
+            "UmVxdWVzdBoeLnByb3Rvcy5HZXREYWlseUNvdW50c1Jlc3BvbnNlIgBCCVoH",
+            "Li9vcmJpdGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Protos.Transport), typeof(global::Protos.PathState), typeof(global::Protos.RecvKind), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.OrbitBatchRequest), global::Protos.OrbitBatchRequest.Parser, new[]{ "NodeId", "SessionId", "Version", "Events" }, null, null, null, null),
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Protos.Transport), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.OrbitBatchRequest), global::Protos.OrbitBatchRequest.Parser, new[]{ "Version", "SessionId", "NodeId", "Events" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.OrbitBatchResponse), global::Protos.OrbitBatchResponse.Parser, new[]{ "Accepted", "Dropped", "Reason" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.OrbitEvent), global::Protos.OrbitEvent.Parser, new[]{ "At", "PeerHash", "RegionId", "Transport", "PathTransition", "SendResult", "RecvResult", "CerfConn", "Ice", "Filter" }, new[]{ "Payload" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PathTransition), global::Protos.PathTransition.Parser, new[]{ "From", "To", "Reason", "Detail" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.SendResult), global::Protos.SendResult.Parser, new[]{ "Ok", "Bytes", "ErrCode" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.RecvResult), global::Protos.RecvResult.Parser, new[]{ "Ok", "Kind", "Bytes", "ErrCode" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfConnEvent), global::Protos.CerfConnEvent.Parser, new[]{ "ConnGen", "State", "Detail" }, null, new[]{ typeof(global::Protos.CerfConnEvent.Types.CerfConnState) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.IceEvent), global::Protos.IceEvent.Parser, new[]{ "State", "Detail" }, null, new[]{ typeof(global::Protos.IceEvent.Types.IceState) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilterDecision), global::Protos.FilterDecision.Parser, new[]{ "Result", "Reason" }, null, new[]{ typeof(global::Protos.FilterDecision.Types.FilterResult) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.OrbitEvent), global::Protos.OrbitEvent.Parser, new[]{ "At", "PeerHash", "RegionId", "Transport", "SendResult", "RecvResult", "CerfConn", "Ice", "Filter", "PathTransition" }, new[]{ "Payload" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.SendResultEvent), global::Protos.SendResultEvent.Parser, new[]{ "Ok", "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.RecvResultEvent), global::Protos.RecvResultEvent.Parser, new[]{ "Kind", "Size" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfConnEvent), global::Protos.CerfConnEvent.Parser, new[]{ "State", "Error" }, null, new[]{ typeof(global::Protos.CerfConnEvent.Types.State) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.IceEvent), global::Protos.IceEvent.Parser, new[]{ "State", "CandidateType" }, null, new[]{ typeof(global::Protos.IceEvent.Types.State) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilterEvent), global::Protos.FilterEvent.Parser, new[]{ "Result", "Reason" }, null, new[]{ typeof(global::Protos.FilterEvent.Types.Result) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PathTransitionEvent), global::Protos.PathTransitionEvent.Parser, new[]{ "From", "To", "Reason" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.GetEventsRequest), global::Protos.GetEventsRequest.Parser, new[]{ "NodeId", "SessionId", "From", "To", "Limit", "Offset" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.GetEventsResponse), global::Protos.GetEventsResponse.Parser, new[]{ "Events", "TotalCount" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.StoredOrbitEvent), global::Protos.StoredOrbitEvent.Parser, new[]{ "Id", "NodeId", "SessionId", "ClientVersion", "ReceivedAt", "EventAt", "EventDay", "PeerHash", "RegionId", "Transport", "PayloadType", "Payload", "CreatedAt" }, null, null, null, null),
@@ -123,39 +116,21 @@ namespace Protos {
   }
   #region Enums
   /// <summary>
-  /// Transport は「どの経路/トランスポートで送受信したか」を表します。
+  /// Transport describes how a packet was sent/received.
   /// </summary>
   public enum Transport {
-    [pbr::OriginalName("TRANSPORT_UNSPECIFIED")] Unspecified = 0,
-    [pbr::OriginalName("TRANSPORT_CERF")] Cerf = 1,
+    [pbr::OriginalName("TRANSPORT_UNKNOWN")] Unknown = 0,
+    [pbr::OriginalName("TRANSPORT_UDP")] Udp = 1,
     [pbr::OriginalName("TRANSPORT_ICE")] Ice = 2,
-    [pbr::OriginalName("TRANSPORT_UDP")] Udp = 3,
-  }
-
-  /// <summary>
-  /// PathState は endpoint の観測上の経路種別を表します。
-  /// </summary>
-  public enum PathState {
-    [pbr::OriginalName("PATH_STATE_UNSPECIFIED")] Unspecified = 0,
-    [pbr::OriginalName("PATH_STATE_CERF")] Cerf = 1,
-    [pbr::OriginalName("PATH_STATE_ICE")] Ice = 2,
-    [pbr::OriginalName("PATH_STATE_UDP")] Udp = 3,
-  }
-
-  /// <summary>
-  /// RecvKind は受信したメッセージ種別です。
-  /// </summary>
-  public enum RecvKind {
-    [pbr::OriginalName("RECV_KIND_UNSPECIFIED")] Unspecified = 0,
-    [pbr::OriginalName("RECV_KIND_WIREGUARD")] Wireguard = 1,
-    [pbr::OriginalName("RECV_KIND_RUNE")] Rune = 2,
+    [pbr::OriginalName("TRANSPORT_CERF")] Cerf = 3,
+    [pbr::OriginalName("TRANSPORT_CERF_WS")] CerfWs = 4,
   }
 
   #endregion
 
   #region Messages
   /// <summary>
-  /// OrbitBatchRequest はクライアントから server へイベントをまとめて送るリクエストです。
+  /// OrbitBatchRequest contains a batch of telemetry events from a client.
   /// </summary>
   public sealed partial class OrbitBatchRequest : pb::IMessage<OrbitBatchRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -191,9 +166,9 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public OrbitBatchRequest(OrbitBatchRequest other) : this() {
-      nodeId_ = other.nodeId_;
-      sessionId_ = other.sessionId_;
       version_ = other.version_;
+      sessionId_ = other.sessionId_;
+      nodeId_ = other.nodeId_;
       events_ = other.events_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -204,41 +179,11 @@ namespace Protos {
       return new OrbitBatchRequest(this);
     }
 
-    /// <summary>Field number for the "nodeId" field.</summary>
-    public const int NodeIdFieldNumber = 1;
-    private ulong nodeId_;
-    /// <summary>
-    /// runetale node id
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ulong NodeId {
-      get { return nodeId_; }
-      set {
-        nodeId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "sessionId" field.</summary>
-    public const int SessionIdFieldNumber = 2;
-    private string sessionId_ = "";
-    /// <summary>
-    /// 1プロセス/1接続期間の識別子（クライアント側で生成）
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string SessionId {
-      get { return sessionId_; }
-      set {
-        sessionId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     /// <summary>Field number for the "version" field.</summary>
-    public const int VersionFieldNumber = 3;
+    public const int VersionFieldNumber = 1;
     private string version_ = "";
     /// <summary>
-    /// client build/version 情報（任意）
+    /// version is the client version string (e.g. "1.2.3").
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -249,13 +194,43 @@ namespace Protos {
       }
     }
 
+    /// <summary>Field number for the "session_id" field.</summary>
+    public const int SessionIdFieldNumber = 2;
+    private string sessionId_ = "";
+    /// <summary>
+    /// session_id is a unique identifier for the client session.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SessionId {
+      get { return sessionId_; }
+      set {
+        sessionId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "node_id" field.</summary>
+    public const int NodeIdFieldNumber = 3;
+    private ulong nodeId_;
+    /// <summary>
+    /// node_id is the node ID (optional, for backward compatibility).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong NodeId {
+      get { return nodeId_; }
+      set {
+        nodeId_ = value;
+      }
+    }
+
     /// <summary>Field number for the "events" field.</summary>
     public const int EventsFieldNumber = 4;
     private static readonly pb::FieldCodec<global::Protos.OrbitEvent> _repeated_events_codec
         = pb::FieldCodec.ForMessage(34, global::Protos.OrbitEvent.Parser);
     private readonly pbc::RepeatedField<global::Protos.OrbitEvent> events_ = new pbc::RepeatedField<global::Protos.OrbitEvent>();
     /// <summary>
-    /// イベント本体
+    /// events is the list of telemetry events to upload.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -278,9 +253,9 @@ namespace Protos {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (NodeId != other.NodeId) return false;
-      if (SessionId != other.SessionId) return false;
       if (Version != other.Version) return false;
+      if (SessionId != other.SessionId) return false;
+      if (NodeId != other.NodeId) return false;
       if(!events_.Equals(other.events_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -289,9 +264,9 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (NodeId != 0UL) hash ^= NodeId.GetHashCode();
-      if (SessionId.Length != 0) hash ^= SessionId.GetHashCode();
       if (Version.Length != 0) hash ^= Version.GetHashCode();
+      if (SessionId.Length != 0) hash ^= SessionId.GetHashCode();
+      if (NodeId != 0UL) hash ^= NodeId.GetHashCode();
       hash ^= events_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -311,17 +286,17 @@ namespace Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (NodeId != 0UL) {
-        output.WriteRawTag(8);
-        output.WriteUInt64(NodeId);
+      if (Version.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Version);
       }
       if (SessionId.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(SessionId);
       }
-      if (Version.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Version);
+      if (NodeId != 0UL) {
+        output.WriteRawTag(24);
+        output.WriteUInt64(NodeId);
       }
       events_.WriteTo(output, _repeated_events_codec);
       if (_unknownFields != null) {
@@ -334,17 +309,17 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (NodeId != 0UL) {
-        output.WriteRawTag(8);
-        output.WriteUInt64(NodeId);
+      if (Version.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Version);
       }
       if (SessionId.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(SessionId);
       }
-      if (Version.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Version);
+      if (NodeId != 0UL) {
+        output.WriteRawTag(24);
+        output.WriteUInt64(NodeId);
       }
       events_.WriteTo(ref output, _repeated_events_codec);
       if (_unknownFields != null) {
@@ -357,14 +332,14 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (NodeId != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(NodeId);
+      if (Version.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Version);
       }
       if (SessionId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionId);
       }
-      if (Version.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Version);
+      if (NodeId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(NodeId);
       }
       size += events_.CalculateSize(_repeated_events_codec);
       if (_unknownFields != null) {
@@ -379,14 +354,14 @@ namespace Protos {
       if (other == null) {
         return;
       }
-      if (other.NodeId != 0UL) {
-        NodeId = other.NodeId;
+      if (other.Version.Length != 0) {
+        Version = other.Version;
       }
       if (other.SessionId.Length != 0) {
         SessionId = other.SessionId;
       }
-      if (other.Version.Length != 0) {
-        Version = other.Version;
+      if (other.NodeId != 0UL) {
+        NodeId = other.NodeId;
       }
       events_.Add(other.events_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -404,16 +379,16 @@ namespace Protos {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            NodeId = input.ReadUInt64();
+          case 10: {
+            Version = input.ReadString();
             break;
           }
           case 18: {
             SessionId = input.ReadString();
             break;
           }
-          case 26: {
-            Version = input.ReadString();
+          case 24: {
+            NodeId = input.ReadUInt64();
             break;
           }
           case 34: {
@@ -435,16 +410,16 @@ namespace Protos {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 8: {
-            NodeId = input.ReadUInt64();
+          case 10: {
+            Version = input.ReadString();
             break;
           }
           case 18: {
             SessionId = input.ReadString();
             break;
           }
-          case 26: {
-            Version = input.ReadString();
+          case 24: {
+            NodeId = input.ReadUInt64();
             break;
           }
           case 34: {
@@ -458,6 +433,9 @@ namespace Protos {
 
   }
 
+  /// <summary>
+  /// OrbitBatchResponse is returned after processing a batch.
+  /// </summary>
   public sealed partial class OrbitBatchResponse : pb::IMessage<OrbitBatchResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -508,7 +486,7 @@ namespace Protos {
     public const int AcceptedFieldNumber = 1;
     private uint accepted_;
     /// <summary>
-    /// server が受理したイベント数
+    /// accepted is the number of events successfully stored.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -523,7 +501,7 @@ namespace Protos {
     public const int DroppedFieldNumber = 2;
     private uint dropped_;
     /// <summary>
-    /// server 側で破棄したイベント数（サイズ/レート/検証失敗など）
+    /// dropped is the number of events dropped (rate limit, size limit, etc.).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -538,7 +516,7 @@ namespace Protos {
     public const int ReasonFieldNumber = 3;
     private string reason_ = "";
     /// <summary>
-    /// 代表的な理由（任意）
+    /// reason is set if any events were dropped.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -731,8 +709,7 @@ namespace Protos {
   }
 
   /// <summary>
-  /// OrbitEvent は1レコードのイベントです。
-  /// 共通フィールド + oneof(種類別ペイロード) で表現します。
+  /// OrbitEvent is a single telemetry event.
   /// </summary>
   public sealed partial class OrbitEvent : pb::IMessage<OrbitEvent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -773,9 +750,6 @@ namespace Protos {
       regionId_ = other.regionId_;
       transport_ = other.transport_;
       switch (other.PayloadCase) {
-        case PayloadOneofCase.PathTransition:
-          PathTransition = other.PathTransition.Clone();
-          break;
         case PayloadOneofCase.SendResult:
           SendResult = other.SendResult.Clone();
           break;
@@ -790,6 +764,9 @@ namespace Protos {
           break;
         case PayloadOneofCase.Filter:
           Filter = other.Filter.Clone();
+          break;
+        case PayloadOneofCase.PathTransition:
+          PathTransition = other.PathTransition.Clone();
           break;
       }
 
@@ -806,7 +783,7 @@ namespace Protos {
     public const int AtFieldNumber = 1;
     private global::Google.Protobuf.WellKnownTypes.Timestamp at_;
     /// <summary>
-    /// イベント発生時刻（クライアント側）
+    /// at is the client-side timestamp when the event occurred.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -817,11 +794,12 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "peerHash" field.</summary>
+    /// <summary>Field number for the "peer_hash" field.</summary>
     public const int PeerHashFieldNumber = 2;
     private pb::ByteString peerHash_ = pb::ByteString.Empty;
     /// <summary>
-    /// peer識別子（生鍵を送らない）。HMAC等で匿名化した固定長のハッシュを想定。
+    /// peer_hash is the first 8 bytes of SHA256(peer_public_key).
+    /// Used for correlation without exposing full keys.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -832,11 +810,11 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "regionId" field.</summary>
+    /// <summary>Field number for the "region_id" field.</summary>
     public const int RegionIdFieldNumber = 3;
     private uint regionId_;
     /// <summary>
-    /// CERF のリージョンID（該当する場合のみ）。unknown は 0。
+    /// region_id is the CERF region ID (if applicable).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -849,9 +827,9 @@ namespace Protos {
 
     /// <summary>Field number for the "transport" field.</summary>
     public const int TransportFieldNumber = 4;
-    private global::Protos.Transport transport_ = global::Protos.Transport.Unspecified;
+    private global::Protos.Transport transport_ = global::Protos.Transport.Unknown;
     /// <summary>
-    /// このイベントに紐づくトランスポート（該当する場合のみ）
+    /// transport is the transport type used.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -862,24 +840,12 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "path_transition" field.</summary>
-    public const int PathTransitionFieldNumber = 10;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Protos.PathTransition PathTransition {
-      get { return payloadCase_ == PayloadOneofCase.PathTransition ? (global::Protos.PathTransition) payload_ : null; }
-      set {
-        payload_ = value;
-        payloadCase_ = value == null ? PayloadOneofCase.None : PayloadOneofCase.PathTransition;
-      }
-    }
-
     /// <summary>Field number for the "send_result" field.</summary>
-    public const int SendResultFieldNumber = 11;
+    public const int SendResultFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Protos.SendResult SendResult {
-      get { return payloadCase_ == PayloadOneofCase.SendResult ? (global::Protos.SendResult) payload_ : null; }
+    public global::Protos.SendResultEvent SendResult {
+      get { return payloadCase_ == PayloadOneofCase.SendResult ? (global::Protos.SendResultEvent) payload_ : null; }
       set {
         payload_ = value;
         payloadCase_ = value == null ? PayloadOneofCase.None : PayloadOneofCase.SendResult;
@@ -887,11 +853,11 @@ namespace Protos {
     }
 
     /// <summary>Field number for the "recv_result" field.</summary>
-    public const int RecvResultFieldNumber = 12;
+    public const int RecvResultFieldNumber = 11;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Protos.RecvResult RecvResult {
-      get { return payloadCase_ == PayloadOneofCase.RecvResult ? (global::Protos.RecvResult) payload_ : null; }
+    public global::Protos.RecvResultEvent RecvResult {
+      get { return payloadCase_ == PayloadOneofCase.RecvResult ? (global::Protos.RecvResultEvent) payload_ : null; }
       set {
         payload_ = value;
         payloadCase_ = value == null ? PayloadOneofCase.None : PayloadOneofCase.RecvResult;
@@ -899,7 +865,7 @@ namespace Protos {
     }
 
     /// <summary>Field number for the "cerf_conn" field.</summary>
-    public const int CerfConnFieldNumber = 13;
+    public const int CerfConnFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Protos.CerfConnEvent CerfConn {
@@ -911,7 +877,7 @@ namespace Protos {
     }
 
     /// <summary>Field number for the "ice" field.</summary>
-    public const int IceFieldNumber = 14;
+    public const int IceFieldNumber = 13;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Protos.IceEvent Ice {
@@ -923,14 +889,26 @@ namespace Protos {
     }
 
     /// <summary>Field number for the "filter" field.</summary>
-    public const int FilterFieldNumber = 15;
+    public const int FilterFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Protos.FilterDecision Filter {
-      get { return payloadCase_ == PayloadOneofCase.Filter ? (global::Protos.FilterDecision) payload_ : null; }
+    public global::Protos.FilterEvent Filter {
+      get { return payloadCase_ == PayloadOneofCase.Filter ? (global::Protos.FilterEvent) payload_ : null; }
       set {
         payload_ = value;
         payloadCase_ = value == null ? PayloadOneofCase.None : PayloadOneofCase.Filter;
+      }
+    }
+
+    /// <summary>Field number for the "path_transition" field.</summary>
+    public const int PathTransitionFieldNumber = 15;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Protos.PathTransitionEvent PathTransition {
+      get { return payloadCase_ == PayloadOneofCase.PathTransition ? (global::Protos.PathTransitionEvent) payload_ : null; }
+      set {
+        payload_ = value;
+        payloadCase_ = value == null ? PayloadOneofCase.None : PayloadOneofCase.PathTransition;
       }
     }
 
@@ -938,12 +916,12 @@ namespace Protos {
     /// <summary>Enum of possible cases for the "payload" oneof.</summary>
     public enum PayloadOneofCase {
       None = 0,
-      PathTransition = 10,
-      SendResult = 11,
-      RecvResult = 12,
-      CerfConn = 13,
-      Ice = 14,
-      Filter = 15,
+      SendResult = 10,
+      RecvResult = 11,
+      CerfConn = 12,
+      Ice = 13,
+      Filter = 14,
+      PathTransition = 15,
     }
     private PayloadOneofCase payloadCase_ = PayloadOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -978,12 +956,12 @@ namespace Protos {
       if (PeerHash != other.PeerHash) return false;
       if (RegionId != other.RegionId) return false;
       if (Transport != other.Transport) return false;
-      if (!object.Equals(PathTransition, other.PathTransition)) return false;
       if (!object.Equals(SendResult, other.SendResult)) return false;
       if (!object.Equals(RecvResult, other.RecvResult)) return false;
       if (!object.Equals(CerfConn, other.CerfConn)) return false;
       if (!object.Equals(Ice, other.Ice)) return false;
       if (!object.Equals(Filter, other.Filter)) return false;
+      if (!object.Equals(PathTransition, other.PathTransition)) return false;
       if (PayloadCase != other.PayloadCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -995,13 +973,13 @@ namespace Protos {
       if (at_ != null) hash ^= At.GetHashCode();
       if (PeerHash.Length != 0) hash ^= PeerHash.GetHashCode();
       if (RegionId != 0) hash ^= RegionId.GetHashCode();
-      if (Transport != global::Protos.Transport.Unspecified) hash ^= Transport.GetHashCode();
-      if (payloadCase_ == PayloadOneofCase.PathTransition) hash ^= PathTransition.GetHashCode();
+      if (Transport != global::Protos.Transport.Unknown) hash ^= Transport.GetHashCode();
       if (payloadCase_ == PayloadOneofCase.SendResult) hash ^= SendResult.GetHashCode();
       if (payloadCase_ == PayloadOneofCase.RecvResult) hash ^= RecvResult.GetHashCode();
       if (payloadCase_ == PayloadOneofCase.CerfConn) hash ^= CerfConn.GetHashCode();
       if (payloadCase_ == PayloadOneofCase.Ice) hash ^= Ice.GetHashCode();
       if (payloadCase_ == PayloadOneofCase.Filter) hash ^= Filter.GetHashCode();
+      if (payloadCase_ == PayloadOneofCase.PathTransition) hash ^= PathTransition.GetHashCode();
       hash ^= (int) payloadCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1033,33 +1011,33 @@ namespace Protos {
         output.WriteRawTag(24);
         output.WriteUInt32(RegionId);
       }
-      if (Transport != global::Protos.Transport.Unspecified) {
+      if (Transport != global::Protos.Transport.Unknown) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Transport);
       }
-      if (payloadCase_ == PayloadOneofCase.PathTransition) {
-        output.WriteRawTag(82);
-        output.WriteMessage(PathTransition);
-      }
       if (payloadCase_ == PayloadOneofCase.SendResult) {
-        output.WriteRawTag(90);
+        output.WriteRawTag(82);
         output.WriteMessage(SendResult);
       }
       if (payloadCase_ == PayloadOneofCase.RecvResult) {
-        output.WriteRawTag(98);
+        output.WriteRawTag(90);
         output.WriteMessage(RecvResult);
       }
       if (payloadCase_ == PayloadOneofCase.CerfConn) {
-        output.WriteRawTag(106);
+        output.WriteRawTag(98);
         output.WriteMessage(CerfConn);
       }
       if (payloadCase_ == PayloadOneofCase.Ice) {
-        output.WriteRawTag(114);
+        output.WriteRawTag(106);
         output.WriteMessage(Ice);
       }
       if (payloadCase_ == PayloadOneofCase.Filter) {
-        output.WriteRawTag(122);
+        output.WriteRawTag(114);
         output.WriteMessage(Filter);
+      }
+      if (payloadCase_ == PayloadOneofCase.PathTransition) {
+        output.WriteRawTag(122);
+        output.WriteMessage(PathTransition);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1083,33 +1061,33 @@ namespace Protos {
         output.WriteRawTag(24);
         output.WriteUInt32(RegionId);
       }
-      if (Transport != global::Protos.Transport.Unspecified) {
+      if (Transport != global::Protos.Transport.Unknown) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Transport);
       }
-      if (payloadCase_ == PayloadOneofCase.PathTransition) {
-        output.WriteRawTag(82);
-        output.WriteMessage(PathTransition);
-      }
       if (payloadCase_ == PayloadOneofCase.SendResult) {
-        output.WriteRawTag(90);
+        output.WriteRawTag(82);
         output.WriteMessage(SendResult);
       }
       if (payloadCase_ == PayloadOneofCase.RecvResult) {
-        output.WriteRawTag(98);
+        output.WriteRawTag(90);
         output.WriteMessage(RecvResult);
       }
       if (payloadCase_ == PayloadOneofCase.CerfConn) {
-        output.WriteRawTag(106);
+        output.WriteRawTag(98);
         output.WriteMessage(CerfConn);
       }
       if (payloadCase_ == PayloadOneofCase.Ice) {
-        output.WriteRawTag(114);
+        output.WriteRawTag(106);
         output.WriteMessage(Ice);
       }
       if (payloadCase_ == PayloadOneofCase.Filter) {
-        output.WriteRawTag(122);
+        output.WriteRawTag(114);
         output.WriteMessage(Filter);
+      }
+      if (payloadCase_ == PayloadOneofCase.PathTransition) {
+        output.WriteRawTag(122);
+        output.WriteMessage(PathTransition);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1130,11 +1108,8 @@ namespace Protos {
       if (RegionId != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(RegionId);
       }
-      if (Transport != global::Protos.Transport.Unspecified) {
+      if (Transport != global::Protos.Transport.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Transport);
-      }
-      if (payloadCase_ == PayloadOneofCase.PathTransition) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PathTransition);
       }
       if (payloadCase_ == PayloadOneofCase.SendResult) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SendResult);
@@ -1150,6 +1125,9 @@ namespace Protos {
       }
       if (payloadCase_ == PayloadOneofCase.Filter) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Filter);
+      }
+      if (payloadCase_ == PayloadOneofCase.PathTransition) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PathTransition);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1175,25 +1153,19 @@ namespace Protos {
       if (other.RegionId != 0) {
         RegionId = other.RegionId;
       }
-      if (other.Transport != global::Protos.Transport.Unspecified) {
+      if (other.Transport != global::Protos.Transport.Unknown) {
         Transport = other.Transport;
       }
       switch (other.PayloadCase) {
-        case PayloadOneofCase.PathTransition:
-          if (PathTransition == null) {
-            PathTransition = new global::Protos.PathTransition();
-          }
-          PathTransition.MergeFrom(other.PathTransition);
-          break;
         case PayloadOneofCase.SendResult:
           if (SendResult == null) {
-            SendResult = new global::Protos.SendResult();
+            SendResult = new global::Protos.SendResultEvent();
           }
           SendResult.MergeFrom(other.SendResult);
           break;
         case PayloadOneofCase.RecvResult:
           if (RecvResult == null) {
-            RecvResult = new global::Protos.RecvResult();
+            RecvResult = new global::Protos.RecvResultEvent();
           }
           RecvResult.MergeFrom(other.RecvResult);
           break;
@@ -1211,9 +1183,15 @@ namespace Protos {
           break;
         case PayloadOneofCase.Filter:
           if (Filter == null) {
-            Filter = new global::Protos.FilterDecision();
+            Filter = new global::Protos.FilterEvent();
           }
           Filter.MergeFrom(other.Filter);
+          break;
+        case PayloadOneofCase.PathTransition:
+          if (PathTransition == null) {
+            PathTransition = new global::Protos.PathTransitionEvent();
+          }
+          PathTransition.MergeFrom(other.PathTransition);
           break;
       }
 
@@ -1252,16 +1230,7 @@ namespace Protos {
             break;
           }
           case 82: {
-            global::Protos.PathTransition subBuilder = new global::Protos.PathTransition();
-            if (payloadCase_ == PayloadOneofCase.PathTransition) {
-              subBuilder.MergeFrom(PathTransition);
-            }
-            input.ReadMessage(subBuilder);
-            PathTransition = subBuilder;
-            break;
-          }
-          case 90: {
-            global::Protos.SendResult subBuilder = new global::Protos.SendResult();
+            global::Protos.SendResultEvent subBuilder = new global::Protos.SendResultEvent();
             if (payloadCase_ == PayloadOneofCase.SendResult) {
               subBuilder.MergeFrom(SendResult);
             }
@@ -1269,8 +1238,8 @@ namespace Protos {
             SendResult = subBuilder;
             break;
           }
-          case 98: {
-            global::Protos.RecvResult subBuilder = new global::Protos.RecvResult();
+          case 90: {
+            global::Protos.RecvResultEvent subBuilder = new global::Protos.RecvResultEvent();
             if (payloadCase_ == PayloadOneofCase.RecvResult) {
               subBuilder.MergeFrom(RecvResult);
             }
@@ -1278,7 +1247,7 @@ namespace Protos {
             RecvResult = subBuilder;
             break;
           }
-          case 106: {
+          case 98: {
             global::Protos.CerfConnEvent subBuilder = new global::Protos.CerfConnEvent();
             if (payloadCase_ == PayloadOneofCase.CerfConn) {
               subBuilder.MergeFrom(CerfConn);
@@ -1287,7 +1256,7 @@ namespace Protos {
             CerfConn = subBuilder;
             break;
           }
-          case 114: {
+          case 106: {
             global::Protos.IceEvent subBuilder = new global::Protos.IceEvent();
             if (payloadCase_ == PayloadOneofCase.Ice) {
               subBuilder.MergeFrom(Ice);
@@ -1296,13 +1265,22 @@ namespace Protos {
             Ice = subBuilder;
             break;
           }
-          case 122: {
-            global::Protos.FilterDecision subBuilder = new global::Protos.FilterDecision();
+          case 114: {
+            global::Protos.FilterEvent subBuilder = new global::Protos.FilterEvent();
             if (payloadCase_ == PayloadOneofCase.Filter) {
               subBuilder.MergeFrom(Filter);
             }
             input.ReadMessage(subBuilder);
             Filter = subBuilder;
+            break;
+          }
+          case 122: {
+            global::Protos.PathTransitionEvent subBuilder = new global::Protos.PathTransitionEvent();
+            if (payloadCase_ == PayloadOneofCase.PathTransition) {
+              subBuilder.MergeFrom(PathTransition);
+            }
+            input.ReadMessage(subBuilder);
+            PathTransition = subBuilder;
             break;
           }
         }
@@ -1340,16 +1318,7 @@ namespace Protos {
             break;
           }
           case 82: {
-            global::Protos.PathTransition subBuilder = new global::Protos.PathTransition();
-            if (payloadCase_ == PayloadOneofCase.PathTransition) {
-              subBuilder.MergeFrom(PathTransition);
-            }
-            input.ReadMessage(subBuilder);
-            PathTransition = subBuilder;
-            break;
-          }
-          case 90: {
-            global::Protos.SendResult subBuilder = new global::Protos.SendResult();
+            global::Protos.SendResultEvent subBuilder = new global::Protos.SendResultEvent();
             if (payloadCase_ == PayloadOneofCase.SendResult) {
               subBuilder.MergeFrom(SendResult);
             }
@@ -1357,8 +1326,8 @@ namespace Protos {
             SendResult = subBuilder;
             break;
           }
-          case 98: {
-            global::Protos.RecvResult subBuilder = new global::Protos.RecvResult();
+          case 90: {
+            global::Protos.RecvResultEvent subBuilder = new global::Protos.RecvResultEvent();
             if (payloadCase_ == PayloadOneofCase.RecvResult) {
               subBuilder.MergeFrom(RecvResult);
             }
@@ -1366,7 +1335,7 @@ namespace Protos {
             RecvResult = subBuilder;
             break;
           }
-          case 106: {
+          case 98: {
             global::Protos.CerfConnEvent subBuilder = new global::Protos.CerfConnEvent();
             if (payloadCase_ == PayloadOneofCase.CerfConn) {
               subBuilder.MergeFrom(CerfConn);
@@ -1375,7 +1344,7 @@ namespace Protos {
             CerfConn = subBuilder;
             break;
           }
-          case 114: {
+          case 106: {
             global::Protos.IceEvent subBuilder = new global::Protos.IceEvent();
             if (payloadCase_ == PayloadOneofCase.Ice) {
               subBuilder.MergeFrom(Ice);
@@ -1384,13 +1353,22 @@ namespace Protos {
             Ice = subBuilder;
             break;
           }
-          case 122: {
-            global::Protos.FilterDecision subBuilder = new global::Protos.FilterDecision();
+          case 114: {
+            global::Protos.FilterEvent subBuilder = new global::Protos.FilterEvent();
             if (payloadCase_ == PayloadOneofCase.Filter) {
               subBuilder.MergeFrom(Filter);
             }
             input.ReadMessage(subBuilder);
             Filter = subBuilder;
+            break;
+          }
+          case 122: {
+            global::Protos.PathTransitionEvent subBuilder = new global::Protos.PathTransitionEvent();
+            if (payloadCase_ == PayloadOneofCase.PathTransition) {
+              subBuilder.MergeFrom(PathTransition);
+            }
+            input.ReadMessage(subBuilder);
+            PathTransition = subBuilder;
             break;
           }
         }
@@ -1401,18 +1379,18 @@ namespace Protos {
   }
 
   /// <summary>
-  /// PathTransition は経路の選択/切替を表します。
+  /// SendResultEvent records the result of sending a packet.
   /// </summary>
-  public sealed partial class PathTransition : pb::IMessage<PathTransition>
+  public sealed partial class SendResultEvent : pb::IMessage<SendResultEvent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<PathTransition> _parser = new pb::MessageParser<PathTransition>(() => new PathTransition());
+    private static readonly pb::MessageParser<SendResultEvent> _parser = new pb::MessageParser<SendResultEvent>(() => new SendResultEvent());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PathTransition> Parser { get { return _parser; } }
+    public static pb::MessageParser<SendResultEvent> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1428,7 +1406,7 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PathTransition() {
+    public SendResultEvent() {
       OnConstruction();
     }
 
@@ -1436,94 +1414,59 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PathTransition(PathTransition other) : this() {
-      from_ = other.from_;
-      to_ = other.to_;
-      reason_ = other.reason_;
-      detail_ = other.detail_;
+    public SendResultEvent(SendResultEvent other) : this() {
+      ok_ = other.ok_;
+      error_ = other.error_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PathTransition Clone() {
-      return new PathTransition(this);
+    public SendResultEvent Clone() {
+      return new SendResultEvent(this);
     }
 
-    /// <summary>Field number for the "from" field.</summary>
-    public const int FromFieldNumber = 1;
-    private global::Protos.PathState from_ = global::Protos.PathState.Unspecified;
+    /// <summary>Field number for the "ok" field.</summary>
+    public const int OkFieldNumber = 1;
+    private bool ok_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Protos.PathState From {
-      get { return from_; }
+    public bool Ok {
+      get { return ok_; }
       set {
-        from_ = value;
+        ok_ = value;
       }
     }
 
-    /// <summary>Field number for the "to" field.</summary>
-    public const int ToFieldNumber = 2;
-    private global::Protos.PathState to_ = global::Protos.PathState.Unspecified;
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 2;
+    private string error_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Protos.PathState To {
-      get { return to_; }
+    public string Error {
+      get { return error_; }
       set {
-        to_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "reason" field.</summary>
-    public const int ReasonFieldNumber = 3;
-    private string reason_ = "";
-    /// <summary>
-    /// 切替理由（機械集計可能な短い文字列を推奨）
-    /// 例: "force_cerf", "recv_confirmed", "no_recvwg_timeout", "trial_prefer_ice", "cerf_fail_fallback"
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Reason {
-      get { return reason_; }
-      set {
-        reason_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "detail" field.</summary>
-    public const int DetailFieldNumber = 4;
-    private string detail_ = "";
-    /// <summary>
-    /// 追加情報（任意）
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Detail {
-      get { return detail_; }
-      set {
-        detail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as PathTransition);
+      return Equals(other as SendResultEvent);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PathTransition other) {
+    public bool Equals(SendResultEvent other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (From != other.From) return false;
-      if (To != other.To) return false;
-      if (Reason != other.Reason) return false;
-      if (Detail != other.Detail) return false;
+      if (Ok != other.Ok) return false;
+      if (Error != other.Error) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1531,10 +1474,8 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (From != global::Protos.PathState.Unspecified) hash ^= From.GetHashCode();
-      if (To != global::Protos.PathState.Unspecified) hash ^= To.GetHashCode();
-      if (Reason.Length != 0) hash ^= Reason.GetHashCode();
-      if (Detail.Length != 0) hash ^= Detail.GetHashCode();
+      if (Ok != false) hash ^= Ok.GetHashCode();
+      if (Error.Length != 0) hash ^= Error.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1553,21 +1494,13 @@ namespace Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (From != global::Protos.PathState.Unspecified) {
+      if (Ok != false) {
         output.WriteRawTag(8);
-        output.WriteEnum((int) From);
+        output.WriteBool(Ok);
       }
-      if (To != global::Protos.PathState.Unspecified) {
-        output.WriteRawTag(16);
-        output.WriteEnum((int) To);
-      }
-      if (Reason.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Reason);
-      }
-      if (Detail.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(Detail);
+      if (Error.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1579,21 +1512,13 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (From != global::Protos.PathState.Unspecified) {
+      if (Ok != false) {
         output.WriteRawTag(8);
-        output.WriteEnum((int) From);
+        output.WriteBool(Ok);
       }
-      if (To != global::Protos.PathState.Unspecified) {
-        output.WriteRawTag(16);
-        output.WriteEnum((int) To);
-      }
-      if (Reason.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Reason);
-      }
-      if (Detail.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(Detail);
+      if (Error.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1605,17 +1530,11 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (From != global::Protos.PathState.Unspecified) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) From);
+      if (Ok != false) {
+        size += 1 + 1;
       }
-      if (To != global::Protos.PathState.Unspecified) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) To);
-      }
-      if (Reason.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Reason);
-      }
-      if (Detail.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Detail);
+      if (Error.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1625,21 +1544,15 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PathTransition other) {
+    public void MergeFrom(SendResultEvent other) {
       if (other == null) {
         return;
       }
-      if (other.From != global::Protos.PathState.Unspecified) {
-        From = other.From;
+      if (other.Ok != false) {
+        Ok = other.Ok;
       }
-      if (other.To != global::Protos.PathState.Unspecified) {
-        To = other.To;
-      }
-      if (other.Reason.Length != 0) {
-        Reason = other.Reason;
-      }
-      if (other.Detail.Length != 0) {
-        Detail = other.Detail;
+      if (other.Error.Length != 0) {
+        Error = other.Error;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1657,19 +1570,11 @@ namespace Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            From = (global::Protos.PathState) input.ReadEnum();
+            Ok = input.ReadBool();
             break;
           }
-          case 16: {
-            To = (global::Protos.PathState) input.ReadEnum();
-            break;
-          }
-          case 26: {
-            Reason = input.ReadString();
-            break;
-          }
-          case 34: {
-            Detail = input.ReadString();
+          case 18: {
+            Error = input.ReadString();
             break;
           }
         }
@@ -1688,19 +1593,11 @@ namespace Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            From = (global::Protos.PathState) input.ReadEnum();
+            Ok = input.ReadBool();
             break;
           }
-          case 16: {
-            To = (global::Protos.PathState) input.ReadEnum();
-            break;
-          }
-          case 26: {
-            Reason = input.ReadString();
-            break;
-          }
-          case 34: {
-            Detail = input.ReadString();
+          case 18: {
+            Error = input.ReadString();
             break;
           }
         }
@@ -1711,18 +1608,18 @@ namespace Protos {
   }
 
   /// <summary>
-  /// SendResult は送信の結果（成功/失敗）を表します。
+  /// RecvResultEvent records the result of receiving a packet.
   /// </summary>
-  public sealed partial class SendResult : pb::IMessage<SendResult>
+  public sealed partial class RecvResultEvent : pb::IMessage<RecvResultEvent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<SendResult> _parser = new pb::MessageParser<SendResult>(() => new SendResult());
+    private static readonly pb::MessageParser<RecvResultEvent> _parser = new pb::MessageParser<RecvResultEvent>(() => new RecvResultEvent());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<SendResult> Parser { get { return _parser; } }
+    public static pb::MessageParser<RecvResultEvent> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1738,7 +1635,7 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SendResult() {
+    public RecvResultEvent() {
       OnConstruction();
     }
 
@@ -1746,359 +1643,62 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SendResult(SendResult other) : this() {
-      ok_ = other.ok_;
-      bytes_ = other.bytes_;
-      errCode_ = other.errCode_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SendResult Clone() {
-      return new SendResult(this);
-    }
-
-    /// <summary>Field number for the "ok" field.</summary>
-    public const int OkFieldNumber = 1;
-    private bool ok_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Ok {
-      get { return ok_; }
-      set {
-        ok_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "bytes" field.</summary>
-    public const int BytesFieldNumber = 2;
-    private uint bytes_;
-    /// <summary>
-    /// 送信したバイト数（payload長）
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint Bytes {
-      get { return bytes_; }
-      set {
-        bytes_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "errCode" field.</summary>
-    public const int ErrCodeFieldNumber = 3;
-    private string errCode_ = "";
-    /// <summary>
-    /// エラー分類（任意）
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ErrCode {
-      get { return errCode_; }
-      set {
-        errCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as SendResult);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(SendResult other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Ok != other.Ok) return false;
-      if (Bytes != other.Bytes) return false;
-      if (ErrCode != other.ErrCode) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Ok != false) hash ^= Ok.GetHashCode();
-      if (Bytes != 0) hash ^= Bytes.GetHashCode();
-      if (ErrCode.Length != 0) hash ^= ErrCode.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Ok != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(Ok);
-      }
-      if (Bytes != 0) {
-        output.WriteRawTag(16);
-        output.WriteUInt32(Bytes);
-      }
-      if (ErrCode.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(ErrCode);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Ok != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(Ok);
-      }
-      if (Bytes != 0) {
-        output.WriteRawTag(16);
-        output.WriteUInt32(Bytes);
-      }
-      if (ErrCode.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(ErrCode);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Ok != false) {
-        size += 1 + 1;
-      }
-      if (Bytes != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Bytes);
-      }
-      if (ErrCode.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ErrCode);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(SendResult other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Ok != false) {
-        Ok = other.Ok;
-      }
-      if (other.Bytes != 0) {
-        Bytes = other.Bytes;
-      }
-      if (other.ErrCode.Length != 0) {
-        ErrCode = other.ErrCode;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Ok = input.ReadBool();
-            break;
-          }
-          case 16: {
-            Bytes = input.ReadUInt32();
-            break;
-          }
-          case 26: {
-            ErrCode = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            Ok = input.ReadBool();
-            break;
-          }
-          case 16: {
-            Bytes = input.ReadUInt32();
-            break;
-          }
-          case 26: {
-            ErrCode = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// RecvResult は受信処理の結果を表します。
-  /// </summary>
-  public sealed partial class RecvResult : pb::IMessage<RecvResult>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<RecvResult> _parser = new pb::MessageParser<RecvResult>(() => new RecvResult());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<RecvResult> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.OrbitReflection.Descriptor.MessageTypes[5]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RecvResult() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RecvResult(RecvResult other) : this() {
-      ok_ = other.ok_;
+    public RecvResultEvent(RecvResultEvent other) : this() {
       kind_ = other.kind_;
-      bytes_ = other.bytes_;
-      errCode_ = other.errCode_;
+      size_ = other.size_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RecvResult Clone() {
-      return new RecvResult(this);
-    }
-
-    /// <summary>Field number for the "ok" field.</summary>
-    public const int OkFieldNumber = 1;
-    private bool ok_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Ok {
-      get { return ok_; }
-      set {
-        ok_ = value;
-      }
+    public RecvResultEvent Clone() {
+      return new RecvResultEvent(this);
     }
 
     /// <summary>Field number for the "kind" field.</summary>
-    public const int KindFieldNumber = 2;
-    private global::Protos.RecvKind kind_ = global::Protos.RecvKind.Unspecified;
+    public const int KindFieldNumber = 1;
+    private int kind_;
+    /// <summary>
+    /// kind: 0=data, 1=keepalive, 2=handshake, etc.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Protos.RecvKind Kind {
+    public int Kind {
       get { return kind_; }
       set {
         kind_ = value;
       }
     }
 
-    /// <summary>Field number for the "bytes" field.</summary>
-    public const int BytesFieldNumber = 3;
-    private uint bytes_;
+    /// <summary>Field number for the "size" field.</summary>
+    public const int SizeFieldNumber = 2;
+    private uint size_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint Bytes {
-      get { return bytes_; }
+    public uint Size {
+      get { return size_; }
       set {
-        bytes_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "errCode" field.</summary>
-    public const int ErrCodeFieldNumber = 4;
-    private string errCode_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ErrCode {
-      get { return errCode_; }
-      set {
-        errCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        size_ = value;
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as RecvResult);
+      return Equals(other as RecvResultEvent);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(RecvResult other) {
+    public bool Equals(RecvResultEvent other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Ok != other.Ok) return false;
       if (Kind != other.Kind) return false;
-      if (Bytes != other.Bytes) return false;
-      if (ErrCode != other.ErrCode) return false;
+      if (Size != other.Size) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2106,10 +1706,8 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Ok != false) hash ^= Ok.GetHashCode();
-      if (Kind != global::Protos.RecvKind.Unspecified) hash ^= Kind.GetHashCode();
-      if (Bytes != 0) hash ^= Bytes.GetHashCode();
-      if (ErrCode.Length != 0) hash ^= ErrCode.GetHashCode();
+      if (Kind != 0) hash ^= Kind.GetHashCode();
+      if (Size != 0) hash ^= Size.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2128,21 +1726,13 @@ namespace Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Ok != false) {
+      if (Kind != 0) {
         output.WriteRawTag(8);
-        output.WriteBool(Ok);
+        output.WriteInt32(Kind);
       }
-      if (Kind != global::Protos.RecvKind.Unspecified) {
+      if (Size != 0) {
         output.WriteRawTag(16);
-        output.WriteEnum((int) Kind);
-      }
-      if (Bytes != 0) {
-        output.WriteRawTag(24);
-        output.WriteUInt32(Bytes);
-      }
-      if (ErrCode.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(ErrCode);
+        output.WriteUInt32(Size);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -2154,21 +1744,13 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Ok != false) {
+      if (Kind != 0) {
         output.WriteRawTag(8);
-        output.WriteBool(Ok);
+        output.WriteInt32(Kind);
       }
-      if (Kind != global::Protos.RecvKind.Unspecified) {
+      if (Size != 0) {
         output.WriteRawTag(16);
-        output.WriteEnum((int) Kind);
-      }
-      if (Bytes != 0) {
-        output.WriteRawTag(24);
-        output.WriteUInt32(Bytes);
-      }
-      if (ErrCode.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(ErrCode);
+        output.WriteUInt32(Size);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -2180,17 +1762,11 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Ok != false) {
-        size += 1 + 1;
+      if (Kind != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Kind);
       }
-      if (Kind != global::Protos.RecvKind.Unspecified) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Kind);
-      }
-      if (Bytes != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Bytes);
-      }
-      if (ErrCode.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ErrCode);
+      if (Size != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Size);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2200,21 +1776,15 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(RecvResult other) {
+    public void MergeFrom(RecvResultEvent other) {
       if (other == null) {
         return;
       }
-      if (other.Ok != false) {
-        Ok = other.Ok;
-      }
-      if (other.Kind != global::Protos.RecvKind.Unspecified) {
+      if (other.Kind != 0) {
         Kind = other.Kind;
       }
-      if (other.Bytes != 0) {
-        Bytes = other.Bytes;
-      }
-      if (other.ErrCode.Length != 0) {
-        ErrCode = other.ErrCode;
+      if (other.Size != 0) {
+        Size = other.Size;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2232,19 +1802,11 @@ namespace Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            Ok = input.ReadBool();
+            Kind = input.ReadInt32();
             break;
           }
           case 16: {
-            Kind = (global::Protos.RecvKind) input.ReadEnum();
-            break;
-          }
-          case 24: {
-            Bytes = input.ReadUInt32();
-            break;
-          }
-          case 34: {
-            ErrCode = input.ReadString();
+            Size = input.ReadUInt32();
             break;
           }
         }
@@ -2263,19 +1825,11 @@ namespace Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            Ok = input.ReadBool();
+            Kind = input.ReadInt32();
             break;
           }
           case 16: {
-            Kind = (global::Protos.RecvKind) input.ReadEnum();
-            break;
-          }
-          case 24: {
-            Bytes = input.ReadUInt32();
-            break;
-          }
-          case 34: {
-            ErrCode = input.ReadString();
+            Size = input.ReadUInt32();
             break;
           }
         }
@@ -2286,7 +1840,7 @@ namespace Protos {
   }
 
   /// <summary>
-  /// CerfConnEvent は CERF の接続/再接続/エラー等の状態変化を表します。
+  /// CerfConnEvent records CERF connection state changes.
   /// </summary>
   public sealed partial class CerfConnEvent : pb::IMessage<CerfConnEvent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2302,7 +1856,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.OrbitReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Protos.OrbitReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2322,9 +1876,8 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CerfConnEvent(CerfConnEvent other) : this() {
-      connGen_ = other.connGen_;
       state_ = other.state_;
-      detail_ = other.detail_;
+      error_ = other.error_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2334,42 +1887,27 @@ namespace Protos {
       return new CerfConnEvent(this);
     }
 
-    /// <summary>Field number for the "connGen" field.</summary>
-    public const int ConnGenFieldNumber = 1;
-    private int connGen_;
-    /// <summary>
-    /// cerfhttp.Client の connGen（再接続ごとに増える）
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int ConnGen {
-      get { return connGen_; }
-      set {
-        connGen_ = value;
-      }
-    }
-
     /// <summary>Field number for the "state" field.</summary>
-    public const int StateFieldNumber = 2;
-    private global::Protos.CerfConnEvent.Types.CerfConnState state_ = global::Protos.CerfConnEvent.Types.CerfConnState.Unspecified;
+    public const int StateFieldNumber = 1;
+    private global::Protos.CerfConnEvent.Types.State state_ = global::Protos.CerfConnEvent.Types.State.CerfConnStateUnknown;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Protos.CerfConnEvent.Types.CerfConnState State {
+    public global::Protos.CerfConnEvent.Types.State State {
       get { return state_; }
       set {
         state_ = value;
       }
     }
 
-    /// <summary>Field number for the "detail" field.</summary>
-    public const int DetailFieldNumber = 3;
-    private string detail_ = "";
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 2;
+    private string error_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Detail {
-      get { return detail_; }
+    public string Error {
+      get { return error_; }
       set {
-        detail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -2388,9 +1926,8 @@ namespace Protos {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (ConnGen != other.ConnGen) return false;
       if (State != other.State) return false;
-      if (Detail != other.Detail) return false;
+      if (Error != other.Error) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2398,9 +1935,8 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (ConnGen != 0) hash ^= ConnGen.GetHashCode();
-      if (State != global::Protos.CerfConnEvent.Types.CerfConnState.Unspecified) hash ^= State.GetHashCode();
-      if (Detail.Length != 0) hash ^= Detail.GetHashCode();
+      if (State != global::Protos.CerfConnEvent.Types.State.CerfConnStateUnknown) hash ^= State.GetHashCode();
+      if (Error.Length != 0) hash ^= Error.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2419,17 +1955,13 @@ namespace Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (ConnGen != 0) {
+      if (State != global::Protos.CerfConnEvent.Types.State.CerfConnStateUnknown) {
         output.WriteRawTag(8);
-        output.WriteInt32(ConnGen);
-      }
-      if (State != global::Protos.CerfConnEvent.Types.CerfConnState.Unspecified) {
-        output.WriteRawTag(16);
         output.WriteEnum((int) State);
       }
-      if (Detail.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Detail);
+      if (Error.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -2441,17 +1973,13 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ConnGen != 0) {
+      if (State != global::Protos.CerfConnEvent.Types.State.CerfConnStateUnknown) {
         output.WriteRawTag(8);
-        output.WriteInt32(ConnGen);
-      }
-      if (State != global::Protos.CerfConnEvent.Types.CerfConnState.Unspecified) {
-        output.WriteRawTag(16);
         output.WriteEnum((int) State);
       }
-      if (Detail.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Detail);
+      if (Error.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -2463,14 +1991,11 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (ConnGen != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ConnGen);
-      }
-      if (State != global::Protos.CerfConnEvent.Types.CerfConnState.Unspecified) {
+      if (State != global::Protos.CerfConnEvent.Types.State.CerfConnStateUnknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) State);
       }
-      if (Detail.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Detail);
+      if (Error.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2484,14 +2009,11 @@ namespace Protos {
       if (other == null) {
         return;
       }
-      if (other.ConnGen != 0) {
-        ConnGen = other.ConnGen;
-      }
-      if (other.State != global::Protos.CerfConnEvent.Types.CerfConnState.Unspecified) {
+      if (other.State != global::Protos.CerfConnEvent.Types.State.CerfConnStateUnknown) {
         State = other.State;
       }
-      if (other.Detail.Length != 0) {
-        Detail = other.Detail;
+      if (other.Error.Length != 0) {
+        Error = other.Error;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2509,15 +2031,11 @@ namespace Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            ConnGen = input.ReadInt32();
+            State = (global::Protos.CerfConnEvent.Types.State) input.ReadEnum();
             break;
           }
-          case 16: {
-            State = (global::Protos.CerfConnEvent.Types.CerfConnState) input.ReadEnum();
-            break;
-          }
-          case 26: {
-            Detail = input.ReadString();
+          case 18: {
+            Error = input.ReadString();
             break;
           }
         }
@@ -2536,15 +2054,11 @@ namespace Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            ConnGen = input.ReadInt32();
+            State = (global::Protos.CerfConnEvent.Types.State) input.ReadEnum();
             break;
           }
-          case 16: {
-            State = (global::Protos.CerfConnEvent.Types.CerfConnState) input.ReadEnum();
-            break;
-          }
-          case 26: {
-            Detail = input.ReadString();
+          case 18: {
+            Error = input.ReadString();
             break;
           }
         }
@@ -2557,13 +2071,12 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static partial class Types {
-      public enum CerfConnState {
-        [pbr::OriginalName("CERF_CONN_STATE_UNSPECIFIED")] Unspecified = 0,
-        [pbr::OriginalName("CERF_CONN_STATE_CONNECTED")] Connected = 1,
-        [pbr::OriginalName("CERF_CONN_STATE_RECONNECTED")] Reconnected = 2,
-        [pbr::OriginalName("CERF_CONN_STATE_RECV_ERROR")] RecvError = 3,
-        [pbr::OriginalName("CERF_CONN_STATE_SEND_ERROR")] SendError = 4,
-        [pbr::OriginalName("CERF_CONN_STATE_REGION_FAILOVER")] RegionFailover = 5,
+      public enum State {
+        [pbr::OriginalName("CERF_CONN_STATE_UNKNOWN")] CerfConnStateUnknown = 0,
+        [pbr::OriginalName("CERF_CONN_STATE_CONNECTING")] CerfConnStateConnecting = 1,
+        [pbr::OriginalName("CERF_CONN_STATE_CONNECTED")] CerfConnStateConnected = 2,
+        [pbr::OriginalName("CERF_CONN_STATE_DISCONNECTED")] CerfConnStateDisconnected = 3,
+        [pbr::OriginalName("CERF_CONN_STATE_RECV_ERROR")] CerfConnStateRecvError = 4,
       }
 
     }
@@ -2572,7 +2085,7 @@ namespace Protos {
   }
 
   /// <summary>
-  /// IceEvent は ICE の状態変化（候補更新/接続確立/エラー等）を表します。
+  /// IceEvent records ICE negotiation state changes.
   /// </summary>
   public sealed partial class IceEvent : pb::IMessage<IceEvent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2588,7 +2101,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.OrbitReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Protos.OrbitReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2609,7 +2122,7 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public IceEvent(IceEvent other) : this() {
       state_ = other.state_;
-      detail_ = other.detail_;
+      candidateType_ = other.candidateType_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2621,25 +2134,28 @@ namespace Protos {
 
     /// <summary>Field number for the "state" field.</summary>
     public const int StateFieldNumber = 1;
-    private global::Protos.IceEvent.Types.IceState state_ = global::Protos.IceEvent.Types.IceState.Unspecified;
+    private global::Protos.IceEvent.Types.State state_ = global::Protos.IceEvent.Types.State.IceStateUnknown;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Protos.IceEvent.Types.IceState State {
+    public global::Protos.IceEvent.Types.State State {
       get { return state_; }
       set {
         state_ = value;
       }
     }
 
-    /// <summary>Field number for the "detail" field.</summary>
-    public const int DetailFieldNumber = 2;
-    private string detail_ = "";
+    /// <summary>Field number for the "candidate_type" field.</summary>
+    public const int CandidateTypeFieldNumber = 2;
+    private string candidateType_ = "";
+    /// <summary>
+    /// e.g. "host", "srflx", "relay"
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Detail {
-      get { return detail_; }
+    public string CandidateType {
+      get { return candidateType_; }
       set {
-        detail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        candidateType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -2659,7 +2175,7 @@ namespace Protos {
         return true;
       }
       if (State != other.State) return false;
-      if (Detail != other.Detail) return false;
+      if (CandidateType != other.CandidateType) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2667,8 +2183,8 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (State != global::Protos.IceEvent.Types.IceState.Unspecified) hash ^= State.GetHashCode();
-      if (Detail.Length != 0) hash ^= Detail.GetHashCode();
+      if (State != global::Protos.IceEvent.Types.State.IceStateUnknown) hash ^= State.GetHashCode();
+      if (CandidateType.Length != 0) hash ^= CandidateType.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2687,13 +2203,13 @@ namespace Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (State != global::Protos.IceEvent.Types.IceState.Unspecified) {
+      if (State != global::Protos.IceEvent.Types.State.IceStateUnknown) {
         output.WriteRawTag(8);
         output.WriteEnum((int) State);
       }
-      if (Detail.Length != 0) {
+      if (CandidateType.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(Detail);
+        output.WriteString(CandidateType);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -2705,13 +2221,13 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (State != global::Protos.IceEvent.Types.IceState.Unspecified) {
+      if (State != global::Protos.IceEvent.Types.State.IceStateUnknown) {
         output.WriteRawTag(8);
         output.WriteEnum((int) State);
       }
-      if (Detail.Length != 0) {
+      if (CandidateType.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(Detail);
+        output.WriteString(CandidateType);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -2723,11 +2239,11 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (State != global::Protos.IceEvent.Types.IceState.Unspecified) {
+      if (State != global::Protos.IceEvent.Types.State.IceStateUnknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) State);
       }
-      if (Detail.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Detail);
+      if (CandidateType.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CandidateType);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2741,11 +2257,11 @@ namespace Protos {
       if (other == null) {
         return;
       }
-      if (other.State != global::Protos.IceEvent.Types.IceState.Unspecified) {
+      if (other.State != global::Protos.IceEvent.Types.State.IceStateUnknown) {
         State = other.State;
       }
-      if (other.Detail.Length != 0) {
-        Detail = other.Detail;
+      if (other.CandidateType.Length != 0) {
+        CandidateType = other.CandidateType;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2763,11 +2279,11 @@ namespace Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            State = (global::Protos.IceEvent.Types.IceState) input.ReadEnum();
+            State = (global::Protos.IceEvent.Types.State) input.ReadEnum();
             break;
           }
           case 18: {
-            Detail = input.ReadString();
+            CandidateType = input.ReadString();
             break;
           }
         }
@@ -2786,11 +2302,11 @@ namespace Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            State = (global::Protos.IceEvent.Types.IceState) input.ReadEnum();
+            State = (global::Protos.IceEvent.Types.State) input.ReadEnum();
             break;
           }
           case 18: {
-            Detail = input.ReadString();
+            CandidateType = input.ReadString();
             break;
           }
         }
@@ -2803,13 +2319,14 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static partial class Types {
-      public enum IceState {
-        [pbr::OriginalName("ICE_STATE_UNSPECIFIED")] Unspecified = 0,
-        [pbr::OriginalName("ICE_STATE_AGENT_START")] AgentStart = 1,
-        [pbr::OriginalName("ICE_STATE_CONN_UP")] ConnUp = 2,
-        [pbr::OriginalName("ICE_STATE_CONN_DOWN")] ConnDown = 3,
-        [pbr::OriginalName("ICE_STATE_SEND_ERROR")] SendError = 4,
-        [pbr::OriginalName("ICE_STATE_ENDPOINT_UPDATE")] EndpointUpdate = 5,
+      public enum State {
+        [pbr::OriginalName("ICE_STATE_UNKNOWN")] IceStateUnknown = 0,
+        [pbr::OriginalName("ICE_STATE_CHECKING")] IceStateChecking = 1,
+        [pbr::OriginalName("ICE_STATE_CONNECTED")] IceStateConnected = 2,
+        [pbr::OriginalName("ICE_STATE_COMPLETED")] IceStateCompleted = 3,
+        [pbr::OriginalName("ICE_STATE_FAILED")] IceStateFailed = 4,
+        [pbr::OriginalName("ICE_STATE_DISCONNECTED")] IceStateDisconnected = 5,
+        [pbr::OriginalName("ICE_STATE_CLOSED")] IceStateClosed = 6,
       }
 
     }
@@ -2818,24 +2335,23 @@ namespace Protos {
   }
 
   /// <summary>
-  /// FilterDecision は packet filter の判定（accept/drop）を表します。
-  /// Phase A では最小情報のみ（ルール名/理由/方向）を想定。
+  /// FilterEvent records packet filter decisions.
   /// </summary>
-  public sealed partial class FilterDecision : pb::IMessage<FilterDecision>
+  public sealed partial class FilterEvent : pb::IMessage<FilterEvent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<FilterDecision> _parser = new pb::MessageParser<FilterDecision>(() => new FilterDecision());
+    private static readonly pb::MessageParser<FilterEvent> _parser = new pb::MessageParser<FilterEvent>(() => new FilterEvent());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<FilterDecision> Parser { get { return _parser; } }
+    public static pb::MessageParser<FilterEvent> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.OrbitReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Protos.OrbitReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2846,7 +2362,7 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FilterDecision() {
+    public FilterEvent() {
       OnConstruction();
     }
 
@@ -2854,7 +2370,7 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FilterDecision(FilterDecision other) : this() {
+    public FilterEvent(FilterEvent other) : this() {
       result_ = other.result_;
       reason_ = other.reason_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -2862,16 +2378,16 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FilterDecision Clone() {
-      return new FilterDecision(this);
+    public FilterEvent Clone() {
+      return new FilterEvent(this);
     }
 
     /// <summary>Field number for the "result" field.</summary>
     public const int ResultFieldNumber = 1;
-    private global::Protos.FilterDecision.Types.FilterResult result_ = global::Protos.FilterDecision.Types.FilterResult.Unspecified;
+    private global::Protos.FilterEvent.Types.Result result_ = global::Protos.FilterEvent.Types.Result.FilterResultUnknown;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Protos.FilterDecision.Types.FilterResult Result {
+    public global::Protos.FilterEvent.Types.Result Result {
       get { return result_; }
       set {
         result_ = value;
@@ -2881,6 +2397,9 @@ namespace Protos {
     /// <summary>Field number for the "reason" field.</summary>
     public const int ReasonFieldNumber = 2;
     private string reason_ = "";
+    /// <summary>
+    /// e.g. "no_matching_rule", "jailed", etc.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Reason {
@@ -2893,12 +2412,12 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as FilterDecision);
+      return Equals(other as FilterEvent);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(FilterDecision other) {
+    public bool Equals(FilterEvent other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -2914,7 +2433,7 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Result != global::Protos.FilterDecision.Types.FilterResult.Unspecified) hash ^= Result.GetHashCode();
+      if (Result != global::Protos.FilterEvent.Types.Result.FilterResultUnknown) hash ^= Result.GetHashCode();
       if (Reason.Length != 0) hash ^= Reason.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2934,7 +2453,7 @@ namespace Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Result != global::Protos.FilterDecision.Types.FilterResult.Unspecified) {
+      if (Result != global::Protos.FilterEvent.Types.Result.FilterResultUnknown) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Result);
       }
@@ -2952,7 +2471,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Result != global::Protos.FilterDecision.Types.FilterResult.Unspecified) {
+      if (Result != global::Protos.FilterEvent.Types.Result.FilterResultUnknown) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Result);
       }
@@ -2970,7 +2489,7 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Result != global::Protos.FilterDecision.Types.FilterResult.Unspecified) {
+      if (Result != global::Protos.FilterEvent.Types.Result.FilterResultUnknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Result);
       }
       if (Reason.Length != 0) {
@@ -2984,11 +2503,11 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(FilterDecision other) {
+    public void MergeFrom(FilterEvent other) {
       if (other == null) {
         return;
       }
-      if (other.Result != global::Protos.FilterDecision.Types.FilterResult.Unspecified) {
+      if (other.Result != global::Protos.FilterEvent.Types.Result.FilterResultUnknown) {
         Result = other.Result;
       }
       if (other.Reason.Length != 0) {
@@ -3010,7 +2529,7 @@ namespace Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            Result = (global::Protos.FilterDecision.Types.FilterResult) input.ReadEnum();
+            Result = (global::Protos.FilterEvent.Types.Result) input.ReadEnum();
             break;
           }
           case 18: {
@@ -3033,7 +2552,7 @@ namespace Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            Result = (global::Protos.FilterDecision.Types.FilterResult) input.ReadEnum();
+            Result = (global::Protos.FilterEvent.Types.Result) input.ReadEnum();
             break;
           }
           case 18: {
@@ -3046,15 +2565,14 @@ namespace Protos {
     #endif
 
     #region Nested types
-    /// <summary>Container for nested types declared in the FilterDecision message type.</summary>
+    /// <summary>Container for nested types declared in the FilterEvent message type.</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static partial class Types {
-      public enum FilterResult {
-        [pbr::OriginalName("FILTER_RESULT_UNSPECIFIED")] Unspecified = 0,
-        [pbr::OriginalName("FILTER_RESULT_ACCEPT")] Accept = 1,
-        [pbr::OriginalName("FILTER_RESULT_DROP")] Drop = 2,
-        [pbr::OriginalName("FILTER_RESULT_DROP_SILENT")] DropSilent = 3,
+      public enum Result {
+        [pbr::OriginalName("FILTER_RESULT_UNKNOWN")] FilterResultUnknown = 0,
+        [pbr::OriginalName("FILTER_RESULT_ACCEPT")] FilterResultAccept = 1,
+        [pbr::OriginalName("FILTER_RESULT_DROP")] FilterResultDrop = 2,
       }
 
     }
@@ -3063,7 +2581,276 @@ namespace Protos {
   }
 
   /// <summary>
-  /// GetEventsRequest はOrbitイベントの取得リクエストです。
+  /// PathTransitionEvent records when the active path changes.
+  /// </summary>
+  public sealed partial class PathTransitionEvent : pb::IMessage<PathTransitionEvent>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<PathTransitionEvent> _parser = new pb::MessageParser<PathTransitionEvent>(() => new PathTransitionEvent());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<PathTransitionEvent> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.OrbitReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PathTransitionEvent() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PathTransitionEvent(PathTransitionEvent other) : this() {
+      from_ = other.from_;
+      to_ = other.to_;
+      reason_ = other.reason_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PathTransitionEvent Clone() {
+      return new PathTransitionEvent(this);
+    }
+
+    /// <summary>Field number for the "from" field.</summary>
+    public const int FromFieldNumber = 1;
+    private global::Protos.Transport from_ = global::Protos.Transport.Unknown;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Protos.Transport From {
+      get { return from_; }
+      set {
+        from_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "to" field.</summary>
+    public const int ToFieldNumber = 2;
+    private global::Protos.Transport to_ = global::Protos.Transport.Unknown;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Protos.Transport To {
+      get { return to_; }
+      set {
+        to_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "reason" field.</summary>
+    public const int ReasonFieldNumber = 3;
+    private string reason_ = "";
+    /// <summary>
+    /// e.g. "ice_connected", "cerf_fallback", etc.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Reason {
+      get { return reason_; }
+      set {
+        reason_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as PathTransitionEvent);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(PathTransitionEvent other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (From != other.From) return false;
+      if (To != other.To) return false;
+      if (Reason != other.Reason) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (From != global::Protos.Transport.Unknown) hash ^= From.GetHashCode();
+      if (To != global::Protos.Transport.Unknown) hash ^= To.GetHashCode();
+      if (Reason.Length != 0) hash ^= Reason.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (From != global::Protos.Transport.Unknown) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) From);
+      }
+      if (To != global::Protos.Transport.Unknown) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) To);
+      }
+      if (Reason.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Reason);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (From != global::Protos.Transport.Unknown) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) From);
+      }
+      if (To != global::Protos.Transport.Unknown) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) To);
+      }
+      if (Reason.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Reason);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (From != global::Protos.Transport.Unknown) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) From);
+      }
+      if (To != global::Protos.Transport.Unknown) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) To);
+      }
+      if (Reason.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Reason);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(PathTransitionEvent other) {
+      if (other == null) {
+        return;
+      }
+      if (other.From != global::Protos.Transport.Unknown) {
+        From = other.From;
+      }
+      if (other.To != global::Protos.Transport.Unknown) {
+        To = other.To;
+      }
+      if (other.Reason.Length != 0) {
+        Reason = other.Reason;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            From = (global::Protos.Transport) input.ReadEnum();
+            break;
+          }
+          case 16: {
+            To = (global::Protos.Transport) input.ReadEnum();
+            break;
+          }
+          case 26: {
+            Reason = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            From = (global::Protos.Transport) input.ReadEnum();
+            break;
+          }
+          case 16: {
+            To = (global::Protos.Transport) input.ReadEnum();
+            break;
+          }
+          case 26: {
+            Reason = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// GetEventsRequest is used to retrieve stored events.
   /// </summary>
   public sealed partial class GetEventsRequest : pb::IMessage<GetEventsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3114,12 +2901,9 @@ namespace Protos {
       return new GetEventsRequest(this);
     }
 
-    /// <summary>Field number for the "nodeId" field.</summary>
+    /// <summary>Field number for the "node_id" field.</summary>
     public const int NodeIdFieldNumber = 1;
     private ulong nodeId_;
-    /// <summary>
-    /// node_id でフィルタ（0 の場合は全ノード）
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ulong NodeId {
@@ -3129,12 +2913,9 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "sessionId" field.</summary>
+    /// <summary>Field number for the "session_id" field.</summary>
     public const int SessionIdFieldNumber = 2;
     private string sessionId_ = "";
-    /// <summary>
-    /// session_id でフィルタ（空の場合は全セッション）
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SessionId {
@@ -3147,9 +2928,6 @@ namespace Protos {
     /// <summary>Field number for the "from" field.</summary>
     public const int FromFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp from_;
-    /// <summary>
-    /// 期間フィルタ（from &lt;= event_day &lt;= to）
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Google.Protobuf.WellKnownTypes.Timestamp From {
@@ -3174,9 +2952,6 @@ namespace Protos {
     /// <summary>Field number for the "limit" field.</summary>
     public const int LimitFieldNumber = 5;
     private int limit_;
-    /// <summary>
-    /// ページネーション
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Limit {
@@ -3470,7 +3245,7 @@ namespace Protos {
   }
 
   /// <summary>
-  /// GetEventsResponse はOrbitイベントの取得レスポンスです。
+  /// GetEventsResponse contains the retrieved events.
   /// </summary>
   public sealed partial class GetEventsResponse : pb::IMessage<GetEventsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3528,7 +3303,7 @@ namespace Protos {
       get { return events_; }
     }
 
-    /// <summary>Field number for the "totalCount" field.</summary>
+    /// <summary>Field number for the "total_count" field.</summary>
     public const int TotalCountFieldNumber = 2;
     private long totalCount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3688,8 +3463,7 @@ namespace Protos {
   }
 
   /// <summary>
-  /// StoredOrbitEvent はサーバーに保存されたOrbitイベントです。
-  /// OrbitEvent に加えて、サーバー側のメタデータを含みます。
+  /// StoredOrbitEvent is an event as stored in the database.
   /// </summary>
   public sealed partial class StoredOrbitEvent : pb::IMessage<StoredOrbitEvent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3759,7 +3533,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "nodeId" field.</summary>
+    /// <summary>Field number for the "node_id" field.</summary>
     public const int NodeIdFieldNumber = 2;
     private ulong nodeId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3771,7 +3545,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "sessionId" field.</summary>
+    /// <summary>Field number for the "session_id" field.</summary>
     public const int SessionIdFieldNumber = 3;
     private string sessionId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3783,7 +3557,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "clientVersion" field.</summary>
+    /// <summary>Field number for the "client_version" field.</summary>
     public const int ClientVersionFieldNumber = 4;
     private string clientVersion_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3795,7 +3569,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "receivedAt" field.</summary>
+    /// <summary>Field number for the "received_at" field.</summary>
     public const int ReceivedAtFieldNumber = 5;
     private global::Google.Protobuf.WellKnownTypes.Timestamp receivedAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3807,7 +3581,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "eventAt" field.</summary>
+    /// <summary>Field number for the "event_at" field.</summary>
     public const int EventAtFieldNumber = 6;
     private global::Google.Protobuf.WellKnownTypes.Timestamp eventAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3819,7 +3593,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "eventDay" field.</summary>
+    /// <summary>Field number for the "event_day" field.</summary>
     public const int EventDayFieldNumber = 7;
     private global::Google.Protobuf.WellKnownTypes.Timestamp eventDay_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3831,7 +3605,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "peerHash" field.</summary>
+    /// <summary>Field number for the "peer_hash" field.</summary>
     public const int PeerHashFieldNumber = 8;
     private pb::ByteString peerHash_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3843,7 +3617,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "regionId" field.</summary>
+    /// <summary>Field number for the "region_id" field.</summary>
     public const int RegionIdFieldNumber = 9;
     private uint regionId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3857,7 +3631,7 @@ namespace Protos {
 
     /// <summary>Field number for the "transport" field.</summary>
     public const int TransportFieldNumber = 10;
-    private global::Protos.Transport transport_ = global::Protos.Transport.Unspecified;
+    private global::Protos.Transport transport_ = global::Protos.Transport.Unknown;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Protos.Transport Transport {
@@ -3867,7 +3641,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "payloadType" field.</summary>
+    /// <summary>Field number for the "payload_type" field.</summary>
     public const int PayloadTypeFieldNumber = 11;
     private string payloadType_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3883,7 +3657,7 @@ namespace Protos {
     public const int PayloadFieldNumber = 12;
     private string payload_ = "";
     /// <summary>
-    /// JSON string
+    /// JSON-encoded payload
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3894,7 +3668,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "createdAt" field.</summary>
+    /// <summary>Field number for the "created_at" field.</summary>
     public const int CreatedAtFieldNumber = 13;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3950,7 +3724,7 @@ namespace Protos {
       if (eventDay_ != null) hash ^= EventDay.GetHashCode();
       if (PeerHash.Length != 0) hash ^= PeerHash.GetHashCode();
       if (RegionId != 0) hash ^= RegionId.GetHashCode();
-      if (Transport != global::Protos.Transport.Unspecified) hash ^= Transport.GetHashCode();
+      if (Transport != global::Protos.Transport.Unknown) hash ^= Transport.GetHashCode();
       if (PayloadType.Length != 0) hash ^= PayloadType.GetHashCode();
       if (Payload.Length != 0) hash ^= Payload.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
@@ -4008,7 +3782,7 @@ namespace Protos {
         output.WriteRawTag(72);
         output.WriteUInt32(RegionId);
       }
-      if (Transport != global::Protos.Transport.Unspecified) {
+      if (Transport != global::Protos.Transport.Unknown) {
         output.WriteRawTag(80);
         output.WriteEnum((int) Transport);
       }
@@ -4070,7 +3844,7 @@ namespace Protos {
         output.WriteRawTag(72);
         output.WriteUInt32(RegionId);
       }
-      if (Transport != global::Protos.Transport.Unspecified) {
+      if (Transport != global::Protos.Transport.Unknown) {
         output.WriteRawTag(80);
         output.WriteEnum((int) Transport);
       }
@@ -4123,7 +3897,7 @@ namespace Protos {
       if (RegionId != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(RegionId);
       }
-      if (Transport != global::Protos.Transport.Unspecified) {
+      if (Transport != global::Protos.Transport.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Transport);
       }
       if (PayloadType.Length != 0) {
@@ -4183,7 +3957,7 @@ namespace Protos {
       if (other.RegionId != 0) {
         RegionId = other.RegionId;
       }
-      if (other.Transport != global::Protos.Transport.Unspecified) {
+      if (other.Transport != global::Protos.Transport.Unknown) {
         Transport = other.Transport;
       }
       if (other.PayloadType.Length != 0) {
@@ -4364,7 +4138,7 @@ namespace Protos {
   }
 
   /// <summary>
-  /// GetDailyCountsRequest は日次集計の取得リクエストです。
+  /// GetDailyCountsRequest is used to retrieve aggregated daily counts.
   /// </summary>
   public sealed partial class GetDailyCountsRequest : pb::IMessage<GetDailyCountsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -4413,12 +4187,9 @@ namespace Protos {
       return new GetDailyCountsRequest(this);
     }
 
-    /// <summary>Field number for the "nodeId" field.</summary>
+    /// <summary>Field number for the "node_id" field.</summary>
     public const int NodeIdFieldNumber = 1;
     private ulong nodeId_;
-    /// <summary>
-    /// node_id でフィルタ（0 の場合は全ノード）
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ulong NodeId {
@@ -4431,9 +4202,6 @@ namespace Protos {
     /// <summary>Field number for the "metric" field.</summary>
     public const int MetricFieldNumber = 2;
     private string metric_ = "";
-    /// <summary>
-    /// metric でフィルタ（空の場合は全メトリクス）
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Metric {
@@ -4446,9 +4214,6 @@ namespace Protos {
     /// <summary>Field number for the "from" field.</summary>
     public const int FromFieldNumber = 3;
     private global::Google.Protobuf.WellKnownTypes.Timestamp from_;
-    /// <summary>
-    /// 期間フィルタ（from &lt;= day &lt;= to）
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Google.Protobuf.WellKnownTypes.Timestamp From {
@@ -4694,7 +4459,7 @@ namespace Protos {
   }
 
   /// <summary>
-  /// GetDailyCountsResponse は日次集計の取得レスポンスです。
+  /// GetDailyCountsResponse contains the aggregated counts.
   /// </summary>
   public sealed partial class GetDailyCountsResponse : pb::IMessage<GetDailyCountsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -4875,7 +4640,7 @@ namespace Protos {
   }
 
   /// <summary>
-  /// DailyCount は1日分の集計データです。
+  /// DailyCount represents an aggregated count for a day.
   /// </summary>
   public sealed partial class DailyCount : pb::IMessage<DailyCount>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -4939,7 +4704,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "nodeId" field.</summary>
+    /// <summary>Field number for the "node_id" field.</summary>
     public const int NodeIdFieldNumber = 2;
     private ulong nodeId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4963,7 +4728,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "labelKey" field.</summary>
+    /// <summary>Field number for the "label_key" field.</summary>
     public const int LabelKeyFieldNumber = 4;
     private string labelKey_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4987,7 +4752,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "createdAt" field.</summary>
+    /// <summary>Field number for the "created_at" field.</summary>
     public const int CreatedAtFieldNumber = 6;
     private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4999,7 +4764,7 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "updatedAt" field.</summary>
+    /// <summary>Field number for the "updated_at" field.</summary>
     public const int UpdatedAtFieldNumber = 7;
     private global::Google.Protobuf.WellKnownTypes.Timestamp updatedAt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

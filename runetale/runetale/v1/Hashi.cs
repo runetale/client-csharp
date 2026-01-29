@@ -32,7 +32,7 @@ namespace Protos {
             "bl91cmwYAyABKAkSJQoEc2VsZhgEIAEoCzISLnByb3Rvcy5QZWVyU3RhdHVz",
             "SACIAQESKwoEcGVlchgFIAMoCzIdLnByb3Rvcy5IYXNoaVN0YXR1cy5QZWVy",
             "RW50cnkaPwoJUGVlckVudHJ5EgsKA2tleRgBIAEoCRIhCgV2YWx1ZRgCIAEo",
-            "CzISLnByb3Rvcy5QZWVyU3RhdHVzOgI4AUIHCgVfc2VsZiKqAwoKUGVlclN0",
+            "CzISLnByb3Rvcy5QZWVyU3RhdHVzOgI4AUIHCgVfc2VsZiL5AwoKUGVlclN0",
             "YXR1cxIKCgJpZBgBIAEoAxISCgpwdWJsaWNfa2V5GAIgASgJEgoKAm9zGAMg",
             "ASgJEhEKCWhvc3RfbmFtZRgEIAEoCRIhCgxydW5ldGFsZV9pcHMYBSADKAlS",
             "C1J1bmV0YWxlSVBzEhQKDHBlZXJfYXBpX3VybBgGIAMoCRITCgthbGxvd2Vk",
@@ -41,48 +41,49 @@ namespace Protos {
             "aW1lc3RhbXASLgoKbGFzdF93cml0ZRgLIAEoCzIaLmdvb2dsZS5wcm90b2J1",
             "Zi5UaW1lc3RhbXASDQoFYWRkcnMYDCADKAkSFQoIY3VyX2FkZHIYDSABKAlI",
             "AIgBARIVCghpY2VfYWRkchgOIAEoCUgBiAEBEhgKEGFkdmVydGlzZV9yb3V0",
-            "ZXMYDyADKAkSFgoOaXNfc25hdF9zdWJuZXQYECABKAhCCwoJX2N1cl9hZGRy",
-            "QgsKCV9pY2VfYWRkciKYAQoZVXNlcnNwYWNlUGVlckVuZ2luZVN0YXR1cxIq",
-            "CgZnb3RfYXQYASABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEigK",
-            "BXBlZXJzGAIgAygLMhkucHJvdG9zLkNvbXBhY3RQZWVyU3RhdHVzEiUKC2xv",
-            "Y2FsX2FkZHJzGAMgAygLMhAucHJvdG9zLkVuZHBvaW50In0KEUNvbXBhY3RQ",
-            "ZWVyU3RhdHVzEhAKCG5vZGVfa2V5GAEgASgJEhAKCHR4X2J5dGVzGAIgASgD",
-            "EhAKCHJ4X2J5dGVzGAMgASgDEjIKDmxhc3RfaGFuZHNoYWtlGAQgASgLMhou",
-            "Z29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCK2AQoKUGluZ1Jlc3VsdBIKCgJp",
-            "cBgBIAEoCRIPCgdub2RlX2lwGAIgASgJEhEKCW5vZGVfbmFtZRgDIAEoCRIL",
-            "CgNlcnIYBCABKAkSFwoPbGF0ZW5jeV9zZWNvbmRzGAUgASgBEhAKCGVuZHBv",
-            "aW50GAYgASgJEhUKDXBlZXJfYXBpX3BvcnQYByABKA0SFAoMcGVlcl9hcGlf",
-            "dXJsGAggASgJEhMKC2lzX2xvY2FsX2lwGAkgASgIIh0KDkNvbXBvc2VSZXF1",
-            "ZXN0EgsKA2tleRgBIAEoCSI1CgtQaW5nUmVxdWVzdBIKCgJpcBgBIAEoCRIM",
-            "CgR0eXBlGAIgASgJEgwKBHNpemUYAyABKAUiHQoLU3RvcFJlcXVlc3QSDgoG",
-            "cmVhc29uGAEgASgJIsEDCg5OZXRDaGVja1JlcG9ydBInCgNub3cYASABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEgsKA3VkcBgCIAEoCBIMCgRp",
-            "cHY2GAMgASgIEgwKBGlwdjQYBCABKAgSFQoNaXB2Nl9jYW5fc2VuZBgFIAEo",
-            "CBIVCg1pcHY0X2Nhbl9zZW5kGAYgASgIEhMKC29zX2hhc19pcHY2GAcgASgI",
-            "EhEKCWdsb2JhbF92NBgIIAEoCRIRCglnbG9iYWxfdjYYCSABKAkSPQoMc3R1",
-            "bl9sYXRlbmN5GAogAygLMicucHJvdG9zLk5ldENoZWNrUmVwb3J0LlN0dW5M",
-            "YXRlbmN5RW50cnkSPQoMdHVybl9sYXRlbmN5GAsgAygLMicucHJvdG9zLk5l",
-            "dENoZWNrUmVwb3J0LlR1cm5MYXRlbmN5RW50cnkSDgoGZXJyb3JzGAwgAygJ",
-            "GjIKEFN0dW5MYXRlbmN5RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIg",
-            "ASgDOgI4ARoyChBUdXJuTGF0ZW5jeUVudHJ5EgsKA2tleRgBIAEoCRINCgV2",
-            "YWx1ZRgCIAEoAzoCOAEyzgMKDEhhc2hpU2VydmljZRI3CgZTdGF0dXMSFi5n",
-            "b29nbGUucHJvdG9idWYuRW1wdHkaEy5wcm90b3MuSGFzaGlTdGF0dXMiABIx",
-            "CgRQaW5nEhMucHJvdG9zLlBpbmdSZXF1ZXN0GhIucHJvdG9zLlBpbmdSZXN1",
-            "bHQiABI2CgVMb2dpbhIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoTLnByb3Rv",
-            "cy5IYXNoaVN0YXR1cyIAEjgKB0NvbXBvc2USFi5wcm90b3MuQ29tcG9zZVJl",
-            "cXVlc3QaEy5wcm90b3MuSGFzaGlTdGF0dXMiABI3CgZMb2dvdXQSFi5nb29n",
-            "bGUucHJvdG9idWYuRW1wdHkaEy5wcm90b3MuSGFzaGlTdGF0dXMiABIyCgRT",
-            "dG9wEhMucHJvdG9zLlN0b3BSZXF1ZXN0GhMucHJvdG9zLkhhc2hpU3RhdHVz",
-            "IgASNQoERGlhbBIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoTLnByb3Rvcy5I",
-            "YXNoaVN0YXR1cyIAEjwKCE5ldENoZWNrEhYuZ29vZ2xlLnByb3RvYnVmLkVt",
-            "cHR5GhYucHJvdG9zLk5ldENoZWNrUmVwb3J0IgBCCVoHLi9oYXNoaWIGcHJv",
-            "dG8z"));
+            "ZXMYDyADKAkSFgoOaXNfc25hdF9zdWJuZXQYECABKAgSDgoGYWN0aXZlGBEg",
+            "ASgIEg4KBm9ubGluZRgSIAEoCBItCglsYXN0X3NlZW4YEyABKAsyGi5nb29n",
+            "bGUucHJvdG9idWYuVGltZXN0YW1wQgsKCV9jdXJfYWRkckILCglfaWNlX2Fk",
+            "ZHIimAEKGVVzZXJzcGFjZVBlZXJFbmdpbmVTdGF0dXMSKgoGZ290X2F0GAEg",
+            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIoCgVwZWVycxgCIAMo",
+            "CzIZLnByb3Rvcy5Db21wYWN0UGVlclN0YXR1cxIlCgtsb2NhbF9hZGRycxgD",
+            "IAMoCzIQLnByb3Rvcy5FbmRwb2ludCJ9ChFDb21wYWN0UGVlclN0YXR1cxIQ",
+            "Cghub2RlX2tleRgBIAEoCRIQCgh0eF9ieXRlcxgCIAEoAxIQCghyeF9ieXRl",
+            "cxgDIAEoAxIyCg5sYXN0X2hhbmRzaGFrZRgEIAEoCzIaLmdvb2dsZS5wcm90",
+            "b2J1Zi5UaW1lc3RhbXAitgEKClBpbmdSZXN1bHQSCgoCaXAYASABKAkSDwoH",
+            "bm9kZV9pcBgCIAEoCRIRCglub2RlX25hbWUYAyABKAkSCwoDZXJyGAQgASgJ",
+            "EhcKD2xhdGVuY3lfc2Vjb25kcxgFIAEoARIQCghlbmRwb2ludBgGIAEoCRIV",
+            "Cg1wZWVyX2FwaV9wb3J0GAcgASgNEhQKDHBlZXJfYXBpX3VybBgIIAEoCRIT",
+            "Cgtpc19sb2NhbF9pcBgJIAEoCCIdCg5Db21wb3NlUmVxdWVzdBILCgNrZXkY",
+            "ASABKAkiNQoLUGluZ1JlcXVlc3QSCgoCaXAYASABKAkSDAoEdHlwZRgCIAEo",
+            "CRIMCgRzaXplGAMgASgFIh0KC1N0b3BSZXF1ZXN0Eg4KBnJlYXNvbhgBIAEo",
+            "CSLBAwoOTmV0Q2hlY2tSZXBvcnQSJwoDbm93GAEgASgLMhouZ29vZ2xlLnBy",
+            "b3RvYnVmLlRpbWVzdGFtcBILCgN1ZHAYAiABKAgSDAoEaXB2NhgDIAEoCBIM",
+            "CgRpcHY0GAQgASgIEhUKDWlwdjZfY2FuX3NlbmQYBSABKAgSFQoNaXB2NF9j",
+            "YW5fc2VuZBgGIAEoCBITCgtvc19oYXNfaXB2NhgHIAEoCBIRCglnbG9iYWxf",
+            "djQYCCABKAkSEQoJZ2xvYmFsX3Y2GAkgASgJEj0KDHN0dW5fbGF0ZW5jeRgK",
+            "IAMoCzInLnByb3Rvcy5OZXRDaGVja1JlcG9ydC5TdHVuTGF0ZW5jeUVudHJ5",
+            "Ej0KDHR1cm5fbGF0ZW5jeRgLIAMoCzInLnByb3Rvcy5OZXRDaGVja1JlcG9y",
+            "dC5UdXJuTGF0ZW5jeUVudHJ5Eg4KBmVycm9ycxgMIAMoCRoyChBTdHVuTGF0",
+            "ZW5jeUVudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoAzoCOAEaMgoQ",
+            "VHVybkxhdGVuY3lFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAM6",
+            "AjgBMs4DCgxIYXNoaVNlcnZpY2USNwoGU3RhdHVzEhYuZ29vZ2xlLnByb3Rv",
+            "YnVmLkVtcHR5GhMucHJvdG9zLkhhc2hpU3RhdHVzIgASMQoEUGluZxITLnBy",
+            "b3Rvcy5QaW5nUmVxdWVzdBoSLnByb3Rvcy5QaW5nUmVzdWx0IgASNgoFTG9n",
+            "aW4SFi5nb29nbGUucHJvdG9idWYuRW1wdHkaEy5wcm90b3MuSGFzaGlTdGF0",
+            "dXMiABI4CgdDb21wb3NlEhYucHJvdG9zLkNvbXBvc2VSZXF1ZXN0GhMucHJv",
+            "dG9zLkhhc2hpU3RhdHVzIgASNwoGTG9nb3V0EhYuZ29vZ2xlLnByb3RvYnVm",
+            "LkVtcHR5GhMucHJvdG9zLkhhc2hpU3RhdHVzIgASMgoEU3RvcBITLnByb3Rv",
+            "cy5TdG9wUmVxdWVzdBoTLnByb3Rvcy5IYXNoaVN0YXR1cyIAEjUKBERpYWwS",
+            "Fi5nb29nbGUucHJvdG9idWYuRW1wdHkaEy5wcm90b3MuSGFzaGlTdGF0dXMi",
+            "ABI8CghOZXRDaGVjaxIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoWLnByb3Rv",
+            "cy5OZXRDaGVja1JlcG9ydCIAQglaBy4vaGFzaGliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Endpoint), global::Protos.Endpoint.Parser, new[]{ "Addr", "Type" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.HashiStatus), global::Protos.HashiStatus.Parser, new[]{ "BackendState", "RunetaleIps", "InteractiveLoginUrl", "Self", "Peer" }, new[]{ "Self" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PeerStatus), global::Protos.PeerStatus.Parser, new[]{ "Id", "PublicKey", "Os", "HostName", "RunetaleIps", "PeerApiUrl", "AllowedIps", "RxBytes", "TxBytes", "LastHandshake", "LastWrite", "Addrs", "CurAddr", "IceAddr", "AdvertiseRoutes", "IsSnatSubnet" }, new[]{ "CurAddr", "IceAddr" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PeerStatus), global::Protos.PeerStatus.Parser, new[]{ "Id", "PublicKey", "Os", "HostName", "RunetaleIps", "PeerApiUrl", "AllowedIps", "RxBytes", "TxBytes", "LastHandshake", "LastWrite", "Addrs", "CurAddr", "IceAddr", "AdvertiseRoutes", "IsSnatSubnet", "Active", "Online", "LastSeen" }, new[]{ "CurAddr", "IceAddr" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.UserspacePeerEngineStatus), global::Protos.UserspacePeerEngineStatus.Parser, new[]{ "GotAt", "Peers", "LocalAddrs" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CompactPeerStatus), global::Protos.CompactPeerStatus.Parser, new[]{ "NodeKey", "TxBytes", "RxBytes", "LastHandshake" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PingResult), global::Protos.PingResult.Parser, new[]{ "Ip", "NodeIp", "NodeName", "Err", "LatencySeconds", "Endpoint", "PeerApiPort", "PeerApiUrl", "IsLocalIp" }, null, null, null, null),
@@ -708,6 +709,9 @@ namespace Protos {
       iceAddr_ = other.iceAddr_;
       advertiseRoutes_ = other.advertiseRoutes_.Clone();
       isSnatSubnet_ = other.isSnatSubnet_;
+      active_ = other.active_;
+      online_ = other.online_;
+      lastSeen_ = other.lastSeen_ != null ? other.lastSeen_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -937,6 +941,51 @@ namespace Protos {
       }
     }
 
+    /// <summary>Field number for the "active" field.</summary>
+    public const int ActiveFieldNumber = 17;
+    private bool active_;
+    /// <summary>
+    /// active: 最後のパケット送信から45秒以内か（wonderwallで設定）
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Active {
+      get { return active_; }
+      set {
+        active_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "online" field.</summary>
+    public const int OnlineFieldNumber = 18;
+    private bool online_;
+    /// <summary>
+    /// online: サーバーに接続しているか (wonderwallで設定)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Online {
+      get { return online_; }
+      set {
+        online_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "last_seen" field.</summary>
+    public const int LastSeenFieldNumber = 19;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp lastSeen_;
+    /// <summary>
+    /// last_seen: 最後にオンラインだった時刻（オフライン時のみ設定）
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp LastSeen {
+      get { return lastSeen_; }
+      set {
+        lastSeen_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -968,6 +1017,9 @@ namespace Protos {
       if (IceAddr != other.IceAddr) return false;
       if(!advertiseRoutes_.Equals(other.advertiseRoutes_)) return false;
       if (IsSnatSubnet != other.IsSnatSubnet) return false;
+      if (Active != other.Active) return false;
+      if (Online != other.Online) return false;
+      if (!object.Equals(LastSeen, other.LastSeen)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -991,6 +1043,9 @@ namespace Protos {
       if (HasIceAddr) hash ^= IceAddr.GetHashCode();
       hash ^= advertiseRoutes_.GetHashCode();
       if (IsSnatSubnet != false) hash ^= IsSnatSubnet.GetHashCode();
+      if (Active != false) hash ^= Active.GetHashCode();
+      if (Online != false) hash ^= Online.GetHashCode();
+      if (lastSeen_ != null) hash ^= LastSeen.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1058,6 +1113,18 @@ namespace Protos {
         output.WriteRawTag(128, 1);
         output.WriteBool(IsSnatSubnet);
       }
+      if (Active != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(Active);
+      }
+      if (Online != false) {
+        output.WriteRawTag(144, 1);
+        output.WriteBool(Online);
+      }
+      if (lastSeen_ != null) {
+        output.WriteRawTag(154, 1);
+        output.WriteMessage(LastSeen);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1117,6 +1184,18 @@ namespace Protos {
         output.WriteRawTag(128, 1);
         output.WriteBool(IsSnatSubnet);
       }
+      if (Active != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(Active);
+      }
+      if (Online != false) {
+        output.WriteRawTag(144, 1);
+        output.WriteBool(Online);
+      }
+      if (lastSeen_ != null) {
+        output.WriteRawTag(154, 1);
+        output.WriteMessage(LastSeen);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1164,6 +1243,15 @@ namespace Protos {
       size += advertiseRoutes_.CalculateSize(_repeated_advertiseRoutes_codec);
       if (IsSnatSubnet != false) {
         size += 2 + 1;
+      }
+      if (Active != false) {
+        size += 2 + 1;
+      }
+      if (Online != false) {
+        size += 2 + 1;
+      }
+      if (lastSeen_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(LastSeen);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1220,6 +1308,18 @@ namespace Protos {
       advertiseRoutes_.Add(other.advertiseRoutes_);
       if (other.IsSnatSubnet != false) {
         IsSnatSubnet = other.IsSnatSubnet;
+      }
+      if (other.Active != false) {
+        Active = other.Active;
+      }
+      if (other.Online != false) {
+        Online = other.Online;
+      }
+      if (other.lastSeen_ != null) {
+        if (lastSeen_ == null) {
+          LastSeen = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        LastSeen.MergeFrom(other.LastSeen);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1306,6 +1406,21 @@ namespace Protos {
             IsSnatSubnet = input.ReadBool();
             break;
           }
+          case 136: {
+            Active = input.ReadBool();
+            break;
+          }
+          case 144: {
+            Online = input.ReadBool();
+            break;
+          }
+          case 154: {
+            if (lastSeen_ == null) {
+              LastSeen = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(LastSeen);
+            break;
+          }
         }
       }
     #endif
@@ -1389,6 +1504,21 @@ namespace Protos {
           }
           case 128: {
             IsSnatSubnet = input.ReadBool();
+            break;
+          }
+          case 136: {
+            Active = input.ReadBool();
+            break;
+          }
+          case 144: {
+            Online = input.ReadBool();
+            break;
+          }
+          case 154: {
+            if (lastSeen_ == null) {
+              LastSeen = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(LastSeen);
             break;
           }
         }

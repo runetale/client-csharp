@@ -44,45 +44,47 @@ namespace Protos {
             "ZRgOIAEoCBIsCghsYXN0U2VlbhgPIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5U",
             "aW1lc3RhbXAidgoTQ29tcG9zZU5vZGVSZXNwb25zZRIKCgJpcBgBIAEoCRIM",
             "CgRjaWRyGAIgASgJEg4KBnVzZXJJZBgDIAEoBBINCgVlbWFpbBgEIAEoCRIT",
-            "CgtkaXNwbGF5TmFtZRgFIAEoCRIRCglsb2dpbk5hbWUYBiABKAkijQEKDE5l",
-            "dFBvcnRSYW5nZRIKCgJpcBgBIAEoCRItCgVwb3J0cxgCIAEoCzIeLnByb3Rv",
-            "cy5OZXRQb3J0UmFuZ2UucG9ydFJhbmdlEhgKEGFkdmVydGlzZWRSb3V0ZXMY",
-            "AyABKAkaKAoJcG9ydFJhbmdlEg0KBWZpcnN0GAEgASgEEgwKBGxhc3QYAiAB",
-            "KAQiUQoKRmlsdGVyUnVsZRIOCgZzcmNJcHMYASADKAkSIgoEZHN0cxgCIAMo",
-            "CzIULnByb3Rvcy5OZXRQb3J0UmFuZ2USDwoHaVBQcm90bxgDIAMoDSLdAwoS",
-            "TmV0d29ya01hcFJlc3BvbnNlEgsKA3NlcRgBIAEoBBIaCgRub2RlGAIgASgL",
-            "MgwucHJvdG9zLk5vZGUSGwoFcGVlcnMYAyADKAsyDC5wcm90b3MuTm9kZRIi",
-            "CgxwZWVyc0NoYW5nZWQYBCADKAsyDC5wcm90b3MuTm9kZRIUCgxwZWVyc1Jl",
-            "bW92ZWQYBSADKAQSKAoMcGFja2V0RmlsdGVyGAYgAygLMhIucHJvdG9zLkZp",
-            "bHRlclJ1bGUSFwoPYWR2ZXJ0aXNlZFJvdXRlGAcgASgJEg4KBmphaWxlZBgI",
-            "IAEoCBIeCghpY2VUYWJsZRgJIAMoCzIMLnByb3Rvcy5Ob2RlEh4KA2RucxgK",
-            "IAEoCzIRLnByb3Rvcy5ETlNDb25maWcSJAoJYXBwTGlua2VyGAsgAygLMhEu",
-            "cHJvdG9zLkFwcExpbmtlchIgCgdjZXJmTWFwGBQgASgLMg8ucHJvdG9zLkNl",
-            "cmZNYXASGwoTZGVmYXVsdENlcmZSZWdpb25JZBgVIAEoDRIYChB0ZWxlbWV0",
-            "cnlfbG9nX2lkGBYgASgJEh8KF2RvbWFpbl90ZWxlbWV0cnlfbG9nX2lkGBcg",
-            "ASgJEhQKDGNhcGFiaWxpdGllcxgYIAMoCSIuCgdDZXJmTWFwEiMKB3JlZ2lv",
-            "bnMYASADKAsyEi5wcm90b3MuQ2VyZlJlZ2lvbiJTCgpDZXJmUmVnaW9uEhAK",
-            "CHJlZ2lvbklkGAEgASgNEhIKCnJlZ2lvbkNvZGUYAiABKAkSHwoFbm9kZXMY",
-            "AyADKAsyEC5wcm90b3MuQ2VyZk5vZGUiigEKCENlcmZOb2RlEgwKBG5hbWUY",
-            "ASABKAkSEAoIaG9zdE5hbWUYAiABKAkSEAoIY2VyZlBvcnQYAyABKA0SEAoI",
-            "c3R1blBvcnQYBCABKA0SFQoNd2Vic29ja2V0T25seRgFIAEoCBIRCglmb3Jj",
-            "ZUh0dHAYBiABKAgSEAoIc3R1bk9ubHkYByABKAgiOgoJQXBwTGlua2VyEgwK",
-            "BG5hbWUYASABKAkSDwoHZG9tYWlucxgCIAMoCRIOCgZyb3V0ZXMYAyADKAki",
-            "GAoIUmVzb2x2ZXISDAoEYWRkchgBIAEoCSIwCglSZXNvbHZlcnMSIwoJcmVz",
-            "b2x2ZXJzGAEgAygLMhAucHJvdG9zLlJlc29sdmVyIusBCglETlNDb25maWcS",
-            "IwoJcmVzb2x2ZXJzGAEgAygLMhAucHJvdG9zLlJlc29sdmVyEi0KBnJvdXRl",
-            "cxgCIAMoCzIdLnByb3Rvcy5ETlNDb25maWcuUm91dGVzRW50cnkSFQoNc2Vh",
-            "cmNoRG9tYWlucxgDIAMoCRIXCg9leGl0Tm9kZUZpbHRlcmQYBCADKAkSGAoQ",
-            "ZW5hYmxlZFdvbmRlckROUxgFIAEoCBpACgtSb3V0ZXNFbnRyeRILCgNrZXkY",
-            "ASABKAkSIAoFdmFsdWUYAiABKAsyES5wcm90b3MuUmVzb2x2ZXJzOgI4ATLB",
-            "AgoLTm9kZVNlcnZpY2USRAoLQ29tcG9zZU5vZGUSFi5nb29nbGUucHJvdG9i",
-            "dWYuRW1wdHkaGy5wcm90b3MuQ29tcG9zZU5vZGVSZXNwb25zZSIAEkUKDUdl",
-            "dE5ldHdvcmtNYXASFi5nb29nbGUucHJvdG9idWYuRW1wdHkaGi5wcm90b3Mu",
-            "TmV0d29ya01hcFJlc3BvbnNlIgASVgoWQ29ubmVjdE5ldHdvcmtNYXBUYWJs",
-            "ZRIaLnByb3Rvcy5OZXR3b3JrTWFwUmVzcG9uc2UaGi5wcm90b3MuTmV0d29y",
-            "a01hcFJlc3BvbnNlIgAoATABEk0KE1VwbG9hZFBhY2tldEZsb3dMb2cSHC5w",
-            "cm90b3MuUGFja2V0Rmxvd0xvZ1JlcXVlc3QaFi5nb29nbGUucHJvdG9idWYu",
-            "RW1wdHkiAEIIWgYuL25vZGViBnByb3RvMw=="));
+            "CgtkaXNwbGF5TmFtZRgFIAEoCRIRCglsb2dpbk5hbWUYBiABKAkiaQoRTmV0",
+            "d29ya01hcFJlcXVlc3QSGAoLdnBuX3J1bm5pbmcYASABKAhIAIgBARIZCgxp",
+            "c19rZWVwYWxpdmUYAiABKAhIAYgBAUIOCgxfdnBuX3J1bm5pbmdCDwoNX2lz",
+            "X2tlZXBhbGl2ZSKNAQoMTmV0UG9ydFJhbmdlEgoKAmlwGAEgASgJEi0KBXBv",
+            "cnRzGAIgASgLMh4ucHJvdG9zLk5ldFBvcnRSYW5nZS5wb3J0UmFuZ2USGAoQ",
+            "YWR2ZXJ0aXNlZFJvdXRlcxgDIAEoCRooCglwb3J0UmFuZ2USDQoFZmlyc3QY",
+            "ASABKAQSDAoEbGFzdBgCIAEoBCJRCgpGaWx0ZXJSdWxlEg4KBnNyY0lwcxgB",
+            "IAMoCRIiCgRkc3RzGAIgAygLMhQucHJvdG9zLk5ldFBvcnRSYW5nZRIPCgdp",
+            "UFByb3RvGAMgAygNIt0DChJOZXR3b3JrTWFwUmVzcG9uc2USCwoDc2VxGAEg",
+            "ASgEEhoKBG5vZGUYAiABKAsyDC5wcm90b3MuTm9kZRIbCgVwZWVycxgDIAMo",
+            "CzIMLnByb3Rvcy5Ob2RlEiIKDHBlZXJzQ2hhbmdlZBgEIAMoCzIMLnByb3Rv",
+            "cy5Ob2RlEhQKDHBlZXJzUmVtb3ZlZBgFIAMoBBIoCgxwYWNrZXRGaWx0ZXIY",
+            "BiADKAsyEi5wcm90b3MuRmlsdGVyUnVsZRIXCg9hZHZlcnRpc2VkUm91dGUY",
+            "ByABKAkSDgoGamFpbGVkGAggASgIEh4KCGljZVRhYmxlGAkgAygLMgwucHJv",
+            "dG9zLk5vZGUSHgoDZG5zGAogASgLMhEucHJvdG9zLkROU0NvbmZpZxIkCglh",
+            "cHBMaW5rZXIYCyADKAsyES5wcm90b3MuQXBwTGlua2VyEiAKB2NlcmZNYXAY",
+            "FCABKAsyDy5wcm90b3MuQ2VyZk1hcBIbChNkZWZhdWx0Q2VyZlJlZ2lvbklk",
+            "GBUgASgNEhgKEHRlbGVtZXRyeV9sb2dfaWQYFiABKAkSHwoXZG9tYWluX3Rl",
+            "bGVtZXRyeV9sb2dfaWQYFyABKAkSFAoMY2FwYWJpbGl0aWVzGBggAygJIi4K",
+            "B0NlcmZNYXASIwoHcmVnaW9ucxgBIAMoCzISLnByb3Rvcy5DZXJmUmVnaW9u",
+            "IlMKCkNlcmZSZWdpb24SEAoIcmVnaW9uSWQYASABKA0SEgoKcmVnaW9uQ29k",
+            "ZRgCIAEoCRIfCgVub2RlcxgDIAMoCzIQLnByb3Rvcy5DZXJmTm9kZSKKAQoI",
+            "Q2VyZk5vZGUSDAoEbmFtZRgBIAEoCRIQCghob3N0TmFtZRgCIAEoCRIQCghj",
+            "ZXJmUG9ydBgDIAEoDRIQCghzdHVuUG9ydBgEIAEoDRIVCg13ZWJzb2NrZXRP",
+            "bmx5GAUgASgIEhEKCWZvcmNlSHR0cBgGIAEoCBIQCghzdHVuT25seRgHIAEo",
+            "CCI6CglBcHBMaW5rZXISDAoEbmFtZRgBIAEoCRIPCgdkb21haW5zGAIgAygJ",
+            "Eg4KBnJvdXRlcxgDIAMoCSIYCghSZXNvbHZlchIMCgRhZGRyGAEgASgJIjAK",
+            "CVJlc29sdmVycxIjCglyZXNvbHZlcnMYASADKAsyEC5wcm90b3MuUmVzb2x2",
+            "ZXIi6wEKCUROU0NvbmZpZxIjCglyZXNvbHZlcnMYASADKAsyEC5wcm90b3Mu",
+            "UmVzb2x2ZXISLQoGcm91dGVzGAIgAygLMh0ucHJvdG9zLkROU0NvbmZpZy5S",
+            "b3V0ZXNFbnRyeRIVCg1zZWFyY2hEb21haW5zGAMgAygJEhcKD2V4aXROb2Rl",
+            "RmlsdGVyZBgEIAMoCRIYChBlbmFibGVkV29uZGVyRE5TGAUgASgIGkAKC1Jv",
+            "dXRlc0VudHJ5EgsKA2tleRgBIAEoCRIgCgV2YWx1ZRgCIAEoCzIRLnByb3Rv",
+            "cy5SZXNvbHZlcnM6AjgBMsACCgtOb2RlU2VydmljZRJECgtDb21wb3NlTm9k",
+            "ZRIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRobLnByb3Rvcy5Db21wb3NlTm9k",
+            "ZVJlc3BvbnNlIgASRQoNR2V0TmV0d29ya01hcBIWLmdvb2dsZS5wcm90b2J1",
+            "Zi5FbXB0eRoaLnByb3Rvcy5OZXR3b3JrTWFwUmVzcG9uc2UiABJVChZDb25u",
+            "ZWN0TmV0d29ya01hcFRhYmxlEhkucHJvdG9zLk5ldHdvcmtNYXBSZXF1ZXN0",
+            "GhoucHJvdG9zLk5ldHdvcmtNYXBSZXNwb25zZSIAKAEwARJNChNVcGxvYWRQ",
+            "YWNrZXRGbG93TG9nEhwucHJvdG9zLlBhY2tldEZsb3dMb2dSZXF1ZXN0GhYu",
+            "Z29vZ2xlLnByb3RvYnVmLkVtcHR5IgBCCFoGLi9ub2RlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -90,6 +92,7 @@ namespace Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PacketFlowLog), global::Protos.PacketFlowLog.Parser, new[]{ "Proto", "Src", "Dst", "TxPackets", "TxBytes", "RxPackets", "RxBytes" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Node), global::Protos.Node.Parser, new[]{ "Name", "NodeId", "NodeKey", "WgPubKey", "AllowedIPs", "Addresses", "UserId", "Email", "DisplayName", "LoginName", "HostOS", "RuneKey", "CerfHomeRegionId", "Online", "LastSeen" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.ComposeNodeResponse), global::Protos.ComposeNodeResponse.Parser, new[]{ "Ip", "Cidr", "UserId", "Email", "DisplayName", "LoginName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapRequest), global::Protos.NetworkMapRequest.Parser, new[]{ "VpnRunning", "IsKeepalive" }, new[]{ "VpnRunning", "IsKeepalive" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange), global::Protos.NetPortRange.Parser, new[]{ "Ip", "Ports", "AdvertisedRoutes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange.Types.portRange), global::Protos.NetPortRange.Types.portRange.Parser, new[]{ "First", "Last" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilterRule), global::Protos.FilterRule.Parser, new[]{ "SrcIps", "Dsts", "IPProto" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapResponse), global::Protos.NetworkMapResponse.Parser, new[]{ "Seq", "Node", "Peers", "PeersChanged", "PeersRemoved", "PacketFilter", "AdvertisedRoute", "Jailed", "IceTable", "Dns", "AppLinker", "CerfMap", "DefaultCerfRegionId", "TelemetryLogId", "DomainTelemetryLogId", "Capabilities" }, null, null, null, null),
@@ -2023,6 +2026,273 @@ namespace Protos {
 
   }
 
+  /// <summary>
+  /// NetworkMapRequest is sent from client to server in the ConnectNetworkMapTable stream.
+  /// It contains the client's VPN state and is used for keepalive.
+  /// </summary>
+  public sealed partial class NetworkMapRequest : pb::IMessage<NetworkMapRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NetworkMapRequest> _parser = new pb::MessageParser<NetworkMapRequest>(() => new NetworkMapRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NetworkMapRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkMapRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkMapRequest(NetworkMapRequest other) : this() {
+      _hasBits0 = other._hasBits0;
+      vpnRunning_ = other.vpnRunning_;
+      isKeepalive_ = other.isKeepalive_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkMapRequest Clone() {
+      return new NetworkMapRequest(this);
+    }
+
+    /// <summary>Field number for the "vpn_running" field.</summary>
+    public const int VpnRunningFieldNumber = 1;
+    private bool vpnRunning_;
+    /// <summary>
+    /// vpn_running indicates whether the VPN is currently active (up=true, down=false).
+    /// This is different from the stream connection status - the stream stays connected
+    /// even when VPN is down, allowing for faster reconnection.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool VpnRunning {
+      get { if ((_hasBits0 & 1) != 0) { return vpnRunning_; } else { return false; } }
+      set {
+        _hasBits0 |= 1;
+        vpnRunning_ = value;
+      }
+    }
+    /// <summary>Gets whether the "vpn_running" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasVpnRunning {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "vpn_running" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearVpnRunning() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "is_keepalive" field.</summary>
+    public const int IsKeepaliveFieldNumber = 2;
+    private bool isKeepalive_;
+    /// <summary>
+    /// is_keepalive indicates if this is a periodic keepalive message.
+    /// When false, it's a state change notification.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool IsKeepalive {
+      get { if ((_hasBits0 & 2) != 0) { return isKeepalive_; } else { return false; } }
+      set {
+        _hasBits0 |= 2;
+        isKeepalive_ = value;
+      }
+    }
+    /// <summary>Gets whether the "is_keepalive" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasIsKeepalive {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "is_keepalive" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearIsKeepalive() {
+      _hasBits0 &= ~2;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkMapRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NetworkMapRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (VpnRunning != other.VpnRunning) return false;
+      if (IsKeepalive != other.IsKeepalive) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasVpnRunning) hash ^= VpnRunning.GetHashCode();
+      if (HasIsKeepalive) hash ^= IsKeepalive.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasVpnRunning) {
+        output.WriteRawTag(8);
+        output.WriteBool(VpnRunning);
+      }
+      if (HasIsKeepalive) {
+        output.WriteRawTag(16);
+        output.WriteBool(IsKeepalive);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasVpnRunning) {
+        output.WriteRawTag(8);
+        output.WriteBool(VpnRunning);
+      }
+      if (HasIsKeepalive) {
+        output.WriteRawTag(16);
+        output.WriteBool(IsKeepalive);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasVpnRunning) {
+        size += 1 + 1;
+      }
+      if (HasIsKeepalive) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NetworkMapRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasVpnRunning) {
+        VpnRunning = other.VpnRunning;
+      }
+      if (other.HasIsKeepalive) {
+        IsKeepalive = other.IsKeepalive;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            VpnRunning = input.ReadBool();
+            break;
+          }
+          case 16: {
+            IsKeepalive = input.ReadBool();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            VpnRunning = input.ReadBool();
+            break;
+          }
+          case 16: {
+            IsKeepalive = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class NetPortRange : pb::IMessage<NetPortRange>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2037,7 +2307,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2562,7 +2832,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2810,7 +3080,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3554,7 +3824,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3732,7 +4002,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3987,7 +4257,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4416,7 +4686,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4670,7 +4940,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4859,7 +5129,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5037,7 +5307,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

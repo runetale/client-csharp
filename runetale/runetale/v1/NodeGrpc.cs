@@ -52,6 +52,8 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Protos.NetworkMapResponse> __Marshaller_protos_NetworkMapResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkMapResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.NetworkMapRequest> __Marshaller_protos_NetworkMapRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkMapRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Protos.PacketFlowLogRequest> __Marshaller_protos_PacketFlowLogRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.PacketFlowLogRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -71,11 +73,11 @@ namespace Protos {
         __Marshaller_protos_NetworkMapResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Protos.NetworkMapResponse, global::Protos.NetworkMapResponse> __Method_ConnectNetworkMapTable = new grpc::Method<global::Protos.NetworkMapResponse, global::Protos.NetworkMapResponse>(
+    static readonly grpc::Method<global::Protos.NetworkMapRequest, global::Protos.NetworkMapResponse> __Method_ConnectNetworkMapTable = new grpc::Method<global::Protos.NetworkMapRequest, global::Protos.NetworkMapResponse>(
         grpc::MethodType.DuplexStreaming,
         __ServiceName,
         "ConnectNetworkMapTable",
-        __Marshaller_protos_NetworkMapResponse,
+        __Marshaller_protos_NetworkMapRequest,
         __Marshaller_protos_NetworkMapResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -109,7 +111,7 @@ namespace Protos {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task ConnectNetworkMapTable(grpc::IAsyncStreamReader<global::Protos.NetworkMapResponse> requestStream, grpc::IServerStreamWriter<global::Protos.NetworkMapResponse> responseStream, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task ConnectNetworkMapTable(grpc::IAsyncStreamReader<global::Protos.NetworkMapRequest> requestStream, grpc::IServerStreamWriter<global::Protos.NetworkMapResponse> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -190,12 +192,12 @@ namespace Protos {
         return CallInvoker.AsyncUnaryCall(__Method_GetNetworkMap, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncDuplexStreamingCall<global::Protos.NetworkMapResponse, global::Protos.NetworkMapResponse> ConnectNetworkMapTable(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncDuplexStreamingCall<global::Protos.NetworkMapRequest, global::Protos.NetworkMapResponse> ConnectNetworkMapTable(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ConnectNetworkMapTable(new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncDuplexStreamingCall<global::Protos.NetworkMapResponse, global::Protos.NetworkMapResponse> ConnectNetworkMapTable(grpc::CallOptions options)
+      public virtual grpc::AsyncDuplexStreamingCall<global::Protos.NetworkMapRequest, global::Protos.NetworkMapResponse> ConnectNetworkMapTable(grpc::CallOptions options)
       {
         return CallInvoker.AsyncDuplexStreamingCall(__Method_ConnectNetworkMapTable, null, options);
       }
@@ -248,7 +250,7 @@ namespace Protos {
     {
       serviceBinder.AddMethod(__Method_ComposeNode, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse>(serviceImpl.ComposeNode));
       serviceBinder.AddMethod(__Method_GetNetworkMap, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetworkMapResponse>(serviceImpl.GetNetworkMap));
-      serviceBinder.AddMethod(__Method_ConnectNetworkMapTable, serviceImpl == null ? null : new grpc::DuplexStreamingServerMethod<global::Protos.NetworkMapResponse, global::Protos.NetworkMapResponse>(serviceImpl.ConnectNetworkMapTable));
+      serviceBinder.AddMethod(__Method_ConnectNetworkMapTable, serviceImpl == null ? null : new grpc::DuplexStreamingServerMethod<global::Protos.NetworkMapRequest, global::Protos.NetworkMapResponse>(serviceImpl.ConnectNetworkMapTable));
       serviceBinder.AddMethod(__Method_UploadPacketFlowLog, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.PacketFlowLogRequest, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.UploadPacketFlowLog));
     }
 

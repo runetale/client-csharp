@@ -57,16 +57,20 @@ namespace Protos {
             "Cgtpc19sb2NhbF9pcBgJIAEoCCIdCg5Db21wb3NlUmVxdWVzdBILCgNrZXkY",
             "ASABKAkiNQoLUGluZ1JlcXVlc3QSCgoCaXAYASABKAkSDAoEdHlwZRgCIAEo",
             "CRIMCgRzaXplGAMgASgFIh0KC1N0b3BSZXF1ZXN0Eg4KBnJlYXNvbhgBIAEo",
-            "CSLBAwoOTmV0Q2hlY2tSZXBvcnQSJwoDbm93GAEgASgLMhouZ29vZ2xlLnBy",
+            "CSL1BAoOTmV0Q2hlY2tSZXBvcnQSJwoDbm93GAEgASgLMhouZ29vZ2xlLnBy",
             "b3RvYnVmLlRpbWVzdGFtcBILCgN1ZHAYAiABKAgSDAoEaXB2NhgDIAEoCBIM",
             "CgRpcHY0GAQgASgIEhUKDWlwdjZfY2FuX3NlbmQYBSABKAgSFQoNaXB2NF9j",
             "YW5fc2VuZBgGIAEoCBITCgtvc19oYXNfaXB2NhgHIAEoCBIRCglnbG9iYWxf",
             "djQYCCABKAkSEQoJZ2xvYmFsX3Y2GAkgASgJEj0KDHN0dW5fbGF0ZW5jeRgK",
             "IAMoCzInLnByb3Rvcy5OZXRDaGVja1JlcG9ydC5TdHVuTGF0ZW5jeUVudHJ5",
             "Ej0KDHR1cm5fbGF0ZW5jeRgLIAMoCzInLnByb3Rvcy5OZXRDaGVja1JlcG9y",
-            "dC5UdXJuTGF0ZW5jeUVudHJ5Eg4KBmVycm9ycxgMIAMoCRoyChBTdHVuTGF0",
+            "dC5UdXJuTGF0ZW5jeUVudHJ5Eg4KBmVycm9ycxgMIAMoCRI9CgxjZXJmX2xh",
+            "dGVuY3kYDSADKAsyJy5wcm90b3MuTmV0Q2hlY2tSZXBvcnQuQ2VyZkxhdGVu",
+            "Y3lFbnRyeRIdChVwcmVmZXJyZWRfY2VyZl9yZWdpb24YDiABKAkSIAoYcHJl",
+            "ZmVycmVkX2NlcmZfcmVnaW9uX2lkGA8gASgNGjIKEFN0dW5MYXRlbmN5RW50",
+            "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgDOgI4ARoyChBUdXJuTGF0",
             "ZW5jeUVudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoAzoCOAEaMgoQ",
-            "VHVybkxhdGVuY3lFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAM6",
+            "Q2VyZkxhdGVuY3lFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAM6",
             "AjgBMs4DCgxIYXNoaVNlcnZpY2USNwoGU3RhdHVzEhYuZ29vZ2xlLnByb3Rv",
             "YnVmLkVtcHR5GhMucHJvdG9zLkhhc2hpU3RhdHVzIgASMQoEUGluZxITLnBy",
             "b3Rvcy5QaW5nUmVxdWVzdBoSLnByb3Rvcy5QaW5nUmVzdWx0IgASNgoFTG9n",
@@ -90,7 +94,7 @@ namespace Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.ComposeRequest), global::Protos.ComposeRequest.Parser, new[]{ "Key" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PingRequest), global::Protos.PingRequest.Parser, new[]{ "Ip", "Type", "Size" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.StopRequest), global::Protos.StopRequest.Parser, new[]{ "Reason" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetCheckReport), global::Protos.NetCheckReport.Parser, new[]{ "Now", "Udp", "Ipv6", "Ipv4", "Ipv6CanSend", "Ipv4CanSend", "OsHasIpv6", "GlobalV4", "GlobalV6", "StunLatency", "TurnLatency", "Errors" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, })
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetCheckReport), global::Protos.NetCheckReport.Parser, new[]{ "Now", "Udp", "Ipv6", "Ipv4", "Ipv6CanSend", "Ipv4CanSend", "OsHasIpv6", "GlobalV4", "GlobalV6", "StunLatency", "TurnLatency", "Errors", "CerfLatency", "PreferredCerfRegion", "PreferredCerfRegionId" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, null, })
           }));
     }
     #endregion
@@ -3262,6 +3266,9 @@ namespace Protos {
       stunLatency_ = other.stunLatency_.Clone();
       turnLatency_ = other.turnLatency_.Clone();
       errors_ = other.errors_.Clone();
+      cerfLatency_ = other.cerfLatency_.Clone();
+      preferredCerfRegion_ = other.preferredCerfRegion_;
+      preferredCerfRegionId_ = other.preferredCerfRegionId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3445,6 +3452,51 @@ namespace Protos {
       get { return errors_; }
     }
 
+    /// <summary>Field number for the "cerf_latency" field.</summary>
+    public const int CerfLatencyFieldNumber = 13;
+    private static readonly pbc::MapField<string, long>.Codec _map_cerfLatency_codec
+        = new pbc::MapField<string, long>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForInt64(16, 0L), 106);
+    private readonly pbc::MapField<string, long> cerfLatency_ = new pbc::MapField<string, long>();
+    /// <summary>
+    /// CERF relay latency per region. Key is "regionCode" (e.g. "tokyo"), value is latency in milliseconds.
+    /// Until client-go is regenerated, CERF data is encoded into stun_latency with "cerf:&lt;regionCode>" keys.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::MapField<string, long> CerfLatency {
+      get { return cerfLatency_; }
+    }
+
+    /// <summary>Field number for the "preferred_cerf_region" field.</summary>
+    public const int PreferredCerfRegionFieldNumber = 14;
+    private string preferredCerfRegion_ = "";
+    /// <summary>
+    /// preferred_cerf_region is the region code of the nearest (lowest latency) CERF relay.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string PreferredCerfRegion {
+      get { return preferredCerfRegion_; }
+      set {
+        preferredCerfRegion_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "preferred_cerf_region_id" field.</summary>
+    public const int PreferredCerfRegionIdFieldNumber = 15;
+    private uint preferredCerfRegionId_;
+    /// <summary>
+    /// preferred_cerf_region_id is the region ID of the nearest CERF relay.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint PreferredCerfRegionId {
+      get { return preferredCerfRegionId_; }
+      set {
+        preferredCerfRegionId_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3472,6 +3524,9 @@ namespace Protos {
       if (!StunLatency.Equals(other.StunLatency)) return false;
       if (!TurnLatency.Equals(other.TurnLatency)) return false;
       if(!errors_.Equals(other.errors_)) return false;
+      if (!CerfLatency.Equals(other.CerfLatency)) return false;
+      if (PreferredCerfRegion != other.PreferredCerfRegion) return false;
+      if (PreferredCerfRegionId != other.PreferredCerfRegionId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3491,6 +3546,9 @@ namespace Protos {
       hash ^= StunLatency.GetHashCode();
       hash ^= TurnLatency.GetHashCode();
       hash ^= errors_.GetHashCode();
+      hash ^= CerfLatency.GetHashCode();
+      if (PreferredCerfRegion.Length != 0) hash ^= PreferredCerfRegion.GetHashCode();
+      if (PreferredCerfRegionId != 0) hash ^= PreferredCerfRegionId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3548,6 +3606,15 @@ namespace Protos {
       stunLatency_.WriteTo(output, _map_stunLatency_codec);
       turnLatency_.WriteTo(output, _map_turnLatency_codec);
       errors_.WriteTo(output, _repeated_errors_codec);
+      cerfLatency_.WriteTo(output, _map_cerfLatency_codec);
+      if (PreferredCerfRegion.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(PreferredCerfRegion);
+      }
+      if (PreferredCerfRegionId != 0) {
+        output.WriteRawTag(120);
+        output.WriteUInt32(PreferredCerfRegionId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3597,6 +3664,15 @@ namespace Protos {
       stunLatency_.WriteTo(ref output, _map_stunLatency_codec);
       turnLatency_.WriteTo(ref output, _map_turnLatency_codec);
       errors_.WriteTo(ref output, _repeated_errors_codec);
+      cerfLatency_.WriteTo(ref output, _map_cerfLatency_codec);
+      if (PreferredCerfRegion.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(PreferredCerfRegion);
+      }
+      if (PreferredCerfRegionId != 0) {
+        output.WriteRawTag(120);
+        output.WriteUInt32(PreferredCerfRegionId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3637,6 +3713,13 @@ namespace Protos {
       size += stunLatency_.CalculateSize(_map_stunLatency_codec);
       size += turnLatency_.CalculateSize(_map_turnLatency_codec);
       size += errors_.CalculateSize(_repeated_errors_codec);
+      size += cerfLatency_.CalculateSize(_map_cerfLatency_codec);
+      if (PreferredCerfRegion.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PreferredCerfRegion);
+      }
+      if (PreferredCerfRegionId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(PreferredCerfRegionId);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3682,6 +3765,13 @@ namespace Protos {
       stunLatency_.Add(other.stunLatency_);
       turnLatency_.Add(other.turnLatency_);
       errors_.Add(other.errors_);
+      cerfLatency_.Add(other.cerfLatency_);
+      if (other.PreferredCerfRegion.Length != 0) {
+        PreferredCerfRegion = other.PreferredCerfRegion;
+      }
+      if (other.PreferredCerfRegionId != 0) {
+        PreferredCerfRegionId = other.PreferredCerfRegionId;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3748,6 +3838,18 @@ namespace Protos {
             errors_.AddEntriesFrom(input, _repeated_errors_codec);
             break;
           }
+          case 106: {
+            cerfLatency_.AddEntriesFrom(input, _map_cerfLatency_codec);
+            break;
+          }
+          case 114: {
+            PreferredCerfRegion = input.ReadString();
+            break;
+          }
+          case 120: {
+            PreferredCerfRegionId = input.ReadUInt32();
+            break;
+          }
         }
       }
     #endif
@@ -3812,6 +3914,18 @@ namespace Protos {
           }
           case 98: {
             errors_.AddEntriesFrom(ref input, _repeated_errors_codec);
+            break;
+          }
+          case 106: {
+            cerfLatency_.AddEntriesFrom(ref input, _map_cerfLatency_codec);
+            break;
+          }
+          case 114: {
+            PreferredCerfRegion = input.ReadString();
+            break;
+          }
+          case 120: {
+            PreferredCerfRegionId = input.ReadUInt32();
             break;
           }
         }

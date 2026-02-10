@@ -53,8 +53,6 @@ namespace Protos {
     static readonly grpc::Marshaller<global::Protos.NetworkMapResponse> __Marshaller_protos_NetworkMapResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkMapResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Protos.NetworkMapRequest> __Marshaller_protos_NetworkMapRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkMapRequest.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Protos.PacketFlowLogRequest> __Marshaller_protos_PacketFlowLogRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.PacketFlowLogRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse> __Method_ComposeNode = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse>(
@@ -80,14 +78,6 @@ namespace Protos {
         __Marshaller_protos_NetworkMapRequest,
         __Marshaller_protos_NetworkMapResponse);
 
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Protos.PacketFlowLogRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_UploadPacketFlowLog = new grpc::Method<global::Protos.PacketFlowLogRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "UploadPacketFlowLog",
-        __Marshaller_protos_PacketFlowLogRequest,
-        __Marshaller_google_protobuf_Empty);
-
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -112,12 +102,6 @@ namespace Protos {
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task ConnectNetworkMapTable(grpc::IAsyncStreamReader<global::Protos.NetworkMapRequest> requestStream, grpc::IServerStreamWriter<global::Protos.NetworkMapResponse> responseStream, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Google.Protobuf.WellKnownTypes.Empty> UploadPacketFlowLog(global::Protos.PacketFlowLogRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -201,26 +185,6 @@ namespace Protos {
       {
         return CallInvoker.AsyncDuplexStreamingCall(__Method_ConnectNetworkMapTable, null, options);
       }
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty UploadPacketFlowLog(global::Protos.PacketFlowLogRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UploadPacketFlowLog(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Google.Protobuf.WellKnownTypes.Empty UploadPacketFlowLog(global::Protos.PacketFlowLogRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_UploadPacketFlowLog, null, options, request);
-      }
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> UploadPacketFlowLogAsync(global::Protos.PacketFlowLogRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UploadPacketFlowLogAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Google.Protobuf.WellKnownTypes.Empty> UploadPacketFlowLogAsync(global::Protos.PacketFlowLogRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_UploadPacketFlowLog, null, options, request);
-      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override NodeServiceClient NewInstance(ClientBaseConfiguration configuration)
@@ -237,8 +201,7 @@ namespace Protos {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_ComposeNode, serviceImpl.ComposeNode)
           .AddMethod(__Method_GetNetworkMap, serviceImpl.GetNetworkMap)
-          .AddMethod(__Method_ConnectNetworkMapTable, serviceImpl.ConnectNetworkMapTable)
-          .AddMethod(__Method_UploadPacketFlowLog, serviceImpl.UploadPacketFlowLog).Build();
+          .AddMethod(__Method_ConnectNetworkMapTable, serviceImpl.ConnectNetworkMapTable).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -251,7 +214,6 @@ namespace Protos {
       serviceBinder.AddMethod(__Method_ComposeNode, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse>(serviceImpl.ComposeNode));
       serviceBinder.AddMethod(__Method_GetNetworkMap, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetworkMapResponse>(serviceImpl.GetNetworkMap));
       serviceBinder.AddMethod(__Method_ConnectNetworkMapTable, serviceImpl == null ? null : new grpc::DuplexStreamingServerMethod<global::Protos.NetworkMapRequest, global::Protos.NetworkMapResponse>(serviceImpl.ConnectNetworkMapTable));
-      serviceBinder.AddMethod(__Method_UploadPacketFlowLog, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.PacketFlowLogRequest, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.UploadPacketFlowLog));
     }
 
   }

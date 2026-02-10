@@ -25,85 +25,88 @@ namespace Logserver {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiVydW5ldGFsZS9ydW5ldGFsZS92MS9sb2dfcmVhZGVyLnByb3RvEglsb2dz",
-            "ZXJ2ZXIaH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAucHJvdG8ivgEKEUdl",
+            "ZXJ2ZXIaH2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAucHJvdG8i2AEKEUdl",
             "dExvZ2x5cGhSZXF1ZXN0EhUKDWxvZ19zdHJlYW1faWQYASABKAkSKAoEZnJv",
             "bRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASJgoCdG8YAyAB",
             "KAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEg0KBWxpbWl0GAQgASgF",
             "Eg4KBm9mZnNldBgFIAEoBRISCgpzZXNzaW9uX2lkGAYgASgJEg0KBWxldmVs",
-            "GAcgASgJIlkKEkdldExvZ2x5cGhSZXNwb25zZRIuCgdlbnRyaWVzGAEgAygL",
-            "Mh0ubG9nc2VydmVyLlN0b3JlZExvZ2x5cGhFbnRyeRITCgt0b3RhbF9jb3Vu",
-            "dBgCIAEoAyKjAgoSU3RvcmVkTG9nbHlwaEVudHJ5EgoKAmlkGAEgASgEEhUK",
-            "DWxvZ19zdHJlYW1faWQYAiABKAkSEgoKc2Vzc2lvbl9pZBgDIAEoCRIWCg5j",
-            "bGllbnRfdmVyc2lvbhgEIAEoCRIvCgtjbGllbnRfdGltZRgFIAEoCzIaLmdv",
-            "b2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLwoLcmVjZWl2ZWRfYXQYBiABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEg0KBWxldmVsGAcgASgJEgwK",
-            "BHRleHQYCCABKAkSDwoHcGF5bG9hZBgJIAEoCRIuCgpjcmVhdGVkX2F0GAog",
-            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCLJAQoVR2V0T3JiaXRF",
-            "dmVudHNSZXF1ZXN0EhUKDWxvZ19zdHJlYW1faWQYASABKAkSEgoKc2Vzc2lv",
-            "bl9pZBgCIAEoCRIoCgRmcm9tGAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRp",
-            "bWVzdGFtcBImCgJ0bxgEIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3Rh",
-            "bXASDQoFbGltaXQYBSABKAUSDgoGb2Zmc2V0GAYgASgFEhQKDHBheWxvYWRf",
-            "dHlwZRgHIAEoCSJaChZHZXRPcmJpdEV2ZW50c1Jlc3BvbnNlEisKBmV2ZW50",
-            "cxgBIAMoCzIbLmxvZ3NlcnZlci5TdG9yZWRPcmJpdEV2ZW50EhMKC3RvdGFs",
-            "X2NvdW50GAIgASgDIv8CChBTdG9yZWRPcmJpdEV2ZW50EgoKAmlkGAEgASgE",
-            "EhUKDWxvZ19zdHJlYW1faWQYAiABKAkSEgoKc2Vzc2lvbl9pZBgDIAEoCRIW",
-            "Cg5jbGllbnRfdmVyc2lvbhgEIAEoCRIvCgtyZWNlaXZlZF9hdBgFIAEoCzIa",
-            "Lmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLAoIZXZlbnRfYXQYBiABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi0KCWV2ZW50X2RheRgHIAEo",
-            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASEQoJcGVlcl9oYXNoGAgg",
-            "ASgMEhEKCXJlZ2lvbl9pZBgJIAEoDRIRCgl0cmFuc3BvcnQYCiABKAUSFAoM",
-            "cGF5bG9hZF90eXBlGAsgASgJEg8KB3BheWxvYWQYDCABKAkSLgoKY3JlYXRl",
-            "ZF9hdBgNIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAilQEKGkdl",
-            "dE9yYml0RGFpbHlDb3VudHNSZXF1ZXN0EhUKDWxvZ19zdHJlYW1faWQYASAB",
-            "KAkSDgoGbWV0cmljGAIgASgJEigKBGZyb20YAyABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuVGltZXN0YW1wEiYKAnRvGAQgASgLMhouZ29vZ2xlLnByb3RvYnVm",
-            "LlRpbWVzdGFtcCJEChtHZXRPcmJpdERhaWx5Q291bnRzUmVzcG9uc2USJQoG",
-            "Y291bnRzGAEgAygLMhUubG9nc2VydmVyLkRhaWx5Q291bnQi3gEKCkRhaWx5",
-            "Q291bnQSJwoDZGF5GAEgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
-            "cBIVCg1sb2dfc3RyZWFtX2lkGAIgASgJEg4KBm1ldHJpYxgDIAEoCRIRCgls",
-            "YWJlbF9rZXkYBCABKAkSDQoFY291bnQYBSABKAMSLgoKY3JlYXRlZF9hdBgG",
-            "IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLgoKdXBkYXRlZF9h",
-            "dBgHIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAitQEKGEdldFBh",
-            "Y2tldEZsb3dMb2dzUmVxdWVzdBIVCg1sb2dfc3RyZWFtX2lkGAEgASgJEigK",
-            "BGZyb20YAiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEiYKAnRv",
-            "GAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBINCgVsaW1pdBgE",
-            "IAEoBRIOCgZvZmZzZXQYBSABKAUSEQoJbm9kZV90eXBlGAYgASgJIl4KGUdl",
-            "dFBhY2tldEZsb3dMb2dzUmVzcG9uc2USLAoEbG9ncxgBIAMoCzIeLmxvZ3Nl",
-            "cnZlci5TdG9yZWRQYWNrZXRGbG93TG9nEhMKC3RvdGFsX2NvdW50GAIgASgD",
-            "IoYDChNTdG9yZWRQYWNrZXRGbG93TG9nEgoKAmlkGAEgASgEEhUKDWxvZ19z",
-            "dHJlYW1faWQYAiABKAkSEQoJbm9kZV90eXBlGAMgASgJEhAKCHByb3RvY29s",
-            "GAQgASgJEg4KBnNyY19pcBgFIAEoCRIOCgZkc3RfaXAYBiABKAkSEgoKdHhf",
-            "cGFja2V0cxgHIAEoBBIQCgh0eF9ieXRlcxgIIAEoBBISCgpyeF9wYWNrZXRz",
-            "GAkgASgEEhAKCHJ4X2J5dGVzGAogASgEEi4KCnN0YXJ0ZWRfYXQYCyABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEiwKCGVuZGVkX2F0GAwgASgL",
-            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBItCglsb2dnZWRfYXQYDSAB",
-            "KAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi4KCmNyZWF0ZWRfYXQY",
-            "DiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wMokDChBMb2dSZWFk",
-            "ZXJTZXJ2aWNlElIKEUdldExvZ2x5cGhFbnRyaWVzEhwubG9nc2VydmVyLkdl",
-            "dExvZ2x5cGhSZXF1ZXN0Gh0ubG9nc2VydmVyLkdldExvZ2x5cGhSZXNwb25z",
-            "ZSIAElcKDkdldE9yYml0RXZlbnRzEiAubG9nc2VydmVyLkdldE9yYml0RXZl",
-            "bnRzUmVxdWVzdBohLmxvZ3NlcnZlci5HZXRPcmJpdEV2ZW50c1Jlc3BvbnNl",
-            "IgASZgoTR2V0T3JiaXREYWlseUNvdW50cxIlLmxvZ3NlcnZlci5HZXRPcmJp",
-            "dERhaWx5Q291bnRzUmVxdWVzdBomLmxvZ3NlcnZlci5HZXRPcmJpdERhaWx5",
-            "Q291bnRzUmVzcG9uc2UiABJgChFHZXRQYWNrZXRGbG93TG9ncxIjLmxvZ3Nl",
-            "cnZlci5HZXRQYWNrZXRGbG93TG9nc1JlcXVlc3QaJC5sb2dzZXJ2ZXIuR2V0",
-            "UGFja2V0Rmxvd0xvZ3NSZXNwb25zZSIAQg1aCy4vbG9ncmVhZGVyYgZwcm90",
-            "bzM="));
+            "GAcgASgJEhgKEHRlbGVtZXRyeV9sb2dfaWQYCCABKAkiWQoSR2V0TG9nbHlw",
+            "aFJlc3BvbnNlEi4KB2VudHJpZXMYASADKAsyHS5sb2dzZXJ2ZXIuU3RvcmVk",
+            "TG9nbHlwaEVudHJ5EhMKC3RvdGFsX2NvdW50GAIgASgDIr0CChJTdG9yZWRM",
+            "b2dseXBoRW50cnkSCgoCaWQYASABKAQSFQoNbG9nX3N0cmVhbV9pZBgCIAEo",
+            "CRISCgpzZXNzaW9uX2lkGAMgASgJEhYKDmNsaWVudF92ZXJzaW9uGAQgASgJ",
+            "Ei8KC2NsaWVudF90aW1lGAUgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
+            "dGFtcBIvCgtyZWNlaXZlZF9hdBgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5U",
+            "aW1lc3RhbXASDQoFbGV2ZWwYByABKAkSDAoEdGV4dBgIIAEoCRIPCgdwYXls",
+            "b2FkGAkgASgJEi4KCmNyZWF0ZWRfYXQYCiABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuVGltZXN0YW1wEhgKEHRlbGVtZXRyeV9sb2dfaWQYCyABKAki4wEKFUdl",
+            "dE9yYml0RXZlbnRzUmVxdWVzdBIVCg1sb2dfc3RyZWFtX2lkGAEgASgJEhIK",
+            "CnNlc3Npb25faWQYAiABKAkSKAoEZnJvbRgDIAEoCzIaLmdvb2dsZS5wcm90",
+            "b2J1Zi5UaW1lc3RhbXASJgoCdG8YBCABKAsyGi5nb29nbGUucHJvdG9idWYu",
+            "VGltZXN0YW1wEg0KBWxpbWl0GAUgASgFEg4KBm9mZnNldBgGIAEoBRIUCgxw",
+            "YXlsb2FkX3R5cGUYByABKAkSGAoQdGVsZW1ldHJ5X2xvZ19pZBgIIAEoCSJa",
+            "ChZHZXRPcmJpdEV2ZW50c1Jlc3BvbnNlEisKBmV2ZW50cxgBIAMoCzIbLmxv",
+            "Z3NlcnZlci5TdG9yZWRPcmJpdEV2ZW50EhMKC3RvdGFsX2NvdW50GAIgASgD",
+            "IpkDChBTdG9yZWRPcmJpdEV2ZW50EgoKAmlkGAEgASgEEhUKDWxvZ19zdHJl",
+            "YW1faWQYAiABKAkSEgoKc2Vzc2lvbl9pZBgDIAEoCRIWCg5jbGllbnRfdmVy",
+            "c2lvbhgEIAEoCRIvCgtyZWNlaXZlZF9hdBgFIAEoCzIaLmdvb2dsZS5wcm90",
+            "b2J1Zi5UaW1lc3RhbXASLAoIZXZlbnRfYXQYBiABKAsyGi5nb29nbGUucHJv",
+            "dG9idWYuVGltZXN0YW1wEi0KCWV2ZW50X2RheRgHIAEoCzIaLmdvb2dsZS5w",
+            "cm90b2J1Zi5UaW1lc3RhbXASEQoJcGVlcl9oYXNoGAggASgMEhEKCXJlZ2lv",
+            "bl9pZBgJIAEoDRIRCgl0cmFuc3BvcnQYCiABKAUSFAoMcGF5bG9hZF90eXBl",
+            "GAsgASgJEg8KB3BheWxvYWQYDCABKAkSLgoKY3JlYXRlZF9hdBgNIAEoCzIa",
+            "Lmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASGAoQdGVsZW1ldHJ5X2xvZ19p",
+            "ZBgOIAEoCSKVAQoaR2V0T3JiaXREYWlseUNvdW50c1JlcXVlc3QSFQoNbG9n",
+            "X3N0cmVhbV9pZBgBIAEoCRIOCgZtZXRyaWMYAiABKAkSKAoEZnJvbRgDIAEo",
+            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASJgoCdG8YBCABKAsyGi5n",
+            "b29nbGUucHJvdG9idWYuVGltZXN0YW1wIkQKG0dldE9yYml0RGFpbHlDb3Vu",
+            "dHNSZXNwb25zZRIlCgZjb3VudHMYASADKAsyFS5sb2dzZXJ2ZXIuRGFpbHlD",
+            "b3VudCLeAQoKRGFpbHlDb3VudBInCgNkYXkYASABKAsyGi5nb29nbGUucHJv",
+            "dG9idWYuVGltZXN0YW1wEhUKDWxvZ19zdHJlYW1faWQYAiABKAkSDgoGbWV0",
+            "cmljGAMgASgJEhEKCWxhYmVsX2tleRgEIAEoCRINCgVjb3VudBgFIAEoAxIu",
+            "CgpjcmVhdGVkX2F0GAYgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
+            "cBIuCgp1cGRhdGVkX2F0GAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
+            "dGFtcCLWAQoYR2V0UGFja2V0Rmxvd0xvZ3NSZXF1ZXN0EhUKDWxvZ19zdHJl",
+            "YW1faWQYASABKAkSKAoEZnJvbRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5U",
+            "aW1lc3RhbXASJgoCdG8YAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0",
+            "YW1wEg0KBWxpbWl0GAQgASgFEg4KBm9mZnNldBgFIAEoBRIRCglub2RlX3R5",
+            "cGUYBiABKAkSHwoXZG9tYWluX3RlbGVtZXRyeV9sb2dfaWQYByABKAkiXgoZ",
+            "R2V0UGFja2V0Rmxvd0xvZ3NSZXNwb25zZRIsCgRsb2dzGAEgAygLMh4ubG9n",
+            "c2VydmVyLlN0b3JlZFBhY2tldEZsb3dMb2cSEwoLdG90YWxfY291bnQYAiAB",
+            "KAMipwMKE1N0b3JlZFBhY2tldEZsb3dMb2cSCgoCaWQYASABKAQSFQoNbG9n",
+            "X3N0cmVhbV9pZBgCIAEoCRIRCglub2RlX3R5cGUYAyABKAkSEAoIcHJvdG9j",
+            "b2wYBCABKAkSDgoGc3JjX2lwGAUgASgJEg4KBmRzdF9pcBgGIAEoCRISCgp0",
+            "eF9wYWNrZXRzGAcgASgEEhAKCHR4X2J5dGVzGAggASgEEhIKCnJ4X3BhY2tl",
+            "dHMYCSABKAQSEAoIcnhfYnl0ZXMYCiABKAQSLgoKc3RhcnRlZF9hdBgLIAEo",
+            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLAoIZW5kZWRfYXQYDCAB",
+            "KAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi0KCWxvZ2dlZF9hdBgN",
+            "IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLgoKY3JlYXRlZF9h",
+            "dBgOIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASHwoXZG9tYWlu",
+            "X3RlbGVtZXRyeV9sb2dfaWQYDyABKAkyiQMKEExvZ1JlYWRlclNlcnZpY2US",
+            "UgoRR2V0TG9nbHlwaEVudHJpZXMSHC5sb2dzZXJ2ZXIuR2V0TG9nbHlwaFJl",
+            "cXVlc3QaHS5sb2dzZXJ2ZXIuR2V0TG9nbHlwaFJlc3BvbnNlIgASVwoOR2V0",
+            "T3JiaXRFdmVudHMSIC5sb2dzZXJ2ZXIuR2V0T3JiaXRFdmVudHNSZXF1ZXN0",
+            "GiEubG9nc2VydmVyLkdldE9yYml0RXZlbnRzUmVzcG9uc2UiABJmChNHZXRP",
+            "cmJpdERhaWx5Q291bnRzEiUubG9nc2VydmVyLkdldE9yYml0RGFpbHlDb3Vu",
+            "dHNSZXF1ZXN0GiYubG9nc2VydmVyLkdldE9yYml0RGFpbHlDb3VudHNSZXNw",
+            "b25zZSIAEmAKEUdldFBhY2tldEZsb3dMb2dzEiMubG9nc2VydmVyLkdldFBh",
+            "Y2tldEZsb3dMb2dzUmVxdWVzdBokLmxvZ3NlcnZlci5HZXRQYWNrZXRGbG93",
+            "TG9nc1Jlc3BvbnNlIgBCDVoLLi9sb2dyZWFkZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetLoglyphRequest), global::Logserver.GetLoglyphRequest.Parser, new[]{ "LogStreamId", "From", "To", "Limit", "Offset", "SessionId", "Level" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetLoglyphRequest), global::Logserver.GetLoglyphRequest.Parser, new[]{ "LogStreamId", "From", "To", "Limit", "Offset", "SessionId", "Level", "TelemetryLogId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetLoglyphResponse), global::Logserver.GetLoglyphResponse.Parser, new[]{ "Entries", "TotalCount" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.StoredLoglyphEntry), global::Logserver.StoredLoglyphEntry.Parser, new[]{ "Id", "LogStreamId", "SessionId", "ClientVersion", "ClientTime", "ReceivedAt", "Level", "Text", "Payload", "CreatedAt" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetOrbitEventsRequest), global::Logserver.GetOrbitEventsRequest.Parser, new[]{ "LogStreamId", "SessionId", "From", "To", "Limit", "Offset", "PayloadType" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.StoredLoglyphEntry), global::Logserver.StoredLoglyphEntry.Parser, new[]{ "Id", "LogStreamId", "SessionId", "ClientVersion", "ClientTime", "ReceivedAt", "Level", "Text", "Payload", "CreatedAt", "TelemetryLogId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetOrbitEventsRequest), global::Logserver.GetOrbitEventsRequest.Parser, new[]{ "LogStreamId", "SessionId", "From", "To", "Limit", "Offset", "PayloadType", "TelemetryLogId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetOrbitEventsResponse), global::Logserver.GetOrbitEventsResponse.Parser, new[]{ "Events", "TotalCount" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.StoredOrbitEvent), global::Logserver.StoredOrbitEvent.Parser, new[]{ "Id", "LogStreamId", "SessionId", "ClientVersion", "ReceivedAt", "EventAt", "EventDay", "PeerHash", "RegionId", "Transport", "PayloadType", "Payload", "CreatedAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.StoredOrbitEvent), global::Logserver.StoredOrbitEvent.Parser, new[]{ "Id", "LogStreamId", "SessionId", "ClientVersion", "ReceivedAt", "EventAt", "EventDay", "PeerHash", "RegionId", "Transport", "PayloadType", "Payload", "CreatedAt", "TelemetryLogId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetOrbitDailyCountsRequest), global::Logserver.GetOrbitDailyCountsRequest.Parser, new[]{ "LogStreamId", "Metric", "From", "To" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetOrbitDailyCountsResponse), global::Logserver.GetOrbitDailyCountsResponse.Parser, new[]{ "Counts" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.DailyCount), global::Logserver.DailyCount.Parser, new[]{ "Day", "LogStreamId", "Metric", "LabelKey", "Count", "CreatedAt", "UpdatedAt" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetPacketFlowLogsRequest), global::Logserver.GetPacketFlowLogsRequest.Parser, new[]{ "LogStreamId", "From", "To", "Limit", "Offset", "NodeType" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetPacketFlowLogsRequest), global::Logserver.GetPacketFlowLogsRequest.Parser, new[]{ "LogStreamId", "From", "To", "Limit", "Offset", "NodeType", "DomainTelemetryLogId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetPacketFlowLogsResponse), global::Logserver.GetPacketFlowLogsResponse.Parser, new[]{ "Logs", "TotalCount" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.StoredPacketFlowLog), global::Logserver.StoredPacketFlowLog.Parser, new[]{ "Id", "LogStreamId", "NodeType", "Protocol", "SrcIp", "DstIp", "TxPackets", "TxBytes", "RxPackets", "RxBytes", "StartedAt", "EndedAt", "LoggedAt", "CreatedAt" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.StoredPacketFlowLog), global::Logserver.StoredPacketFlowLog.Parser, new[]{ "Id", "LogStreamId", "NodeType", "Protocol", "SrcIp", "DstIp", "TxPackets", "TxBytes", "RxPackets", "RxBytes", "StartedAt", "EndedAt", "LoggedAt", "CreatedAt", "DomainTelemetryLogId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -154,6 +157,7 @@ namespace Logserver {
       offset_ = other.offset_;
       sessionId_ = other.sessionId_;
       level_ = other.level_;
+      telemetryLogId_ = other.telemetryLogId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -268,6 +272,22 @@ namespace Logserver {
       }
     }
 
+    /// <summary>Field number for the "telemetry_log_id" field.</summary>
+    public const int TelemetryLogIdFieldNumber = 8;
+    private string telemetryLogId_ = "";
+    /// <summary>
+    /// telemetry_log_id is the server-provided node-level telemetry ID for admin queries.
+    /// If set, queries entries by this ID instead of log_stream_id.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TelemetryLogId {
+      get { return telemetryLogId_; }
+      set {
+        telemetryLogId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -290,6 +310,7 @@ namespace Logserver {
       if (Offset != other.Offset) return false;
       if (SessionId != other.SessionId) return false;
       if (Level != other.Level) return false;
+      if (TelemetryLogId != other.TelemetryLogId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -304,6 +325,7 @@ namespace Logserver {
       if (Offset != 0) hash ^= Offset.GetHashCode();
       if (SessionId.Length != 0) hash ^= SessionId.GetHashCode();
       if (Level.Length != 0) hash ^= Level.GetHashCode();
+      if (TelemetryLogId.Length != 0) hash ^= TelemetryLogId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -350,6 +372,10 @@ namespace Logserver {
         output.WriteRawTag(58);
         output.WriteString(Level);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(TelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -388,6 +414,10 @@ namespace Logserver {
         output.WriteRawTag(58);
         output.WriteString(Level);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(TelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -418,6 +448,9 @@ namespace Logserver {
       }
       if (Level.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Level);
+      }
+      if (TelemetryLogId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TelemetryLogId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -457,6 +490,9 @@ namespace Logserver {
       }
       if (other.Level.Length != 0) {
         Level = other.Level;
+      }
+      if (other.TelemetryLogId.Length != 0) {
+        TelemetryLogId = other.TelemetryLogId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -507,6 +543,10 @@ namespace Logserver {
             Level = input.ReadString();
             break;
           }
+          case 66: {
+            TelemetryLogId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -554,6 +594,10 @@ namespace Logserver {
           }
           case 58: {
             Level = input.ReadString();
+            break;
+          }
+          case 66: {
+            TelemetryLogId = input.ReadString();
             break;
           }
         }
@@ -834,6 +878,7 @@ namespace Logserver {
       text_ = other.text_;
       payload_ = other.payload_;
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
+      telemetryLogId_ = other.telemetryLogId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -963,6 +1008,21 @@ namespace Logserver {
       }
     }
 
+    /// <summary>Field number for the "telemetry_log_id" field.</summary>
+    public const int TelemetryLogIdFieldNumber = 11;
+    private string telemetryLogId_ = "";
+    /// <summary>
+    /// telemetry_log_id is the server-provided node-level ID for admin correlation.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TelemetryLogId {
+      get { return telemetryLogId_; }
+      set {
+        telemetryLogId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -988,6 +1048,7 @@ namespace Logserver {
       if (Text != other.Text) return false;
       if (Payload != other.Payload) return false;
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
+      if (TelemetryLogId != other.TelemetryLogId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1005,6 +1066,7 @@ namespace Logserver {
       if (Text.Length != 0) hash ^= Text.GetHashCode();
       if (Payload.Length != 0) hash ^= Payload.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
+      if (TelemetryLogId.Length != 0) hash ^= TelemetryLogId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1063,6 +1125,10 @@ namespace Logserver {
         output.WriteRawTag(82);
         output.WriteMessage(CreatedAt);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(TelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1113,6 +1179,10 @@ namespace Logserver {
         output.WriteRawTag(82);
         output.WriteMessage(CreatedAt);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(TelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1152,6 +1222,9 @@ namespace Logserver {
       }
       if (createdAt_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
+      }
+      if (TelemetryLogId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TelemetryLogId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1203,6 +1276,9 @@ namespace Logserver {
           CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         CreatedAt.MergeFrom(other.CreatedAt);
+      }
+      if (other.TelemetryLogId.Length != 0) {
+        TelemetryLogId = other.TelemetryLogId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1266,6 +1342,10 @@ namespace Logserver {
               CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(CreatedAt);
+            break;
+          }
+          case 90: {
+            TelemetryLogId = input.ReadString();
             break;
           }
         }
@@ -1332,6 +1412,10 @@ namespace Logserver {
             input.ReadMessage(CreatedAt);
             break;
           }
+          case 90: {
+            TelemetryLogId = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -1383,6 +1467,7 @@ namespace Logserver {
       limit_ = other.limit_;
       offset_ = other.offset_;
       payloadType_ = other.payloadType_;
+      telemetryLogId_ = other.telemetryLogId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1497,6 +1582,22 @@ namespace Logserver {
       }
     }
 
+    /// <summary>Field number for the "telemetry_log_id" field.</summary>
+    public const int TelemetryLogIdFieldNumber = 8;
+    private string telemetryLogId_ = "";
+    /// <summary>
+    /// telemetry_log_id is the server-provided node-level telemetry ID for admin queries.
+    /// If set, queries events by this ID instead of log_stream_id.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TelemetryLogId {
+      get { return telemetryLogId_; }
+      set {
+        telemetryLogId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1519,6 +1620,7 @@ namespace Logserver {
       if (Limit != other.Limit) return false;
       if (Offset != other.Offset) return false;
       if (PayloadType != other.PayloadType) return false;
+      if (TelemetryLogId != other.TelemetryLogId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1533,6 +1635,7 @@ namespace Logserver {
       if (Limit != 0) hash ^= Limit.GetHashCode();
       if (Offset != 0) hash ^= Offset.GetHashCode();
       if (PayloadType.Length != 0) hash ^= PayloadType.GetHashCode();
+      if (TelemetryLogId.Length != 0) hash ^= TelemetryLogId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1579,6 +1682,10 @@ namespace Logserver {
         output.WriteRawTag(58);
         output.WriteString(PayloadType);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(TelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1617,6 +1724,10 @@ namespace Logserver {
         output.WriteRawTag(58);
         output.WriteString(PayloadType);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(TelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1647,6 +1758,9 @@ namespace Logserver {
       }
       if (PayloadType.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(PayloadType);
+      }
+      if (TelemetryLogId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TelemetryLogId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1686,6 +1800,9 @@ namespace Logserver {
       }
       if (other.PayloadType.Length != 0) {
         PayloadType = other.PayloadType;
+      }
+      if (other.TelemetryLogId.Length != 0) {
+        TelemetryLogId = other.TelemetryLogId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1736,6 +1853,10 @@ namespace Logserver {
             PayloadType = input.ReadString();
             break;
           }
+          case 66: {
+            TelemetryLogId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1783,6 +1904,10 @@ namespace Logserver {
           }
           case 58: {
             PayloadType = input.ReadString();
+            break;
+          }
+          case 66: {
+            TelemetryLogId = input.ReadString();
             break;
           }
         }
@@ -2066,6 +2191,7 @@ namespace Logserver {
       payloadType_ = other.payloadType_;
       payload_ = other.payload_;
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
+      telemetryLogId_ = other.telemetryLogId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2234,6 +2360,21 @@ namespace Logserver {
       }
     }
 
+    /// <summary>Field number for the "telemetry_log_id" field.</summary>
+    public const int TelemetryLogIdFieldNumber = 14;
+    private string telemetryLogId_ = "";
+    /// <summary>
+    /// telemetry_log_id is the server-provided node-level ID for admin correlation.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TelemetryLogId {
+      get { return telemetryLogId_; }
+      set {
+        telemetryLogId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2262,6 +2403,7 @@ namespace Logserver {
       if (PayloadType != other.PayloadType) return false;
       if (Payload != other.Payload) return false;
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
+      if (TelemetryLogId != other.TelemetryLogId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2282,6 +2424,7 @@ namespace Logserver {
       if (PayloadType.Length != 0) hash ^= PayloadType.GetHashCode();
       if (Payload.Length != 0) hash ^= Payload.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
+      if (TelemetryLogId.Length != 0) hash ^= TelemetryLogId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2352,6 +2495,10 @@ namespace Logserver {
         output.WriteRawTag(106);
         output.WriteMessage(CreatedAt);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(TelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2414,6 +2561,10 @@ namespace Logserver {
         output.WriteRawTag(106);
         output.WriteMessage(CreatedAt);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(114);
+        output.WriteString(TelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2462,6 +2613,9 @@ namespace Logserver {
       }
       if (createdAt_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
+      }
+      if (TelemetryLogId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TelemetryLogId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2525,6 +2679,9 @@ namespace Logserver {
           CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         CreatedAt.MergeFrom(other.CreatedAt);
+      }
+      if (other.TelemetryLogId.Length != 0) {
+        TelemetryLogId = other.TelemetryLogId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2605,6 +2762,10 @@ namespace Logserver {
             input.ReadMessage(CreatedAt);
             break;
           }
+          case 114: {
+            TelemetryLogId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -2682,6 +2843,10 @@ namespace Logserver {
               CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(CreatedAt);
+            break;
+          }
+          case 114: {
+            TelemetryLogId = input.ReadString();
             break;
           }
         }
@@ -3692,6 +3857,7 @@ namespace Logserver {
       limit_ = other.limit_;
       offset_ = other.offset_;
       nodeType_ = other.nodeType_;
+      domainTelemetryLogId_ = other.domainTelemetryLogId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3791,6 +3957,22 @@ namespace Logserver {
       }
     }
 
+    /// <summary>Field number for the "domain_telemetry_log_id" field.</summary>
+    public const int DomainTelemetryLogIdFieldNumber = 7;
+    private string domainTelemetryLogId_ = "";
+    /// <summary>
+    /// domain_telemetry_log_id is the server-provided tenant-level telemetry ID for admin queries.
+    /// If set, queries logs by this ID instead of log_stream_id.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DomainTelemetryLogId {
+      get { return domainTelemetryLogId_; }
+      set {
+        domainTelemetryLogId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3812,6 +3994,7 @@ namespace Logserver {
       if (Limit != other.Limit) return false;
       if (Offset != other.Offset) return false;
       if (NodeType != other.NodeType) return false;
+      if (DomainTelemetryLogId != other.DomainTelemetryLogId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3825,6 +4008,7 @@ namespace Logserver {
       if (Limit != 0) hash ^= Limit.GetHashCode();
       if (Offset != 0) hash ^= Offset.GetHashCode();
       if (NodeType.Length != 0) hash ^= NodeType.GetHashCode();
+      if (DomainTelemetryLogId.Length != 0) hash ^= DomainTelemetryLogId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3867,6 +4051,10 @@ namespace Logserver {
         output.WriteRawTag(50);
         output.WriteString(NodeType);
       }
+      if (DomainTelemetryLogId.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(DomainTelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3901,6 +4089,10 @@ namespace Logserver {
         output.WriteRawTag(50);
         output.WriteString(NodeType);
       }
+      if (DomainTelemetryLogId.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(DomainTelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3928,6 +4120,9 @@ namespace Logserver {
       }
       if (NodeType.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeType);
+      }
+      if (DomainTelemetryLogId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DomainTelemetryLogId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3964,6 +4159,9 @@ namespace Logserver {
       }
       if (other.NodeType.Length != 0) {
         NodeType = other.NodeType;
+      }
+      if (other.DomainTelemetryLogId.Length != 0) {
+        DomainTelemetryLogId = other.DomainTelemetryLogId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -4010,6 +4208,10 @@ namespace Logserver {
             NodeType = input.ReadString();
             break;
           }
+          case 58: {
+            DomainTelemetryLogId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -4053,6 +4255,10 @@ namespace Logserver {
           }
           case 50: {
             NodeType = input.ReadString();
+            break;
+          }
+          case 58: {
+            DomainTelemetryLogId = input.ReadString();
             break;
           }
         }
@@ -4337,6 +4543,7 @@ namespace Logserver {
       endedAt_ = other.endedAt_ != null ? other.endedAt_.Clone() : null;
       loggedAt_ = other.loggedAt_ != null ? other.loggedAt_.Clone() : null;
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
+      domainTelemetryLogId_ = other.domainTelemetryLogId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4520,6 +4727,21 @@ namespace Logserver {
       }
     }
 
+    /// <summary>Field number for the "domain_telemetry_log_id" field.</summary>
+    public const int DomainTelemetryLogIdFieldNumber = 15;
+    private string domainTelemetryLogId_ = "";
+    /// <summary>
+    /// domain_telemetry_log_id is the server-provided tenant-level ID for admin correlation.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DomainTelemetryLogId {
+      get { return domainTelemetryLogId_; }
+      set {
+        domainTelemetryLogId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -4549,6 +4771,7 @@ namespace Logserver {
       if (!object.Equals(EndedAt, other.EndedAt)) return false;
       if (!object.Equals(LoggedAt, other.LoggedAt)) return false;
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
+      if (DomainTelemetryLogId != other.DomainTelemetryLogId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4570,6 +4793,7 @@ namespace Logserver {
       if (endedAt_ != null) hash ^= EndedAt.GetHashCode();
       if (loggedAt_ != null) hash ^= LoggedAt.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
+      if (DomainTelemetryLogId.Length != 0) hash ^= DomainTelemetryLogId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4644,6 +4868,10 @@ namespace Logserver {
         output.WriteRawTag(114);
         output.WriteMessage(CreatedAt);
       }
+      if (DomainTelemetryLogId.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(DomainTelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4710,6 +4938,10 @@ namespace Logserver {
         output.WriteRawTag(114);
         output.WriteMessage(CreatedAt);
       }
+      if (DomainTelemetryLogId.Length != 0) {
+        output.WriteRawTag(122);
+        output.WriteString(DomainTelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4761,6 +4993,9 @@ namespace Logserver {
       }
       if (createdAt_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
+      }
+      if (DomainTelemetryLogId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DomainTelemetryLogId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -4827,6 +5062,9 @@ namespace Logserver {
           CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         CreatedAt.MergeFrom(other.CreatedAt);
+      }
+      if (other.DomainTelemetryLogId.Length != 0) {
+        DomainTelemetryLogId = other.DomainTelemetryLogId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -4911,6 +5149,10 @@ namespace Logserver {
             input.ReadMessage(CreatedAt);
             break;
           }
+          case 122: {
+            DomainTelemetryLogId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -4992,6 +5234,10 @@ namespace Logserver {
               CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(CreatedAt);
+            break;
+          }
+          case 122: {
+            DomainTelemetryLogId = input.ReadString();
             break;
           }
         }

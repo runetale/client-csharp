@@ -3459,7 +3459,6 @@ namespace Protos {
     private readonly pbc::MapField<string, long> cerfLatency_ = new pbc::MapField<string, long>();
     /// <summary>
     /// CERF relay latency per region. Key is "regionCode" (e.g. "tokyo"), value is latency in milliseconds.
-    /// Until client-go is regenerated, CERF data is encoded into stun_latency with "cerf:&lt;regionCode>" keys.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

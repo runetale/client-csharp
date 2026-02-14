@@ -66,32 +66,36 @@ namespace Logserver {
             "cmljGAMgASgJEhEKCWxhYmVsX2tleRgEIAEoCRINCgVjb3VudBgFIAEoAxIu",
             "CgpjcmVhdGVkX2F0GAYgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
             "cBIuCgp1cGRhdGVkX2F0GAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
-            "dGFtcCLWAQoYR2V0UGFja2V0Rmxvd0xvZ3NSZXF1ZXN0EhUKDWxvZ19zdHJl",
+            "dGFtcCLwAQoYR2V0UGFja2V0Rmxvd0xvZ3NSZXF1ZXN0EhUKDWxvZ19zdHJl",
             "YW1faWQYASABKAkSKAoEZnJvbRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5U",
             "aW1lc3RhbXASJgoCdG8YAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0",
             "YW1wEg0KBWxpbWl0GAQgASgFEg4KBm9mZnNldBgFIAEoBRIRCglub2RlX3R5",
-            "cGUYBiABKAkSHwoXZG9tYWluX3RlbGVtZXRyeV9sb2dfaWQYByABKAkiXgoZ",
-            "R2V0UGFja2V0Rmxvd0xvZ3NSZXNwb25zZRIsCgRsb2dzGAEgAygLMh4ubG9n",
-            "c2VydmVyLlN0b3JlZFBhY2tldEZsb3dMb2cSEwoLdG90YWxfY291bnQYAiAB",
-            "KAMipwMKE1N0b3JlZFBhY2tldEZsb3dMb2cSCgoCaWQYASABKAQSFQoNbG9n",
-            "X3N0cmVhbV9pZBgCIAEoCRIRCglub2RlX3R5cGUYAyABKAkSEAoIcHJvdG9j",
-            "b2wYBCABKAkSDgoGc3JjX2lwGAUgASgJEg4KBmRzdF9pcBgGIAEoCRISCgp0",
-            "eF9wYWNrZXRzGAcgASgEEhAKCHR4X2J5dGVzGAggASgEEhIKCnJ4X3BhY2tl",
-            "dHMYCSABKAQSEAoIcnhfYnl0ZXMYCiABKAQSLgoKc3RhcnRlZF9hdBgLIAEo",
-            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLAoIZW5kZWRfYXQYDCAB",
-            "KAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi0KCWxvZ2dlZF9hdBgN",
-            "IAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLgoKY3JlYXRlZF9h",
-            "dBgOIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASHwoXZG9tYWlu",
-            "X3RlbGVtZXRyeV9sb2dfaWQYDyABKAkyiQMKEExvZ1JlYWRlclNlcnZpY2US",
-            "UgoRR2V0TG9nbHlwaEVudHJpZXMSHC5sb2dzZXJ2ZXIuR2V0TG9nbHlwaFJl",
-            "cXVlc3QaHS5sb2dzZXJ2ZXIuR2V0TG9nbHlwaFJlc3BvbnNlIgASVwoOR2V0",
-            "T3JiaXRFdmVudHMSIC5sb2dzZXJ2ZXIuR2V0T3JiaXRFdmVudHNSZXF1ZXN0",
-            "GiEubG9nc2VydmVyLkdldE9yYml0RXZlbnRzUmVzcG9uc2UiABJmChNHZXRP",
-            "cmJpdERhaWx5Q291bnRzEiUubG9nc2VydmVyLkdldE9yYml0RGFpbHlDb3Vu",
-            "dHNSZXF1ZXN0GiYubG9nc2VydmVyLkdldE9yYml0RGFpbHlDb3VudHNSZXNw",
-            "b25zZSIAEmAKEUdldFBhY2tldEZsb3dMb2dzEiMubG9nc2VydmVyLkdldFBh",
-            "Y2tldEZsb3dMb2dzUmVxdWVzdBokLmxvZ3NlcnZlci5HZXRQYWNrZXRGbG93",
-            "TG9nc1Jlc3BvbnNlIgBCDVoLLi9sb2dyZWFkZXJiBnByb3RvMw=="));
+            "cGUYBiABKAkSHwoXZG9tYWluX3RlbGVtZXRyeV9sb2dfaWQYByABKAkSGAoQ",
+            "dGVsZW1ldHJ5X2xvZ19pZBgIIAEoCSJeChlHZXRQYWNrZXRGbG93TG9nc1Jl",
+            "c3BvbnNlEiwKBGxvZ3MYASADKAsyHi5sb2dzZXJ2ZXIuU3RvcmVkUGFja2V0",
+            "Rmxvd0xvZxITCgt0b3RhbF9jb3VudBgCIAEoAyKsBAoTU3RvcmVkUGFja2V0",
+            "Rmxvd0xvZxIKCgJpZBgBIAEoBBIVCg1sb2dfc3RyZWFtX2lkGAIgASgJEhEK",
+            "CW5vZGVfdHlwZRgDIAEoCRIQCghwcm90b2NvbBgEIAEoCRIOCgZzcmNfaXAY",
+            "BSABKAkSDgoGZHN0X2lwGAYgASgJEhIKCnR4X3BhY2tldHMYByABKAQSEAoI",
+            "dHhfYnl0ZXMYCCABKAQSEgoKcnhfcGFja2V0cxgJIAEoBBIQCghyeF9ieXRl",
+            "cxgKIAEoBBIuCgpzdGFydGVkX2F0GAsgASgLMhouZ29vZ2xlLnByb3RvYnVm",
+            "LlRpbWVzdGFtcBIsCghlbmRlZF9hdBgMIAEoCzIaLmdvb2dsZS5wcm90b2J1",
+            "Zi5UaW1lc3RhbXASLQoJbG9nZ2VkX2F0GA0gASgLMhouZ29vZ2xlLnByb3Rv",
+            "YnVmLlRpbWVzdGFtcBIuCgpjcmVhdGVkX2F0GA4gASgLMhouZ29vZ2xlLnBy",
+            "b3RvYnVmLlRpbWVzdGFtcBIfChdkb21haW5fdGVsZW1ldHJ5X2xvZ19pZBgP",
+            "IAEoCRIYChB0ZWxlbWV0cnlfbG9nX2lkGBAgASgJEhEKCW5vZGVfbmFtZRgR",
+            "IAEoCRISCgp1c2VyX2VtYWlsGBIgASgJEhUKDWRzdF9ub2RlX25hbWUYEyAB",
+            "KAkSFgoOZHN0X3VzZXJfZW1haWwYFCABKAkSEwoLZHN0X25vZGVfaWQYFSAB",
+            "KAkyiQMKEExvZ1JlYWRlclNlcnZpY2USUgoRR2V0TG9nbHlwaEVudHJpZXMS",
+            "HC5sb2dzZXJ2ZXIuR2V0TG9nbHlwaFJlcXVlc3QaHS5sb2dzZXJ2ZXIuR2V0",
+            "TG9nbHlwaFJlc3BvbnNlIgASVwoOR2V0T3JiaXRFdmVudHMSIC5sb2dzZXJ2",
+            "ZXIuR2V0T3JiaXRFdmVudHNSZXF1ZXN0GiEubG9nc2VydmVyLkdldE9yYml0",
+            "RXZlbnRzUmVzcG9uc2UiABJmChNHZXRPcmJpdERhaWx5Q291bnRzEiUubG9n",
+            "c2VydmVyLkdldE9yYml0RGFpbHlDb3VudHNSZXF1ZXN0GiYubG9nc2VydmVy",
+            "LkdldE9yYml0RGFpbHlDb3VudHNSZXNwb25zZSIAEmAKEUdldFBhY2tldEZs",
+            "b3dMb2dzEiMubG9nc2VydmVyLkdldFBhY2tldEZsb3dMb2dzUmVxdWVzdBok",
+            "LmxvZ3NlcnZlci5HZXRQYWNrZXRGbG93TG9nc1Jlc3BvbnNlIgBCDVoLLi9s",
+            "b2dyZWFkZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -104,9 +108,9 @@ namespace Logserver {
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetOrbitDailyCountsRequest), global::Logserver.GetOrbitDailyCountsRequest.Parser, new[]{ "LogStreamId", "Metric", "From", "To" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetOrbitDailyCountsResponse), global::Logserver.GetOrbitDailyCountsResponse.Parser, new[]{ "Counts" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.DailyCount), global::Logserver.DailyCount.Parser, new[]{ "Day", "LogStreamId", "Metric", "LabelKey", "Count", "CreatedAt", "UpdatedAt" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetPacketFlowLogsRequest), global::Logserver.GetPacketFlowLogsRequest.Parser, new[]{ "LogStreamId", "From", "To", "Limit", "Offset", "NodeType", "DomainTelemetryLogId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetPacketFlowLogsRequest), global::Logserver.GetPacketFlowLogsRequest.Parser, new[]{ "LogStreamId", "From", "To", "Limit", "Offset", "NodeType", "DomainTelemetryLogId", "TelemetryLogId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.GetPacketFlowLogsResponse), global::Logserver.GetPacketFlowLogsResponse.Parser, new[]{ "Logs", "TotalCount" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.StoredPacketFlowLog), global::Logserver.StoredPacketFlowLog.Parser, new[]{ "Id", "LogStreamId", "NodeType", "Protocol", "SrcIp", "DstIp", "TxPackets", "TxBytes", "RxPackets", "RxBytes", "StartedAt", "EndedAt", "LoggedAt", "CreatedAt", "DomainTelemetryLogId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.StoredPacketFlowLog), global::Logserver.StoredPacketFlowLog.Parser, new[]{ "Id", "LogStreamId", "NodeType", "Protocol", "SrcIp", "DstIp", "TxPackets", "TxBytes", "RxPackets", "RxBytes", "StartedAt", "EndedAt", "LoggedAt", "CreatedAt", "DomainTelemetryLogId", "TelemetryLogId", "NodeName", "UserEmail", "DstNodeName", "DstUserEmail", "DstNodeId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -3858,6 +3862,7 @@ namespace Logserver {
       offset_ = other.offset_;
       nodeType_ = other.nodeType_;
       domainTelemetryLogId_ = other.domainTelemetryLogId_;
+      telemetryLogId_ = other.telemetryLogId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3973,6 +3978,22 @@ namespace Logserver {
       }
     }
 
+    /// <summary>Field number for the "telemetry_log_id" field.</summary>
+    public const int TelemetryLogIdFieldNumber = 8;
+    private string telemetryLogId_ = "";
+    /// <summary>
+    /// telemetry_log_id is the server-provided node-level telemetry ID for per-node queries.
+    /// Priority: domain_telemetry_log_id > telemetry_log_id > log_stream_id.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TelemetryLogId {
+      get { return telemetryLogId_; }
+      set {
+        telemetryLogId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3995,6 +4016,7 @@ namespace Logserver {
       if (Offset != other.Offset) return false;
       if (NodeType != other.NodeType) return false;
       if (DomainTelemetryLogId != other.DomainTelemetryLogId) return false;
+      if (TelemetryLogId != other.TelemetryLogId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4009,6 +4031,7 @@ namespace Logserver {
       if (Offset != 0) hash ^= Offset.GetHashCode();
       if (NodeType.Length != 0) hash ^= NodeType.GetHashCode();
       if (DomainTelemetryLogId.Length != 0) hash ^= DomainTelemetryLogId.GetHashCode();
+      if (TelemetryLogId.Length != 0) hash ^= TelemetryLogId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4055,6 +4078,10 @@ namespace Logserver {
         output.WriteRawTag(58);
         output.WriteString(DomainTelemetryLogId);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(TelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4093,6 +4120,10 @@ namespace Logserver {
         output.WriteRawTag(58);
         output.WriteString(DomainTelemetryLogId);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(TelemetryLogId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4123,6 +4154,9 @@ namespace Logserver {
       }
       if (DomainTelemetryLogId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DomainTelemetryLogId);
+      }
+      if (TelemetryLogId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TelemetryLogId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -4162,6 +4196,9 @@ namespace Logserver {
       }
       if (other.DomainTelemetryLogId.Length != 0) {
         DomainTelemetryLogId = other.DomainTelemetryLogId;
+      }
+      if (other.TelemetryLogId.Length != 0) {
+        TelemetryLogId = other.TelemetryLogId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -4212,6 +4249,10 @@ namespace Logserver {
             DomainTelemetryLogId = input.ReadString();
             break;
           }
+          case 66: {
+            TelemetryLogId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -4259,6 +4300,10 @@ namespace Logserver {
           }
           case 58: {
             DomainTelemetryLogId = input.ReadString();
+            break;
+          }
+          case 66: {
+            TelemetryLogId = input.ReadString();
             break;
           }
         }
@@ -4544,6 +4589,12 @@ namespace Logserver {
       loggedAt_ = other.loggedAt_ != null ? other.loggedAt_.Clone() : null;
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
       domainTelemetryLogId_ = other.domainTelemetryLogId_;
+      telemetryLogId_ = other.telemetryLogId_;
+      nodeName_ = other.nodeName_;
+      userEmail_ = other.userEmail_;
+      dstNodeName_ = other.dstNodeName_;
+      dstUserEmail_ = other.dstUserEmail_;
+      dstNodeId_ = other.dstNodeId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4742,6 +4793,97 @@ namespace Logserver {
       }
     }
 
+    /// <summary>Field number for the "telemetry_log_id" field.</summary>
+    public const int TelemetryLogIdFieldNumber = 16;
+    private string telemetryLogId_ = "";
+    /// <summary>
+    /// Source node identity (A-plan: embedded in payload for self-contained SIEM export).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TelemetryLogId {
+      get { return telemetryLogId_; }
+      set {
+        telemetryLogId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "node_name" field.</summary>
+    public const int NodeNameFieldNumber = 17;
+    private string nodeName_ = "";
+    /// <summary>
+    /// source hostname (e.g. "alice-macbook.runep9anv.runet.")
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NodeName {
+      get { return nodeName_; }
+      set {
+        nodeName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "user_email" field.</summary>
+    public const int UserEmailFieldNumber = 18;
+    private string userEmail_ = "";
+    /// <summary>
+    /// source user email (e.g. "alice@example.com")
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string UserEmail {
+      get { return userEmail_; }
+      set {
+        userEmail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "dst_node_name" field.</summary>
+    public const int DstNodeNameFieldNumber = 19;
+    private string dstNodeName_ = "";
+    /// <summary>
+    /// Destination node identity (resolved from dst_peers, Tailscale-style deduplication).
+    /// Only populated for peer traffic (Runetale IP &lt;-> Runetale IP).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DstNodeName {
+      get { return dstNodeName_; }
+      set {
+        dstNodeName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "dst_user_email" field.</summary>
+    public const int DstUserEmailFieldNumber = 20;
+    private string dstUserEmail_ = "";
+    /// <summary>
+    /// destination user email
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DstUserEmail {
+      get { return dstUserEmail_; }
+      set {
+        dstUserEmail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "dst_node_id" field.</summary>
+    public const int DstNodeIdFieldNumber = 21;
+    private string dstNodeId_ = "";
+    /// <summary>
+    /// destination node ID
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DstNodeId {
+      get { return dstNodeId_; }
+      set {
+        dstNodeId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -4772,6 +4914,12 @@ namespace Logserver {
       if (!object.Equals(LoggedAt, other.LoggedAt)) return false;
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
       if (DomainTelemetryLogId != other.DomainTelemetryLogId) return false;
+      if (TelemetryLogId != other.TelemetryLogId) return false;
+      if (NodeName != other.NodeName) return false;
+      if (UserEmail != other.UserEmail) return false;
+      if (DstNodeName != other.DstNodeName) return false;
+      if (DstUserEmail != other.DstUserEmail) return false;
+      if (DstNodeId != other.DstNodeId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4794,6 +4942,12 @@ namespace Logserver {
       if (loggedAt_ != null) hash ^= LoggedAt.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (DomainTelemetryLogId.Length != 0) hash ^= DomainTelemetryLogId.GetHashCode();
+      if (TelemetryLogId.Length != 0) hash ^= TelemetryLogId.GetHashCode();
+      if (NodeName.Length != 0) hash ^= NodeName.GetHashCode();
+      if (UserEmail.Length != 0) hash ^= UserEmail.GetHashCode();
+      if (DstNodeName.Length != 0) hash ^= DstNodeName.GetHashCode();
+      if (DstUserEmail.Length != 0) hash ^= DstUserEmail.GetHashCode();
+      if (DstNodeId.Length != 0) hash ^= DstNodeId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4872,6 +5026,30 @@ namespace Logserver {
         output.WriteRawTag(122);
         output.WriteString(DomainTelemetryLogId);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(TelemetryLogId);
+      }
+      if (NodeName.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(NodeName);
+      }
+      if (UserEmail.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(UserEmail);
+      }
+      if (DstNodeName.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(DstNodeName);
+      }
+      if (DstUserEmail.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(DstUserEmail);
+      }
+      if (DstNodeId.Length != 0) {
+        output.WriteRawTag(170, 1);
+        output.WriteString(DstNodeId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4942,6 +5120,30 @@ namespace Logserver {
         output.WriteRawTag(122);
         output.WriteString(DomainTelemetryLogId);
       }
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(130, 1);
+        output.WriteString(TelemetryLogId);
+      }
+      if (NodeName.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(NodeName);
+      }
+      if (UserEmail.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(UserEmail);
+      }
+      if (DstNodeName.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(DstNodeName);
+      }
+      if (DstUserEmail.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteString(DstUserEmail);
+      }
+      if (DstNodeId.Length != 0) {
+        output.WriteRawTag(170, 1);
+        output.WriteString(DstNodeId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4996,6 +5198,24 @@ namespace Logserver {
       }
       if (DomainTelemetryLogId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(DomainTelemetryLogId);
+      }
+      if (TelemetryLogId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(TelemetryLogId);
+      }
+      if (NodeName.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(NodeName);
+      }
+      if (UserEmail.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(UserEmail);
+      }
+      if (DstNodeName.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(DstNodeName);
+      }
+      if (DstUserEmail.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(DstUserEmail);
+      }
+      if (DstNodeId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(DstNodeId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5065,6 +5285,24 @@ namespace Logserver {
       }
       if (other.DomainTelemetryLogId.Length != 0) {
         DomainTelemetryLogId = other.DomainTelemetryLogId;
+      }
+      if (other.TelemetryLogId.Length != 0) {
+        TelemetryLogId = other.TelemetryLogId;
+      }
+      if (other.NodeName.Length != 0) {
+        NodeName = other.NodeName;
+      }
+      if (other.UserEmail.Length != 0) {
+        UserEmail = other.UserEmail;
+      }
+      if (other.DstNodeName.Length != 0) {
+        DstNodeName = other.DstNodeName;
+      }
+      if (other.DstUserEmail.Length != 0) {
+        DstUserEmail = other.DstUserEmail;
+      }
+      if (other.DstNodeId.Length != 0) {
+        DstNodeId = other.DstNodeId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5153,6 +5391,30 @@ namespace Logserver {
             DomainTelemetryLogId = input.ReadString();
             break;
           }
+          case 130: {
+            TelemetryLogId = input.ReadString();
+            break;
+          }
+          case 138: {
+            NodeName = input.ReadString();
+            break;
+          }
+          case 146: {
+            UserEmail = input.ReadString();
+            break;
+          }
+          case 154: {
+            DstNodeName = input.ReadString();
+            break;
+          }
+          case 162: {
+            DstUserEmail = input.ReadString();
+            break;
+          }
+          case 170: {
+            DstNodeId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -5238,6 +5500,30 @@ namespace Logserver {
           }
           case 122: {
             DomainTelemetryLogId = input.ReadString();
+            break;
+          }
+          case 130: {
+            TelemetryLogId = input.ReadString();
+            break;
+          }
+          case 138: {
+            NodeName = input.ReadString();
+            break;
+          }
+          case 146: {
+            UserEmail = input.ReadString();
+            break;
+          }
+          case 154: {
+            DstNodeName = input.ReadString();
+            break;
+          }
+          case 162: {
+            DstUserEmail = input.ReadString();
+            break;
+          }
+          case 170: {
+            DstNodeId = input.ReadString();
             break;
           }
         }

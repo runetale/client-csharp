@@ -66,28 +66,33 @@ namespace Logserver {
             "EhgKFEZJTFRFUl9SRVNVTFRfQUNDRVBUEAESFgoSRklMVEVSX1JFU1VMVF9E",
             "Uk9QEAIiawoTUGF0aFRyYW5zaXRpb25FdmVudBIiCgRmcm9tGAEgASgOMhQu",
             "bG9nc2VydmVyLlRyYW5zcG9ydBIgCgJ0bxgCIAEoDjIULmxvZ3NlcnZlci5U",
-            "cmFuc3BvcnQSDgoGcmVhc29uGAMgASgJIqYCChpQYWNrZXRGbG93TG9nVXBs",
+            "cmFuc3BvcnQSDgoGcmVhc29uGAMgASgJIrQDChpQYWNrZXRGbG93TG9nVXBs",
             "b2FkUmVxdWVzdBIRCglsb2dnZWRfYXQYASABKAkSEgoKc3RhcnRlZF9hdBgC",
             "IAEoCRIQCghlbmRlZF9hdBgDIAEoCRIwCgxwZWVyX3RyYWZmaWMYBCADKAsy",
             "Gi5sb2dzZXJ2ZXIuUGFja2V0Rmxvd0VudHJ5Ei8KC2xhbl90cmFmZmljGAUg",
             "AygLMhoubG9nc2VydmVyLlBhY2tldEZsb3dFbnRyeRI1ChFleGl0X25vZGVf",
             "dHJhZmZpYxgGIAMoCzIaLmxvZ3NlcnZlci5QYWNrZXRGbG93RW50cnkSNQoR",
             "dHJhbnNwb3J0X3RyYWZmaWMYByADKAsyGi5sb2dzZXJ2ZXIuUGFja2V0Rmxv",
-            "d0VudHJ5IoYBCg9QYWNrZXRGbG93RW50cnkSDQoFcHJvdG8YASABKA0SCwoD",
-            "c3JjGAIgASgJEgsKA2RzdBgDIAEoCRISCgp0eF9wYWNrZXRzGAQgASgEEhAK",
-            "CHR4X2J5dGVzGAUgASgEEhIKCnJ4X3BhY2tldHMYBiABKAQSEAoIcnhfYnl0",
-            "ZXMYByABKAQiLwobUGFja2V0Rmxvd0xvZ1VwbG9hZFJlc3BvbnNlEhAKCGFj",
-            "Y2VwdGVkGAEgASgNKnMKCVRyYW5zcG9ydBIVChFUUkFOU1BPUlRfVU5LTk9X",
-            "ThAAEhEKDVRSQU5TUE9SVF9VRFAQARIRCg1UUkFOU1BPUlRfSUNFEAISEgoO",
-            "VFJBTlNQT1JUX0NFUkYQAxIVChFUUkFOU1BPUlRfQ0VSRl9XUxAEMrcCChBM",
-            "b2dXcml0ZXJTZXJ2aWNlElsKFFVwbG9hZExvZ2x5cGhFbnRyaWVzEh8ubG9n",
-            "c2VydmVyLkxvZ2x5cGhVcGxvYWRSZXF1ZXN0GiAubG9nc2VydmVyLkxvZ2x5",
-            "cGhVcGxvYWRSZXNwb25zZSIAEl0KEFVwbG9hZE9yYml0QmF0Y2gSIi5sb2dz",
-            "ZXJ2ZXIuT3JiaXRCYXRjaFVwbG9hZFJlcXVlc3QaIy5sb2dzZXJ2ZXIuT3Ji",
-            "aXRCYXRjaFVwbG9hZFJlc3BvbnNlIgASZwoUVXBsb2FkUGFja2V0Rmxvd0xv",
-            "Z3MSJS5sb2dzZXJ2ZXIuUGFja2V0Rmxvd0xvZ1VwbG9hZFJlcXVlc3QaJi5s",
-            "b2dzZXJ2ZXIuUGFja2V0Rmxvd0xvZ1VwbG9hZFJlc3BvbnNlIgBCDVoLLi9s",
-            "b2d3cml0ZXJiBnByb3RvMw=="));
+            "d0VudHJ5EhgKEHRlbGVtZXRyeV9sb2dfaWQYCCABKAkSHwoXZG9tYWluX3Rl",
+            "bGVtZXRyeV9sb2dfaWQYCSABKAkSEQoJbm9kZV9uYW1lGAogASgJEhIKCnVz",
+            "ZXJfZW1haWwYCyABKAkSKgoJZHN0X3BlZXJzGAwgAygLMhcubG9nc2VydmVy",
+            "LkZsb3dQZWVySW5mbyJbCgxGbG93UGVlckluZm8SEwoLcnVuZXRhbGVfaXAY",
+            "ASABKAkSEQoJbm9kZV9uYW1lGAIgASgJEhIKCnVzZXJfZW1haWwYAyABKAkS",
+            "DwoHbm9kZV9pZBgEIAEoCSKGAQoPUGFja2V0Rmxvd0VudHJ5Eg0KBXByb3Rv",
+            "GAEgASgNEgsKA3NyYxgCIAEoCRILCgNkc3QYAyABKAkSEgoKdHhfcGFja2V0",
+            "cxgEIAEoBBIQCgh0eF9ieXRlcxgFIAEoBBISCgpyeF9wYWNrZXRzGAYgASgE",
+            "EhAKCHJ4X2J5dGVzGAcgASgEIi8KG1BhY2tldEZsb3dMb2dVcGxvYWRSZXNw",
+            "b25zZRIQCghhY2NlcHRlZBgBIAEoDSpzCglUcmFuc3BvcnQSFQoRVFJBTlNQ",
+            "T1JUX1VOS05PV04QABIRCg1UUkFOU1BPUlRfVURQEAESEQoNVFJBTlNQT1JU",
+            "X0lDRRACEhIKDlRSQU5TUE9SVF9DRVJGEAMSFQoRVFJBTlNQT1JUX0NFUkZf",
+            "V1MQBDK3AgoQTG9nV3JpdGVyU2VydmljZRJbChRVcGxvYWRMb2dseXBoRW50",
+            "cmllcxIfLmxvZ3NlcnZlci5Mb2dseXBoVXBsb2FkUmVxdWVzdBogLmxvZ3Nl",
+            "cnZlci5Mb2dseXBoVXBsb2FkUmVzcG9uc2UiABJdChBVcGxvYWRPcmJpdEJh",
+            "dGNoEiIubG9nc2VydmVyLk9yYml0QmF0Y2hVcGxvYWRSZXF1ZXN0GiMubG9n",
+            "c2VydmVyLk9yYml0QmF0Y2hVcGxvYWRSZXNwb25zZSIAEmcKFFVwbG9hZFBh",
+            "Y2tldEZsb3dMb2dzEiUubG9nc2VydmVyLlBhY2tldEZsb3dMb2dVcGxvYWRS",
+            "ZXF1ZXN0GiYubG9nc2VydmVyLlBhY2tldEZsb3dMb2dVcGxvYWRSZXNwb25z",
+            "ZSIAQg1aCy4vbG9nd3JpdGVyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Logserver.Transport), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -103,7 +108,8 @@ namespace Logserver {
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.IceEvent), global::Logserver.IceEvent.Parser, new[]{ "State", "CandidateType" }, null, new[]{ typeof(global::Logserver.IceEvent.Types.State) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.FilterEvent), global::Logserver.FilterEvent.Parser, new[]{ "Result", "Reason" }, null, new[]{ typeof(global::Logserver.FilterEvent.Types.Result) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.PathTransitionEvent), global::Logserver.PathTransitionEvent.Parser, new[]{ "From", "To", "Reason" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.PacketFlowLogUploadRequest), global::Logserver.PacketFlowLogUploadRequest.Parser, new[]{ "LoggedAt", "StartedAt", "EndedAt", "PeerTraffic", "LanTraffic", "ExitNodeTraffic", "TransportTraffic" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.PacketFlowLogUploadRequest), global::Logserver.PacketFlowLogUploadRequest.Parser, new[]{ "LoggedAt", "StartedAt", "EndedAt", "PeerTraffic", "LanTraffic", "ExitNodeTraffic", "TransportTraffic", "TelemetryLogId", "DomainTelemetryLogId", "NodeName", "UserEmail", "DstPeers" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.FlowPeerInfo), global::Logserver.FlowPeerInfo.Parser, new[]{ "RunetaleIp", "NodeName", "UserEmail", "NodeId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.PacketFlowEntry), global::Logserver.PacketFlowEntry.Parser, new[]{ "Proto", "Src", "Dst", "TxPackets", "TxBytes", "RxPackets", "RxBytes" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Logserver.PacketFlowLogUploadResponse), global::Logserver.PacketFlowLogUploadResponse.Parser, new[]{ "Accepted" }, null, null, null, null)
           }));
@@ -3795,6 +3801,13 @@ namespace Logserver {
   /// PacketFlowLogUploadRequest contains network flow statistics from a client.
   /// Unlike the legacy PacketFlowLogRequest, this does not include nodeId;
   /// the log server identifies the stream via log_stream_id (derived from private-id).
+  ///
+  /// Fields 8-11 embed node/tenant identity directly in the payload (A-plan).
+  /// This makes each log self-contained for SIEM export without requiring
+  /// server-side JOIN to resolve IPs to node names.
+  /// These values are sourced from NetworkMapResponse on the client side.
+  /// Older clients that don't send these fields are backward-compatible
+  /// (fields default to empty string, log-server stores them as-is).
   /// </summary>
   public sealed partial class PacketFlowLogUploadRequest : pb::IMessage<PacketFlowLogUploadRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3837,6 +3850,11 @@ namespace Logserver {
       lanTraffic_ = other.lanTraffic_.Clone();
       exitNodeTraffic_ = other.exitNodeTraffic_.Clone();
       transportTraffic_ = other.transportTraffic_.Clone();
+      telemetryLogId_ = other.telemetryLogId_;
+      domainTelemetryLogId_ = other.domainTelemetryLogId_;
+      nodeName_ = other.nodeName_;
+      userEmail_ = other.userEmail_;
+      dstPeers_ = other.dstPeers_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3948,6 +3966,87 @@ namespace Logserver {
       get { return transportTraffic_; }
     }
 
+    /// <summary>Field number for the "telemetry_log_id" field.</summary>
+    public const int TelemetryLogIdFieldNumber = 8;
+    private string telemetryLogId_ = "";
+    /// <summary>
+    /// telemetry_log_id is the per-node UUID assigned by runetale-server
+    /// (stored in nodes.telemetry_log_id, delivered via NetworkMapResponse).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TelemetryLogId {
+      get { return telemetryLogId_; }
+      set {
+        telemetryLogId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "domain_telemetry_log_id" field.</summary>
+    public const int DomainTelemetryLogIdFieldNumber = 9;
+    private string domainTelemetryLogId_ = "";
+    /// <summary>
+    /// domain_telemetry_log_id is the per-tenant UUID assigned by runeauth
+    /// (stored in tenant_specs.domain_telemetry_log_id, delivered via NetworkMapResponse).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DomainTelemetryLogId {
+      get { return domainTelemetryLogId_; }
+      set {
+        domainTelemetryLogId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "node_name" field.</summary>
+    public const int NodeNameFieldNumber = 10;
+    private string nodeName_ = "";
+    /// <summary>
+    /// node_name is the hostname of the reporting node (e.g. "alice-macbook").
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NodeName {
+      get { return nodeName_; }
+      set {
+        nodeName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "user_email" field.</summary>
+    public const int UserEmailFieldNumber = 11;
+    private string userEmail_ = "";
+    /// <summary>
+    /// user_email is the email of the user who owns the reporting node.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string UserEmail {
+      get { return userEmail_; }
+      set {
+        userEmail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "dst_peers" field.</summary>
+    public const int DstPeersFieldNumber = 12;
+    private static readonly pb::FieldCodec<global::Logserver.FlowPeerInfo> _repeated_dstPeers_codec
+        = pb::FieldCodec.ForMessage(98, global::Logserver.FlowPeerInfo.Parser);
+    private readonly pbc::RepeatedField<global::Logserver.FlowPeerInfo> dstPeers_ = new pbc::RepeatedField<global::Logserver.FlowPeerInfo>();
+    /// <summary>
+    /// One entry per unique destination Runetale IP seen in peer_traffic entries.
+    /// Traffic entries reference these by matching PacketFlowEntry.dst IP prefix
+    /// against FlowPeerInfo.runetale_ip. This avoids duplicating node info
+    /// across multiple traffic entries to the same destination.
+    /// Only populated for peer_traffic (Runetale IP &lt;-> Runetale IP).
+    /// The client resolves this from NetworkMap.PeerByRunetaleIP(dst_ip).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Logserver.FlowPeerInfo> DstPeers {
+      get { return dstPeers_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3970,6 +4069,11 @@ namespace Logserver {
       if(!lanTraffic_.Equals(other.lanTraffic_)) return false;
       if(!exitNodeTraffic_.Equals(other.exitNodeTraffic_)) return false;
       if(!transportTraffic_.Equals(other.transportTraffic_)) return false;
+      if (TelemetryLogId != other.TelemetryLogId) return false;
+      if (DomainTelemetryLogId != other.DomainTelemetryLogId) return false;
+      if (NodeName != other.NodeName) return false;
+      if (UserEmail != other.UserEmail) return false;
+      if(!dstPeers_.Equals(other.dstPeers_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3984,6 +4088,11 @@ namespace Logserver {
       hash ^= lanTraffic_.GetHashCode();
       hash ^= exitNodeTraffic_.GetHashCode();
       hash ^= transportTraffic_.GetHashCode();
+      if (TelemetryLogId.Length != 0) hash ^= TelemetryLogId.GetHashCode();
+      if (DomainTelemetryLogId.Length != 0) hash ^= DomainTelemetryLogId.GetHashCode();
+      if (NodeName.Length != 0) hash ^= NodeName.GetHashCode();
+      if (UserEmail.Length != 0) hash ^= UserEmail.GetHashCode();
+      hash ^= dstPeers_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4018,6 +4127,23 @@ namespace Logserver {
       lanTraffic_.WriteTo(output, _repeated_lanTraffic_codec);
       exitNodeTraffic_.WriteTo(output, _repeated_exitNodeTraffic_codec);
       transportTraffic_.WriteTo(output, _repeated_transportTraffic_codec);
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(TelemetryLogId);
+      }
+      if (DomainTelemetryLogId.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(DomainTelemetryLogId);
+      }
+      if (NodeName.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(NodeName);
+      }
+      if (UserEmail.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(UserEmail);
+      }
+      dstPeers_.WriteTo(output, _repeated_dstPeers_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4044,6 +4170,23 @@ namespace Logserver {
       lanTraffic_.WriteTo(ref output, _repeated_lanTraffic_codec);
       exitNodeTraffic_.WriteTo(ref output, _repeated_exitNodeTraffic_codec);
       transportTraffic_.WriteTo(ref output, _repeated_transportTraffic_codec);
+      if (TelemetryLogId.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(TelemetryLogId);
+      }
+      if (DomainTelemetryLogId.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(DomainTelemetryLogId);
+      }
+      if (NodeName.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(NodeName);
+      }
+      if (UserEmail.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(UserEmail);
+      }
+      dstPeers_.WriteTo(ref output, _repeated_dstPeers_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4067,6 +4210,19 @@ namespace Logserver {
       size += lanTraffic_.CalculateSize(_repeated_lanTraffic_codec);
       size += exitNodeTraffic_.CalculateSize(_repeated_exitNodeTraffic_codec);
       size += transportTraffic_.CalculateSize(_repeated_transportTraffic_codec);
+      if (TelemetryLogId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TelemetryLogId);
+      }
+      if (DomainTelemetryLogId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DomainTelemetryLogId);
+      }
+      if (NodeName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeName);
+      }
+      if (UserEmail.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UserEmail);
+      }
+      size += dstPeers_.CalculateSize(_repeated_dstPeers_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -4092,6 +4248,19 @@ namespace Logserver {
       lanTraffic_.Add(other.lanTraffic_);
       exitNodeTraffic_.Add(other.exitNodeTraffic_);
       transportTraffic_.Add(other.transportTraffic_);
+      if (other.TelemetryLogId.Length != 0) {
+        TelemetryLogId = other.TelemetryLogId;
+      }
+      if (other.DomainTelemetryLogId.Length != 0) {
+        DomainTelemetryLogId = other.DomainTelemetryLogId;
+      }
+      if (other.NodeName.Length != 0) {
+        NodeName = other.NodeName;
+      }
+      if (other.UserEmail.Length != 0) {
+        UserEmail = other.UserEmail;
+      }
+      dstPeers_.Add(other.dstPeers_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -4133,6 +4302,26 @@ namespace Logserver {
           }
           case 58: {
             transportTraffic_.AddEntriesFrom(input, _repeated_transportTraffic_codec);
+            break;
+          }
+          case 66: {
+            TelemetryLogId = input.ReadString();
+            break;
+          }
+          case 74: {
+            DomainTelemetryLogId = input.ReadString();
+            break;
+          }
+          case 82: {
+            NodeName = input.ReadString();
+            break;
+          }
+          case 90: {
+            UserEmail = input.ReadString();
+            break;
+          }
+          case 98: {
+            dstPeers_.AddEntriesFrom(input, _repeated_dstPeers_codec);
             break;
           }
         }
@@ -4178,6 +4367,345 @@ namespace Logserver {
             transportTraffic_.AddEntriesFrom(ref input, _repeated_transportTraffic_codec);
             break;
           }
+          case 66: {
+            TelemetryLogId = input.ReadString();
+            break;
+          }
+          case 74: {
+            DomainTelemetryLogId = input.ReadString();
+            break;
+          }
+          case 82: {
+            NodeName = input.ReadString();
+            break;
+          }
+          case 90: {
+            UserEmail = input.ReadString();
+            break;
+          }
+          case 98: {
+            dstPeers_.AddEntriesFrom(ref input, _repeated_dstPeers_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// FlowPeerInfo describes a peer node involved in traffic.
+  /// Used in PacketFlowLogUploadRequest.dst_peers:
+  /// node info appears once per unique destination, and PacketFlowEntry.dst IP
+  /// references into this list. This keeps payload size ~8% larger instead of ~57%.
+  /// </summary>
+  public sealed partial class FlowPeerInfo : pb::IMessage<FlowPeerInfo>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<FlowPeerInfo> _parser = new pb::MessageParser<FlowPeerInfo>(() => new FlowPeerInfo());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<FlowPeerInfo> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Logserver.LogWriterReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public FlowPeerInfo() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public FlowPeerInfo(FlowPeerInfo other) : this() {
+      runetaleIp_ = other.runetaleIp_;
+      nodeName_ = other.nodeName_;
+      userEmail_ = other.userEmail_;
+      nodeId_ = other.nodeId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public FlowPeerInfo Clone() {
+      return new FlowPeerInfo(this);
+    }
+
+    /// <summary>Field number for the "runetale_ip" field.</summary>
+    public const int RunetaleIpFieldNumber = 1;
+    private string runetaleIp_ = "";
+    /// <summary>
+    /// runetale_ip is the Runetale CGNAT IP (e.g. "100.112.0.7").
+    /// Used as the join key with PacketFlowEntry.dst (strip port to match).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string RunetaleIp {
+      get { return runetaleIp_; }
+      set {
+        runetaleIp_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "node_name" field.</summary>
+    public const int NodeNameFieldNumber = 2;
+    private string nodeName_ = "";
+    /// <summary>
+    /// node_name is the hostname (e.g. "db-server.rune54494.rt.net.").
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NodeName {
+      get { return nodeName_; }
+      set {
+        nodeName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "user_email" field.</summary>
+    public const int UserEmailFieldNumber = 3;
+    private string userEmail_ = "";
+    /// <summary>
+    /// user_email is the email of the user who owns this node.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string UserEmail {
+      get { return userEmail_; }
+      set {
+        userEmail_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "node_id" field.</summary>
+    public const int NodeIdFieldNumber = 4;
+    private string nodeId_ = "";
+    /// <summary>
+    /// node_id is the telemetry_log_id UUID of the destination node.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NodeId {
+      get { return nodeId_; }
+      set {
+        nodeId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as FlowPeerInfo);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(FlowPeerInfo other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (RunetaleIp != other.RunetaleIp) return false;
+      if (NodeName != other.NodeName) return false;
+      if (UserEmail != other.UserEmail) return false;
+      if (NodeId != other.NodeId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (RunetaleIp.Length != 0) hash ^= RunetaleIp.GetHashCode();
+      if (NodeName.Length != 0) hash ^= NodeName.GetHashCode();
+      if (UserEmail.Length != 0) hash ^= UserEmail.GetHashCode();
+      if (NodeId.Length != 0) hash ^= NodeId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (RunetaleIp.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(RunetaleIp);
+      }
+      if (NodeName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NodeName);
+      }
+      if (UserEmail.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(UserEmail);
+      }
+      if (NodeId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(NodeId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (RunetaleIp.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(RunetaleIp);
+      }
+      if (NodeName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NodeName);
+      }
+      if (UserEmail.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(UserEmail);
+      }
+      if (NodeId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(NodeId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (RunetaleIp.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RunetaleIp);
+      }
+      if (NodeName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeName);
+      }
+      if (UserEmail.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UserEmail);
+      }
+      if (NodeId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(FlowPeerInfo other) {
+      if (other == null) {
+        return;
+      }
+      if (other.RunetaleIp.Length != 0) {
+        RunetaleIp = other.RunetaleIp;
+      }
+      if (other.NodeName.Length != 0) {
+        NodeName = other.NodeName;
+      }
+      if (other.UserEmail.Length != 0) {
+        UserEmail = other.UserEmail;
+      }
+      if (other.NodeId.Length != 0) {
+        NodeId = other.NodeId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            RunetaleIp = input.ReadString();
+            break;
+          }
+          case 18: {
+            NodeName = input.ReadString();
+            break;
+          }
+          case 26: {
+            UserEmail = input.ReadString();
+            break;
+          }
+          case 34: {
+            NodeId = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            RunetaleIp = input.ReadString();
+            break;
+          }
+          case 18: {
+            NodeName = input.ReadString();
+            break;
+          }
+          case 26: {
+            UserEmail = input.ReadString();
+            break;
+          }
+          case 34: {
+            NodeId = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -4202,7 +4730,7 @@ namespace Logserver {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Logserver.LogWriterReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Logserver.LogWriterReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4637,7 +5165,7 @@ namespace Logserver {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Logserver.LogWriterReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Logserver.LogWriterReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -9,10 +9,13 @@ using grpc = global::Grpc.Core;
 
 namespace Logserver {
   /// <summary>
-  /// LogWriterService receives log uploads from client nodes.
-  /// Authentication: gRPC metadata "private-id" + "log-token" headers.
-  /// The log server validates the token signature, checks expiration,
-  /// and verifies that SHA-256(private-id) matches the token's public_id.
+  /// LogWriterService receives log uploads from client nodes via a single
+  /// bidirectional stream. All three log types (Loglyph, Orbit, PacketFlowLog)
+  /// are multiplexed over one persistent gRPC stream per client.
+  ///
+  /// Authentication: gRPC metadata "private-id" header.
+  /// The log server validates the format, computes log_stream_id = SHA-256(private-id),
+  /// and extracts optional telemetry IDs for admin correlation.
   /// </summary>
   public static partial class LogWriterService
   {
@@ -52,41 +55,17 @@ namespace Logserver {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Logserver.LoglyphUploadRequest> __Marshaller_logserver_LoglyphUploadRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Logserver.LoglyphUploadRequest.Parser));
+    static readonly grpc::Marshaller<global::Logserver.StreamLogRequest> __Marshaller_logserver_StreamLogRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Logserver.StreamLogRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Logserver.LoglyphUploadResponse> __Marshaller_logserver_LoglyphUploadResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Logserver.LoglyphUploadResponse.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Logserver.OrbitBatchUploadRequest> __Marshaller_logserver_OrbitBatchUploadRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Logserver.OrbitBatchUploadRequest.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Logserver.OrbitBatchUploadResponse> __Marshaller_logserver_OrbitBatchUploadResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Logserver.OrbitBatchUploadResponse.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Logserver.PacketFlowLogUploadRequest> __Marshaller_logserver_PacketFlowLogUploadRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Logserver.PacketFlowLogUploadRequest.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Logserver.PacketFlowLogUploadResponse> __Marshaller_logserver_PacketFlowLogUploadResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Logserver.PacketFlowLogUploadResponse.Parser));
+    static readonly grpc::Marshaller<global::Logserver.StreamLogResponse> __Marshaller_logserver_StreamLogResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Logserver.StreamLogResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Logserver.LoglyphUploadRequest, global::Logserver.LoglyphUploadResponse> __Method_UploadLoglyphEntries = new grpc::Method<global::Logserver.LoglyphUploadRequest, global::Logserver.LoglyphUploadResponse>(
-        grpc::MethodType.Unary,
+    static readonly grpc::Method<global::Logserver.StreamLogRequest, global::Logserver.StreamLogResponse> __Method_StreamLogs = new grpc::Method<global::Logserver.StreamLogRequest, global::Logserver.StreamLogResponse>(
+        grpc::MethodType.DuplexStreaming,
         __ServiceName,
-        "UploadLoglyphEntries",
-        __Marshaller_logserver_LoglyphUploadRequest,
-        __Marshaller_logserver_LoglyphUploadResponse);
-
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Logserver.OrbitBatchUploadRequest, global::Logserver.OrbitBatchUploadResponse> __Method_UploadOrbitBatch = new grpc::Method<global::Logserver.OrbitBatchUploadRequest, global::Logserver.OrbitBatchUploadResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "UploadOrbitBatch",
-        __Marshaller_logserver_OrbitBatchUploadRequest,
-        __Marshaller_logserver_OrbitBatchUploadResponse);
-
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Logserver.PacketFlowLogUploadRequest, global::Logserver.PacketFlowLogUploadResponse> __Method_UploadPacketFlowLogs = new grpc::Method<global::Logserver.PacketFlowLogUploadRequest, global::Logserver.PacketFlowLogUploadResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "UploadPacketFlowLogs",
-        __Marshaller_logserver_PacketFlowLogUploadRequest,
-        __Marshaller_logserver_PacketFlowLogUploadResponse);
+        "StreamLogs",
+        __Marshaller_logserver_StreamLogRequest,
+        __Marshaller_logserver_StreamLogResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -99,37 +78,20 @@ namespace Logserver {
     public abstract partial class LogWriterServiceBase
     {
       /// <summary>
-      /// UploadLoglyphEntries uploads client debug log entries.
+      /// StreamLogs is a bidirectional stream for uploading all log types.
+      /// The client sends StreamLogRequest messages (containing one of the three
+      /// log payloads) and receives StreamLogResponse messages (config updates
+      /// and acknowledgements) from the server.
+      ///
+      /// On initial connection, the server sends a LogConfigUpdate with the
+      /// current configuration for this client's tenant.
       /// </summary>
-      /// <param name="request">The request received from the client.</param>
+      /// <param name="requestStream">Used for reading requests from the client.</param>
+      /// <param name="responseStream">Used for sending responses back to the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      /// <returns>A task indicating completion of the handler.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Logserver.LoglyphUploadResponse> UploadLoglyphEntries(global::Logserver.LoglyphUploadRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// UploadOrbitBatch uploads a batch of telemetry events.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Logserver.OrbitBatchUploadResponse> UploadOrbitBatch(global::Logserver.OrbitBatchUploadRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// UploadPacketFlowLogs uploads network flow statistics.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Logserver.PacketFlowLogUploadResponse> UploadPacketFlowLogs(global::Logserver.PacketFlowLogUploadRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task StreamLogs(grpc::IAsyncStreamReader<global::Logserver.StreamLogRequest> requestStream, grpc::IServerStreamWriter<global::Logserver.StreamLogResponse> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -164,148 +126,38 @@ namespace Logserver {
       }
 
       /// <summary>
-      /// UploadLoglyphEntries uploads client debug log entries.
+      /// StreamLogs is a bidirectional stream for uploading all log types.
+      /// The client sends StreamLogRequest messages (containing one of the three
+      /// log payloads) and receives StreamLogResponse messages (config updates
+      /// and acknowledgements) from the server.
+      ///
+      /// On initial connection, the server sends a LogConfigUpdate with the
+      /// current configuration for this client's tenant.
       /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Logserver.LoglyphUploadResponse UploadLoglyphEntries(global::Logserver.LoglyphUploadRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UploadLoglyphEntries(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// UploadLoglyphEntries uploads client debug log entries.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Logserver.LoglyphUploadResponse UploadLoglyphEntries(global::Logserver.LoglyphUploadRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_UploadLoglyphEntries, null, options, request);
-      }
-      /// <summary>
-      /// UploadLoglyphEntries uploads client debug log entries.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Logserver.LoglyphUploadResponse> UploadLoglyphEntriesAsync(global::Logserver.LoglyphUploadRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncDuplexStreamingCall<global::Logserver.StreamLogRequest, global::Logserver.StreamLogResponse> StreamLogs(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return UploadLoglyphEntriesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return StreamLogs(new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// UploadLoglyphEntries uploads client debug log entries.
+      /// StreamLogs is a bidirectional stream for uploading all log types.
+      /// The client sends StreamLogRequest messages (containing one of the three
+      /// log payloads) and receives StreamLogResponse messages (config updates
+      /// and acknowledgements) from the server.
+      ///
+      /// On initial connection, the server sends a LogConfigUpdate with the
+      /// current configuration for this client's tenant.
       /// </summary>
-      /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Logserver.LoglyphUploadResponse> UploadLoglyphEntriesAsync(global::Logserver.LoglyphUploadRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncDuplexStreamingCall<global::Logserver.StreamLogRequest, global::Logserver.StreamLogResponse> StreamLogs(grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_UploadLoglyphEntries, null, options, request);
-      }
-      /// <summary>
-      /// UploadOrbitBatch uploads a batch of telemetry events.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Logserver.OrbitBatchUploadResponse UploadOrbitBatch(global::Logserver.OrbitBatchUploadRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UploadOrbitBatch(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// UploadOrbitBatch uploads a batch of telemetry events.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Logserver.OrbitBatchUploadResponse UploadOrbitBatch(global::Logserver.OrbitBatchUploadRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_UploadOrbitBatch, null, options, request);
-      }
-      /// <summary>
-      /// UploadOrbitBatch uploads a batch of telemetry events.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Logserver.OrbitBatchUploadResponse> UploadOrbitBatchAsync(global::Logserver.OrbitBatchUploadRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UploadOrbitBatchAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// UploadOrbitBatch uploads a batch of telemetry events.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Logserver.OrbitBatchUploadResponse> UploadOrbitBatchAsync(global::Logserver.OrbitBatchUploadRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_UploadOrbitBatch, null, options, request);
-      }
-      /// <summary>
-      /// UploadPacketFlowLogs uploads network flow statistics.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Logserver.PacketFlowLogUploadResponse UploadPacketFlowLogs(global::Logserver.PacketFlowLogUploadRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UploadPacketFlowLogs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// UploadPacketFlowLogs uploads network flow statistics.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Logserver.PacketFlowLogUploadResponse UploadPacketFlowLogs(global::Logserver.PacketFlowLogUploadRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_UploadPacketFlowLogs, null, options, request);
-      }
-      /// <summary>
-      /// UploadPacketFlowLogs uploads network flow statistics.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Logserver.PacketFlowLogUploadResponse> UploadPacketFlowLogsAsync(global::Logserver.PacketFlowLogUploadRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return UploadPacketFlowLogsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// UploadPacketFlowLogs uploads network flow statistics.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Logserver.PacketFlowLogUploadResponse> UploadPacketFlowLogsAsync(global::Logserver.PacketFlowLogUploadRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_UploadPacketFlowLogs, null, options, request);
+        return CallInvoker.AsyncDuplexStreamingCall(__Method_StreamLogs, null, options);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -321,9 +173,7 @@ namespace Logserver {
     public static grpc::ServerServiceDefinition BindService(LogWriterServiceBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_UploadLoglyphEntries, serviceImpl.UploadLoglyphEntries)
-          .AddMethod(__Method_UploadOrbitBatch, serviceImpl.UploadOrbitBatch)
-          .AddMethod(__Method_UploadPacketFlowLogs, serviceImpl.UploadPacketFlowLogs).Build();
+          .AddMethod(__Method_StreamLogs, serviceImpl.StreamLogs).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -333,9 +183,7 @@ namespace Logserver {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, LogWriterServiceBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_UploadLoglyphEntries, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Logserver.LoglyphUploadRequest, global::Logserver.LoglyphUploadResponse>(serviceImpl.UploadLoglyphEntries));
-      serviceBinder.AddMethod(__Method_UploadOrbitBatch, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Logserver.OrbitBatchUploadRequest, global::Logserver.OrbitBatchUploadResponse>(serviceImpl.UploadOrbitBatch));
-      serviceBinder.AddMethod(__Method_UploadPacketFlowLogs, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Logserver.PacketFlowLogUploadRequest, global::Logserver.PacketFlowLogUploadResponse>(serviceImpl.UploadPacketFlowLogs));
+      serviceBinder.AddMethod(__Method_StreamLogs, serviceImpl == null ? null : new grpc::DuplexStreamingServerMethod<global::Logserver.StreamLogRequest, global::Logserver.StreamLogResponse>(serviceImpl.StreamLogs));
     }
 
   }

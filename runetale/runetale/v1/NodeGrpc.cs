@@ -53,6 +53,24 @@ namespace Protos {
     static readonly grpc::Marshaller<global::Protos.NetworkMapResponse> __Marshaller_protos_NetworkMapResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkMapResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Protos.NetworkMapRequest> __Marshaller_protos_NetworkMapRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkMapRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.RotateNodeKeyRequest> __Marshaller_protos_RotateNodeKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.RotateNodeKeyRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.RotateNodeKeyResponse> __Marshaller_protos_RotateNodeKeyResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.RotateNodeKeyResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.NetworkLockInitRequest> __Marshaller_protos_NetworkLockInitRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkLockInitRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.NetworkLockInitResponse> __Marshaller_protos_NetworkLockInitResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkLockInitResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.NetworkLockSignRequest> __Marshaller_protos_NetworkLockSignRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkLockSignRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.NetworkLockSignResponse> __Marshaller_protos_NetworkLockSignResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkLockSignResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.NetworkLockDisableRequest> __Marshaller_protos_NetworkLockDisableRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkLockDisableRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.NetworkLockDisableResponse> __Marshaller_protos_NetworkLockDisableResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkLockDisableResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.NetworkLockStatusResponse> __Marshaller_protos_NetworkLockStatusResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkLockStatusResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse> __Method_ComposeNode = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse>(
@@ -78,6 +96,46 @@ namespace Protos {
         __Marshaller_protos_NetworkMapRequest,
         __Marshaller_protos_NetworkMapResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.RotateNodeKeyRequest, global::Protos.RotateNodeKeyResponse> __Method_RotateNodeKey = new grpc::Method<global::Protos.RotateNodeKeyRequest, global::Protos.RotateNodeKeyResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "RotateNodeKey",
+        __Marshaller_protos_RotateNodeKeyRequest,
+        __Marshaller_protos_RotateNodeKeyResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.NetworkLockInitRequest, global::Protos.NetworkLockInitResponse> __Method_NetworkLockInit = new grpc::Method<global::Protos.NetworkLockInitRequest, global::Protos.NetworkLockInitResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NetworkLockInit",
+        __Marshaller_protos_NetworkLockInitRequest,
+        __Marshaller_protos_NetworkLockInitResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.NetworkLockSignRequest, global::Protos.NetworkLockSignResponse> __Method_NetworkLockSign = new grpc::Method<global::Protos.NetworkLockSignRequest, global::Protos.NetworkLockSignResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NetworkLockSign",
+        __Marshaller_protos_NetworkLockSignRequest,
+        __Marshaller_protos_NetworkLockSignResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.NetworkLockDisableRequest, global::Protos.NetworkLockDisableResponse> __Method_NetworkLockDisable = new grpc::Method<global::Protos.NetworkLockDisableRequest, global::Protos.NetworkLockDisableResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NetworkLockDisable",
+        __Marshaller_protos_NetworkLockDisableRequest,
+        __Marshaller_protos_NetworkLockDisableResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetworkLockStatusResponse> __Method_NetworkLockStatus = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetworkLockStatusResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NetworkLockStatus",
+        __Marshaller_google_protobuf_Empty,
+        __Marshaller_protos_NetworkLockStatusResponse);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -102,6 +160,68 @@ namespace Protos {
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task ConnectNetworkMapTable(grpc::IAsyncStreamReader<global::Protos.NetworkMapRequest> requestStream, grpc::IServerStreamWriter<global::Protos.NetworkMapResponse> responseStream, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// RotateNodeKey rotates the node's keys (NodeKey and WgPubKey) to new values.
+      /// This is used for seamless key renewal without disconnecting the VPN.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.RotateNodeKeyResponse> RotateNodeKey(global::Protos.RotateNodeKeyRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// Network Lock (TKA) RPCs
+      /// NetworkLockInit enables Network Lock for the Runetale Network.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.NetworkLockInitResponse> NetworkLockInit(global::Protos.NetworkLockInitRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NetworkLockSign signs a node key with a trusted Network Lock key.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.NetworkLockSignResponse> NetworkLockSign(global::Protos.NetworkLockSignRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NetworkLockDisable disables Network Lock for the Runetale Network.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.NetworkLockDisableResponse> NetworkLockDisable(global::Protos.NetworkLockDisableRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NetworkLockStatus returns the current Network Lock status.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.NetworkLockStatusResponse> NetworkLockStatus(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -185,6 +305,254 @@ namespace Protos {
       {
         return CallInvoker.AsyncDuplexStreamingCall(__Method_ConnectNetworkMapTable, null, options);
       }
+      /// <summary>
+      /// RotateNodeKey rotates the node's keys (NodeKey and WgPubKey) to new values.
+      /// This is used for seamless key renewal without disconnecting the VPN.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.RotateNodeKeyResponse RotateNodeKey(global::Protos.RotateNodeKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RotateNodeKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// RotateNodeKey rotates the node's keys (NodeKey and WgPubKey) to new values.
+      /// This is used for seamless key renewal without disconnecting the VPN.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.RotateNodeKeyResponse RotateNodeKey(global::Protos.RotateNodeKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_RotateNodeKey, null, options, request);
+      }
+      /// <summary>
+      /// RotateNodeKey rotates the node's keys (NodeKey and WgPubKey) to new values.
+      /// This is used for seamless key renewal without disconnecting the VPN.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.RotateNodeKeyResponse> RotateNodeKeyAsync(global::Protos.RotateNodeKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RotateNodeKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// RotateNodeKey rotates the node's keys (NodeKey and WgPubKey) to new values.
+      /// This is used for seamless key renewal without disconnecting the VPN.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.RotateNodeKeyResponse> RotateNodeKeyAsync(global::Protos.RotateNodeKeyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_RotateNodeKey, null, options, request);
+      }
+      /// <summary>
+      /// Network Lock (TKA) RPCs
+      /// NetworkLockInit enables Network Lock for the Runetale Network.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.NetworkLockInitResponse NetworkLockInit(global::Protos.NetworkLockInitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NetworkLockInit(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Network Lock (TKA) RPCs
+      /// NetworkLockInit enables Network Lock for the Runetale Network.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.NetworkLockInitResponse NetworkLockInit(global::Protos.NetworkLockInitRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NetworkLockInit, null, options, request);
+      }
+      /// <summary>
+      /// Network Lock (TKA) RPCs
+      /// NetworkLockInit enables Network Lock for the Runetale Network.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.NetworkLockInitResponse> NetworkLockInitAsync(global::Protos.NetworkLockInitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NetworkLockInitAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Network Lock (TKA) RPCs
+      /// NetworkLockInit enables Network Lock for the Runetale Network.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.NetworkLockInitResponse> NetworkLockInitAsync(global::Protos.NetworkLockInitRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NetworkLockInit, null, options, request);
+      }
+      /// <summary>
+      /// NetworkLockSign signs a node key with a trusted Network Lock key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.NetworkLockSignResponse NetworkLockSign(global::Protos.NetworkLockSignRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NetworkLockSign(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NetworkLockSign signs a node key with a trusted Network Lock key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.NetworkLockSignResponse NetworkLockSign(global::Protos.NetworkLockSignRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NetworkLockSign, null, options, request);
+      }
+      /// <summary>
+      /// NetworkLockSign signs a node key with a trusted Network Lock key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.NetworkLockSignResponse> NetworkLockSignAsync(global::Protos.NetworkLockSignRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NetworkLockSignAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NetworkLockSign signs a node key with a trusted Network Lock key.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.NetworkLockSignResponse> NetworkLockSignAsync(global::Protos.NetworkLockSignRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NetworkLockSign, null, options, request);
+      }
+      /// <summary>
+      /// NetworkLockDisable disables Network Lock for the Runetale Network.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.NetworkLockDisableResponse NetworkLockDisable(global::Protos.NetworkLockDisableRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NetworkLockDisable(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NetworkLockDisable disables Network Lock for the Runetale Network.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.NetworkLockDisableResponse NetworkLockDisable(global::Protos.NetworkLockDisableRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NetworkLockDisable, null, options, request);
+      }
+      /// <summary>
+      /// NetworkLockDisable disables Network Lock for the Runetale Network.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.NetworkLockDisableResponse> NetworkLockDisableAsync(global::Protos.NetworkLockDisableRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NetworkLockDisableAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NetworkLockDisable disables Network Lock for the Runetale Network.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.NetworkLockDisableResponse> NetworkLockDisableAsync(global::Protos.NetworkLockDisableRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NetworkLockDisable, null, options, request);
+      }
+      /// <summary>
+      /// NetworkLockStatus returns the current Network Lock status.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.NetworkLockStatusResponse NetworkLockStatus(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NetworkLockStatus(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NetworkLockStatus returns the current Network Lock status.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.NetworkLockStatusResponse NetworkLockStatus(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NetworkLockStatus, null, options, request);
+      }
+      /// <summary>
+      /// NetworkLockStatus returns the current Network Lock status.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.NetworkLockStatusResponse> NetworkLockStatusAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NetworkLockStatusAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NetworkLockStatus returns the current Network Lock status.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.NetworkLockStatusResponse> NetworkLockStatusAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NetworkLockStatus, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override NodeServiceClient NewInstance(ClientBaseConfiguration configuration)
@@ -201,7 +569,12 @@ namespace Protos {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_ComposeNode, serviceImpl.ComposeNode)
           .AddMethod(__Method_GetNetworkMap, serviceImpl.GetNetworkMap)
-          .AddMethod(__Method_ConnectNetworkMapTable, serviceImpl.ConnectNetworkMapTable).Build();
+          .AddMethod(__Method_ConnectNetworkMapTable, serviceImpl.ConnectNetworkMapTable)
+          .AddMethod(__Method_RotateNodeKey, serviceImpl.RotateNodeKey)
+          .AddMethod(__Method_NetworkLockInit, serviceImpl.NetworkLockInit)
+          .AddMethod(__Method_NetworkLockSign, serviceImpl.NetworkLockSign)
+          .AddMethod(__Method_NetworkLockDisable, serviceImpl.NetworkLockDisable)
+          .AddMethod(__Method_NetworkLockStatus, serviceImpl.NetworkLockStatus).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -214,6 +587,11 @@ namespace Protos {
       serviceBinder.AddMethod(__Method_ComposeNode, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse>(serviceImpl.ComposeNode));
       serviceBinder.AddMethod(__Method_GetNetworkMap, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetworkMapResponse>(serviceImpl.GetNetworkMap));
       serviceBinder.AddMethod(__Method_ConnectNetworkMapTable, serviceImpl == null ? null : new grpc::DuplexStreamingServerMethod<global::Protos.NetworkMapRequest, global::Protos.NetworkMapResponse>(serviceImpl.ConnectNetworkMapTable));
+      serviceBinder.AddMethod(__Method_RotateNodeKey, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.RotateNodeKeyRequest, global::Protos.RotateNodeKeyResponse>(serviceImpl.RotateNodeKey));
+      serviceBinder.AddMethod(__Method_NetworkLockInit, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.NetworkLockInitRequest, global::Protos.NetworkLockInitResponse>(serviceImpl.NetworkLockInit));
+      serviceBinder.AddMethod(__Method_NetworkLockSign, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.NetworkLockSignRequest, global::Protos.NetworkLockSignResponse>(serviceImpl.NetworkLockSign));
+      serviceBinder.AddMethod(__Method_NetworkLockDisable, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.NetworkLockDisableRequest, global::Protos.NetworkLockDisableResponse>(serviceImpl.NetworkLockDisable));
+      serviceBinder.AddMethod(__Method_NetworkLockStatus, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetworkLockStatusResponse>(serviceImpl.NetworkLockStatus));
     }
 
   }

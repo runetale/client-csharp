@@ -26,59 +26,94 @@ namespace Protos {
           string.Concat(
             "Ch9ydW5ldGFsZS9ydW5ldGFsZS92MS9ub2RlLnByb3RvEgZwcm90b3MaG2dv",
             "b2dsZS9wcm90b2J1Zi9lbXB0eS5wcm90bxofZ29vZ2xlL3Byb3RvYnVmL3Rp",
-            "bWVzdGFtcC5wcm90byKuAgoETm9kZRIMCgRuYW1lGAEgASgJEg4KBm5vZGVJ",
+            "bWVzdGFtcC5wcm90byKEAwoETm9kZRIMCgRuYW1lGAEgASgJEg4KBm5vZGVJ",
             "ZBgCIAEoBBIPCgdub2RlS2V5GAMgASgJEhAKCHdnUHViS2V5GAQgASgJEhIK",
             "CmFsbG93ZWRJUHMYBSADKAkSEQoJYWRkcmVzc2VzGAYgAygJEg4KBnVzZXJJ",
             "ZBgHIAEoBBINCgVlbWFpbBgIIAEoCRITCgtkaXNwbGF5TmFtZRgJIAEoCRIR",
             "Cglsb2dpbk5hbWUYCiABKAkSDgoGaG9zdE9TGAsgASgJEg8KB3J1bmVLZXkY",
             "DCABKAkSGAoQY2VyZkhvbWVSZWdpb25JZBgNIAEoDRIOCgZvbmxpbmUYDiAB",
             "KAgSLAoIbGFzdFNlZW4YDyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0",
-            "YW1wInYKE0NvbXBvc2VOb2RlUmVzcG9uc2USCgoCaXAYASABKAkSDAoEY2lk",
-            "chgCIAEoCRIOCgZ1c2VySWQYAyABKAQSDQoFZW1haWwYBCABKAkSEwoLZGlz",
-            "cGxheU5hbWUYBSABKAkSEQoJbG9naW5OYW1lGAYgASgJImkKEU5ldHdvcmtN",
-            "YXBSZXF1ZXN0EhgKC3Zwbl9ydW5uaW5nGAEgASgISACIAQESGQoMaXNfa2Vl",
-            "cGFsaXZlGAIgASgISAGIAQFCDgoMX3Zwbl9ydW5uaW5nQg8KDV9pc19rZWVw",
-            "YWxpdmUijQEKDE5ldFBvcnRSYW5nZRIKCgJpcBgBIAEoCRItCgVwb3J0cxgC",
-            "IAEoCzIeLnByb3Rvcy5OZXRQb3J0UmFuZ2UucG9ydFJhbmdlEhgKEGFkdmVy",
-            "dGlzZWRSb3V0ZXMYAyABKAkaKAoJcG9ydFJhbmdlEg0KBWZpcnN0GAEgASgE",
-            "EgwKBGxhc3QYAiABKAQiUQoKRmlsdGVyUnVsZRIOCgZzcmNJcHMYASADKAkS",
-            "IgoEZHN0cxgCIAMoCzIULnByb3Rvcy5OZXRQb3J0UmFuZ2USDwoHaVBQcm90",
-            "bxgDIAMoDSLdAwoSTmV0d29ya01hcFJlc3BvbnNlEgsKA3NlcRgBIAEoBBIa",
-            "CgRub2RlGAIgASgLMgwucHJvdG9zLk5vZGUSGwoFcGVlcnMYAyADKAsyDC5w",
-            "cm90b3MuTm9kZRIiCgxwZWVyc0NoYW5nZWQYBCADKAsyDC5wcm90b3MuTm9k",
-            "ZRIUCgxwZWVyc1JlbW92ZWQYBSADKAQSKAoMcGFja2V0RmlsdGVyGAYgAygL",
-            "MhIucHJvdG9zLkZpbHRlclJ1bGUSFwoPYWR2ZXJ0aXNlZFJvdXRlGAcgASgJ",
-            "Eg4KBmphaWxlZBgIIAEoCBIeCghpY2VUYWJsZRgJIAMoCzIMLnByb3Rvcy5O",
-            "b2RlEh4KA2RucxgKIAEoCzIRLnByb3Rvcy5ETlNDb25maWcSJAoJYXBwTGlu",
-            "a2VyGAsgAygLMhEucHJvdG9zLkFwcExpbmtlchIgCgdjZXJmTWFwGBQgASgL",
-            "Mg8ucHJvdG9zLkNlcmZNYXASGwoTZGVmYXVsdENlcmZSZWdpb25JZBgVIAEo",
-            "DRIYChB0ZWxlbWV0cnlfbG9nX2lkGBYgASgJEh8KF2RvbWFpbl90ZWxlbWV0",
-            "cnlfbG9nX2lkGBcgASgJEhQKDGNhcGFiaWxpdGllcxgYIAMoCSIuCgdDZXJm",
-            "TWFwEiMKB3JlZ2lvbnMYASADKAsyEi5wcm90b3MuQ2VyZlJlZ2lvbiJTCgpD",
-            "ZXJmUmVnaW9uEhAKCHJlZ2lvbklkGAEgASgNEhIKCnJlZ2lvbkNvZGUYAiAB",
-            "KAkSHwoFbm9kZXMYAyADKAsyEC5wcm90b3MuQ2VyZk5vZGUiigEKCENlcmZO",
-            "b2RlEgwKBG5hbWUYASABKAkSEAoIaG9zdE5hbWUYAiABKAkSEAoIY2VyZlBv",
-            "cnQYAyABKA0SEAoIc3R1blBvcnQYBCABKA0SFQoNd2Vic29ja2V0T25seRgF",
-            "IAEoCBIRCglmb3JjZUh0dHAYBiABKAgSEAoIc3R1bk9ubHkYByABKAgiOgoJ",
-            "QXBwTGlua2VyEgwKBG5hbWUYASABKAkSDwoHZG9tYWlucxgCIAMoCRIOCgZy",
-            "b3V0ZXMYAyADKAkiGAoIUmVzb2x2ZXISDAoEYWRkchgBIAEoCSIwCglSZXNv",
-            "bHZlcnMSIwoJcmVzb2x2ZXJzGAEgAygLMhAucHJvdG9zLlJlc29sdmVyIusB",
-            "CglETlNDb25maWcSIwoJcmVzb2x2ZXJzGAEgAygLMhAucHJvdG9zLlJlc29s",
-            "dmVyEi0KBnJvdXRlcxgCIAMoCzIdLnByb3Rvcy5ETlNDb25maWcuUm91dGVz",
-            "RW50cnkSFQoNc2VhcmNoRG9tYWlucxgDIAMoCRIXCg9leGl0Tm9kZUZpbHRl",
-            "cmQYBCADKAkSGAoQZW5hYmxlZFdvbmRlckROUxgFIAEoCBpACgtSb3V0ZXNF",
-            "bnRyeRILCgNrZXkYASABKAkSIAoFdmFsdWUYAiABKAsyES5wcm90b3MuUmVz",
-            "b2x2ZXJzOgI4ATLxAQoLTm9kZVNlcnZpY2USRAoLQ29tcG9zZU5vZGUSFi5n",
-            "b29nbGUucHJvdG9idWYuRW1wdHkaGy5wcm90b3MuQ29tcG9zZU5vZGVSZXNw",
-            "b25zZSIAEkUKDUdldE5ldHdvcmtNYXASFi5nb29nbGUucHJvdG9idWYuRW1w",
-            "dHkaGi5wcm90b3MuTmV0d29ya01hcFJlc3BvbnNlIgASVQoWQ29ubmVjdE5l",
-            "dHdvcmtNYXBUYWJsZRIZLnByb3Rvcy5OZXR3b3JrTWFwUmVxdWVzdBoaLnBy",
-            "b3Rvcy5OZXR3b3JrTWFwUmVzcG9uc2UiACgBMAFCCFoGLi9ub2RlYgZwcm90",
-            "bzM="));
+            "YW1wEi0KCWtleUV4cGlyeRgQIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1l",
+            "c3RhbXASDwoHZXhwaXJlZBgRIAEoCBIUCgxrZXlTaWduYXR1cmUYEiABKAwi",
+            "dgoTQ29tcG9zZU5vZGVSZXNwb25zZRIKCgJpcBgBIAEoCRIMCgRjaWRyGAIg",
+            "ASgJEg4KBnVzZXJJZBgDIAEoBBINCgVlbWFpbBgEIAEoCRITCgtkaXNwbGF5",
+            "TmFtZRgFIAEoCRIRCglsb2dpbk5hbWUYBiABKAkiaQoRTmV0d29ya01hcFJl",
+            "cXVlc3QSGAoLdnBuX3J1bm5pbmcYASABKAhIAIgBARIZCgxpc19rZWVwYWxp",
+            "dmUYAiABKAhIAYgBAUIOCgxfdnBuX3J1bm5pbmdCDwoNX2lzX2tlZXBhbGl2",
+            "ZSKNAQoMTmV0UG9ydFJhbmdlEgoKAmlwGAEgASgJEi0KBXBvcnRzGAIgASgL",
+            "Mh4ucHJvdG9zLk5ldFBvcnRSYW5nZS5wb3J0UmFuZ2USGAoQYWR2ZXJ0aXNl",
+            "ZFJvdXRlcxgDIAEoCRooCglwb3J0UmFuZ2USDQoFZmlyc3QYASABKAQSDAoE",
+            "bGFzdBgCIAEoBCJRCgpGaWx0ZXJSdWxlEg4KBnNyY0lwcxgBIAMoCRIiCgRk",
+            "c3RzGAIgAygLMhQucHJvdG9zLk5ldFBvcnRSYW5nZRIPCgdpUFByb3RvGAMg",
+            "AygNIt0DChJOZXR3b3JrTWFwUmVzcG9uc2USCwoDc2VxGAEgASgEEhoKBG5v",
+            "ZGUYAiABKAsyDC5wcm90b3MuTm9kZRIbCgVwZWVycxgDIAMoCzIMLnByb3Rv",
+            "cy5Ob2RlEiIKDHBlZXJzQ2hhbmdlZBgEIAMoCzIMLnByb3Rvcy5Ob2RlEhQK",
+            "DHBlZXJzUmVtb3ZlZBgFIAMoBBIoCgxwYWNrZXRGaWx0ZXIYBiADKAsyEi5w",
+            "cm90b3MuRmlsdGVyUnVsZRIXCg9hZHZlcnRpc2VkUm91dGUYByABKAkSDgoG",
+            "amFpbGVkGAggASgIEh4KCGljZVRhYmxlGAkgAygLMgwucHJvdG9zLk5vZGUS",
+            "HgoDZG5zGAogASgLMhEucHJvdG9zLkROU0NvbmZpZxIkCglhcHBMaW5rZXIY",
+            "CyADKAsyES5wcm90b3MuQXBwTGlua2VyEiAKB2NlcmZNYXAYFCABKAsyDy5w",
+            "cm90b3MuQ2VyZk1hcBIbChNkZWZhdWx0Q2VyZlJlZ2lvbklkGBUgASgNEhgK",
+            "EHRlbGVtZXRyeV9sb2dfaWQYFiABKAkSHwoXZG9tYWluX3RlbGVtZXRyeV9s",
+            "b2dfaWQYFyABKAkSFAoMY2FwYWJpbGl0aWVzGBggAygJIi4KB0NlcmZNYXAS",
+            "IwoHcmVnaW9ucxgBIAMoCzISLnByb3Rvcy5DZXJmUmVnaW9uIlMKCkNlcmZS",
+            "ZWdpb24SEAoIcmVnaW9uSWQYASABKA0SEgoKcmVnaW9uQ29kZRgCIAEoCRIf",
+            "CgVub2RlcxgDIAMoCzIQLnByb3Rvcy5DZXJmTm9kZSKKAQoIQ2VyZk5vZGUS",
+            "DAoEbmFtZRgBIAEoCRIQCghob3N0TmFtZRgCIAEoCRIQCghjZXJmUG9ydBgD",
+            "IAEoDRIQCghzdHVuUG9ydBgEIAEoDRIVCg13ZWJzb2NrZXRPbmx5GAUgASgI",
+            "EhEKCWZvcmNlSHR0cBgGIAEoCBIQCghzdHVuT25seRgHIAEoCCI6CglBcHBM",
+            "aW5rZXISDAoEbmFtZRgBIAEoCRIPCgdkb21haW5zGAIgAygJEg4KBnJvdXRl",
+            "cxgDIAMoCSIYCghSZXNvbHZlchIMCgRhZGRyGAEgASgJIjAKCVJlc29sdmVy",
+            "cxIjCglyZXNvbHZlcnMYASADKAsyEC5wcm90b3MuUmVzb2x2ZXIi6wEKCURO",
+            "U0NvbmZpZxIjCglyZXNvbHZlcnMYASADKAsyEC5wcm90b3MuUmVzb2x2ZXIS",
+            "LQoGcm91dGVzGAIgAygLMh0ucHJvdG9zLkROU0NvbmZpZy5Sb3V0ZXNFbnRy",
+            "eRIVCg1zZWFyY2hEb21haW5zGAMgAygJEhcKD2V4aXROb2RlRmlsdGVyZBgE",
+            "IAMoCRIYChBlbmFibGVkV29uZGVyRE5TGAUgASgIGkAKC1JvdXRlc0VudHJ5",
+            "EgsKA2tleRgBIAEoCRIgCgV2YWx1ZRgCIAEoCzIRLnByb3Rvcy5SZXNvbHZl",
+            "cnM6AjgBIqoBChRSb3RhdGVOb2RlS2V5UmVxdWVzdBISCgpvbGROb2RlS2V5",
+            "GAEgASgJEhIKCm5ld05vZGVLZXkYAiABKAkSEwoLb2xkV2dQdWJLZXkYAyAB",
+            "KAkSEwoLbmV3V2dQdWJLZXkYBCABKAkSEgoKb2xkUnVuZUtleRgFIAEoCRIS",
+            "CgpuZXdSdW5lS2V5GAYgASgJEhgKEG5vZGVLZXlTaWduYXR1cmUYByABKAwi",
+            "aQoVUm90YXRlTm9kZUtleVJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgSMAoM",
+            "bmV3S2V5RXhwaXJ5GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
+            "cBINCgVlcnJvchgDIAEoCSJZChZOZXR3b3JrTG9ja0luaXRSZXF1ZXN0EiQK",
+            "BGtleXMYASADKAsyFi5wcm90b3MuTmV0d29ya0xvY2tLZXkSGQoRZGlzYWJs",
+            "ZW1lbnRTZWNyZXQYAiABKAwiOQoXTmV0d29ya0xvY2tJbml0UmVzcG9uc2US",
+            "DwoHc3VjY2VzcxgBIAEoCBINCgVlcnJvchgCIAEoCSJBChZOZXR3b3JrTG9j",
+            "a1NpZ25SZXF1ZXN0Eg8KB25vZGVLZXkYASABKAkSFgoOcm90YXRpb25QdWJs",
+            "aWMYAiABKAwiOwoXTmV0d29ya0xvY2tTaWduUmVzcG9uc2USEQoJc2lnbmF0",
+            "dXJlGAEgASgMEg0KBWVycm9yGAIgASgJIjYKGU5ldHdvcmtMb2NrRGlzYWJs",
+            "ZVJlcXVlc3QSGQoRZGlzYWJsZW1lbnRTZWNyZXQYASABKAwiPAoaTmV0d29y",
+            "a0xvY2tEaXNhYmxlUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCBINCgVlcnJv",
+            "chgCIAEoCSLPAQoZTmV0d29ya0xvY2tTdGF0dXNSZXNwb25zZRIPCgdlbmFi",
+            "bGVkGAEgASgIEgwKBGhlYWQYAiABKAwSEQoJcHVibGljS2V5GAMgASgMEg8K",
+            "B25vZGVLZXkYBCABKAkSFQoNbm9kZUtleVNpZ25lZBgFIAEoCBIrCgt0cnVz",
+            "dGVkS2V5cxgGIAMoCzIWLnByb3Rvcy5OZXR3b3JrTG9ja0tleRIrCg1maWx0",
+            "ZXJlZFBlZXJzGAcgAygLMhQucHJvdG9zLkZpbHRlcmVkUGVlciJgCg5OZXR3",
+            "b3JrTG9ja0tleRINCgVrZXlJZBgBIAEoDBIRCglwdWJsaWNLZXkYAiABKAwS",
+            "DAoEa2luZBgDIAEoCRINCgV2b3RlcxgEIAEoDRIPCgdjb21tZW50GAUgASgJ",
+            "Ik0KDEZpbHRlcmVkUGVlchIOCgZub2RlSWQYASABKAQSDAoEbmFtZRgCIAEo",
+            "CRIPCgdub2RlS2V5GAMgASgJEg4KBnJlYXNvbhgEIAEoCTKeBQoLTm9kZVNl",
+            "cnZpY2USRAoLQ29tcG9zZU5vZGUSFi5nb29nbGUucHJvdG9idWYuRW1wdHka",
+            "Gy5wcm90b3MuQ29tcG9zZU5vZGVSZXNwb25zZSIAEkUKDUdldE5ldHdvcmtN",
+            "YXASFi5nb29nbGUucHJvdG9idWYuRW1wdHkaGi5wcm90b3MuTmV0d29ya01h",
+            "cFJlc3BvbnNlIgASVQoWQ29ubmVjdE5ldHdvcmtNYXBUYWJsZRIZLnByb3Rv",
+            "cy5OZXR3b3JrTWFwUmVxdWVzdBoaLnByb3Rvcy5OZXR3b3JrTWFwUmVzcG9u",
+            "c2UiACgBMAESTgoNUm90YXRlTm9kZUtleRIcLnByb3Rvcy5Sb3RhdGVOb2Rl",
+            "S2V5UmVxdWVzdBodLnByb3Rvcy5Sb3RhdGVOb2RlS2V5UmVzcG9uc2UiABJU",
+            "Cg9OZXR3b3JrTG9ja0luaXQSHi5wcm90b3MuTmV0d29ya0xvY2tJbml0UmVx",
+            "dWVzdBofLnByb3Rvcy5OZXR3b3JrTG9ja0luaXRSZXNwb25zZSIAElQKD05l",
+            "dHdvcmtMb2NrU2lnbhIeLnByb3Rvcy5OZXR3b3JrTG9ja1NpZ25SZXF1ZXN0",
+            "Gh8ucHJvdG9zLk5ldHdvcmtMb2NrU2lnblJlc3BvbnNlIgASXQoSTmV0d29y",
+            "a0xvY2tEaXNhYmxlEiEucHJvdG9zLk5ldHdvcmtMb2NrRGlzYWJsZVJlcXVl",
+            "c3QaIi5wcm90b3MuTmV0d29ya0xvY2tEaXNhYmxlUmVzcG9uc2UiABJQChFO",
+            "ZXR3b3JrTG9ja1N0YXR1cxIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRohLnBy",
+            "b3Rvcy5OZXR3b3JrTG9ja1N0YXR1c1Jlc3BvbnNlIgBCCFoGLi9ub2RlYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Node), global::Protos.Node.Parser, new[]{ "Name", "NodeId", "NodeKey", "WgPubKey", "AllowedIPs", "Addresses", "UserId", "Email", "DisplayName", "LoginName", "HostOS", "RuneKey", "CerfHomeRegionId", "Online", "LastSeen" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Node), global::Protos.Node.Parser, new[]{ "Name", "NodeId", "NodeKey", "WgPubKey", "AllowedIPs", "Addresses", "UserId", "Email", "DisplayName", "LoginName", "HostOS", "RuneKey", "CerfHomeRegionId", "Online", "LastSeen", "KeyExpiry", "Expired", "KeySignature" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.ComposeNodeResponse), global::Protos.ComposeNodeResponse.Parser, new[]{ "Ip", "Cidr", "UserId", "Email", "DisplayName", "LoginName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapRequest), global::Protos.NetworkMapRequest.Parser, new[]{ "VpnRunning", "IsKeepalive" }, new[]{ "VpnRunning", "IsKeepalive" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange), global::Protos.NetPortRange.Parser, new[]{ "Ip", "Ports", "AdvertisedRoutes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange.Types.portRange), global::Protos.NetPortRange.Types.portRange.Parser, new[]{ "First", "Last" }, null, null, null, null)}),
@@ -90,7 +125,18 @@ namespace Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.AppLinker), global::Protos.AppLinker.Parser, new[]{ "Name", "Domains", "Routes" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Resolver), global::Protos.Resolver.Parser, new[]{ "Addr" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Resolvers), global::Protos.Resolvers.Parser, new[]{ "Resolvers_" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.DNSConfig), global::Protos.DNSConfig.Parser, new[]{ "Resolvers", "Routes", "SearchDomains", "ExitNodeFilterd", "EnabledWonderDNS" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.DNSConfig), global::Protos.DNSConfig.Parser, new[]{ "Resolvers", "Routes", "SearchDomains", "ExitNodeFilterd", "EnabledWonderDNS" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.RotateNodeKeyRequest), global::Protos.RotateNodeKeyRequest.Parser, new[]{ "OldNodeKey", "NewNodeKey", "OldWgPubKey", "NewWgPubKey", "OldRuneKey", "NewRuneKey", "NodeKeySignature" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.RotateNodeKeyResponse), global::Protos.RotateNodeKeyResponse.Parser, new[]{ "Success", "NewKeyExpiry", "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockInitRequest), global::Protos.NetworkLockInitRequest.Parser, new[]{ "Keys", "DisablementSecret" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockInitResponse), global::Protos.NetworkLockInitResponse.Parser, new[]{ "Success", "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockSignRequest), global::Protos.NetworkLockSignRequest.Parser, new[]{ "NodeKey", "RotationPublic" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockSignResponse), global::Protos.NetworkLockSignResponse.Parser, new[]{ "Signature", "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockDisableRequest), global::Protos.NetworkLockDisableRequest.Parser, new[]{ "DisablementSecret" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockDisableResponse), global::Protos.NetworkLockDisableResponse.Parser, new[]{ "Success", "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockStatusResponse), global::Protos.NetworkLockStatusResponse.Parser, new[]{ "Enabled", "Head", "PublicKey", "NodeKey", "NodeKeySigned", "TrustedKeys", "FilteredPeers" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockKey), global::Protos.NetworkLockKey.Parser, new[]{ "KeyId", "PublicKey", "Kind", "Votes", "Comment" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilteredPeer), global::Protos.FilteredPeer.Parser, new[]{ "NodeId", "Name", "NodeKey", "Reason" }, null, null, null, null)
           }));
     }
     #endregion
@@ -146,6 +192,9 @@ namespace Protos {
       cerfHomeRegionId_ = other.cerfHomeRegionId_;
       online_ = other.online_;
       lastSeen_ = other.lastSeen_ != null ? other.lastSeen_.Clone() : null;
+      keyExpiry_ = other.keyExpiry_ != null ? other.keyExpiry_.Clone() : null;
+      expired_ = other.expired_;
+      keySignature_ = other.keySignature_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -346,6 +395,54 @@ namespace Protos {
       }
     }
 
+    /// <summary>Field number for the "keyExpiry" field.</summary>
+    public const int KeyExpiryFieldNumber = 16;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp keyExpiry_;
+    /// <summary>
+    /// keyExpiry is when this node's key expires. Zero value means no expiry.
+    /// After this time, the node must re-authenticate to continue using the network.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp KeyExpiry {
+      get { return keyExpiry_; }
+      set {
+        keyExpiry_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "expired" field.</summary>
+    public const int ExpiredFieldNumber = 17;
+    private bool expired_;
+    /// <summary>
+    /// expired indicates whether the server has marked this node's key as expired.
+    /// When true, the node should initiate key rotation or re-authentication.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Expired {
+      get { return expired_; }
+      set {
+        expired_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "keySignature" field.</summary>
+    public const int KeySignatureFieldNumber = 18;
+    private pb::ByteString keySignature_ = pb::ByteString.Empty;
+    /// <summary>
+    /// keySignature is the CBOR-encoded NodeKeySignature for Network Lock (TKA).
+    /// Only set when Network Lock is enabled for the Runetale Network.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString KeySignature {
+      get { return keySignature_; }
+      set {
+        keySignature_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -376,6 +473,9 @@ namespace Protos {
       if (CerfHomeRegionId != other.CerfHomeRegionId) return false;
       if (Online != other.Online) return false;
       if (!object.Equals(LastSeen, other.LastSeen)) return false;
+      if (!object.Equals(KeyExpiry, other.KeyExpiry)) return false;
+      if (Expired != other.Expired) return false;
+      if (KeySignature != other.KeySignature) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -398,6 +498,9 @@ namespace Protos {
       if (CerfHomeRegionId != 0) hash ^= CerfHomeRegionId.GetHashCode();
       if (Online != false) hash ^= Online.GetHashCode();
       if (lastSeen_ != null) hash ^= LastSeen.GetHashCode();
+      if (keyExpiry_ != null) hash ^= KeyExpiry.GetHashCode();
+      if (Expired != false) hash ^= Expired.GetHashCode();
+      if (KeySignature.Length != 0) hash ^= KeySignature.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -470,6 +573,18 @@ namespace Protos {
         output.WriteRawTag(122);
         output.WriteMessage(LastSeen);
       }
+      if (keyExpiry_ != null) {
+        output.WriteRawTag(130, 1);
+        output.WriteMessage(KeyExpiry);
+      }
+      if (Expired != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(Expired);
+      }
+      if (KeySignature.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteBytes(KeySignature);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -534,6 +649,18 @@ namespace Protos {
         output.WriteRawTag(122);
         output.WriteMessage(LastSeen);
       }
+      if (keyExpiry_ != null) {
+        output.WriteRawTag(130, 1);
+        output.WriteMessage(KeyExpiry);
+      }
+      if (Expired != false) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(Expired);
+      }
+      if (KeySignature.Length != 0) {
+        output.WriteRawTag(146, 1);
+        output.WriteBytes(KeySignature);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -584,6 +711,15 @@ namespace Protos {
       }
       if (lastSeen_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(LastSeen);
+      }
+      if (keyExpiry_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(KeyExpiry);
+      }
+      if (Expired != false) {
+        size += 2 + 1;
+      }
+      if (KeySignature.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeBytesSize(KeySignature);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -640,6 +776,18 @@ namespace Protos {
           LastSeen = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         LastSeen.MergeFrom(other.LastSeen);
+      }
+      if (other.keyExpiry_ != null) {
+        if (keyExpiry_ == null) {
+          KeyExpiry = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        KeyExpiry.MergeFrom(other.KeyExpiry);
+      }
+      if (other.Expired != false) {
+        Expired = other.Expired;
+      }
+      if (other.KeySignature.Length != 0) {
+        KeySignature = other.KeySignature;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -719,6 +867,21 @@ namespace Protos {
             input.ReadMessage(LastSeen);
             break;
           }
+          case 130: {
+            if (keyExpiry_ == null) {
+              KeyExpiry = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(KeyExpiry);
+            break;
+          }
+          case 136: {
+            Expired = input.ReadBool();
+            break;
+          }
+          case 146: {
+            KeySignature = input.ReadBytes();
+            break;
+          }
         }
       }
     #endif
@@ -795,6 +958,21 @@ namespace Protos {
               LastSeen = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(LastSeen);
+            break;
+          }
+          case 130: {
+            if (keyExpiry_ == null) {
+              KeyExpiry = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(KeyExpiry);
+            break;
+          }
+          case 136: {
+            Expired = input.ReadBool();
+            break;
+          }
+          case 146: {
+            KeySignature = input.ReadBytes();
             break;
           }
         }
@@ -4764,6 +4942,3170 @@ namespace Protos {
           }
           case 40: {
             EnabledWonderDNS = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// RotateNodeKeyRequest is sent when a node wants to rotate its keys.
+  /// The server validates the old keys and updates to the new keys.
+  /// </summary>
+  public sealed partial class RotateNodeKeyRequest : pb::IMessage<RotateNodeKeyRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<RotateNodeKeyRequest> _parser = new pb::MessageParser<RotateNodeKeyRequest>(() => new RotateNodeKeyRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<RotateNodeKeyRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RotateNodeKeyRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RotateNodeKeyRequest(RotateNodeKeyRequest other) : this() {
+      oldNodeKey_ = other.oldNodeKey_;
+      newNodeKey_ = other.newNodeKey_;
+      oldWgPubKey_ = other.oldWgPubKey_;
+      newWgPubKey_ = other.newWgPubKey_;
+      oldRuneKey_ = other.oldRuneKey_;
+      newRuneKey_ = other.newRuneKey_;
+      nodeKeySignature_ = other.nodeKeySignature_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RotateNodeKeyRequest Clone() {
+      return new RotateNodeKeyRequest(this);
+    }
+
+    /// <summary>Field number for the "oldNodeKey" field.</summary>
+    public const int OldNodeKeyFieldNumber = 1;
+    private string oldNodeKey_ = "";
+    /// <summary>
+    /// oldNodeKey is the current node key (for verification)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string OldNodeKey {
+      get { return oldNodeKey_; }
+      set {
+        oldNodeKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "newNodeKey" field.</summary>
+    public const int NewNodeKeyFieldNumber = 2;
+    private string newNodeKey_ = "";
+    /// <summary>
+    /// newNodeKey is the new node key to rotate to
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NewNodeKey {
+      get { return newNodeKey_; }
+      set {
+        newNodeKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "oldWgPubKey" field.</summary>
+    public const int OldWgPubKeyFieldNumber = 3;
+    private string oldWgPubKey_ = "";
+    /// <summary>
+    /// oldWgPubKey is the current WireGuard public key (for verification)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string OldWgPubKey {
+      get { return oldWgPubKey_; }
+      set {
+        oldWgPubKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "newWgPubKey" field.</summary>
+    public const int NewWgPubKeyFieldNumber = 4;
+    private string newWgPubKey_ = "";
+    /// <summary>
+    /// newWgPubKey is the new WireGuard public key to rotate to
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NewWgPubKey {
+      get { return newWgPubKey_; }
+      set {
+        newWgPubKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "oldRuneKey" field.</summary>
+    public const int OldRuneKeyFieldNumber = 5;
+    private string oldRuneKey_ = "";
+    /// <summary>
+    /// oldRuneKey is the current Rune key (for verification)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string OldRuneKey {
+      get { return oldRuneKey_; }
+      set {
+        oldRuneKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "newRuneKey" field.</summary>
+    public const int NewRuneKeyFieldNumber = 6;
+    private string newRuneKey_ = "";
+    /// <summary>
+    /// newRuneKey is the new Rune key to rotate to
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NewRuneKey {
+      get { return newRuneKey_; }
+      set {
+        newRuneKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "nodeKeySignature" field.</summary>
+    public const int NodeKeySignatureFieldNumber = 7;
+    private pb::ByteString nodeKeySignature_ = pb::ByteString.Empty;
+    /// <summary>
+    /// nodeKeySignature is the new NodeKeySignature if Network Lock is enabled.
+    /// This must be signed by the node's rotation key or a trusted NL key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString NodeKeySignature {
+      get { return nodeKeySignature_; }
+      set {
+        nodeKeySignature_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as RotateNodeKeyRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(RotateNodeKeyRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (OldNodeKey != other.OldNodeKey) return false;
+      if (NewNodeKey != other.NewNodeKey) return false;
+      if (OldWgPubKey != other.OldWgPubKey) return false;
+      if (NewWgPubKey != other.NewWgPubKey) return false;
+      if (OldRuneKey != other.OldRuneKey) return false;
+      if (NewRuneKey != other.NewRuneKey) return false;
+      if (NodeKeySignature != other.NodeKeySignature) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (OldNodeKey.Length != 0) hash ^= OldNodeKey.GetHashCode();
+      if (NewNodeKey.Length != 0) hash ^= NewNodeKey.GetHashCode();
+      if (OldWgPubKey.Length != 0) hash ^= OldWgPubKey.GetHashCode();
+      if (NewWgPubKey.Length != 0) hash ^= NewWgPubKey.GetHashCode();
+      if (OldRuneKey.Length != 0) hash ^= OldRuneKey.GetHashCode();
+      if (NewRuneKey.Length != 0) hash ^= NewRuneKey.GetHashCode();
+      if (NodeKeySignature.Length != 0) hash ^= NodeKeySignature.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (OldNodeKey.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(OldNodeKey);
+      }
+      if (NewNodeKey.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NewNodeKey);
+      }
+      if (OldWgPubKey.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(OldWgPubKey);
+      }
+      if (NewWgPubKey.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(NewWgPubKey);
+      }
+      if (OldRuneKey.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(OldRuneKey);
+      }
+      if (NewRuneKey.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(NewRuneKey);
+      }
+      if (NodeKeySignature.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteBytes(NodeKeySignature);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (OldNodeKey.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(OldNodeKey);
+      }
+      if (NewNodeKey.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NewNodeKey);
+      }
+      if (OldWgPubKey.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(OldWgPubKey);
+      }
+      if (NewWgPubKey.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(NewWgPubKey);
+      }
+      if (OldRuneKey.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(OldRuneKey);
+      }
+      if (NewRuneKey.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(NewRuneKey);
+      }
+      if (NodeKeySignature.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteBytes(NodeKeySignature);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (OldNodeKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OldNodeKey);
+      }
+      if (NewNodeKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NewNodeKey);
+      }
+      if (OldWgPubKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OldWgPubKey);
+      }
+      if (NewWgPubKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NewWgPubKey);
+      }
+      if (OldRuneKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OldRuneKey);
+      }
+      if (NewRuneKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NewRuneKey);
+      }
+      if (NodeKeySignature.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(NodeKeySignature);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(RotateNodeKeyRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.OldNodeKey.Length != 0) {
+        OldNodeKey = other.OldNodeKey;
+      }
+      if (other.NewNodeKey.Length != 0) {
+        NewNodeKey = other.NewNodeKey;
+      }
+      if (other.OldWgPubKey.Length != 0) {
+        OldWgPubKey = other.OldWgPubKey;
+      }
+      if (other.NewWgPubKey.Length != 0) {
+        NewWgPubKey = other.NewWgPubKey;
+      }
+      if (other.OldRuneKey.Length != 0) {
+        OldRuneKey = other.OldRuneKey;
+      }
+      if (other.NewRuneKey.Length != 0) {
+        NewRuneKey = other.NewRuneKey;
+      }
+      if (other.NodeKeySignature.Length != 0) {
+        NodeKeySignature = other.NodeKeySignature;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            OldNodeKey = input.ReadString();
+            break;
+          }
+          case 18: {
+            NewNodeKey = input.ReadString();
+            break;
+          }
+          case 26: {
+            OldWgPubKey = input.ReadString();
+            break;
+          }
+          case 34: {
+            NewWgPubKey = input.ReadString();
+            break;
+          }
+          case 42: {
+            OldRuneKey = input.ReadString();
+            break;
+          }
+          case 50: {
+            NewRuneKey = input.ReadString();
+            break;
+          }
+          case 58: {
+            NodeKeySignature = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            OldNodeKey = input.ReadString();
+            break;
+          }
+          case 18: {
+            NewNodeKey = input.ReadString();
+            break;
+          }
+          case 26: {
+            OldWgPubKey = input.ReadString();
+            break;
+          }
+          case 34: {
+            NewWgPubKey = input.ReadString();
+            break;
+          }
+          case 42: {
+            OldRuneKey = input.ReadString();
+            break;
+          }
+          case 50: {
+            NewRuneKey = input.ReadString();
+            break;
+          }
+          case 58: {
+            NodeKeySignature = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// RotateNodeKeyResponse is returned after a successful key rotation.
+  /// </summary>
+  public sealed partial class RotateNodeKeyResponse : pb::IMessage<RotateNodeKeyResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<RotateNodeKeyResponse> _parser = new pb::MessageParser<RotateNodeKeyResponse>(() => new RotateNodeKeyResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<RotateNodeKeyResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RotateNodeKeyResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RotateNodeKeyResponse(RotateNodeKeyResponse other) : this() {
+      success_ = other.success_;
+      newKeyExpiry_ = other.newKeyExpiry_ != null ? other.newKeyExpiry_.Clone() : null;
+      error_ = other.error_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RotateNodeKeyResponse Clone() {
+      return new RotateNodeKeyResponse(this);
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 1;
+    private bool success_;
+    /// <summary>
+    /// success indicates whether the key rotation was successful
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "newKeyExpiry" field.</summary>
+    public const int NewKeyExpiryFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp newKeyExpiry_;
+    /// <summary>
+    /// newKeyExpiry is the new expiry time for the rotated keys
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp NewKeyExpiry {
+      get { return newKeyExpiry_; }
+      set {
+        newKeyExpiry_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 3;
+    private string error_ = "";
+    /// <summary>
+    /// error is set if success is false
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Error {
+      get { return error_; }
+      set {
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as RotateNodeKeyResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(RotateNodeKeyResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Success != other.Success) return false;
+      if (!object.Equals(NewKeyExpiry, other.NewKeyExpiry)) return false;
+      if (Error != other.Error) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (newKeyExpiry_ != null) hash ^= NewKeyExpiry.GetHashCode();
+      if (Error.Length != 0) hash ^= Error.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Success != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Success);
+      }
+      if (newKeyExpiry_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(NewKeyExpiry);
+      }
+      if (Error.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Success != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Success);
+      }
+      if (newKeyExpiry_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(NewKeyExpiry);
+      }
+      if (Error.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (newKeyExpiry_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(NewKeyExpiry);
+      }
+      if (Error.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(RotateNodeKeyResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      if (other.newKeyExpiry_ != null) {
+        if (newKeyExpiry_ == null) {
+          NewKeyExpiry = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        NewKeyExpiry.MergeFrom(other.NewKeyExpiry);
+      }
+      if (other.Error.Length != 0) {
+        Error = other.Error;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Success = input.ReadBool();
+            break;
+          }
+          case 18: {
+            if (newKeyExpiry_ == null) {
+              NewKeyExpiry = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(NewKeyExpiry);
+            break;
+          }
+          case 26: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Success = input.ReadBool();
+            break;
+          }
+          case 18: {
+            if (newKeyExpiry_ == null) {
+              NewKeyExpiry = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(NewKeyExpiry);
+            break;
+          }
+          case 26: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// NetworkLockInitRequest initializes Network Lock for the Runetale Network.
+  /// </summary>
+  public sealed partial class NetworkLockInitRequest : pb::IMessage<NetworkLockInitRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NetworkLockInitRequest> _parser = new pb::MessageParser<NetworkLockInitRequest>(() => new NetworkLockInitRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NetworkLockInitRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[15]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockInitRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockInitRequest(NetworkLockInitRequest other) : this() {
+      keys_ = other.keys_.Clone();
+      disablementSecret_ = other.disablementSecret_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockInitRequest Clone() {
+      return new NetworkLockInitRequest(this);
+    }
+
+    /// <summary>Field number for the "keys" field.</summary>
+    public const int KeysFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Protos.NetworkLockKey> _repeated_keys_codec
+        = pb::FieldCodec.ForMessage(10, global::Protos.NetworkLockKey.Parser);
+    private readonly pbc::RepeatedField<global::Protos.NetworkLockKey> keys_ = new pbc::RepeatedField<global::Protos.NetworkLockKey>();
+    /// <summary>
+    /// keys are the initial trusted signing keys (NL public keys)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Protos.NetworkLockKey> Keys {
+      get { return keys_; }
+    }
+
+    /// <summary>Field number for the "disablementSecret" field.</summary>
+    public const int DisablementSecretFieldNumber = 2;
+    private pb::ByteString disablementSecret_ = pb::ByteString.Empty;
+    /// <summary>
+    /// disablementSecret is a secret that can be used to disable Network Lock
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString DisablementSecret {
+      get { return disablementSecret_; }
+      set {
+        disablementSecret_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkLockInitRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NetworkLockInitRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!keys_.Equals(other.keys_)) return false;
+      if (DisablementSecret != other.DisablementSecret) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= keys_.GetHashCode();
+      if (DisablementSecret.Length != 0) hash ^= DisablementSecret.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      keys_.WriteTo(output, _repeated_keys_codec);
+      if (DisablementSecret.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteBytes(DisablementSecret);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      keys_.WriteTo(ref output, _repeated_keys_codec);
+      if (DisablementSecret.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteBytes(DisablementSecret);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += keys_.CalculateSize(_repeated_keys_codec);
+      if (DisablementSecret.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(DisablementSecret);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NetworkLockInitRequest other) {
+      if (other == null) {
+        return;
+      }
+      keys_.Add(other.keys_);
+      if (other.DisablementSecret.Length != 0) {
+        DisablementSecret = other.DisablementSecret;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            keys_.AddEntriesFrom(input, _repeated_keys_codec);
+            break;
+          }
+          case 18: {
+            DisablementSecret = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            keys_.AddEntriesFrom(ref input, _repeated_keys_codec);
+            break;
+          }
+          case 18: {
+            DisablementSecret = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// NetworkLockInitResponse is returned after Network Lock initialization.
+  /// </summary>
+  public sealed partial class NetworkLockInitResponse : pb::IMessage<NetworkLockInitResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NetworkLockInitResponse> _parser = new pb::MessageParser<NetworkLockInitResponse>(() => new NetworkLockInitResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NetworkLockInitResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[16]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockInitResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockInitResponse(NetworkLockInitResponse other) : this() {
+      success_ = other.success_;
+      error_ = other.error_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockInitResponse Clone() {
+      return new NetworkLockInitResponse(this);
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 1;
+    private bool success_;
+    /// <summary>
+    /// success indicates whether initialization was successful
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 2;
+    private string error_ = "";
+    /// <summary>
+    /// error is set if success is false
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Error {
+      get { return error_; }
+      set {
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkLockInitResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NetworkLockInitResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Success != other.Success) return false;
+      if (Error != other.Error) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (Error.Length != 0) hash ^= Error.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Success != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Success);
+      }
+      if (Error.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Success != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Success);
+      }
+      if (Error.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (Error.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NetworkLockInitResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      if (other.Error.Length != 0) {
+        Error = other.Error;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Success = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Success = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// NetworkLockSignRequest requests signing of a node key.
+  /// </summary>
+  public sealed partial class NetworkLockSignRequest : pb::IMessage<NetworkLockSignRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NetworkLockSignRequest> _parser = new pb::MessageParser<NetworkLockSignRequest>(() => new NetworkLockSignRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NetworkLockSignRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[17]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockSignRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockSignRequest(NetworkLockSignRequest other) : this() {
+      nodeKey_ = other.nodeKey_;
+      rotationPublic_ = other.rotationPublic_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockSignRequest Clone() {
+      return new NetworkLockSignRequest(this);
+    }
+
+    /// <summary>Field number for the "nodeKey" field.</summary>
+    public const int NodeKeyFieldNumber = 1;
+    private string nodeKey_ = "";
+    /// <summary>
+    /// nodeKey is the public node key to sign
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NodeKey {
+      get { return nodeKey_; }
+      set {
+        nodeKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "rotationPublic" field.</summary>
+    public const int RotationPublicFieldNumber = 2;
+    private pb::ByteString rotationPublic_ = pb::ByteString.Empty;
+    /// <summary>
+    /// rotationPublic is an optional ed25519 public key for future key rotations.
+    /// If set, the node can rotate its key by signing with this rotation key.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString RotationPublic {
+      get { return rotationPublic_; }
+      set {
+        rotationPublic_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkLockSignRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NetworkLockSignRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (NodeKey != other.NodeKey) return false;
+      if (RotationPublic != other.RotationPublic) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (NodeKey.Length != 0) hash ^= NodeKey.GetHashCode();
+      if (RotationPublic.Length != 0) hash ^= RotationPublic.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (NodeKey.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(NodeKey);
+      }
+      if (RotationPublic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteBytes(RotationPublic);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (NodeKey.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(NodeKey);
+      }
+      if (RotationPublic.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteBytes(RotationPublic);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (NodeKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeKey);
+      }
+      if (RotationPublic.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(RotationPublic);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NetworkLockSignRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.NodeKey.Length != 0) {
+        NodeKey = other.NodeKey;
+      }
+      if (other.RotationPublic.Length != 0) {
+        RotationPublic = other.RotationPublic;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            NodeKey = input.ReadString();
+            break;
+          }
+          case 18: {
+            RotationPublic = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            NodeKey = input.ReadString();
+            break;
+          }
+          case 18: {
+            RotationPublic = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// NetworkLockSignResponse returns the signed node key signature.
+  /// </summary>
+  public sealed partial class NetworkLockSignResponse : pb::IMessage<NetworkLockSignResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NetworkLockSignResponse> _parser = new pb::MessageParser<NetworkLockSignResponse>(() => new NetworkLockSignResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NetworkLockSignResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[18]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockSignResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockSignResponse(NetworkLockSignResponse other) : this() {
+      signature_ = other.signature_;
+      error_ = other.error_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockSignResponse Clone() {
+      return new NetworkLockSignResponse(this);
+    }
+
+    /// <summary>Field number for the "signature" field.</summary>
+    public const int SignatureFieldNumber = 1;
+    private pb::ByteString signature_ = pb::ByteString.Empty;
+    /// <summary>
+    /// signature is the CBOR-encoded NodeKeySignature
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString Signature {
+      get { return signature_; }
+      set {
+        signature_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 2;
+    private string error_ = "";
+    /// <summary>
+    /// error is set if signing failed
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Error {
+      get { return error_; }
+      set {
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkLockSignResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NetworkLockSignResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Signature != other.Signature) return false;
+      if (Error != other.Error) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Signature.Length != 0) hash ^= Signature.GetHashCode();
+      if (Error.Length != 0) hash ^= Error.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Signature.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(Signature);
+      }
+      if (Error.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Signature.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(Signature);
+      }
+      if (Error.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Signature.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Signature);
+      }
+      if (Error.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NetworkLockSignResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Signature.Length != 0) {
+        Signature = other.Signature;
+      }
+      if (other.Error.Length != 0) {
+        Error = other.Error;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Signature = input.ReadBytes();
+            break;
+          }
+          case 18: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Signature = input.ReadBytes();
+            break;
+          }
+          case 18: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// NetworkLockDisableRequest disables Network Lock for the Runetale Network.
+  /// </summary>
+  public sealed partial class NetworkLockDisableRequest : pb::IMessage<NetworkLockDisableRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NetworkLockDisableRequest> _parser = new pb::MessageParser<NetworkLockDisableRequest>(() => new NetworkLockDisableRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NetworkLockDisableRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[19]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockDisableRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockDisableRequest(NetworkLockDisableRequest other) : this() {
+      disablementSecret_ = other.disablementSecret_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockDisableRequest Clone() {
+      return new NetworkLockDisableRequest(this);
+    }
+
+    /// <summary>Field number for the "disablementSecret" field.</summary>
+    public const int DisablementSecretFieldNumber = 1;
+    private pb::ByteString disablementSecret_ = pb::ByteString.Empty;
+    /// <summary>
+    /// disablementSecret is the secret provided during initialization
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString DisablementSecret {
+      get { return disablementSecret_; }
+      set {
+        disablementSecret_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkLockDisableRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NetworkLockDisableRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (DisablementSecret != other.DisablementSecret) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (DisablementSecret.Length != 0) hash ^= DisablementSecret.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (DisablementSecret.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(DisablementSecret);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (DisablementSecret.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(DisablementSecret);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (DisablementSecret.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(DisablementSecret);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NetworkLockDisableRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.DisablementSecret.Length != 0) {
+        DisablementSecret = other.DisablementSecret;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            DisablementSecret = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            DisablementSecret = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// NetworkLockDisableResponse is returned after disabling Network Lock.
+  /// </summary>
+  public sealed partial class NetworkLockDisableResponse : pb::IMessage<NetworkLockDisableResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NetworkLockDisableResponse> _parser = new pb::MessageParser<NetworkLockDisableResponse>(() => new NetworkLockDisableResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NetworkLockDisableResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[20]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockDisableResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockDisableResponse(NetworkLockDisableResponse other) : this() {
+      success_ = other.success_;
+      error_ = other.error_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockDisableResponse Clone() {
+      return new NetworkLockDisableResponse(this);
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 1;
+    private bool success_;
+    /// <summary>
+    /// success indicates whether disabling was successful
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 2;
+    private string error_ = "";
+    /// <summary>
+    /// error is set if success is false
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Error {
+      get { return error_; }
+      set {
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkLockDisableResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NetworkLockDisableResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Success != other.Success) return false;
+      if (Error != other.Error) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (Error.Length != 0) hash ^= Error.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Success != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Success);
+      }
+      if (Error.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Success != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Success);
+      }
+      if (Error.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (Error.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NetworkLockDisableResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      if (other.Error.Length != 0) {
+        Error = other.Error;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Success = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Success = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// NetworkLockStatusResponse returns the current Network Lock status.
+  /// </summary>
+  public sealed partial class NetworkLockStatusResponse : pb::IMessage<NetworkLockStatusResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NetworkLockStatusResponse> _parser = new pb::MessageParser<NetworkLockStatusResponse>(() => new NetworkLockStatusResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NetworkLockStatusResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[21]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockStatusResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockStatusResponse(NetworkLockStatusResponse other) : this() {
+      enabled_ = other.enabled_;
+      head_ = other.head_;
+      publicKey_ = other.publicKey_;
+      nodeKey_ = other.nodeKey_;
+      nodeKeySigned_ = other.nodeKeySigned_;
+      trustedKeys_ = other.trustedKeys_.Clone();
+      filteredPeers_ = other.filteredPeers_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockStatusResponse Clone() {
+      return new NetworkLockStatusResponse(this);
+    }
+
+    /// <summary>Field number for the "enabled" field.</summary>
+    public const int EnabledFieldNumber = 1;
+    private bool enabled_;
+    /// <summary>
+    /// enabled indicates whether Network Lock is enabled
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Enabled {
+      get { return enabled_; }
+      set {
+        enabled_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "head" field.</summary>
+    public const int HeadFieldNumber = 2;
+    private pb::ByteString head_ = pb::ByteString.Empty;
+    /// <summary>
+    /// head is the current AUM chain head hash (32 bytes)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString Head {
+      get { return head_; }
+      set {
+        head_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "publicKey" field.</summary>
+    public const int PublicKeyFieldNumber = 3;
+    private pb::ByteString publicKey_ = pb::ByteString.Empty;
+    /// <summary>
+    /// publicKey is this node's Network Lock public key
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString PublicKey {
+      get { return publicKey_; }
+      set {
+        publicKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "nodeKey" field.</summary>
+    public const int NodeKeyFieldNumber = 4;
+    private string nodeKey_ = "";
+    /// <summary>
+    /// nodeKey is this node's current node public key
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NodeKey {
+      get { return nodeKey_; }
+      set {
+        nodeKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "nodeKeySigned" field.</summary>
+    public const int NodeKeySignedFieldNumber = 5;
+    private bool nodeKeySigned_;
+    /// <summary>
+    /// nodeKeySigned indicates whether this node's key is properly signed
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool NodeKeySigned {
+      get { return nodeKeySigned_; }
+      set {
+        nodeKeySigned_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "trustedKeys" field.</summary>
+    public const int TrustedKeysFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::Protos.NetworkLockKey> _repeated_trustedKeys_codec
+        = pb::FieldCodec.ForMessage(50, global::Protos.NetworkLockKey.Parser);
+    private readonly pbc::RepeatedField<global::Protos.NetworkLockKey> trustedKeys_ = new pbc::RepeatedField<global::Protos.NetworkLockKey>();
+    /// <summary>
+    /// trustedKeys are the currently trusted signing keys
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Protos.NetworkLockKey> TrustedKeys {
+      get { return trustedKeys_; }
+    }
+
+    /// <summary>Field number for the "filteredPeers" field.</summary>
+    public const int FilteredPeersFieldNumber = 7;
+    private static readonly pb::FieldCodec<global::Protos.FilteredPeer> _repeated_filteredPeers_codec
+        = pb::FieldCodec.ForMessage(58, global::Protos.FilteredPeer.Parser);
+    private readonly pbc::RepeatedField<global::Protos.FilteredPeer> filteredPeers_ = new pbc::RepeatedField<global::Protos.FilteredPeer>();
+    /// <summary>
+    /// filteredPeers are peers that failed Network Lock verification
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Protos.FilteredPeer> FilteredPeers {
+      get { return filteredPeers_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkLockStatusResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NetworkLockStatusResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Enabled != other.Enabled) return false;
+      if (Head != other.Head) return false;
+      if (PublicKey != other.PublicKey) return false;
+      if (NodeKey != other.NodeKey) return false;
+      if (NodeKeySigned != other.NodeKeySigned) return false;
+      if(!trustedKeys_.Equals(other.trustedKeys_)) return false;
+      if(!filteredPeers_.Equals(other.filteredPeers_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Enabled != false) hash ^= Enabled.GetHashCode();
+      if (Head.Length != 0) hash ^= Head.GetHashCode();
+      if (PublicKey.Length != 0) hash ^= PublicKey.GetHashCode();
+      if (NodeKey.Length != 0) hash ^= NodeKey.GetHashCode();
+      if (NodeKeySigned != false) hash ^= NodeKeySigned.GetHashCode();
+      hash ^= trustedKeys_.GetHashCode();
+      hash ^= filteredPeers_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Enabled != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Enabled);
+      }
+      if (Head.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteBytes(Head);
+      }
+      if (PublicKey.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteBytes(PublicKey);
+      }
+      if (NodeKey.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(NodeKey);
+      }
+      if (NodeKeySigned != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(NodeKeySigned);
+      }
+      trustedKeys_.WriteTo(output, _repeated_trustedKeys_codec);
+      filteredPeers_.WriteTo(output, _repeated_filteredPeers_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Enabled != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Enabled);
+      }
+      if (Head.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteBytes(Head);
+      }
+      if (PublicKey.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteBytes(PublicKey);
+      }
+      if (NodeKey.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(NodeKey);
+      }
+      if (NodeKeySigned != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(NodeKeySigned);
+      }
+      trustedKeys_.WriteTo(ref output, _repeated_trustedKeys_codec);
+      filteredPeers_.WriteTo(ref output, _repeated_filteredPeers_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Enabled != false) {
+        size += 1 + 1;
+      }
+      if (Head.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Head);
+      }
+      if (PublicKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(PublicKey);
+      }
+      if (NodeKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeKey);
+      }
+      if (NodeKeySigned != false) {
+        size += 1 + 1;
+      }
+      size += trustedKeys_.CalculateSize(_repeated_trustedKeys_codec);
+      size += filteredPeers_.CalculateSize(_repeated_filteredPeers_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NetworkLockStatusResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Enabled != false) {
+        Enabled = other.Enabled;
+      }
+      if (other.Head.Length != 0) {
+        Head = other.Head;
+      }
+      if (other.PublicKey.Length != 0) {
+        PublicKey = other.PublicKey;
+      }
+      if (other.NodeKey.Length != 0) {
+        NodeKey = other.NodeKey;
+      }
+      if (other.NodeKeySigned != false) {
+        NodeKeySigned = other.NodeKeySigned;
+      }
+      trustedKeys_.Add(other.trustedKeys_);
+      filteredPeers_.Add(other.filteredPeers_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Enabled = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Head = input.ReadBytes();
+            break;
+          }
+          case 26: {
+            PublicKey = input.ReadBytes();
+            break;
+          }
+          case 34: {
+            NodeKey = input.ReadString();
+            break;
+          }
+          case 40: {
+            NodeKeySigned = input.ReadBool();
+            break;
+          }
+          case 50: {
+            trustedKeys_.AddEntriesFrom(input, _repeated_trustedKeys_codec);
+            break;
+          }
+          case 58: {
+            filteredPeers_.AddEntriesFrom(input, _repeated_filteredPeers_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Enabled = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Head = input.ReadBytes();
+            break;
+          }
+          case 26: {
+            PublicKey = input.ReadBytes();
+            break;
+          }
+          case 34: {
+            NodeKey = input.ReadString();
+            break;
+          }
+          case 40: {
+            NodeKeySigned = input.ReadBool();
+            break;
+          }
+          case 50: {
+            trustedKeys_.AddEntriesFrom(ref input, _repeated_trustedKeys_codec);
+            break;
+          }
+          case 58: {
+            filteredPeers_.AddEntriesFrom(ref input, _repeated_filteredPeers_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// NetworkLockKey represents a trusted Network Lock signing key.
+  /// </summary>
+  public sealed partial class NetworkLockKey : pb::IMessage<NetworkLockKey>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NetworkLockKey> _parser = new pb::MessageParser<NetworkLockKey>(() => new NetworkLockKey());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NetworkLockKey> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[22]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockKey() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockKey(NetworkLockKey other) : this() {
+      keyId_ = other.keyId_;
+      publicKey_ = other.publicKey_;
+      kind_ = other.kind_;
+      votes_ = other.votes_;
+      comment_ = other.comment_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NetworkLockKey Clone() {
+      return new NetworkLockKey(this);
+    }
+
+    /// <summary>Field number for the "keyId" field.</summary>
+    public const int KeyIdFieldNumber = 1;
+    private pb::ByteString keyId_ = pb::ByteString.Empty;
+    /// <summary>
+    /// keyId is the key identifier (hash of the public key)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString KeyId {
+      get { return keyId_; }
+      set {
+        keyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "publicKey" field.</summary>
+    public const int PublicKeyFieldNumber = 2;
+    private pb::ByteString publicKey_ = pb::ByteString.Empty;
+    /// <summary>
+    /// publicKey is the ed25519 public key
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString PublicKey {
+      get { return publicKey_; }
+      set {
+        publicKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "kind" field.</summary>
+    public const int KindFieldNumber = 3;
+    private string kind_ = "";
+    /// <summary>
+    /// kind is the key type (e.g., "nl" for Network Lock key)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Kind {
+      get { return kind_; }
+      set {
+        kind_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "votes" field.</summary>
+    public const int VotesFieldNumber = 4;
+    private uint votes_;
+    /// <summary>
+    /// votes is the voting weight of this key (for threshold signing)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Votes {
+      get { return votes_; }
+      set {
+        votes_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "comment" field.</summary>
+    public const int CommentFieldNumber = 5;
+    private string comment_ = "";
+    /// <summary>
+    /// comment is an optional human-readable description
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Comment {
+      get { return comment_; }
+      set {
+        comment_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NetworkLockKey);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NetworkLockKey other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (KeyId != other.KeyId) return false;
+      if (PublicKey != other.PublicKey) return false;
+      if (Kind != other.Kind) return false;
+      if (Votes != other.Votes) return false;
+      if (Comment != other.Comment) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (KeyId.Length != 0) hash ^= KeyId.GetHashCode();
+      if (PublicKey.Length != 0) hash ^= PublicKey.GetHashCode();
+      if (Kind.Length != 0) hash ^= Kind.GetHashCode();
+      if (Votes != 0) hash ^= Votes.GetHashCode();
+      if (Comment.Length != 0) hash ^= Comment.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (KeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(KeyId);
+      }
+      if (PublicKey.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteBytes(PublicKey);
+      }
+      if (Kind.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Kind);
+      }
+      if (Votes != 0) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(Votes);
+      }
+      if (Comment.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Comment);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (KeyId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(KeyId);
+      }
+      if (PublicKey.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteBytes(PublicKey);
+      }
+      if (Kind.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Kind);
+      }
+      if (Votes != 0) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(Votes);
+      }
+      if (Comment.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Comment);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (KeyId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(KeyId);
+      }
+      if (PublicKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(PublicKey);
+      }
+      if (Kind.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Kind);
+      }
+      if (Votes != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Votes);
+      }
+      if (Comment.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Comment);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NetworkLockKey other) {
+      if (other == null) {
+        return;
+      }
+      if (other.KeyId.Length != 0) {
+        KeyId = other.KeyId;
+      }
+      if (other.PublicKey.Length != 0) {
+        PublicKey = other.PublicKey;
+      }
+      if (other.Kind.Length != 0) {
+        Kind = other.Kind;
+      }
+      if (other.Votes != 0) {
+        Votes = other.Votes;
+      }
+      if (other.Comment.Length != 0) {
+        Comment = other.Comment;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            KeyId = input.ReadBytes();
+            break;
+          }
+          case 18: {
+            PublicKey = input.ReadBytes();
+            break;
+          }
+          case 26: {
+            Kind = input.ReadString();
+            break;
+          }
+          case 32: {
+            Votes = input.ReadUInt32();
+            break;
+          }
+          case 42: {
+            Comment = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            KeyId = input.ReadBytes();
+            break;
+          }
+          case 18: {
+            PublicKey = input.ReadBytes();
+            break;
+          }
+          case 26: {
+            Kind = input.ReadString();
+            break;
+          }
+          case 32: {
+            Votes = input.ReadUInt32();
+            break;
+          }
+          case 42: {
+            Comment = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// FilteredPeer represents a peer that was filtered due to Network Lock.
+  /// </summary>
+  public sealed partial class FilteredPeer : pb::IMessage<FilteredPeer>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<FilteredPeer> _parser = new pb::MessageParser<FilteredPeer>(() => new FilteredPeer());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<FilteredPeer> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[23]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public FilteredPeer() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public FilteredPeer(FilteredPeer other) : this() {
+      nodeId_ = other.nodeId_;
+      name_ = other.name_;
+      nodeKey_ = other.nodeKey_;
+      reason_ = other.reason_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public FilteredPeer Clone() {
+      return new FilteredPeer(this);
+    }
+
+    /// <summary>Field number for the "nodeId" field.</summary>
+    public const int NodeIdFieldNumber = 1;
+    private ulong nodeId_;
+    /// <summary>
+    /// nodeId is the peer's node ID
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong NodeId {
+      get { return nodeId_; }
+      set {
+        nodeId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 2;
+    private string name_ = "";
+    /// <summary>
+    /// name is the peer's hostname
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "nodeKey" field.</summary>
+    public const int NodeKeyFieldNumber = 3;
+    private string nodeKey_ = "";
+    /// <summary>
+    /// nodeKey is the peer's node public key
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NodeKey {
+      get { return nodeKey_; }
+      set {
+        nodeKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "reason" field.</summary>
+    public const int ReasonFieldNumber = 4;
+    private string reason_ = "";
+    /// <summary>
+    /// reason is why the peer was filtered
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Reason {
+      get { return reason_; }
+      set {
+        reason_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as FilteredPeer);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(FilteredPeer other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (NodeId != other.NodeId) return false;
+      if (Name != other.Name) return false;
+      if (NodeKey != other.NodeKey) return false;
+      if (Reason != other.Reason) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (NodeId != 0UL) hash ^= NodeId.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (NodeKey.Length != 0) hash ^= NodeKey.GetHashCode();
+      if (Reason.Length != 0) hash ^= Reason.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (NodeId != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(NodeId);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Name);
+      }
+      if (NodeKey.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(NodeKey);
+      }
+      if (Reason.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Reason);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (NodeId != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(NodeId);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Name);
+      }
+      if (NodeKey.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(NodeKey);
+      }
+      if (Reason.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Reason);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (NodeId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(NodeId);
+      }
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (NodeKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeKey);
+      }
+      if (Reason.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Reason);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(FilteredPeer other) {
+      if (other == null) {
+        return;
+      }
+      if (other.NodeId != 0UL) {
+        NodeId = other.NodeId;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.NodeKey.Length != 0) {
+        NodeKey = other.NodeKey;
+      }
+      if (other.Reason.Length != 0) {
+        Reason = other.Reason;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            Name = input.ReadString();
+            break;
+          }
+          case 26: {
+            NodeKey = input.ReadString();
+            break;
+          }
+          case 34: {
+            Reason = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            Name = input.ReadString();
+            break;
+          }
+          case 26: {
+            NodeKey = input.ReadString();
+            break;
+          }
+          case 34: {
+            Reason = input.ReadString();
             break;
           }
         }

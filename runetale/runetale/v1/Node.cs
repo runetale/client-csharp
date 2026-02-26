@@ -45,7 +45,7 @@ namespace Protos {
             "ZFJvdXRlcxgDIAEoCRooCglwb3J0UmFuZ2USDQoFZmlyc3QYASABKAQSDAoE",
             "bGFzdBgCIAEoBCJRCgpGaWx0ZXJSdWxlEg4KBnNyY0lwcxgBIAMoCRIiCgRk",
             "c3RzGAIgAygLMhQucHJvdG9zLk5ldFBvcnRSYW5nZRIPCgdpUFByb3RvGAMg",
-            "AygNIt0DChJOZXR3b3JrTWFwUmVzcG9uc2USCwoDc2VxGAEgASgEEhoKBG5v",
+            "AygNIo4EChJOZXR3b3JrTWFwUmVzcG9uc2USCwoDc2VxGAEgASgEEhoKBG5v",
             "ZGUYAiABKAsyDC5wcm90b3MuTm9kZRIbCgVwZWVycxgDIAMoCzIMLnByb3Rv",
             "cy5Ob2RlEiIKDHBlZXJzQ2hhbmdlZBgEIAMoCzIMLnByb3Rvcy5Ob2RlEhQK",
             "DHBlZXJzUmVtb3ZlZBgFIAMoBBIoCgxwYWNrZXRGaWx0ZXIYBiADKAsyEi5w",
@@ -55,61 +55,62 @@ namespace Protos {
             "CyADKAsyES5wcm90b3MuQXBwTGlua2VyEiAKB2NlcmZNYXAYFCABKAsyDy5w",
             "cm90b3MuQ2VyZk1hcBIbChNkZWZhdWx0Q2VyZlJlZ2lvbklkGBUgASgNEhgK",
             "EHRlbGVtZXRyeV9sb2dfaWQYFiABKAkSHwoXZG9tYWluX3RlbGVtZXRyeV9s",
-            "b2dfaWQYFyABKAkSFAoMY2FwYWJpbGl0aWVzGBggAygJIi4KB0NlcmZNYXAS",
-            "IwoHcmVnaW9ucxgBIAMoCzISLnByb3Rvcy5DZXJmUmVnaW9uIlMKCkNlcmZS",
-            "ZWdpb24SEAoIcmVnaW9uSWQYASABKA0SEgoKcmVnaW9uQ29kZRgCIAEoCRIf",
-            "CgVub2RlcxgDIAMoCzIQLnByb3Rvcy5DZXJmTm9kZSKKAQoIQ2VyZk5vZGUS",
-            "DAoEbmFtZRgBIAEoCRIQCghob3N0TmFtZRgCIAEoCRIQCghjZXJmUG9ydBgD",
-            "IAEoDRIQCghzdHVuUG9ydBgEIAEoDRIVCg13ZWJzb2NrZXRPbmx5GAUgASgI",
-            "EhEKCWZvcmNlSHR0cBgGIAEoCBIQCghzdHVuT25seRgHIAEoCCI6CglBcHBM",
-            "aW5rZXISDAoEbmFtZRgBIAEoCRIPCgdkb21haW5zGAIgAygJEg4KBnJvdXRl",
-            "cxgDIAMoCSIYCghSZXNvbHZlchIMCgRhZGRyGAEgASgJIjAKCVJlc29sdmVy",
-            "cxIjCglyZXNvbHZlcnMYASADKAsyEC5wcm90b3MuUmVzb2x2ZXIi6wEKCURO",
-            "U0NvbmZpZxIjCglyZXNvbHZlcnMYASADKAsyEC5wcm90b3MuUmVzb2x2ZXIS",
-            "LQoGcm91dGVzGAIgAygLMh0ucHJvdG9zLkROU0NvbmZpZy5Sb3V0ZXNFbnRy",
-            "eRIVCg1zZWFyY2hEb21haW5zGAMgAygJEhcKD2V4aXROb2RlRmlsdGVyZBgE",
-            "IAMoCRIYChBlbmFibGVkV29uZGVyRE5TGAUgASgIGkAKC1JvdXRlc0VudHJ5",
-            "EgsKA2tleRgBIAEoCRIgCgV2YWx1ZRgCIAEoCzIRLnByb3Rvcy5SZXNvbHZl",
-            "cnM6AjgBIqoBChRSb3RhdGVOb2RlS2V5UmVxdWVzdBISCgpvbGROb2RlS2V5",
-            "GAEgASgJEhIKCm5ld05vZGVLZXkYAiABKAkSEwoLb2xkV2dQdWJLZXkYAyAB",
-            "KAkSEwoLbmV3V2dQdWJLZXkYBCABKAkSEgoKb2xkUnVuZUtleRgFIAEoCRIS",
-            "CgpuZXdSdW5lS2V5GAYgASgJEhgKEG5vZGVLZXlTaWduYXR1cmUYByABKAwi",
-            "aQoVUm90YXRlTm9kZUtleVJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgSMAoM",
-            "bmV3S2V5RXhwaXJ5GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
-            "cBINCgVlcnJvchgDIAEoCSJZChZOZXR3b3JrTG9ja0luaXRSZXF1ZXN0EiQK",
-            "BGtleXMYASADKAsyFi5wcm90b3MuTmV0d29ya0xvY2tLZXkSGQoRZGlzYWJs",
-            "ZW1lbnRTZWNyZXQYAiABKAwiOQoXTmV0d29ya0xvY2tJbml0UmVzcG9uc2US",
-            "DwoHc3VjY2VzcxgBIAEoCBINCgVlcnJvchgCIAEoCSJBChZOZXR3b3JrTG9j",
-            "a1NpZ25SZXF1ZXN0Eg8KB25vZGVLZXkYASABKAkSFgoOcm90YXRpb25QdWJs",
-            "aWMYAiABKAwiOwoXTmV0d29ya0xvY2tTaWduUmVzcG9uc2USEQoJc2lnbmF0",
-            "dXJlGAEgASgMEg0KBWVycm9yGAIgASgJIjYKGU5ldHdvcmtMb2NrRGlzYWJs",
-            "ZVJlcXVlc3QSGQoRZGlzYWJsZW1lbnRTZWNyZXQYASABKAwiPAoaTmV0d29y",
-            "a0xvY2tEaXNhYmxlUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCBINCgVlcnJv",
-            "chgCIAEoCSLPAQoZTmV0d29ya0xvY2tTdGF0dXNSZXNwb25zZRIPCgdlbmFi",
-            "bGVkGAEgASgIEgwKBGhlYWQYAiABKAwSEQoJcHVibGljS2V5GAMgASgMEg8K",
-            "B25vZGVLZXkYBCABKAkSFQoNbm9kZUtleVNpZ25lZBgFIAEoCBIrCgt0cnVz",
-            "dGVkS2V5cxgGIAMoCzIWLnByb3Rvcy5OZXR3b3JrTG9ja0tleRIrCg1maWx0",
-            "ZXJlZFBlZXJzGAcgAygLMhQucHJvdG9zLkZpbHRlcmVkUGVlciJgCg5OZXR3",
-            "b3JrTG9ja0tleRINCgVrZXlJZBgBIAEoDBIRCglwdWJsaWNLZXkYAiABKAwS",
-            "DAoEa2luZBgDIAEoCRINCgV2b3RlcxgEIAEoDRIPCgdjb21tZW50GAUgASgJ",
-            "Ik0KDEZpbHRlcmVkUGVlchIOCgZub2RlSWQYASABKAQSDAoEbmFtZRgCIAEo",
-            "CRIPCgdub2RlS2V5GAMgASgJEg4KBnJlYXNvbhgEIAEoCTKeBQoLTm9kZVNl",
-            "cnZpY2USRAoLQ29tcG9zZU5vZGUSFi5nb29nbGUucHJvdG9idWYuRW1wdHka",
-            "Gy5wcm90b3MuQ29tcG9zZU5vZGVSZXNwb25zZSIAEkUKDUdldE5ldHdvcmtN",
-            "YXASFi5nb29nbGUucHJvdG9idWYuRW1wdHkaGi5wcm90b3MuTmV0d29ya01h",
-            "cFJlc3BvbnNlIgASVQoWQ29ubmVjdE5ldHdvcmtNYXBUYWJsZRIZLnByb3Rv",
-            "cy5OZXR3b3JrTWFwUmVxdWVzdBoaLnByb3Rvcy5OZXR3b3JrTWFwUmVzcG9u",
-            "c2UiACgBMAESTgoNUm90YXRlTm9kZUtleRIcLnByb3Rvcy5Sb3RhdGVOb2Rl",
-            "S2V5UmVxdWVzdBodLnByb3Rvcy5Sb3RhdGVOb2RlS2V5UmVzcG9uc2UiABJU",
-            "Cg9OZXR3b3JrTG9ja0luaXQSHi5wcm90b3MuTmV0d29ya0xvY2tJbml0UmVx",
-            "dWVzdBofLnByb3Rvcy5OZXR3b3JrTG9ja0luaXRSZXNwb25zZSIAElQKD05l",
-            "dHdvcmtMb2NrU2lnbhIeLnByb3Rvcy5OZXR3b3JrTG9ja1NpZ25SZXF1ZXN0",
-            "Gh8ucHJvdG9zLk5ldHdvcmtMb2NrU2lnblJlc3BvbnNlIgASXQoSTmV0d29y",
-            "a0xvY2tEaXNhYmxlEiEucHJvdG9zLk5ldHdvcmtMb2NrRGlzYWJsZVJlcXVl",
-            "c3QaIi5wcm90b3MuTmV0d29ya0xvY2tEaXNhYmxlUmVzcG9uc2UiABJQChFO",
-            "ZXR3b3JrTG9ja1N0YXR1cxIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRohLnBy",
-            "b3Rvcy5OZXR3b3JrTG9ja1N0YXR1c1Jlc3BvbnNlIgBCCFoGLi9ub2RlYgZw",
-            "cm90bzM="));
+            "b2dfaWQYFyABKAkSFAoMY2FwYWJpbGl0aWVzGBggAygJEi8KC3NlcnZlcl90",
+            "aW1lGBkgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCIuCgdDZXJm",
+            "TWFwEiMKB3JlZ2lvbnMYASADKAsyEi5wcm90b3MuQ2VyZlJlZ2lvbiJTCgpD",
+            "ZXJmUmVnaW9uEhAKCHJlZ2lvbklkGAEgASgNEhIKCnJlZ2lvbkNvZGUYAiAB",
+            "KAkSHwoFbm9kZXMYAyADKAsyEC5wcm90b3MuQ2VyZk5vZGUiigEKCENlcmZO",
+            "b2RlEgwKBG5hbWUYASABKAkSEAoIaG9zdE5hbWUYAiABKAkSEAoIY2VyZlBv",
+            "cnQYAyABKA0SEAoIc3R1blBvcnQYBCABKA0SFQoNd2Vic29ja2V0T25seRgF",
+            "IAEoCBIRCglmb3JjZUh0dHAYBiABKAgSEAoIc3R1bk9ubHkYByABKAgiOgoJ",
+            "QXBwTGlua2VyEgwKBG5hbWUYASABKAkSDwoHZG9tYWlucxgCIAMoCRIOCgZy",
+            "b3V0ZXMYAyADKAkiGAoIUmVzb2x2ZXISDAoEYWRkchgBIAEoCSIwCglSZXNv",
+            "bHZlcnMSIwoJcmVzb2x2ZXJzGAEgAygLMhAucHJvdG9zLlJlc29sdmVyIusB",
+            "CglETlNDb25maWcSIwoJcmVzb2x2ZXJzGAEgAygLMhAucHJvdG9zLlJlc29s",
+            "dmVyEi0KBnJvdXRlcxgCIAMoCzIdLnByb3Rvcy5ETlNDb25maWcuUm91dGVz",
+            "RW50cnkSFQoNc2VhcmNoRG9tYWlucxgDIAMoCRIXCg9leGl0Tm9kZUZpbHRl",
+            "cmQYBCADKAkSGAoQZW5hYmxlZFdvbmRlckROUxgFIAEoCBpACgtSb3V0ZXNF",
+            "bnRyeRILCgNrZXkYASABKAkSIAoFdmFsdWUYAiABKAsyES5wcm90b3MuUmVz",
+            "b2x2ZXJzOgI4ASKqAQoUUm90YXRlTm9kZUtleVJlcXVlc3QSEgoKb2xkTm9k",
+            "ZUtleRgBIAEoCRISCgpuZXdOb2RlS2V5GAIgASgJEhMKC29sZFdnUHViS2V5",
+            "GAMgASgJEhMKC25ld1dnUHViS2V5GAQgASgJEhIKCm9sZFJ1bmVLZXkYBSAB",
+            "KAkSEgoKbmV3UnVuZUtleRgGIAEoCRIYChBub2RlS2V5U2lnbmF0dXJlGAcg",
+            "ASgMImkKFVJvdGF0ZU5vZGVLZXlSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgI",
+            "EjAKDG5ld0tleUV4cGlyeRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1l",
+            "c3RhbXASDQoFZXJyb3IYAyABKAkiWQoWTmV0d29ya0xvY2tJbml0UmVxdWVz",
+            "dBIkCgRrZXlzGAEgAygLMhYucHJvdG9zLk5ldHdvcmtMb2NrS2V5EhkKEWRp",
+            "c2FibGVtZW50U2VjcmV0GAIgASgMIjkKF05ldHdvcmtMb2NrSW5pdFJlc3Bv",
+            "bnNlEg8KB3N1Y2Nlc3MYASABKAgSDQoFZXJyb3IYAiABKAkiQQoWTmV0d29y",
+            "a0xvY2tTaWduUmVxdWVzdBIPCgdub2RlS2V5GAEgASgJEhYKDnJvdGF0aW9u",
+            "UHVibGljGAIgASgMIjsKF05ldHdvcmtMb2NrU2lnblJlc3BvbnNlEhEKCXNp",
+            "Z25hdHVyZRgBIAEoDBINCgVlcnJvchgCIAEoCSI2ChlOZXR3b3JrTG9ja0Rp",
+            "c2FibGVSZXF1ZXN0EhkKEWRpc2FibGVtZW50U2VjcmV0GAEgASgMIjwKGk5l",
+            "dHdvcmtMb2NrRGlzYWJsZVJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgSDQoF",
+            "ZXJyb3IYAiABKAkizwEKGU5ldHdvcmtMb2NrU3RhdHVzUmVzcG9uc2USDwoH",
+            "ZW5hYmxlZBgBIAEoCBIMCgRoZWFkGAIgASgMEhEKCXB1YmxpY0tleRgDIAEo",
+            "DBIPCgdub2RlS2V5GAQgASgJEhUKDW5vZGVLZXlTaWduZWQYBSABKAgSKwoL",
+            "dHJ1c3RlZEtleXMYBiADKAsyFi5wcm90b3MuTmV0d29ya0xvY2tLZXkSKwoN",
+            "ZmlsdGVyZWRQZWVycxgHIAMoCzIULnByb3Rvcy5GaWx0ZXJlZFBlZXIiYAoO",
+            "TmV0d29ya0xvY2tLZXkSDQoFa2V5SWQYASABKAwSEQoJcHVibGljS2V5GAIg",
+            "ASgMEgwKBGtpbmQYAyABKAkSDQoFdm90ZXMYBCABKA0SDwoHY29tbWVudBgF",
+            "IAEoCSJNCgxGaWx0ZXJlZFBlZXISDgoGbm9kZUlkGAEgASgEEgwKBG5hbWUY",
+            "AiABKAkSDwoHbm9kZUtleRgDIAEoCRIOCgZyZWFzb24YBCABKAkyngUKC05v",
+            "ZGVTZXJ2aWNlEkQKC0NvbXBvc2VOb2RlEhYuZ29vZ2xlLnByb3RvYnVmLkVt",
+            "cHR5GhsucHJvdG9zLkNvbXBvc2VOb2RlUmVzcG9uc2UiABJFCg1HZXROZXR3",
+            "b3JrTWFwEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhoucHJvdG9zLk5ldHdv",
+            "cmtNYXBSZXNwb25zZSIAElUKFkNvbm5lY3ROZXR3b3JrTWFwVGFibGUSGS5w",
+            "cm90b3MuTmV0d29ya01hcFJlcXVlc3QaGi5wcm90b3MuTmV0d29ya01hcFJl",
+            "c3BvbnNlIgAoATABEk4KDVJvdGF0ZU5vZGVLZXkSHC5wcm90b3MuUm90YXRl",
+            "Tm9kZUtleVJlcXVlc3QaHS5wcm90b3MuUm90YXRlTm9kZUtleVJlc3BvbnNl",
+            "IgASVAoPTmV0d29ya0xvY2tJbml0Eh4ucHJvdG9zLk5ldHdvcmtMb2NrSW5p",
+            "dFJlcXVlc3QaHy5wcm90b3MuTmV0d29ya0xvY2tJbml0UmVzcG9uc2UiABJU",
+            "Cg9OZXR3b3JrTG9ja1NpZ24SHi5wcm90b3MuTmV0d29ya0xvY2tTaWduUmVx",
+            "dWVzdBofLnByb3Rvcy5OZXR3b3JrTG9ja1NpZ25SZXNwb25zZSIAEl0KEk5l",
+            "dHdvcmtMb2NrRGlzYWJsZRIhLnByb3Rvcy5OZXR3b3JrTG9ja0Rpc2FibGVS",
+            "ZXF1ZXN0GiIucHJvdG9zLk5ldHdvcmtMb2NrRGlzYWJsZVJlc3BvbnNlIgAS",
+            "UAoRTmV0d29ya0xvY2tTdGF0dXMSFi5nb29nbGUucHJvdG9idWYuRW1wdHka",
+            "IS5wcm90b3MuTmV0d29ya0xvY2tTdGF0dXNSZXNwb25zZSIAQghaBi4vbm9k",
+            "ZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -118,7 +119,7 @@ namespace Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapRequest), global::Protos.NetworkMapRequest.Parser, new[]{ "VpnRunning", "IsKeepalive" }, new[]{ "VpnRunning", "IsKeepalive" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange), global::Protos.NetPortRange.Parser, new[]{ "Ip", "Ports", "AdvertisedRoutes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange.Types.portRange), global::Protos.NetPortRange.Types.portRange.Parser, new[]{ "First", "Last" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilterRule), global::Protos.FilterRule.Parser, new[]{ "SrcIps", "Dsts", "IPProto" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapResponse), global::Protos.NetworkMapResponse.Parser, new[]{ "Seq", "Node", "Peers", "PeersChanged", "PeersRemoved", "PacketFilter", "AdvertisedRoute", "Jailed", "IceTable", "Dns", "AppLinker", "CerfMap", "DefaultCerfRegionId", "TelemetryLogId", "DomainTelemetryLogId", "Capabilities" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapResponse), global::Protos.NetworkMapResponse.Parser, new[]{ "Seq", "Node", "Peers", "PeersChanged", "PeersRemoved", "PacketFilter", "AdvertisedRoute", "Jailed", "IceTable", "Dns", "AppLinker", "CerfMap", "DefaultCerfRegionId", "TelemetryLogId", "DomainTelemetryLogId", "Capabilities", "ServerTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfMap), global::Protos.CerfMap.Parser, new[]{ "Regions" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfRegion), global::Protos.CerfRegion.Parser, new[]{ "RegionId", "RegionCode", "Nodes" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfNode), global::Protos.CerfNode.Parser, new[]{ "Name", "HostName", "CerfPort", "StunPort", "WebsocketOnly", "ForceHttp", "StunOnly" }, null, null, null, null),
@@ -2446,6 +2447,7 @@ namespace Protos {
       telemetryLogId_ = other.telemetryLogId_;
       domainTelemetryLogId_ = other.domainTelemetryLogId_;
       capabilities_ = other.capabilities_.Clone();
+      serverTime_ = other.serverTime_ != null ? other.serverTime_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2688,6 +2690,23 @@ namespace Protos {
       get { return capabilities_; }
     }
 
+    /// <summary>Field number for the "server_time" field.</summary>
+    public const int ServerTimeFieldNumber = 25;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp serverTime_;
+    /// <summary>
+    /// server_time is the current timestamp according to the server.
+    /// The client uses this to detect clock skew between local and server time,
+    /// which is critical for accurate key expiry evaluation.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp ServerTime {
+      get { return serverTime_; }
+      set {
+        serverTime_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2719,6 +2738,7 @@ namespace Protos {
       if (TelemetryLogId != other.TelemetryLogId) return false;
       if (DomainTelemetryLogId != other.DomainTelemetryLogId) return false;
       if(!capabilities_.Equals(other.capabilities_)) return false;
+      if (!object.Equals(ServerTime, other.ServerTime)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2742,6 +2762,7 @@ namespace Protos {
       if (TelemetryLogId.Length != 0) hash ^= TelemetryLogId.GetHashCode();
       if (DomainTelemetryLogId.Length != 0) hash ^= DomainTelemetryLogId.GetHashCode();
       hash ^= capabilities_.GetHashCode();
+      if (serverTime_ != null) hash ^= ServerTime.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2803,6 +2824,10 @@ namespace Protos {
         output.WriteString(DomainTelemetryLogId);
       }
       capabilities_.WriteTo(output, _repeated_capabilities_codec);
+      if (serverTime_ != null) {
+        output.WriteRawTag(202, 1);
+        output.WriteMessage(ServerTime);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2856,6 +2881,10 @@ namespace Protos {
         output.WriteString(DomainTelemetryLogId);
       }
       capabilities_.WriteTo(ref output, _repeated_capabilities_codec);
+      if (serverTime_ != null) {
+        output.WriteRawTag(202, 1);
+        output.WriteMessage(ServerTime);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2900,6 +2929,9 @@ namespace Protos {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(DomainTelemetryLogId);
       }
       size += capabilities_.CalculateSize(_repeated_capabilities_codec);
+      if (serverTime_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(ServerTime);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2955,6 +2987,12 @@ namespace Protos {
         DomainTelemetryLogId = other.DomainTelemetryLogId;
       }
       capabilities_.Add(other.capabilities_);
+      if (other.serverTime_ != null) {
+        if (serverTime_ == null) {
+          ServerTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        ServerTime.MergeFrom(other.ServerTime);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3044,6 +3082,13 @@ namespace Protos {
             capabilities_.AddEntriesFrom(input, _repeated_capabilities_codec);
             break;
           }
+          case 202: {
+            if (serverTime_ == null) {
+              ServerTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(ServerTime);
+            break;
+          }
         }
       }
     #endif
@@ -3131,6 +3176,13 @@ namespace Protos {
           }
           case 194: {
             capabilities_.AddEntriesFrom(ref input, _repeated_capabilities_codec);
+            break;
+          }
+          case 202: {
+            if (serverTime_ == null) {
+              ServerTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(ServerTime);
             break;
           }
         }

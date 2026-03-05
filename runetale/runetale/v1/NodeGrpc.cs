@@ -54,9 +54,9 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Protos.NetworkMapRequest> __Marshaller_protos_NetworkMapRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkMapRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Protos.RotateNodeKeyRequest> __Marshaller_protos_RotateNodeKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.RotateNodeKeyRequest.Parser));
+    static readonly grpc::Marshaller<global::Protos.RotateWgKeyRequest> __Marshaller_protos_RotateWgKeyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.RotateWgKeyRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Protos.RotateNodeKeyResponse> __Marshaller_protos_RotateNodeKeyResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.RotateNodeKeyResponse.Parser));
+    static readonly grpc::Marshaller<global::Protos.RotateWgKeyResponse> __Marshaller_protos_RotateWgKeyResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.RotateWgKeyResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Protos.NetworkLockInitRequest> __Marshaller_protos_NetworkLockInitRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkLockInitRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -97,12 +97,12 @@ namespace Protos {
         __Marshaller_protos_NetworkMapResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Protos.RotateNodeKeyRequest, global::Protos.RotateNodeKeyResponse> __Method_RotateNodeKey = new grpc::Method<global::Protos.RotateNodeKeyRequest, global::Protos.RotateNodeKeyResponse>(
+    static readonly grpc::Method<global::Protos.RotateWgKeyRequest, global::Protos.RotateWgKeyResponse> __Method_RotateWgKey = new grpc::Method<global::Protos.RotateWgKeyRequest, global::Protos.RotateWgKeyResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "RotateNodeKey",
-        __Marshaller_protos_RotateNodeKeyRequest,
-        __Marshaller_protos_RotateNodeKeyResponse);
+        "RotateWgKey",
+        __Marshaller_protos_RotateWgKeyRequest,
+        __Marshaller_protos_RotateWgKeyResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Protos.NetworkLockInitRequest, global::Protos.NetworkLockInitResponse> __Method_NetworkLockInit = new grpc::Method<global::Protos.NetworkLockInitRequest, global::Protos.NetworkLockInitResponse>(
@@ -165,14 +165,15 @@ namespace Protos {
       }
 
       /// <summary>
-      /// RotateNodeKey rotates the node's keys (NodeKey and WgPubKey) to new values.
+      /// RotateWgKey rotates the node's WireGuard key pair.
+      /// NodeKey remains unchanged; only WgPubKey is rotated.
       /// This is used for seamless key renewal without disconnecting the VPN.
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Protos.RotateNodeKeyResponse> RotateNodeKey(global::Protos.RotateNodeKeyRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Protos.RotateWgKeyResponse> RotateWgKey(global::Protos.RotateWgKeyRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -306,7 +307,8 @@ namespace Protos {
         return CallInvoker.AsyncDuplexStreamingCall(__Method_ConnectNetworkMapTable, null, options);
       }
       /// <summary>
-      /// RotateNodeKey rotates the node's keys (NodeKey and WgPubKey) to new values.
+      /// RotateWgKey rotates the node's WireGuard key pair.
+      /// NodeKey remains unchanged; only WgPubKey is rotated.
       /// This is used for seamless key renewal without disconnecting the VPN.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -315,24 +317,26 @@ namespace Protos {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Protos.RotateNodeKeyResponse RotateNodeKey(global::Protos.RotateNodeKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Protos.RotateWgKeyResponse RotateWgKey(global::Protos.RotateWgKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return RotateNodeKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return RotateWgKey(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// RotateNodeKey rotates the node's keys (NodeKey and WgPubKey) to new values.
+      /// RotateWgKey rotates the node's WireGuard key pair.
+      /// NodeKey remains unchanged; only WgPubKey is rotated.
       /// This is used for seamless key renewal without disconnecting the VPN.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Protos.RotateNodeKeyResponse RotateNodeKey(global::Protos.RotateNodeKeyRequest request, grpc::CallOptions options)
+      public virtual global::Protos.RotateWgKeyResponse RotateWgKey(global::Protos.RotateWgKeyRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_RotateNodeKey, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_RotateWgKey, null, options, request);
       }
       /// <summary>
-      /// RotateNodeKey rotates the node's keys (NodeKey and WgPubKey) to new values.
+      /// RotateWgKey rotates the node's WireGuard key pair.
+      /// NodeKey remains unchanged; only WgPubKey is rotated.
       /// This is used for seamless key renewal without disconnecting the VPN.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -341,21 +345,22 @@ namespace Protos {
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Protos.RotateNodeKeyResponse> RotateNodeKeyAsync(global::Protos.RotateNodeKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Protos.RotateWgKeyResponse> RotateWgKeyAsync(global::Protos.RotateWgKeyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return RotateNodeKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return RotateWgKeyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// RotateNodeKey rotates the node's keys (NodeKey and WgPubKey) to new values.
+      /// RotateWgKey rotates the node's WireGuard key pair.
+      /// NodeKey remains unchanged; only WgPubKey is rotated.
       /// This is used for seamless key renewal without disconnecting the VPN.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Protos.RotateNodeKeyResponse> RotateNodeKeyAsync(global::Protos.RotateNodeKeyRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Protos.RotateWgKeyResponse> RotateWgKeyAsync(global::Protos.RotateWgKeyRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_RotateNodeKey, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_RotateWgKey, null, options, request);
       }
       /// <summary>
       /// Network Lock (TKA) RPCs
@@ -570,7 +575,7 @@ namespace Protos {
           .AddMethod(__Method_ComposeNode, serviceImpl.ComposeNode)
           .AddMethod(__Method_GetNetworkMap, serviceImpl.GetNetworkMap)
           .AddMethod(__Method_ConnectNetworkMapTable, serviceImpl.ConnectNetworkMapTable)
-          .AddMethod(__Method_RotateNodeKey, serviceImpl.RotateNodeKey)
+          .AddMethod(__Method_RotateWgKey, serviceImpl.RotateWgKey)
           .AddMethod(__Method_NetworkLockInit, serviceImpl.NetworkLockInit)
           .AddMethod(__Method_NetworkLockSign, serviceImpl.NetworkLockSign)
           .AddMethod(__Method_NetworkLockDisable, serviceImpl.NetworkLockDisable)
@@ -587,7 +592,7 @@ namespace Protos {
       serviceBinder.AddMethod(__Method_ComposeNode, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse>(serviceImpl.ComposeNode));
       serviceBinder.AddMethod(__Method_GetNetworkMap, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetworkMapResponse>(serviceImpl.GetNetworkMap));
       serviceBinder.AddMethod(__Method_ConnectNetworkMapTable, serviceImpl == null ? null : new grpc::DuplexStreamingServerMethod<global::Protos.NetworkMapRequest, global::Protos.NetworkMapResponse>(serviceImpl.ConnectNetworkMapTable));
-      serviceBinder.AddMethod(__Method_RotateNodeKey, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.RotateNodeKeyRequest, global::Protos.RotateNodeKeyResponse>(serviceImpl.RotateNodeKey));
+      serviceBinder.AddMethod(__Method_RotateWgKey, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.RotateWgKeyRequest, global::Protos.RotateWgKeyResponse>(serviceImpl.RotateWgKey));
       serviceBinder.AddMethod(__Method_NetworkLockInit, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.NetworkLockInitRequest, global::Protos.NetworkLockInitResponse>(serviceImpl.NetworkLockInit));
       serviceBinder.AddMethod(__Method_NetworkLockSign, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.NetworkLockSignRequest, global::Protos.NetworkLockSignResponse>(serviceImpl.NetworkLockSign));
       serviceBinder.AddMethod(__Method_NetworkLockDisable, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.NetworkLockDisableRequest, global::Protos.NetworkLockDisableResponse>(serviceImpl.NetworkLockDisable));

@@ -71,46 +71,45 @@ namespace Protos {
             "RW50cnkSFQoNc2VhcmNoRG9tYWlucxgDIAMoCRIXCg9leGl0Tm9kZUZpbHRl",
             "cmQYBCADKAkSGAoQZW5hYmxlZFdvbmRlckROUxgFIAEoCBpACgtSb3V0ZXNF",
             "bnRyeRILCgNrZXkYASABKAkSIAoFdmFsdWUYAiABKAsyES5wcm90b3MuUmVz",
-            "b2x2ZXJzOgI4ASKqAQoUUm90YXRlTm9kZUtleVJlcXVlc3QSEgoKb2xkTm9k",
-            "ZUtleRgBIAEoCRISCgpuZXdOb2RlS2V5GAIgASgJEhMKC29sZFdnUHViS2V5",
-            "GAMgASgJEhMKC25ld1dnUHViS2V5GAQgASgJEhIKCm9sZFJ1bmVLZXkYBSAB",
-            "KAkSEgoKbmV3UnVuZUtleRgGIAEoCRIYChBub2RlS2V5U2lnbmF0dXJlGAcg",
-            "ASgMImkKFVJvdGF0ZU5vZGVLZXlSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgI",
-            "EjAKDG5ld0tleUV4cGlyeRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1l",
-            "c3RhbXASDQoFZXJyb3IYAyABKAkiWQoWTmV0d29ya0xvY2tJbml0UmVxdWVz",
-            "dBIkCgRrZXlzGAEgAygLMhYucHJvdG9zLk5ldHdvcmtMb2NrS2V5EhkKEWRp",
-            "c2FibGVtZW50U2VjcmV0GAIgASgMIjkKF05ldHdvcmtMb2NrSW5pdFJlc3Bv",
-            "bnNlEg8KB3N1Y2Nlc3MYASABKAgSDQoFZXJyb3IYAiABKAkiQQoWTmV0d29y",
-            "a0xvY2tTaWduUmVxdWVzdBIPCgdub2RlS2V5GAEgASgJEhYKDnJvdGF0aW9u",
-            "UHVibGljGAIgASgMIjsKF05ldHdvcmtMb2NrU2lnblJlc3BvbnNlEhEKCXNp",
-            "Z25hdHVyZRgBIAEoDBINCgVlcnJvchgCIAEoCSI2ChlOZXR3b3JrTG9ja0Rp",
-            "c2FibGVSZXF1ZXN0EhkKEWRpc2FibGVtZW50U2VjcmV0GAEgASgMIjwKGk5l",
-            "dHdvcmtMb2NrRGlzYWJsZVJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgSDQoF",
-            "ZXJyb3IYAiABKAkizwEKGU5ldHdvcmtMb2NrU3RhdHVzUmVzcG9uc2USDwoH",
-            "ZW5hYmxlZBgBIAEoCBIMCgRoZWFkGAIgASgMEhEKCXB1YmxpY0tleRgDIAEo",
-            "DBIPCgdub2RlS2V5GAQgASgJEhUKDW5vZGVLZXlTaWduZWQYBSABKAgSKwoL",
-            "dHJ1c3RlZEtleXMYBiADKAsyFi5wcm90b3MuTmV0d29ya0xvY2tLZXkSKwoN",
-            "ZmlsdGVyZWRQZWVycxgHIAMoCzIULnByb3Rvcy5GaWx0ZXJlZFBlZXIiYAoO",
-            "TmV0d29ya0xvY2tLZXkSDQoFa2V5SWQYASABKAwSEQoJcHVibGljS2V5GAIg",
-            "ASgMEgwKBGtpbmQYAyABKAkSDQoFdm90ZXMYBCABKA0SDwoHY29tbWVudBgF",
-            "IAEoCSJNCgxGaWx0ZXJlZFBlZXISDgoGbm9kZUlkGAEgASgEEgwKBG5hbWUY",
-            "AiABKAkSDwoHbm9kZUtleRgDIAEoCRIOCgZyZWFzb24YBCABKAkyngUKC05v",
-            "ZGVTZXJ2aWNlEkQKC0NvbXBvc2VOb2RlEhYuZ29vZ2xlLnByb3RvYnVmLkVt",
-            "cHR5GhsucHJvdG9zLkNvbXBvc2VOb2RlUmVzcG9uc2UiABJFCg1HZXROZXR3",
-            "b3JrTWFwEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhoucHJvdG9zLk5ldHdv",
-            "cmtNYXBSZXNwb25zZSIAElUKFkNvbm5lY3ROZXR3b3JrTWFwVGFibGUSGS5w",
-            "cm90b3MuTmV0d29ya01hcFJlcXVlc3QaGi5wcm90b3MuTmV0d29ya01hcFJl",
-            "c3BvbnNlIgAoATABEk4KDVJvdGF0ZU5vZGVLZXkSHC5wcm90b3MuUm90YXRl",
-            "Tm9kZUtleVJlcXVlc3QaHS5wcm90b3MuUm90YXRlTm9kZUtleVJlc3BvbnNl",
-            "IgASVAoPTmV0d29ya0xvY2tJbml0Eh4ucHJvdG9zLk5ldHdvcmtMb2NrSW5p",
-            "dFJlcXVlc3QaHy5wcm90b3MuTmV0d29ya0xvY2tJbml0UmVzcG9uc2UiABJU",
-            "Cg9OZXR3b3JrTG9ja1NpZ24SHi5wcm90b3MuTmV0d29ya0xvY2tTaWduUmVx",
-            "dWVzdBofLnByb3Rvcy5OZXR3b3JrTG9ja1NpZ25SZXNwb25zZSIAEl0KEk5l",
-            "dHdvcmtMb2NrRGlzYWJsZRIhLnByb3Rvcy5OZXR3b3JrTG9ja0Rpc2FibGVS",
-            "ZXF1ZXN0GiIucHJvdG9zLk5ldHdvcmtMb2NrRGlzYWJsZVJlc3BvbnNlIgAS",
-            "UAoRTmV0d29ya0xvY2tTdGF0dXMSFi5nb29nbGUucHJvdG9idWYuRW1wdHka",
-            "IS5wcm90b3MuTmV0d29ya0xvY2tTdGF0dXNSZXNwb25zZSIAQghaBi4vbm9k",
-            "ZWIGcHJvdG8z"));
+            "b2x2ZXJzOgI4ASKgAQoSUm90YXRlV2dLZXlSZXF1ZXN0EhMKC29sZFdnUHVi",
+            "S2V5GAMgASgJEhMKC25ld1dnUHViS2V5GAQgASgJEhgKEG5vZGVLZXlTaWdu",
+            "YXR1cmUYByABKAxKBAgBEAJKBAgCEANKBAgFEAZKBAgGEAdSCm9sZE5vZGVL",
+            "ZXlSCm5ld05vZGVLZXlSCm9sZFJ1bmVLZXlSCm5ld1J1bmVLZXkiZwoTUm90",
+            "YXRlV2dLZXlSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgIEjAKDG5ld0tleUV4",
+            "cGlyeRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASDQoFZXJy",
+            "b3IYAyABKAkiWQoWTmV0d29ya0xvY2tJbml0UmVxdWVzdBIkCgRrZXlzGAEg",
+            "AygLMhYucHJvdG9zLk5ldHdvcmtMb2NrS2V5EhkKEWRpc2FibGVtZW50U2Vj",
+            "cmV0GAIgASgMIjkKF05ldHdvcmtMb2NrSW5pdFJlc3BvbnNlEg8KB3N1Y2Nl",
+            "c3MYASABKAgSDQoFZXJyb3IYAiABKAkiQQoWTmV0d29ya0xvY2tTaWduUmVx",
+            "dWVzdBIPCgdub2RlS2V5GAEgASgJEhYKDnJvdGF0aW9uUHVibGljGAIgASgM",
+            "IjsKF05ldHdvcmtMb2NrU2lnblJlc3BvbnNlEhEKCXNpZ25hdHVyZRgBIAEo",
+            "DBINCgVlcnJvchgCIAEoCSI2ChlOZXR3b3JrTG9ja0Rpc2FibGVSZXF1ZXN0",
+            "EhkKEWRpc2FibGVtZW50U2VjcmV0GAEgASgMIjwKGk5ldHdvcmtMb2NrRGlz",
+            "YWJsZVJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgSDQoFZXJyb3IYAiABKAki",
+            "zwEKGU5ldHdvcmtMb2NrU3RhdHVzUmVzcG9uc2USDwoHZW5hYmxlZBgBIAEo",
+            "CBIMCgRoZWFkGAIgASgMEhEKCXB1YmxpY0tleRgDIAEoDBIPCgdub2RlS2V5",
+            "GAQgASgJEhUKDW5vZGVLZXlTaWduZWQYBSABKAgSKwoLdHJ1c3RlZEtleXMY",
+            "BiADKAsyFi5wcm90b3MuTmV0d29ya0xvY2tLZXkSKwoNZmlsdGVyZWRQZWVy",
+            "cxgHIAMoCzIULnByb3Rvcy5GaWx0ZXJlZFBlZXIiYAoOTmV0d29ya0xvY2tL",
+            "ZXkSDQoFa2V5SWQYASABKAwSEQoJcHVibGljS2V5GAIgASgMEgwKBGtpbmQY",
+            "AyABKAkSDQoFdm90ZXMYBCABKA0SDwoHY29tbWVudBgFIAEoCSJNCgxGaWx0",
+            "ZXJlZFBlZXISDgoGbm9kZUlkGAEgASgEEgwKBG5hbWUYAiABKAkSDwoHbm9k",
+            "ZUtleRgDIAEoCRIOCgZyZWFzb24YBCABKAkymAUKC05vZGVTZXJ2aWNlEkQK",
+            "C0NvbXBvc2VOb2RlEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhsucHJvdG9z",
+            "LkNvbXBvc2VOb2RlUmVzcG9uc2UiABJFCg1HZXROZXR3b3JrTWFwEhYuZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5GhoucHJvdG9zLk5ldHdvcmtNYXBSZXNwb25z",
+            "ZSIAElUKFkNvbm5lY3ROZXR3b3JrTWFwVGFibGUSGS5wcm90b3MuTmV0d29y",
+            "a01hcFJlcXVlc3QaGi5wcm90b3MuTmV0d29ya01hcFJlc3BvbnNlIgAoATAB",
+            "EkgKC1JvdGF0ZVdnS2V5EhoucHJvdG9zLlJvdGF0ZVdnS2V5UmVxdWVzdBob",
+            "LnByb3Rvcy5Sb3RhdGVXZ0tleVJlc3BvbnNlIgASVAoPTmV0d29ya0xvY2tJ",
+            "bml0Eh4ucHJvdG9zLk5ldHdvcmtMb2NrSW5pdFJlcXVlc3QaHy5wcm90b3Mu",
+            "TmV0d29ya0xvY2tJbml0UmVzcG9uc2UiABJUCg9OZXR3b3JrTG9ja1NpZ24S",
+            "Hi5wcm90b3MuTmV0d29ya0xvY2tTaWduUmVxdWVzdBofLnByb3Rvcy5OZXR3",
+            "b3JrTG9ja1NpZ25SZXNwb25zZSIAEl0KEk5ldHdvcmtMb2NrRGlzYWJsZRIh",
+            "LnByb3Rvcy5OZXR3b3JrTG9ja0Rpc2FibGVSZXF1ZXN0GiIucHJvdG9zLk5l",
+            "dHdvcmtMb2NrRGlzYWJsZVJlc3BvbnNlIgASUAoRTmV0d29ya0xvY2tTdGF0",
+            "dXMSFi5nb29nbGUucHJvdG9idWYuRW1wdHkaIS5wcm90b3MuTmV0d29ya0xv",
+            "Y2tTdGF0dXNSZXNwb25zZSIAQghaBi4vbm9kZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -127,8 +126,8 @@ namespace Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Resolver), global::Protos.Resolver.Parser, new[]{ "Addr" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.Resolvers), global::Protos.Resolvers.Parser, new[]{ "Resolvers_" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.DNSConfig), global::Protos.DNSConfig.Parser, new[]{ "Resolvers", "Routes", "SearchDomains", "ExitNodeFilterd", "EnabledWonderDNS" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.RotateNodeKeyRequest), global::Protos.RotateNodeKeyRequest.Parser, new[]{ "OldNodeKey", "NewNodeKey", "OldWgPubKey", "NewWgPubKey", "OldRuneKey", "NewRuneKey", "NodeKeySignature" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.RotateNodeKeyResponse), global::Protos.RotateNodeKeyResponse.Parser, new[]{ "Success", "NewKeyExpiry", "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.RotateWgKeyRequest), global::Protos.RotateWgKeyRequest.Parser, new[]{ "OldWgPubKey", "NewWgPubKey", "NodeKeySignature" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.RotateWgKeyResponse), global::Protos.RotateWgKeyResponse.Parser, new[]{ "Success", "NewKeyExpiry", "Error" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockInitRequest), global::Protos.NetworkLockInitRequest.Parser, new[]{ "Keys", "DisablementSecret" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockInitResponse), global::Protos.NetworkLockInitResponse.Parser, new[]{ "Success", "Error" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockSignRequest), global::Protos.NetworkLockSignRequest.Parser, new[]{ "NodeKey", "RotationPublic" }, null, null, null, null),
@@ -5004,19 +5003,19 @@ namespace Protos {
   }
 
   /// <summary>
-  /// RotateNodeKeyRequest is sent when a node wants to rotate its keys.
-  /// The server validates the old keys and updates to the new keys.
+  /// RotateWgKeyRequest is sent when a node wants to rotate its WireGuard key.
+  /// NodeKey is not rotated; the server identifies the node via gRPC metadata.
   /// </summary>
-  public sealed partial class RotateNodeKeyRequest : pb::IMessage<RotateNodeKeyRequest>
+  public sealed partial class RotateWgKeyRequest : pb::IMessage<RotateWgKeyRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<RotateNodeKeyRequest> _parser = new pb::MessageParser<RotateNodeKeyRequest>(() => new RotateNodeKeyRequest());
+    private static readonly pb::MessageParser<RotateWgKeyRequest> _parser = new pb::MessageParser<RotateWgKeyRequest>(() => new RotateWgKeyRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<RotateNodeKeyRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<RotateWgKeyRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5032,7 +5031,7 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RotateNodeKeyRequest() {
+    public RotateWgKeyRequest() {
       OnConstruction();
     }
 
@@ -5040,51 +5039,17 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RotateNodeKeyRequest(RotateNodeKeyRequest other) : this() {
-      oldNodeKey_ = other.oldNodeKey_;
-      newNodeKey_ = other.newNodeKey_;
+    public RotateWgKeyRequest(RotateWgKeyRequest other) : this() {
       oldWgPubKey_ = other.oldWgPubKey_;
       newWgPubKey_ = other.newWgPubKey_;
-      oldRuneKey_ = other.oldRuneKey_;
-      newRuneKey_ = other.newRuneKey_;
       nodeKeySignature_ = other.nodeKeySignature_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RotateNodeKeyRequest Clone() {
-      return new RotateNodeKeyRequest(this);
-    }
-
-    /// <summary>Field number for the "oldNodeKey" field.</summary>
-    public const int OldNodeKeyFieldNumber = 1;
-    private string oldNodeKey_ = "";
-    /// <summary>
-    /// oldNodeKey is the current node key (for verification)
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string OldNodeKey {
-      get { return oldNodeKey_; }
-      set {
-        oldNodeKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "newNodeKey" field.</summary>
-    public const int NewNodeKeyFieldNumber = 2;
-    private string newNodeKey_ = "";
-    /// <summary>
-    /// newNodeKey is the new node key to rotate to
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string NewNodeKey {
-      get { return newNodeKey_; }
-      set {
-        newNodeKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
+    public RotateWgKeyRequest Clone() {
+      return new RotateWgKeyRequest(this);
     }
 
     /// <summary>Field number for the "oldWgPubKey" field.</summary>
@@ -5117,36 +5082,6 @@ namespace Protos {
       }
     }
 
-    /// <summary>Field number for the "oldRuneKey" field.</summary>
-    public const int OldRuneKeyFieldNumber = 5;
-    private string oldRuneKey_ = "";
-    /// <summary>
-    /// oldRuneKey is the current Rune key (for verification)
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string OldRuneKey {
-      get { return oldRuneKey_; }
-      set {
-        oldRuneKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "newRuneKey" field.</summary>
-    public const int NewRuneKeyFieldNumber = 6;
-    private string newRuneKey_ = "";
-    /// <summary>
-    /// newRuneKey is the new Rune key to rotate to
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string NewRuneKey {
-      get { return newRuneKey_; }
-      set {
-        newRuneKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     /// <summary>Field number for the "nodeKeySignature" field.</summary>
     public const int NodeKeySignatureFieldNumber = 7;
     private pb::ByteString nodeKeySignature_ = pb::ByteString.Empty;
@@ -5166,24 +5101,20 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as RotateNodeKeyRequest);
+      return Equals(other as RotateWgKeyRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(RotateNodeKeyRequest other) {
+    public bool Equals(RotateWgKeyRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (OldNodeKey != other.OldNodeKey) return false;
-      if (NewNodeKey != other.NewNodeKey) return false;
       if (OldWgPubKey != other.OldWgPubKey) return false;
       if (NewWgPubKey != other.NewWgPubKey) return false;
-      if (OldRuneKey != other.OldRuneKey) return false;
-      if (NewRuneKey != other.NewRuneKey) return false;
       if (NodeKeySignature != other.NodeKeySignature) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -5192,12 +5123,8 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (OldNodeKey.Length != 0) hash ^= OldNodeKey.GetHashCode();
-      if (NewNodeKey.Length != 0) hash ^= NewNodeKey.GetHashCode();
       if (OldWgPubKey.Length != 0) hash ^= OldWgPubKey.GetHashCode();
       if (NewWgPubKey.Length != 0) hash ^= NewWgPubKey.GetHashCode();
-      if (OldRuneKey.Length != 0) hash ^= OldRuneKey.GetHashCode();
-      if (NewRuneKey.Length != 0) hash ^= NewRuneKey.GetHashCode();
       if (NodeKeySignature.Length != 0) hash ^= NodeKeySignature.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -5217,14 +5144,6 @@ namespace Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (OldNodeKey.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(OldNodeKey);
-      }
-      if (NewNodeKey.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(NewNodeKey);
-      }
       if (OldWgPubKey.Length != 0) {
         output.WriteRawTag(26);
         output.WriteString(OldWgPubKey);
@@ -5232,14 +5151,6 @@ namespace Protos {
       if (NewWgPubKey.Length != 0) {
         output.WriteRawTag(34);
         output.WriteString(NewWgPubKey);
-      }
-      if (OldRuneKey.Length != 0) {
-        output.WriteRawTag(42);
-        output.WriteString(OldRuneKey);
-      }
-      if (NewRuneKey.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(NewRuneKey);
       }
       if (NodeKeySignature.Length != 0) {
         output.WriteRawTag(58);
@@ -5255,14 +5166,6 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (OldNodeKey.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(OldNodeKey);
-      }
-      if (NewNodeKey.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(NewNodeKey);
-      }
       if (OldWgPubKey.Length != 0) {
         output.WriteRawTag(26);
         output.WriteString(OldWgPubKey);
@@ -5270,14 +5173,6 @@ namespace Protos {
       if (NewWgPubKey.Length != 0) {
         output.WriteRawTag(34);
         output.WriteString(NewWgPubKey);
-      }
-      if (OldRuneKey.Length != 0) {
-        output.WriteRawTag(42);
-        output.WriteString(OldRuneKey);
-      }
-      if (NewRuneKey.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(NewRuneKey);
       }
       if (NodeKeySignature.Length != 0) {
         output.WriteRawTag(58);
@@ -5293,23 +5188,11 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (OldNodeKey.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(OldNodeKey);
-      }
-      if (NewNodeKey.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(NewNodeKey);
-      }
       if (OldWgPubKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(OldWgPubKey);
       }
       if (NewWgPubKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(NewWgPubKey);
-      }
-      if (OldRuneKey.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(OldRuneKey);
-      }
-      if (NewRuneKey.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(NewRuneKey);
       }
       if (NodeKeySignature.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(NodeKeySignature);
@@ -5322,27 +5205,15 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(RotateNodeKeyRequest other) {
+    public void MergeFrom(RotateWgKeyRequest other) {
       if (other == null) {
         return;
-      }
-      if (other.OldNodeKey.Length != 0) {
-        OldNodeKey = other.OldNodeKey;
-      }
-      if (other.NewNodeKey.Length != 0) {
-        NewNodeKey = other.NewNodeKey;
       }
       if (other.OldWgPubKey.Length != 0) {
         OldWgPubKey = other.OldWgPubKey;
       }
       if (other.NewWgPubKey.Length != 0) {
         NewWgPubKey = other.NewWgPubKey;
-      }
-      if (other.OldRuneKey.Length != 0) {
-        OldRuneKey = other.OldRuneKey;
-      }
-      if (other.NewRuneKey.Length != 0) {
-        NewRuneKey = other.NewRuneKey;
       }
       if (other.NodeKeySignature.Length != 0) {
         NodeKeySignature = other.NodeKeySignature;
@@ -5362,28 +5233,12 @@ namespace Protos {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            OldNodeKey = input.ReadString();
-            break;
-          }
-          case 18: {
-            NewNodeKey = input.ReadString();
-            break;
-          }
           case 26: {
             OldWgPubKey = input.ReadString();
             break;
           }
           case 34: {
             NewWgPubKey = input.ReadString();
-            break;
-          }
-          case 42: {
-            OldRuneKey = input.ReadString();
-            break;
-          }
-          case 50: {
-            NewRuneKey = input.ReadString();
             break;
           }
           case 58: {
@@ -5405,28 +5260,12 @@ namespace Protos {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            OldNodeKey = input.ReadString();
-            break;
-          }
-          case 18: {
-            NewNodeKey = input.ReadString();
-            break;
-          }
           case 26: {
             OldWgPubKey = input.ReadString();
             break;
           }
           case 34: {
             NewWgPubKey = input.ReadString();
-            break;
-          }
-          case 42: {
-            OldRuneKey = input.ReadString();
-            break;
-          }
-          case 50: {
-            NewRuneKey = input.ReadString();
             break;
           }
           case 58: {
@@ -5441,18 +5280,18 @@ namespace Protos {
   }
 
   /// <summary>
-  /// RotateNodeKeyResponse is returned after a successful key rotation.
+  /// RotateWgKeyResponse is returned after a successful WireGuard key rotation.
   /// </summary>
-  public sealed partial class RotateNodeKeyResponse : pb::IMessage<RotateNodeKeyResponse>
+  public sealed partial class RotateWgKeyResponse : pb::IMessage<RotateWgKeyResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<RotateNodeKeyResponse> _parser = new pb::MessageParser<RotateNodeKeyResponse>(() => new RotateNodeKeyResponse());
+    private static readonly pb::MessageParser<RotateWgKeyResponse> _parser = new pb::MessageParser<RotateWgKeyResponse>(() => new RotateWgKeyResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<RotateNodeKeyResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<RotateWgKeyResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5468,7 +5307,7 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RotateNodeKeyResponse() {
+    public RotateWgKeyResponse() {
       OnConstruction();
     }
 
@@ -5476,7 +5315,7 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RotateNodeKeyResponse(RotateNodeKeyResponse other) : this() {
+    public RotateWgKeyResponse(RotateWgKeyResponse other) : this() {
       success_ = other.success_;
       newKeyExpiry_ = other.newKeyExpiry_ != null ? other.newKeyExpiry_.Clone() : null;
       error_ = other.error_;
@@ -5485,8 +5324,8 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RotateNodeKeyResponse Clone() {
-      return new RotateNodeKeyResponse(this);
+    public RotateWgKeyResponse Clone() {
+      return new RotateWgKeyResponse(this);
     }
 
     /// <summary>Field number for the "success" field.</summary>
@@ -5508,7 +5347,7 @@ namespace Protos {
     public const int NewKeyExpiryFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.Timestamp newKeyExpiry_;
     /// <summary>
-    /// newKeyExpiry is the new expiry time for the rotated keys
+    /// newKeyExpiry is the new expiry time for the rotated key
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5537,12 +5376,12 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as RotateNodeKeyResponse);
+      return Equals(other as RotateWgKeyResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(RotateNodeKeyResponse other) {
+    public bool Equals(RotateWgKeyResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -5641,7 +5480,7 @@ namespace Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(RotateNodeKeyResponse other) {
+    public void MergeFrom(RotateWgKeyResponse other) {
       if (other == null) {
         return;
       }

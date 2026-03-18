@@ -81,10 +81,10 @@ namespace Protos {
         __Marshaller_google_protobuf_Empty);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Protos.NegotiationMessage, global::Protos.NegotiationMessage> __Method_Negotiate = new grpc::Method<global::Protos.NegotiationMessage, global::Protos.NegotiationMessage>(
+    static readonly grpc::Method<global::Protos.NegotiationMessage, global::Protos.NegotiationMessage> __Method_Connect = new grpc::Method<global::Protos.NegotiationMessage, global::Protos.NegotiationMessage>(
         grpc::MethodType.DuplexStreaming,
         __ServiceName,
-        "Negotiate",
+        "Connect",
         __Marshaller_protos_NegotiationMessage,
         __Marshaller_protos_NegotiationMessage);
 
@@ -125,7 +125,7 @@ namespace Protos {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task Negotiate(grpc::IAsyncStreamReader<global::Protos.NegotiationMessage> requestStream, grpc::IServerStreamWriter<global::Protos.NegotiationMessage> responseStream, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task Connect(grpc::IAsyncStreamReader<global::Protos.NegotiationMessage> requestStream, grpc::IServerStreamWriter<global::Protos.NegotiationMessage> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -226,14 +226,14 @@ namespace Protos {
         return CallInvoker.AsyncUnaryCall(__Method_Candidate, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncDuplexStreamingCall<global::Protos.NegotiationMessage, global::Protos.NegotiationMessage> Negotiate(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncDuplexStreamingCall<global::Protos.NegotiationMessage, global::Protos.NegotiationMessage> Connect(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return Negotiate(new grpc::CallOptions(headers, deadline, cancellationToken));
+        return Connect(new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncDuplexStreamingCall<global::Protos.NegotiationMessage, global::Protos.NegotiationMessage> Negotiate(grpc::CallOptions options)
+      public virtual grpc::AsyncDuplexStreamingCall<global::Protos.NegotiationMessage, global::Protos.NegotiationMessage> Connect(grpc::CallOptions options)
       {
-        return CallInvoker.AsyncDuplexStreamingCall(__Method_Negotiate, null, options);
+        return CallInvoker.AsyncDuplexStreamingCall(__Method_Connect, null, options);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Google.Protobuf.WellKnownTypes.Empty FleaMessage(global::Protos.FleaPacketMessage request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
@@ -272,7 +272,7 @@ namespace Protos {
           .AddMethod(__Method_Offer, serviceImpl.Offer)
           .AddMethod(__Method_Answer, serviceImpl.Answer)
           .AddMethod(__Method_Candidate, serviceImpl.Candidate)
-          .AddMethod(__Method_Negotiate, serviceImpl.Negotiate)
+          .AddMethod(__Method_Connect, serviceImpl.Connect)
           .AddMethod(__Method_FleaMessage, serviceImpl.FleaMessage).Build();
     }
 
@@ -286,7 +286,7 @@ namespace Protos {
       serviceBinder.AddMethod(__Method_Offer, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.HandshakeRequest, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.Offer));
       serviceBinder.AddMethod(__Method_Answer, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.HandshakeRequest, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.Answer));
       serviceBinder.AddMethod(__Method_Candidate, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.CandidateRequest, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.Candidate));
-      serviceBinder.AddMethod(__Method_Negotiate, serviceImpl == null ? null : new grpc::DuplexStreamingServerMethod<global::Protos.NegotiationMessage, global::Protos.NegotiationMessage>(serviceImpl.Negotiate));
+      serviceBinder.AddMethod(__Method_Connect, serviceImpl == null ? null : new grpc::DuplexStreamingServerMethod<global::Protos.NegotiationMessage, global::Protos.NegotiationMessage>(serviceImpl.Connect));
       serviceBinder.AddMethod(__Method_FleaMessage, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.FleaPacketMessage, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.FleaMessage));
     }
 

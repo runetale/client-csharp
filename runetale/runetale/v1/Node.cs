@@ -45,7 +45,7 @@ namespace Protos {
             "ZFJvdXRlcxgDIAEoCRooCglwb3J0UmFuZ2USDQoFZmlyc3QYASABKAQSDAoE",
             "bGFzdBgCIAEoBCJRCgpGaWx0ZXJSdWxlEg4KBnNyY0lwcxgBIAMoCRIiCgRk",
             "c3RzGAIgAygLMhQucHJvdG9zLk5ldFBvcnRSYW5nZRIPCgdpUFByb3RvGAMg",
-            "AygNIo4EChJOZXR3b3JrTWFwUmVzcG9uc2USCwoDc2VxGAEgASgEEhoKBG5v",
+            "AygNIrUEChJOZXR3b3JrTWFwUmVzcG9uc2USCwoDc2VxGAEgASgEEhoKBG5v",
             "ZGUYAiABKAsyDC5wcm90b3MuTm9kZRIbCgVwZWVycxgDIAMoCzIMLnByb3Rv",
             "cy5Ob2RlEiIKDHBlZXJzQ2hhbmdlZBgEIAMoCzIMLnByb3Rvcy5Ob2RlEhQK",
             "DHBlZXJzUmVtb3ZlZBgFIAMoBBIoCgxwYWNrZXRGaWx0ZXIYBiADKAsyEi5w",
@@ -56,61 +56,81 @@ namespace Protos {
             "cm90b3MuQ2VyZk1hcBIbChNkZWZhdWx0Q2VyZlJlZ2lvbklkGBUgASgNEhgK",
             "EHRlbGVtZXRyeV9sb2dfaWQYFiABKAkSHwoXZG9tYWluX3RlbGVtZXRyeV9s",
             "b2dfaWQYFyABKAkSFAoMY2FwYWJpbGl0aWVzGBggAygJEi8KC3NlcnZlcl90",
-            "aW1lGBkgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCIuCgdDZXJm",
-            "TWFwEiMKB3JlZ2lvbnMYASADKAsyEi5wcm90b3MuQ2VyZlJlZ2lvbiJTCgpD",
-            "ZXJmUmVnaW9uEhAKCHJlZ2lvbklkGAEgASgNEhIKCnJlZ2lvbkNvZGUYAiAB",
-            "KAkSHwoFbm9kZXMYAyADKAsyEC5wcm90b3MuQ2VyZk5vZGUipgEKCENlcmZO",
-            "b2RlEgwKBG5hbWUYASABKAkSEAoIaG9zdE5hbWUYAiABKAkSEAoIY2VyZlBv",
-            "cnQYAyABKA0SEAoIc3R1blBvcnQYBCABKA0SFQoNd2Vic29ja2V0T25seRgF",
-            "IAEoCBIRCglmb3JjZUh0dHAYBiABKAgSEAoIc3R1bk9ubHkYByABKAgSDAoE",
-            "aXB2NBgIIAEoCRIMCgRpcHY2GAkgASgJIjoKCUFwcExpbmtlchIMCgRuYW1l",
-            "GAEgASgJEg8KB2RvbWFpbnMYAiADKAkSDgoGcm91dGVzGAMgAygJIhgKCFJl",
-            "c29sdmVyEgwKBGFkZHIYASABKAkiMAoJUmVzb2x2ZXJzEiMKCXJlc29sdmVy",
-            "cxgBIAMoCzIQLnByb3Rvcy5SZXNvbHZlciLrAQoJRE5TQ29uZmlnEiMKCXJl",
-            "c29sdmVycxgBIAMoCzIQLnByb3Rvcy5SZXNvbHZlchItCgZyb3V0ZXMYAiAD",
-            "KAsyHS5wcm90b3MuRE5TQ29uZmlnLlJvdXRlc0VudHJ5EhUKDXNlYXJjaERv",
-            "bWFpbnMYAyADKAkSFwoPZXhpdE5vZGVGaWx0ZXJkGAQgAygJEhgKEGVuYWJs",
-            "ZWRXb25kZXJETlMYBSABKAgaQAoLUm91dGVzRW50cnkSCwoDa2V5GAEgASgJ",
-            "EiAKBXZhbHVlGAIgASgLMhEucHJvdG9zLlJlc29sdmVyczoCOAEioAEKElJv",
-            "dGF0ZVdnS2V5UmVxdWVzdBITCgtvbGRXZ1B1YktleRgDIAEoCRITCgtuZXdX",
-            "Z1B1YktleRgEIAEoCRIYChBub2RlS2V5U2lnbmF0dXJlGAcgASgMSgQIARAC",
-            "SgQIAhADSgQIBRAGSgQIBhAHUgpvbGROb2RlS2V5UgpuZXdOb2RlS2V5Ugpv",
-            "bGRSdW5lS2V5UgpuZXdSdW5lS2V5ImcKE1JvdGF0ZVdnS2V5UmVzcG9uc2US",
-            "DwoHc3VjY2VzcxgBIAEoCBIwCgxuZXdLZXlFeHBpcnkYAiABKAsyGi5nb29n",
-            "bGUucHJvdG9idWYuVGltZXN0YW1wEg0KBWVycm9yGAMgASgJIlkKFk5ldHdv",
-            "cmtMb2NrSW5pdFJlcXVlc3QSJAoEa2V5cxgBIAMoCzIWLnByb3Rvcy5OZXR3",
-            "b3JrTG9ja0tleRIZChFkaXNhYmxlbWVudFNlY3JldBgCIAEoDCI5ChdOZXR3",
-            "b3JrTG9ja0luaXRSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgIEg0KBWVycm9y",
-            "GAIgASgJIkEKFk5ldHdvcmtMb2NrU2lnblJlcXVlc3QSDwoHbm9kZUtleRgB",
-            "IAEoCRIWCg5yb3RhdGlvblB1YmxpYxgCIAEoDCI7ChdOZXR3b3JrTG9ja1Np",
-            "Z25SZXNwb25zZRIRCglzaWduYXR1cmUYASABKAwSDQoFZXJyb3IYAiABKAki",
-            "NgoZTmV0d29ya0xvY2tEaXNhYmxlUmVxdWVzdBIZChFkaXNhYmxlbWVudFNl",
-            "Y3JldBgBIAEoDCI8ChpOZXR3b3JrTG9ja0Rpc2FibGVSZXNwb25zZRIPCgdz",
-            "dWNjZXNzGAEgASgIEg0KBWVycm9yGAIgASgJIs8BChlOZXR3b3JrTG9ja1N0",
-            "YXR1c1Jlc3BvbnNlEg8KB2VuYWJsZWQYASABKAgSDAoEaGVhZBgCIAEoDBIR",
-            "CglwdWJsaWNLZXkYAyABKAwSDwoHbm9kZUtleRgEIAEoCRIVCg1ub2RlS2V5",
-            "U2lnbmVkGAUgASgIEisKC3RydXN0ZWRLZXlzGAYgAygLMhYucHJvdG9zLk5l",
-            "dHdvcmtMb2NrS2V5EisKDWZpbHRlcmVkUGVlcnMYByADKAsyFC5wcm90b3Mu",
-            "RmlsdGVyZWRQZWVyImAKDk5ldHdvcmtMb2NrS2V5Eg0KBWtleUlkGAEgASgM",
-            "EhEKCXB1YmxpY0tleRgCIAEoDBIMCgRraW5kGAMgASgJEg0KBXZvdGVzGAQg",
-            "ASgNEg8KB2NvbW1lbnQYBSABKAkiTQoMRmlsdGVyZWRQZWVyEg4KBm5vZGVJ",
-            "ZBgBIAEoBBIMCgRuYW1lGAIgASgJEg8KB25vZGVLZXkYAyABKAkSDgoGcmVh",
-            "c29uGAQgASgJMpgFCgtOb2RlU2VydmljZRJECgtDb21wb3NlTm9kZRIWLmdv",
-            "b2dsZS5wcm90b2J1Zi5FbXB0eRobLnByb3Rvcy5Db21wb3NlTm9kZVJlc3Bv",
-            "bnNlIgASRQoNR2V0TmV0d29ya01hcBIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0",
-            "eRoaLnByb3Rvcy5OZXR3b3JrTWFwUmVzcG9uc2UiABJVChZDb25uZWN0TmV0",
-            "d29ya01hcFRhYmxlEhkucHJvdG9zLk5ldHdvcmtNYXBSZXF1ZXN0GhoucHJv",
-            "dG9zLk5ldHdvcmtNYXBSZXNwb25zZSIAKAEwARJICgtSb3RhdGVXZ0tleRIa",
-            "LnByb3Rvcy5Sb3RhdGVXZ0tleVJlcXVlc3QaGy5wcm90b3MuUm90YXRlV2dL",
-            "ZXlSZXNwb25zZSIAElQKD05ldHdvcmtMb2NrSW5pdBIeLnByb3Rvcy5OZXR3",
-            "b3JrTG9ja0luaXRSZXF1ZXN0Gh8ucHJvdG9zLk5ldHdvcmtMb2NrSW5pdFJl",
-            "c3BvbnNlIgASVAoPTmV0d29ya0xvY2tTaWduEh4ucHJvdG9zLk5ldHdvcmtM",
-            "b2NrU2lnblJlcXVlc3QaHy5wcm90b3MuTmV0d29ya0xvY2tTaWduUmVzcG9u",
-            "c2UiABJdChJOZXR3b3JrTG9ja0Rpc2FibGUSIS5wcm90b3MuTmV0d29ya0xv",
-            "Y2tEaXNhYmxlUmVxdWVzdBoiLnByb3Rvcy5OZXR3b3JrTG9ja0Rpc2FibGVS",
-            "ZXNwb25zZSIAElAKEU5ldHdvcmtMb2NrU3RhdHVzEhYuZ29vZ2xlLnByb3Rv",
-            "YnVmLkVtcHR5GiEucHJvdG9zLk5ldHdvcmtMb2NrU3RhdHVzUmVzcG9uc2Ui",
-            "AEIIWgYuL25vZGViBnByb3RvMw=="));
+            "aW1lGBkgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIlCgpzc2hf",
+            "cG9saWN5GBogASgLMhEucHJvdG9zLlNTSFBvbGljeSIuCgdDZXJmTWFwEiMK",
+            "B3JlZ2lvbnMYASADKAsyEi5wcm90b3MuQ2VyZlJlZ2lvbiJTCgpDZXJmUmVn",
+            "aW9uEhAKCHJlZ2lvbklkGAEgASgNEhIKCnJlZ2lvbkNvZGUYAiABKAkSHwoF",
+            "bm9kZXMYAyADKAsyEC5wcm90b3MuQ2VyZk5vZGUipgEKCENlcmZOb2RlEgwK",
+            "BG5hbWUYASABKAkSEAoIaG9zdE5hbWUYAiABKAkSEAoIY2VyZlBvcnQYAyAB",
+            "KA0SEAoIc3R1blBvcnQYBCABKA0SFQoNd2Vic29ja2V0T25seRgFIAEoCBIR",
+            "Cglmb3JjZUh0dHAYBiABKAgSEAoIc3R1bk9ubHkYByABKAgSDAoEaXB2NBgI",
+            "IAEoCRIMCgRpcHY2GAkgASgJIjoKCUFwcExpbmtlchIMCgRuYW1lGAEgASgJ",
+            "Eg8KB2RvbWFpbnMYAiADKAkSDgoGcm91dGVzGAMgAygJIhgKCFJlc29sdmVy",
+            "EgwKBGFkZHIYASABKAkiMAoJUmVzb2x2ZXJzEiMKCXJlc29sdmVycxgBIAMo",
+            "CzIQLnByb3Rvcy5SZXNvbHZlciLrAQoJRE5TQ29uZmlnEiMKCXJlc29sdmVy",
+            "cxgBIAMoCzIQLnByb3Rvcy5SZXNvbHZlchItCgZyb3V0ZXMYAiADKAsyHS5w",
+            "cm90b3MuRE5TQ29uZmlnLlJvdXRlc0VudHJ5EhUKDXNlYXJjaERvbWFpbnMY",
+            "AyADKAkSFwoPZXhpdE5vZGVGaWx0ZXJkGAQgAygJEhgKEGVuYWJsZWRXb25k",
+            "ZXJETlMYBSABKAgaQAoLUm91dGVzRW50cnkSCwoDa2V5GAEgASgJEiAKBXZh",
+            "bHVlGAIgASgLMhEucHJvdG9zLlJlc29sdmVyczoCOAEioAEKElJvdGF0ZVdn",
+            "S2V5UmVxdWVzdBITCgtvbGRXZ1B1YktleRgDIAEoCRITCgtuZXdXZ1B1Yktl",
+            "eRgEIAEoCRIYChBub2RlS2V5U2lnbmF0dXJlGAcgASgMSgQIARACSgQIAhAD",
+            "SgQIBRAGSgQIBhAHUgpvbGROb2RlS2V5UgpuZXdOb2RlS2V5UgpvbGRSdW5l",
+            "S2V5UgpuZXdSdW5lS2V5ImcKE1JvdGF0ZVdnS2V5UmVzcG9uc2USDwoHc3Vj",
+            "Y2VzcxgBIAEoCBIwCgxuZXdLZXlFeHBpcnkYAiABKAsyGi5nb29nbGUucHJv",
+            "dG9idWYuVGltZXN0YW1wEg0KBWVycm9yGAMgASgJIlkKFk5ldHdvcmtMb2Nr",
+            "SW5pdFJlcXVlc3QSJAoEa2V5cxgBIAMoCzIWLnByb3Rvcy5OZXR3b3JrTG9j",
+            "a0tleRIZChFkaXNhYmxlbWVudFNlY3JldBgCIAEoDCI5ChdOZXR3b3JrTG9j",
+            "a0luaXRSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgIEg0KBWVycm9yGAIgASgJ",
+            "IkEKFk5ldHdvcmtMb2NrU2lnblJlcXVlc3QSDwoHbm9kZUtleRgBIAEoCRIW",
+            "Cg5yb3RhdGlvblB1YmxpYxgCIAEoDCI7ChdOZXR3b3JrTG9ja1NpZ25SZXNw",
+            "b25zZRIRCglzaWduYXR1cmUYASABKAwSDQoFZXJyb3IYAiABKAkiNgoZTmV0",
+            "d29ya0xvY2tEaXNhYmxlUmVxdWVzdBIZChFkaXNhYmxlbWVudFNlY3JldBgB",
+            "IAEoDCI8ChpOZXR3b3JrTG9ja0Rpc2FibGVSZXNwb25zZRIPCgdzdWNjZXNz",
+            "GAEgASgIEg0KBWVycm9yGAIgASgJIs8BChlOZXR3b3JrTG9ja1N0YXR1c1Jl",
+            "c3BvbnNlEg8KB2VuYWJsZWQYASABKAgSDAoEaGVhZBgCIAEoDBIRCglwdWJs",
+            "aWNLZXkYAyABKAwSDwoHbm9kZUtleRgEIAEoCRIVCg1ub2RlS2V5U2lnbmVk",
+            "GAUgASgIEisKC3RydXN0ZWRLZXlzGAYgAygLMhYucHJvdG9zLk5ldHdvcmtM",
+            "b2NrS2V5EisKDWZpbHRlcmVkUGVlcnMYByADKAsyFC5wcm90b3MuRmlsdGVy",
+            "ZWRQZWVyImAKDk5ldHdvcmtMb2NrS2V5Eg0KBWtleUlkGAEgASgMEhEKCXB1",
+            "YmxpY0tleRgCIAEoDBIMCgRraW5kGAMgASgJEg0KBXZvdGVzGAQgASgNEg8K",
+            "B2NvbW1lbnQYBSABKAkiTQoMRmlsdGVyZWRQZWVyEg4KBm5vZGVJZBgBIAEo",
+            "BBIMCgRuYW1lGAIgASgJEg8KB25vZGVLZXkYAyABKAkSDgoGcmVhc29uGAQg",
+            "ASgJIisKCVNTSFBvbGljeRIeCgVydWxlcxgBIAMoCzIPLnByb3Rvcy5TU0hS",
+            "dWxlIpwCCgdTU0hSdWxlEg8KB3J1bGVfaWQYASABKAkSFAoMcnVsZV9leHBp",
+            "cmVzGAIgASgDEigKCnByaW5jaXBhbHMYAyADKAsyFC5wcm90b3MuU1NIUHJp",
+            "bmNpcGFsEjAKCXNzaF91c2VycxgEIAMoCzIdLnByb3Rvcy5TU0hSdWxlLlNz",
+            "aFVzZXJzRW50cnkSIQoGYWN0aW9uGAUgASgLMhEucHJvdG9zLlNTSEFjdGlv",
+            "bhISCgphY2NlcHRfZW52GAYgAygJEhIKCmNyZWF0ZWRfYnkYByABKAkSEgoK",
+            "Y3JlYXRlZF9hdBgIIAEoAxovCg1Tc2hVc2Vyc0VudHJ5EgsKA2tleRgBIAEo",
+            "CRINCgV2YWx1ZRgCIAEoCToCOAEimgEKDFNTSFByaW5jaXBhbBIPCgdub2Rl",
+            "X2lkGAEgASgEEg8KB25vZGVfaXAYAiABKAkSDwoHdXNlcl9pZBgDIAEoBBIS",
+            "Cgp1c2VyX2xvZ2luGAQgASgJEgsKA2FueRgFIAEoCBIRCglmbGVldF9pZHMY",
+            "BiADKAkSEQoJZ3JvdXBfaWRzGAcgAygJEhAKCHB1Yl9rZXlzGAggAygJIpQC",
+            "CglTU0hBY3Rpb24SDwoHbWVzc2FnZRgBIAEoCRIOCgZyZWplY3QYAiABKAgS",
+            "DgoGYWNjZXB0GAMgASgIEhgKEHNlc3Npb25fZHVyYXRpb24YBCABKA0SHgoW",
+            "YWxsb3dfYWdlbnRfZm9yd2FyZGluZxgFIAEoCBIjChthbGxvd19sb2NhbF9w",
+            "b3J0X2ZvcndhcmRpbmcYBiABKAgSJAocYWxsb3dfcmVtb3RlX3BvcnRfZm9y",
+            "d2FyZGluZxgHIAEoCBIRCglyZWNvcmRlcnMYCCADKAkSPgoUb25fcmVjb3Jk",
+            "aW5nX2ZhaWx1cmUYCSABKAsyIC5wcm90b3MuU1NIUmVjb3JkZXJGYWlsdXJl",
+            "QWN0aW9uImcKGFNTSFJlY29yZGVyRmFpbHVyZUFjdGlvbhIjChtyZWplY3Rf",
+            "c2Vzc2lvbl93aXRoX21lc3NhZ2UYASABKAkSJgoedGVybWluYXRlX3Nlc3Np",
+            "b25fd2l0aF9tZXNzYWdlGAIgASgJMpgFCgtOb2RlU2VydmljZRJECgtDb21w",
+            "b3NlTm9kZRIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRobLnByb3Rvcy5Db21w",
+            "b3NlTm9kZVJlc3BvbnNlIgASRQoNR2V0TmV0d29ya01hcBIWLmdvb2dsZS5w",
+            "cm90b2J1Zi5FbXB0eRoaLnByb3Rvcy5OZXR3b3JrTWFwUmVzcG9uc2UiABJV",
+            "ChZDb25uZWN0TmV0d29ya01hcFRhYmxlEhkucHJvdG9zLk5ldHdvcmtNYXBS",
+            "ZXF1ZXN0GhoucHJvdG9zLk5ldHdvcmtNYXBSZXNwb25zZSIAKAEwARJICgtS",
+            "b3RhdGVXZ0tleRIaLnByb3Rvcy5Sb3RhdGVXZ0tleVJlcXVlc3QaGy5wcm90",
+            "b3MuUm90YXRlV2dLZXlSZXNwb25zZSIAElQKD05ldHdvcmtMb2NrSW5pdBIe",
+            "LnByb3Rvcy5OZXR3b3JrTG9ja0luaXRSZXF1ZXN0Gh8ucHJvdG9zLk5ldHdv",
+            "cmtMb2NrSW5pdFJlc3BvbnNlIgASVAoPTmV0d29ya0xvY2tTaWduEh4ucHJv",
+            "dG9zLk5ldHdvcmtMb2NrU2lnblJlcXVlc3QaHy5wcm90b3MuTmV0d29ya0xv",
+            "Y2tTaWduUmVzcG9uc2UiABJdChJOZXR3b3JrTG9ja0Rpc2FibGUSIS5wcm90",
+            "b3MuTmV0d29ya0xvY2tEaXNhYmxlUmVxdWVzdBoiLnByb3Rvcy5OZXR3b3Jr",
+            "TG9ja0Rpc2FibGVSZXNwb25zZSIAElAKEU5ldHdvcmtMb2NrU3RhdHVzEhYu",
+            "Z29vZ2xlLnByb3RvYnVmLkVtcHR5GiEucHJvdG9zLk5ldHdvcmtMb2NrU3Rh",
+            "dHVzUmVzcG9uc2UiAEIIWgYuL25vZGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -119,7 +139,7 @@ namespace Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapRequest), global::Protos.NetworkMapRequest.Parser, new[]{ "VpnRunning", "IsKeepalive" }, new[]{ "VpnRunning", "IsKeepalive" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange), global::Protos.NetPortRange.Parser, new[]{ "Ip", "Ports", "AdvertisedRoutes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetPortRange.Types.portRange), global::Protos.NetPortRange.Types.portRange.Parser, new[]{ "First", "Last" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilterRule), global::Protos.FilterRule.Parser, new[]{ "SrcIps", "Dsts", "IPProto" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapResponse), global::Protos.NetworkMapResponse.Parser, new[]{ "Seq", "Node", "Peers", "PeersChanged", "PeersRemoved", "PacketFilter", "AdvertisedRoute", "Jailed", "IceTable", "Dns", "AppLinker", "CerfMap", "DefaultCerfRegionId", "TelemetryLogId", "DomainTelemetryLogId", "Capabilities", "ServerTime" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkMapResponse), global::Protos.NetworkMapResponse.Parser, new[]{ "Seq", "Node", "Peers", "PeersChanged", "PeersRemoved", "PacketFilter", "AdvertisedRoute", "Jailed", "IceTable", "Dns", "AppLinker", "CerfMap", "DefaultCerfRegionId", "TelemetryLogId", "DomainTelemetryLogId", "Capabilities", "ServerTime", "SshPolicy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfMap), global::Protos.CerfMap.Parser, new[]{ "Regions" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfRegion), global::Protos.CerfRegion.Parser, new[]{ "RegionId", "RegionCode", "Nodes" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.CerfNode), global::Protos.CerfNode.Parser, new[]{ "Name", "HostName", "CerfPort", "StunPort", "WebsocketOnly", "ForceHttp", "StunOnly", "Ipv4", "Ipv6" }, null, null, null, null),
@@ -137,7 +157,12 @@ namespace Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockDisableResponse), global::Protos.NetworkLockDisableResponse.Parser, new[]{ "Success", "Error" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockStatusResponse), global::Protos.NetworkLockStatusResponse.Parser, new[]{ "Enabled", "Head", "PublicKey", "NodeKey", "NodeKeySigned", "TrustedKeys", "FilteredPeers" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.NetworkLockKey), global::Protos.NetworkLockKey.Parser, new[]{ "KeyId", "PublicKey", "Kind", "Votes", "Comment" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilteredPeer), global::Protos.FilteredPeer.Parser, new[]{ "NodeId", "Name", "NodeKey", "Reason" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FilteredPeer), global::Protos.FilteredPeer.Parser, new[]{ "NodeId", "Name", "NodeKey", "Reason" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.SSHPolicy), global::Protos.SSHPolicy.Parser, new[]{ "Rules" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.SSHRule), global::Protos.SSHRule.Parser, new[]{ "RuleId", "RuleExpires", "Principals", "SshUsers", "Action", "AcceptEnv", "CreatedBy", "CreatedAt" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.SSHPrincipal), global::Protos.SSHPrincipal.Parser, new[]{ "NodeId", "NodeIp", "UserId", "UserLogin", "Any", "FleetIds", "GroupIds", "PubKeys" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.SSHAction), global::Protos.SSHAction.Parser, new[]{ "Message", "Reject", "Accept", "SessionDuration", "AllowAgentForwarding", "AllowLocalPortForwarding", "AllowRemotePortForwarding", "Recorders", "OnRecordingFailure" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.SSHRecorderFailureAction), global::Protos.SSHRecorderFailureAction.Parser, new[]{ "RejectSessionWithMessage", "TerminateSessionWithMessage" }, null, null, null, null)
           }));
     }
     #endregion
@@ -2448,6 +2473,7 @@ namespace Protos {
       domainTelemetryLogId_ = other.domainTelemetryLogId_;
       capabilities_ = other.capabilities_.Clone();
       serverTime_ = other.serverTime_ != null ? other.serverTime_.Clone() : null;
+      sshPolicy_ = other.sshPolicy_ != null ? other.sshPolicy_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2707,6 +2733,22 @@ namespace Protos {
       }
     }
 
+    /// <summary>Field number for the "ssh_policy" field.</summary>
+    public const int SshPolicyFieldNumber = 26;
+    private global::Protos.SSHPolicy sshPolicy_;
+    /// <summary>
+    /// ssh_policy defines SSH access control rules for this node.
+    /// If set, the node should run an SSH server with these rules.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Protos.SSHPolicy SshPolicy {
+      get { return sshPolicy_; }
+      set {
+        sshPolicy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2739,6 +2781,7 @@ namespace Protos {
       if (DomainTelemetryLogId != other.DomainTelemetryLogId) return false;
       if(!capabilities_.Equals(other.capabilities_)) return false;
       if (!object.Equals(ServerTime, other.ServerTime)) return false;
+      if (!object.Equals(SshPolicy, other.SshPolicy)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2763,6 +2806,7 @@ namespace Protos {
       if (DomainTelemetryLogId.Length != 0) hash ^= DomainTelemetryLogId.GetHashCode();
       hash ^= capabilities_.GetHashCode();
       if (serverTime_ != null) hash ^= ServerTime.GetHashCode();
+      if (sshPolicy_ != null) hash ^= SshPolicy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2828,6 +2872,10 @@ namespace Protos {
         output.WriteRawTag(202, 1);
         output.WriteMessage(ServerTime);
       }
+      if (sshPolicy_ != null) {
+        output.WriteRawTag(210, 1);
+        output.WriteMessage(SshPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2885,6 +2933,10 @@ namespace Protos {
         output.WriteRawTag(202, 1);
         output.WriteMessage(ServerTime);
       }
+      if (sshPolicy_ != null) {
+        output.WriteRawTag(210, 1);
+        output.WriteMessage(SshPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2931,6 +2983,9 @@ namespace Protos {
       size += capabilities_.CalculateSize(_repeated_capabilities_codec);
       if (serverTime_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(ServerTime);
+      }
+      if (sshPolicy_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(SshPolicy);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2992,6 +3047,12 @@ namespace Protos {
           ServerTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         ServerTime.MergeFrom(other.ServerTime);
+      }
+      if (other.sshPolicy_ != null) {
+        if (sshPolicy_ == null) {
+          SshPolicy = new global::Protos.SSHPolicy();
+        }
+        SshPolicy.MergeFrom(other.SshPolicy);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3089,6 +3150,13 @@ namespace Protos {
             input.ReadMessage(ServerTime);
             break;
           }
+          case 210: {
+            if (sshPolicy_ == null) {
+              SshPolicy = new global::Protos.SSHPolicy();
+            }
+            input.ReadMessage(SshPolicy);
+            break;
+          }
         }
       }
     #endif
@@ -3183,6 +3251,13 @@ namespace Protos {
               ServerTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(ServerTime);
+            break;
+          }
+          case 210: {
+            if (sshPolicy_ == null) {
+              SshPolicy = new global::Protos.SSHPolicy();
+            }
+            input.ReadMessage(SshPolicy);
             break;
           }
         }
@@ -8078,6 +8153,1830 @@ namespace Protos {
           }
           case 34: {
             Reason = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// SSHPolicy defines SSH access control rules for a node.
+  /// Rules are evaluated in order; the first matching rule determines the action.
+  /// </summary>
+  public sealed partial class SSHPolicy : pb::IMessage<SSHPolicy>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SSHPolicy> _parser = new pb::MessageParser<SSHPolicy>(() => new SSHPolicy());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SSHPolicy> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[24]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHPolicy() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHPolicy(SSHPolicy other) : this() {
+      rules_ = other.rules_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHPolicy Clone() {
+      return new SSHPolicy(this);
+    }
+
+    /// <summary>Field number for the "rules" field.</summary>
+    public const int RulesFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Protos.SSHRule> _repeated_rules_codec
+        = pb::FieldCodec.ForMessage(10, global::Protos.SSHRule.Parser);
+    private readonly pbc::RepeatedField<global::Protos.SSHRule> rules_ = new pbc::RepeatedField<global::Protos.SSHRule>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Protos.SSHRule> Rules {
+      get { return rules_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SSHPolicy);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SSHPolicy other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!rules_.Equals(other.rules_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= rules_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      rules_.WriteTo(output, _repeated_rules_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      rules_.WriteTo(ref output, _repeated_rules_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += rules_.CalculateSize(_repeated_rules_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SSHPolicy other) {
+      if (other == null) {
+        return;
+      }
+      rules_.Add(other.rules_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            rules_.AddEntriesFrom(input, _repeated_rules_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            rules_.AddEntriesFrom(ref input, _repeated_rules_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// SSHRule defines a single SSH access control rule.
+  /// </summary>
+  public sealed partial class SSHRule : pb::IMessage<SSHRule>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SSHRule> _parser = new pb::MessageParser<SSHRule>(() => new SSHRule());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SSHRule> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[25]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHRule() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHRule(SSHRule other) : this() {
+      ruleId_ = other.ruleId_;
+      ruleExpires_ = other.ruleExpires_;
+      principals_ = other.principals_.Clone();
+      sshUsers_ = other.sshUsers_.Clone();
+      action_ = other.action_ != null ? other.action_.Clone() : null;
+      acceptEnv_ = other.acceptEnv_.Clone();
+      createdBy_ = other.createdBy_;
+      createdAt_ = other.createdAt_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHRule Clone() {
+      return new SSHRule(this);
+    }
+
+    /// <summary>Field number for the "rule_id" field.</summary>
+    public const int RuleIdFieldNumber = 1;
+    private string ruleId_ = "";
+    /// <summary>
+    /// rule_id is a unique identifier for this rule (for auditing)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string RuleId {
+      get { return ruleId_; }
+      set {
+        ruleId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "rule_expires" field.</summary>
+    public const int RuleExpiresFieldNumber = 2;
+    private long ruleExpires_;
+    /// <summary>
+    /// rule_expires is when this rule expires (Unix timestamp, 0 = no expiry)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long RuleExpires {
+      get { return ruleExpires_; }
+      set {
+        ruleExpires_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "principals" field.</summary>
+    public const int PrincipalsFieldNumber = 3;
+    private static readonly pb::FieldCodec<global::Protos.SSHPrincipal> _repeated_principals_codec
+        = pb::FieldCodec.ForMessage(26, global::Protos.SSHPrincipal.Parser);
+    private readonly pbc::RepeatedField<global::Protos.SSHPrincipal> principals_ = new pbc::RepeatedField<global::Protos.SSHPrincipal>();
+    /// <summary>
+    /// principals defines who can connect (evaluated with OR logic)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Protos.SSHPrincipal> Principals {
+      get { return principals_; }
+    }
+
+    /// <summary>Field number for the "ssh_users" field.</summary>
+    public const int SshUsersFieldNumber = 4;
+    private static readonly pbc::MapField<string, string>.Codec _map_sshUsers_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
+    private readonly pbc::MapField<string, string> sshUsers_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// ssh_users maps SSH usernames to local usernames
+    /// Key: SSH username or "*" (wildcard)
+    /// Value: local username, "=" (same as SSH user), or "" (deny)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::MapField<string, string> SshUsers {
+      get { return sshUsers_; }
+    }
+
+    /// <summary>Field number for the "action" field.</summary>
+    public const int ActionFieldNumber = 5;
+    private global::Protos.SSHAction action_;
+    /// <summary>
+    /// action defines what happens when this rule matches
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Protos.SSHAction Action {
+      get { return action_; }
+      set {
+        action_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "accept_env" field.</summary>
+    public const int AcceptEnvFieldNumber = 6;
+    private static readonly pb::FieldCodec<string> _repeated_acceptEnv_codec
+        = pb::FieldCodec.ForString(50);
+    private readonly pbc::RepeatedField<string> acceptEnv_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// accept_env is a list of environment variable patterns to allow
+    /// Supports wildcards: * (any chars) and ? (single char)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> AcceptEnv {
+      get { return acceptEnv_; }
+    }
+
+    /// <summary>Field number for the "created_by" field.</summary>
+    public const int CreatedByFieldNumber = 7;
+    private string createdBy_ = "";
+    /// <summary>
+    /// Audit fields
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string CreatedBy {
+      get { return createdBy_; }
+      set {
+        createdBy_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "created_at" field.</summary>
+    public const int CreatedAtFieldNumber = 8;
+    private long createdAt_;
+    /// <summary>
+    /// Unix timestamp
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long CreatedAt {
+      get { return createdAt_; }
+      set {
+        createdAt_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SSHRule);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SSHRule other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (RuleId != other.RuleId) return false;
+      if (RuleExpires != other.RuleExpires) return false;
+      if(!principals_.Equals(other.principals_)) return false;
+      if (!SshUsers.Equals(other.SshUsers)) return false;
+      if (!object.Equals(Action, other.Action)) return false;
+      if(!acceptEnv_.Equals(other.acceptEnv_)) return false;
+      if (CreatedBy != other.CreatedBy) return false;
+      if (CreatedAt != other.CreatedAt) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (RuleId.Length != 0) hash ^= RuleId.GetHashCode();
+      if (RuleExpires != 0L) hash ^= RuleExpires.GetHashCode();
+      hash ^= principals_.GetHashCode();
+      hash ^= SshUsers.GetHashCode();
+      if (action_ != null) hash ^= Action.GetHashCode();
+      hash ^= acceptEnv_.GetHashCode();
+      if (CreatedBy.Length != 0) hash ^= CreatedBy.GetHashCode();
+      if (CreatedAt != 0L) hash ^= CreatedAt.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (RuleId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(RuleId);
+      }
+      if (RuleExpires != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(RuleExpires);
+      }
+      principals_.WriteTo(output, _repeated_principals_codec);
+      sshUsers_.WriteTo(output, _map_sshUsers_codec);
+      if (action_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Action);
+      }
+      acceptEnv_.WriteTo(output, _repeated_acceptEnv_codec);
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(CreatedBy);
+      }
+      if (CreatedAt != 0L) {
+        output.WriteRawTag(64);
+        output.WriteInt64(CreatedAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (RuleId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(RuleId);
+      }
+      if (RuleExpires != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(RuleExpires);
+      }
+      principals_.WriteTo(ref output, _repeated_principals_codec);
+      sshUsers_.WriteTo(ref output, _map_sshUsers_codec);
+      if (action_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Action);
+      }
+      acceptEnv_.WriteTo(ref output, _repeated_acceptEnv_codec);
+      if (CreatedBy.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(CreatedBy);
+      }
+      if (CreatedAt != 0L) {
+        output.WriteRawTag(64);
+        output.WriteInt64(CreatedAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (RuleId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RuleId);
+      }
+      if (RuleExpires != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(RuleExpires);
+      }
+      size += principals_.CalculateSize(_repeated_principals_codec);
+      size += sshUsers_.CalculateSize(_map_sshUsers_codec);
+      if (action_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Action);
+      }
+      size += acceptEnv_.CalculateSize(_repeated_acceptEnv_codec);
+      if (CreatedBy.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedBy);
+      }
+      if (CreatedAt != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CreatedAt);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SSHRule other) {
+      if (other == null) {
+        return;
+      }
+      if (other.RuleId.Length != 0) {
+        RuleId = other.RuleId;
+      }
+      if (other.RuleExpires != 0L) {
+        RuleExpires = other.RuleExpires;
+      }
+      principals_.Add(other.principals_);
+      sshUsers_.Add(other.sshUsers_);
+      if (other.action_ != null) {
+        if (action_ == null) {
+          Action = new global::Protos.SSHAction();
+        }
+        Action.MergeFrom(other.Action);
+      }
+      acceptEnv_.Add(other.acceptEnv_);
+      if (other.CreatedBy.Length != 0) {
+        CreatedBy = other.CreatedBy;
+      }
+      if (other.CreatedAt != 0L) {
+        CreatedAt = other.CreatedAt;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            RuleId = input.ReadString();
+            break;
+          }
+          case 16: {
+            RuleExpires = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            principals_.AddEntriesFrom(input, _repeated_principals_codec);
+            break;
+          }
+          case 34: {
+            sshUsers_.AddEntriesFrom(input, _map_sshUsers_codec);
+            break;
+          }
+          case 42: {
+            if (action_ == null) {
+              Action = new global::Protos.SSHAction();
+            }
+            input.ReadMessage(Action);
+            break;
+          }
+          case 50: {
+            acceptEnv_.AddEntriesFrom(input, _repeated_acceptEnv_codec);
+            break;
+          }
+          case 58: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 64: {
+            CreatedAt = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            RuleId = input.ReadString();
+            break;
+          }
+          case 16: {
+            RuleExpires = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            principals_.AddEntriesFrom(ref input, _repeated_principals_codec);
+            break;
+          }
+          case 34: {
+            sshUsers_.AddEntriesFrom(ref input, _map_sshUsers_codec);
+            break;
+          }
+          case 42: {
+            if (action_ == null) {
+              Action = new global::Protos.SSHAction();
+            }
+            input.ReadMessage(Action);
+            break;
+          }
+          case 50: {
+            acceptEnv_.AddEntriesFrom(ref input, _repeated_acceptEnv_codec);
+            break;
+          }
+          case 58: {
+            CreatedBy = input.ReadString();
+            break;
+          }
+          case 64: {
+            CreatedAt = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// SSHPrincipal defines conditions for matching SSH connection sources.
+  /// Multiple fields are evaluated with OR logic within a principal,
+  /// but all non-empty fields must match.
+  /// </summary>
+  public sealed partial class SSHPrincipal : pb::IMessage<SSHPrincipal>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SSHPrincipal> _parser = new pb::MessageParser<SSHPrincipal>(() => new SSHPrincipal());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SSHPrincipal> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[26]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHPrincipal() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHPrincipal(SSHPrincipal other) : this() {
+      nodeId_ = other.nodeId_;
+      nodeIp_ = other.nodeIp_;
+      userId_ = other.userId_;
+      userLogin_ = other.userLogin_;
+      any_ = other.any_;
+      fleetIds_ = other.fleetIds_.Clone();
+      groupIds_ = other.groupIds_.Clone();
+      pubKeys_ = other.pubKeys_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHPrincipal Clone() {
+      return new SSHPrincipal(this);
+    }
+
+    /// <summary>Field number for the "node_id" field.</summary>
+    public const int NodeIdFieldNumber = 1;
+    private ulong nodeId_;
+    /// <summary>
+    /// Basic match conditions (OR logic)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong NodeId {
+      get { return nodeId_; }
+      set {
+        nodeId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "node_ip" field.</summary>
+    public const int NodeIpFieldNumber = 2;
+    private string nodeIp_ = "";
+    /// <summary>
+    /// Match by node IP (CIDR supported)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NodeIp {
+      get { return nodeIp_; }
+      set {
+        nodeIp_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "user_id" field.</summary>
+    public const int UserIdFieldNumber = 3;
+    private ulong userId_;
+    /// <summary>
+    /// Match by user ID
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong UserId {
+      get { return userId_; }
+      set {
+        userId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "user_login" field.</summary>
+    public const int UserLoginFieldNumber = 4;
+    private string userLogin_ = "";
+    /// <summary>
+    /// Match by user login (email format)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string UserLogin {
+      get { return userLogin_; }
+      set {
+        userLogin_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "any" field.</summary>
+    public const int AnyFieldNumber = 5;
+    private bool any_;
+    /// <summary>
+    /// Match any connection
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Any {
+      get { return any_; }
+      set {
+        any_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "fleet_ids" field.</summary>
+    public const int FleetIdsFieldNumber = 6;
+    private static readonly pb::FieldCodec<string> _repeated_fleetIds_codec
+        = pb::FieldCodec.ForString(50);
+    private readonly pbc::RepeatedField<string> fleetIds_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// runetale-specific: Match by group/fleet membership
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> FleetIds {
+      get { return fleetIds_; }
+    }
+
+    /// <summary>Field number for the "group_ids" field.</summary>
+    public const int GroupIdsFieldNumber = 7;
+    private static readonly pb::FieldCodec<string> _repeated_groupIds_codec
+        = pb::FieldCodec.ForString(58);
+    private readonly pbc::RepeatedField<string> groupIds_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Match users in these groups
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> GroupIds {
+      get { return groupIds_; }
+    }
+
+    /// <summary>Field number for the "pub_keys" field.</summary>
+    public const int PubKeysFieldNumber = 8;
+    private static readonly pb::FieldCodec<string> _repeated_pubKeys_codec
+        = pb::FieldCodec.ForString(66);
+    private readonly pbc::RepeatedField<string> pubKeys_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Additional authentication requirements
+    /// If set, one of these public keys must be presented
+    /// Supports URL format (e.g., https://github.com/username.keys)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> PubKeys {
+      get { return pubKeys_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SSHPrincipal);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SSHPrincipal other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (NodeId != other.NodeId) return false;
+      if (NodeIp != other.NodeIp) return false;
+      if (UserId != other.UserId) return false;
+      if (UserLogin != other.UserLogin) return false;
+      if (Any != other.Any) return false;
+      if(!fleetIds_.Equals(other.fleetIds_)) return false;
+      if(!groupIds_.Equals(other.groupIds_)) return false;
+      if(!pubKeys_.Equals(other.pubKeys_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (NodeId != 0UL) hash ^= NodeId.GetHashCode();
+      if (NodeIp.Length != 0) hash ^= NodeIp.GetHashCode();
+      if (UserId != 0UL) hash ^= UserId.GetHashCode();
+      if (UserLogin.Length != 0) hash ^= UserLogin.GetHashCode();
+      if (Any != false) hash ^= Any.GetHashCode();
+      hash ^= fleetIds_.GetHashCode();
+      hash ^= groupIds_.GetHashCode();
+      hash ^= pubKeys_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (NodeId != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(NodeId);
+      }
+      if (NodeIp.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NodeIp);
+      }
+      if (UserId != 0UL) {
+        output.WriteRawTag(24);
+        output.WriteUInt64(UserId);
+      }
+      if (UserLogin.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(UserLogin);
+      }
+      if (Any != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(Any);
+      }
+      fleetIds_.WriteTo(output, _repeated_fleetIds_codec);
+      groupIds_.WriteTo(output, _repeated_groupIds_codec);
+      pubKeys_.WriteTo(output, _repeated_pubKeys_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (NodeId != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(NodeId);
+      }
+      if (NodeIp.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(NodeIp);
+      }
+      if (UserId != 0UL) {
+        output.WriteRawTag(24);
+        output.WriteUInt64(UserId);
+      }
+      if (UserLogin.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(UserLogin);
+      }
+      if (Any != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(Any);
+      }
+      fleetIds_.WriteTo(ref output, _repeated_fleetIds_codec);
+      groupIds_.WriteTo(ref output, _repeated_groupIds_codec);
+      pubKeys_.WriteTo(ref output, _repeated_pubKeys_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (NodeId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(NodeId);
+      }
+      if (NodeIp.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NodeIp);
+      }
+      if (UserId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(UserId);
+      }
+      if (UserLogin.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UserLogin);
+      }
+      if (Any != false) {
+        size += 1 + 1;
+      }
+      size += fleetIds_.CalculateSize(_repeated_fleetIds_codec);
+      size += groupIds_.CalculateSize(_repeated_groupIds_codec);
+      size += pubKeys_.CalculateSize(_repeated_pubKeys_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SSHPrincipal other) {
+      if (other == null) {
+        return;
+      }
+      if (other.NodeId != 0UL) {
+        NodeId = other.NodeId;
+      }
+      if (other.NodeIp.Length != 0) {
+        NodeIp = other.NodeIp;
+      }
+      if (other.UserId != 0UL) {
+        UserId = other.UserId;
+      }
+      if (other.UserLogin.Length != 0) {
+        UserLogin = other.UserLogin;
+      }
+      if (other.Any != false) {
+        Any = other.Any;
+      }
+      fleetIds_.Add(other.fleetIds_);
+      groupIds_.Add(other.groupIds_);
+      pubKeys_.Add(other.pubKeys_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            NodeIp = input.ReadString();
+            break;
+          }
+          case 24: {
+            UserId = input.ReadUInt64();
+            break;
+          }
+          case 34: {
+            UserLogin = input.ReadString();
+            break;
+          }
+          case 40: {
+            Any = input.ReadBool();
+            break;
+          }
+          case 50: {
+            fleetIds_.AddEntriesFrom(input, _repeated_fleetIds_codec);
+            break;
+          }
+          case 58: {
+            groupIds_.AddEntriesFrom(input, _repeated_groupIds_codec);
+            break;
+          }
+          case 66: {
+            pubKeys_.AddEntriesFrom(input, _repeated_pubKeys_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            NodeId = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            NodeIp = input.ReadString();
+            break;
+          }
+          case 24: {
+            UserId = input.ReadUInt64();
+            break;
+          }
+          case 34: {
+            UserLogin = input.ReadString();
+            break;
+          }
+          case 40: {
+            Any = input.ReadBool();
+            break;
+          }
+          case 50: {
+            fleetIds_.AddEntriesFrom(ref input, _repeated_fleetIds_codec);
+            break;
+          }
+          case 58: {
+            groupIds_.AddEntriesFrom(ref input, _repeated_groupIds_codec);
+            break;
+          }
+          case 66: {
+            pubKeys_.AddEntriesFrom(ref input, _repeated_pubKeys_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// SSHAction defines what happens when an SSH rule matches.
+  /// </summary>
+  public sealed partial class SSHAction : pb::IMessage<SSHAction>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SSHAction> _parser = new pb::MessageParser<SSHAction>(() => new SSHAction());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SSHAction> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[27]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHAction() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHAction(SSHAction other) : this() {
+      message_ = other.message_;
+      reject_ = other.reject_;
+      accept_ = other.accept_;
+      sessionDuration_ = other.sessionDuration_;
+      allowAgentForwarding_ = other.allowAgentForwarding_;
+      allowLocalPortForwarding_ = other.allowLocalPortForwarding_;
+      allowRemotePortForwarding_ = other.allowRemotePortForwarding_;
+      recorders_ = other.recorders_.Clone();
+      onRecordingFailure_ = other.onRecordingFailure_ != null ? other.onRecordingFailure_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHAction Clone() {
+      return new SSHAction(this);
+    }
+
+    /// <summary>Field number for the "message" field.</summary>
+    public const int MessageFieldNumber = 1;
+    private string message_ = "";
+    /// <summary>
+    /// message is displayed to the user before the action
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Message {
+      get { return message_; }
+      set {
+        message_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "reject" field.</summary>
+    public const int RejectFieldNumber = 2;
+    private bool reject_;
+    /// <summary>
+    /// Action type (reject takes priority over accept)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Reject {
+      get { return reject_; }
+      set {
+        reject_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "accept" field.</summary>
+    public const int AcceptFieldNumber = 3;
+    private bool accept_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Accept {
+      get { return accept_; }
+      set {
+        accept_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "session_duration" field.</summary>
+    public const int SessionDurationFieldNumber = 4;
+    private uint sessionDuration_;
+    /// <summary>
+    /// Session settings
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint SessionDuration {
+      get { return sessionDuration_; }
+      set {
+        sessionDuration_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "allow_agent_forwarding" field.</summary>
+    public const int AllowAgentForwardingFieldNumber = 5;
+    private bool allowAgentForwarding_;
+    /// <summary>
+    /// Allow SSH agent forwarding
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool AllowAgentForwarding {
+      get { return allowAgentForwarding_; }
+      set {
+        allowAgentForwarding_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "allow_local_port_forwarding" field.</summary>
+    public const int AllowLocalPortForwardingFieldNumber = 6;
+    private bool allowLocalPortForwarding_;
+    /// <summary>
+    /// Allow local port forwarding (-L)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool AllowLocalPortForwarding {
+      get { return allowLocalPortForwarding_; }
+      set {
+        allowLocalPortForwarding_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "allow_remote_port_forwarding" field.</summary>
+    public const int AllowRemotePortForwardingFieldNumber = 7;
+    private bool allowRemotePortForwarding_;
+    /// <summary>
+    /// Allow remote port forwarding (-R)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool AllowRemotePortForwarding {
+      get { return allowRemotePortForwarding_; }
+      set {
+        allowRemotePortForwarding_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "recorders" field.</summary>
+    public const int RecordersFieldNumber = 8;
+    private static readonly pb::FieldCodec<string> _repeated_recorders_codec
+        = pb::FieldCodec.ForString(66);
+    private readonly pbc::RepeatedField<string> recorders_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Session recording
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Recorders {
+      get { return recorders_; }
+    }
+
+    /// <summary>Field number for the "on_recording_failure" field.</summary>
+    public const int OnRecordingFailureFieldNumber = 9;
+    private global::Protos.SSHRecorderFailureAction onRecordingFailure_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Protos.SSHRecorderFailureAction OnRecordingFailure {
+      get { return onRecordingFailure_; }
+      set {
+        onRecordingFailure_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SSHAction);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SSHAction other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Message != other.Message) return false;
+      if (Reject != other.Reject) return false;
+      if (Accept != other.Accept) return false;
+      if (SessionDuration != other.SessionDuration) return false;
+      if (AllowAgentForwarding != other.AllowAgentForwarding) return false;
+      if (AllowLocalPortForwarding != other.AllowLocalPortForwarding) return false;
+      if (AllowRemotePortForwarding != other.AllowRemotePortForwarding) return false;
+      if(!recorders_.Equals(other.recorders_)) return false;
+      if (!object.Equals(OnRecordingFailure, other.OnRecordingFailure)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Message.Length != 0) hash ^= Message.GetHashCode();
+      if (Reject != false) hash ^= Reject.GetHashCode();
+      if (Accept != false) hash ^= Accept.GetHashCode();
+      if (SessionDuration != 0) hash ^= SessionDuration.GetHashCode();
+      if (AllowAgentForwarding != false) hash ^= AllowAgentForwarding.GetHashCode();
+      if (AllowLocalPortForwarding != false) hash ^= AllowLocalPortForwarding.GetHashCode();
+      if (AllowRemotePortForwarding != false) hash ^= AllowRemotePortForwarding.GetHashCode();
+      hash ^= recorders_.GetHashCode();
+      if (onRecordingFailure_ != null) hash ^= OnRecordingFailure.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Message.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Message);
+      }
+      if (Reject != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Reject);
+      }
+      if (Accept != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Accept);
+      }
+      if (SessionDuration != 0) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(SessionDuration);
+      }
+      if (AllowAgentForwarding != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(AllowAgentForwarding);
+      }
+      if (AllowLocalPortForwarding != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(AllowLocalPortForwarding);
+      }
+      if (AllowRemotePortForwarding != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(AllowRemotePortForwarding);
+      }
+      recorders_.WriteTo(output, _repeated_recorders_codec);
+      if (onRecordingFailure_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(OnRecordingFailure);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Message.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Message);
+      }
+      if (Reject != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Reject);
+      }
+      if (Accept != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Accept);
+      }
+      if (SessionDuration != 0) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(SessionDuration);
+      }
+      if (AllowAgentForwarding != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(AllowAgentForwarding);
+      }
+      if (AllowLocalPortForwarding != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(AllowLocalPortForwarding);
+      }
+      if (AllowRemotePortForwarding != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(AllowRemotePortForwarding);
+      }
+      recorders_.WriteTo(ref output, _repeated_recorders_codec);
+      if (onRecordingFailure_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(OnRecordingFailure);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Message.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Message);
+      }
+      if (Reject != false) {
+        size += 1 + 1;
+      }
+      if (Accept != false) {
+        size += 1 + 1;
+      }
+      if (SessionDuration != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(SessionDuration);
+      }
+      if (AllowAgentForwarding != false) {
+        size += 1 + 1;
+      }
+      if (AllowLocalPortForwarding != false) {
+        size += 1 + 1;
+      }
+      if (AllowRemotePortForwarding != false) {
+        size += 1 + 1;
+      }
+      size += recorders_.CalculateSize(_repeated_recorders_codec);
+      if (onRecordingFailure_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OnRecordingFailure);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SSHAction other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Message.Length != 0) {
+        Message = other.Message;
+      }
+      if (other.Reject != false) {
+        Reject = other.Reject;
+      }
+      if (other.Accept != false) {
+        Accept = other.Accept;
+      }
+      if (other.SessionDuration != 0) {
+        SessionDuration = other.SessionDuration;
+      }
+      if (other.AllowAgentForwarding != false) {
+        AllowAgentForwarding = other.AllowAgentForwarding;
+      }
+      if (other.AllowLocalPortForwarding != false) {
+        AllowLocalPortForwarding = other.AllowLocalPortForwarding;
+      }
+      if (other.AllowRemotePortForwarding != false) {
+        AllowRemotePortForwarding = other.AllowRemotePortForwarding;
+      }
+      recorders_.Add(other.recorders_);
+      if (other.onRecordingFailure_ != null) {
+        if (onRecordingFailure_ == null) {
+          OnRecordingFailure = new global::Protos.SSHRecorderFailureAction();
+        }
+        OnRecordingFailure.MergeFrom(other.OnRecordingFailure);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Message = input.ReadString();
+            break;
+          }
+          case 16: {
+            Reject = input.ReadBool();
+            break;
+          }
+          case 24: {
+            Accept = input.ReadBool();
+            break;
+          }
+          case 32: {
+            SessionDuration = input.ReadUInt32();
+            break;
+          }
+          case 40: {
+            AllowAgentForwarding = input.ReadBool();
+            break;
+          }
+          case 48: {
+            AllowLocalPortForwarding = input.ReadBool();
+            break;
+          }
+          case 56: {
+            AllowRemotePortForwarding = input.ReadBool();
+            break;
+          }
+          case 66: {
+            recorders_.AddEntriesFrom(input, _repeated_recorders_codec);
+            break;
+          }
+          case 74: {
+            if (onRecordingFailure_ == null) {
+              OnRecordingFailure = new global::Protos.SSHRecorderFailureAction();
+            }
+            input.ReadMessage(OnRecordingFailure);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Message = input.ReadString();
+            break;
+          }
+          case 16: {
+            Reject = input.ReadBool();
+            break;
+          }
+          case 24: {
+            Accept = input.ReadBool();
+            break;
+          }
+          case 32: {
+            SessionDuration = input.ReadUInt32();
+            break;
+          }
+          case 40: {
+            AllowAgentForwarding = input.ReadBool();
+            break;
+          }
+          case 48: {
+            AllowLocalPortForwarding = input.ReadBool();
+            break;
+          }
+          case 56: {
+            AllowRemotePortForwarding = input.ReadBool();
+            break;
+          }
+          case 66: {
+            recorders_.AddEntriesFrom(ref input, _repeated_recorders_codec);
+            break;
+          }
+          case 74: {
+            if (onRecordingFailure_ == null) {
+              OnRecordingFailure = new global::Protos.SSHRecorderFailureAction();
+            }
+            input.ReadMessage(OnRecordingFailure);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// SSHRecorderFailureAction defines behavior when session recording fails.
+  /// </summary>
+  public sealed partial class SSHRecorderFailureAction : pb::IMessage<SSHRecorderFailureAction>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SSHRecorderFailureAction> _parser = new pb::MessageParser<SSHRecorderFailureAction>(() => new SSHRecorderFailureAction());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SSHRecorderFailureAction> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[28]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHRecorderFailureAction() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHRecorderFailureAction(SSHRecorderFailureAction other) : this() {
+      rejectSessionWithMessage_ = other.rejectSessionWithMessage_;
+      terminateSessionWithMessage_ = other.terminateSessionWithMessage_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SSHRecorderFailureAction Clone() {
+      return new SSHRecorderFailureAction(this);
+    }
+
+    /// <summary>Field number for the "reject_session_with_message" field.</summary>
+    public const int RejectSessionWithMessageFieldNumber = 1;
+    private string rejectSessionWithMessage_ = "";
+    /// <summary>
+    /// reject_session_with_message rejects the session if recording fails to start
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string RejectSessionWithMessage {
+      get { return rejectSessionWithMessage_; }
+      set {
+        rejectSessionWithMessage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "terminate_session_with_message" field.</summary>
+    public const int TerminateSessionWithMessageFieldNumber = 2;
+    private string terminateSessionWithMessage_ = "";
+    /// <summary>
+    /// terminate_session_with_message terminates the session if recording fails mid-session
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TerminateSessionWithMessage {
+      get { return terminateSessionWithMessage_; }
+      set {
+        terminateSessionWithMessage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SSHRecorderFailureAction);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SSHRecorderFailureAction other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (RejectSessionWithMessage != other.RejectSessionWithMessage) return false;
+      if (TerminateSessionWithMessage != other.TerminateSessionWithMessage) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (RejectSessionWithMessage.Length != 0) hash ^= RejectSessionWithMessage.GetHashCode();
+      if (TerminateSessionWithMessage.Length != 0) hash ^= TerminateSessionWithMessage.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (RejectSessionWithMessage.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(RejectSessionWithMessage);
+      }
+      if (TerminateSessionWithMessage.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(TerminateSessionWithMessage);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (RejectSessionWithMessage.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(RejectSessionWithMessage);
+      }
+      if (TerminateSessionWithMessage.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(TerminateSessionWithMessage);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (RejectSessionWithMessage.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RejectSessionWithMessage);
+      }
+      if (TerminateSessionWithMessage.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TerminateSessionWithMessage);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SSHRecorderFailureAction other) {
+      if (other == null) {
+        return;
+      }
+      if (other.RejectSessionWithMessage.Length != 0) {
+        RejectSessionWithMessage = other.RejectSessionWithMessage;
+      }
+      if (other.TerminateSessionWithMessage.Length != 0) {
+        TerminateSessionWithMessage = other.TerminateSessionWithMessage;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            RejectSessionWithMessage = input.ReadString();
+            break;
+          }
+          case 18: {
+            TerminateSessionWithMessage = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            RejectSessionWithMessage = input.ReadString();
+            break;
+          }
+          case 18: {
+            TerminateSessionWithMessage = input.ReadString();
             break;
           }
         }

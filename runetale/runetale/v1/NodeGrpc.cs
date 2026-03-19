@@ -71,6 +71,34 @@ namespace Protos {
     static readonly grpc::Marshaller<global::Protos.NetworkLockDisableResponse> __Marshaller_protos_NetworkLockDisableResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkLockDisableResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Protos.NetworkLockStatusResponse> __Marshaller_protos_NetworkLockStatusResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.NetworkLockStatusResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.RegisterSessionRequest> __Marshaller_protos_RegisterSessionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.RegisterSessionRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.RegisterSessionResponse> __Marshaller_protos_RegisterSessionResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.RegisterSessionResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.UpdateSessionStateRequest> __Marshaller_protos_UpdateSessionStateRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.UpdateSessionStateRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.UpdateSessionStateResponse> __Marshaller_protos_UpdateSessionStateResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.UpdateSessionStateResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.GetSessionRequest> __Marshaller_protos_GetSessionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.GetSessionRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.GetSessionResponse> __Marshaller_protos_GetSessionResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.GetSessionResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.ListSessionsRequest> __Marshaller_protos_ListSessionsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.ListSessionsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.ListSessionsResponse> __Marshaller_protos_ListSessionsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.ListSessionsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.ResumeSessionRequest> __Marshaller_protos_ResumeSessionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.ResumeSessionRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.ResumeSessionResponse> __Marshaller_protos_ResumeSessionResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.ResumeSessionResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.ShareSessionRequest> __Marshaller_protos_ShareSessionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.ShareSessionRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.ShareSessionResponse> __Marshaller_protos_ShareSessionResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.ShareSessionResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.PublishSessionRequest> __Marshaller_protos_PublishSessionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.PublishSessionRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.PublishSessionResponse> __Marshaller_protos_PublishSessionResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.PublishSessionResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse> __Method_ComposeNode = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse>(
@@ -135,6 +163,62 @@ namespace Protos {
         "NetworkLockStatus",
         __Marshaller_google_protobuf_Empty,
         __Marshaller_protos_NetworkLockStatusResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.RegisterSessionRequest, global::Protos.RegisterSessionResponse> __Method_RegisterSession = new grpc::Method<global::Protos.RegisterSessionRequest, global::Protos.RegisterSessionResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "RegisterSession",
+        __Marshaller_protos_RegisterSessionRequest,
+        __Marshaller_protos_RegisterSessionResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.UpdateSessionStateRequest, global::Protos.UpdateSessionStateResponse> __Method_UpdateSessionState = new grpc::Method<global::Protos.UpdateSessionStateRequest, global::Protos.UpdateSessionStateResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateSessionState",
+        __Marshaller_protos_UpdateSessionStateRequest,
+        __Marshaller_protos_UpdateSessionStateResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.GetSessionRequest, global::Protos.GetSessionResponse> __Method_GetSession = new grpc::Method<global::Protos.GetSessionRequest, global::Protos.GetSessionResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetSession",
+        __Marshaller_protos_GetSessionRequest,
+        __Marshaller_protos_GetSessionResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.ListSessionsRequest, global::Protos.ListSessionsResponse> __Method_ListSessions = new grpc::Method<global::Protos.ListSessionsRequest, global::Protos.ListSessionsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListSessions",
+        __Marshaller_protos_ListSessionsRequest,
+        __Marshaller_protos_ListSessionsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.ResumeSessionRequest, global::Protos.ResumeSessionResponse> __Method_ResumeSession = new grpc::Method<global::Protos.ResumeSessionRequest, global::Protos.ResumeSessionResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ResumeSession",
+        __Marshaller_protos_ResumeSessionRequest,
+        __Marshaller_protos_ResumeSessionResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.ShareSessionRequest, global::Protos.ShareSessionResponse> __Method_ShareSession = new grpc::Method<global::Protos.ShareSessionRequest, global::Protos.ShareSessionResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ShareSession",
+        __Marshaller_protos_ShareSessionRequest,
+        __Marshaller_protos_ShareSessionResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.PublishSessionRequest, global::Protos.PublishSessionResponse> __Method_PublishSession = new grpc::Method<global::Protos.PublishSessionRequest, global::Protos.PublishSessionResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "PublishSession",
+        __Marshaller_protos_PublishSessionRequest,
+        __Marshaller_protos_PublishSessionResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -223,6 +307,91 @@ namespace Protos {
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Protos.NetworkLockStatusResponse> NetworkLockStatus(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// SSH Session Management RPCs
+      /// RegisterSession registers a new SSH session with the server.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.RegisterSessionResponse> RegisterSession(global::Protos.RegisterSessionRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// UpdateSessionState updates the state of an SSH session.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.UpdateSessionStateResponse> UpdateSessionState(global::Protos.UpdateSessionStateRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// GetSession retrieves an SSH session by ID.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.GetSessionResponse> GetSession(global::Protos.GetSessionRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// ListSessions lists SSH sessions for the current node.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.ListSessionsResponse> ListSessions(global::Protos.ListSessionsRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// ResumeSession resumes a suspended SSH session.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.ResumeSessionResponse> ResumeSession(global::Protos.ResumeSessionRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// ShareSession creates a share token for an SSH session.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.ShareSessionResponse> ShareSession(global::Protos.ShareSessionRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// PublishSession publishes an SSH session to rune.host.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.PublishSessionResponse> PublishSession(global::Protos.PublishSessionRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -558,6 +727,346 @@ namespace Protos {
       {
         return CallInvoker.AsyncUnaryCall(__Method_NetworkLockStatus, null, options, request);
       }
+      /// <summary>
+      /// SSH Session Management RPCs
+      /// RegisterSession registers a new SSH session with the server.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.RegisterSessionResponse RegisterSession(global::Protos.RegisterSessionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RegisterSession(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// SSH Session Management RPCs
+      /// RegisterSession registers a new SSH session with the server.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.RegisterSessionResponse RegisterSession(global::Protos.RegisterSessionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_RegisterSession, null, options, request);
+      }
+      /// <summary>
+      /// SSH Session Management RPCs
+      /// RegisterSession registers a new SSH session with the server.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.RegisterSessionResponse> RegisterSessionAsync(global::Protos.RegisterSessionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RegisterSessionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// SSH Session Management RPCs
+      /// RegisterSession registers a new SSH session with the server.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.RegisterSessionResponse> RegisterSessionAsync(global::Protos.RegisterSessionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_RegisterSession, null, options, request);
+      }
+      /// <summary>
+      /// UpdateSessionState updates the state of an SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.UpdateSessionStateResponse UpdateSessionState(global::Protos.UpdateSessionStateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateSessionState(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// UpdateSessionState updates the state of an SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.UpdateSessionStateResponse UpdateSessionState(global::Protos.UpdateSessionStateRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateSessionState, null, options, request);
+      }
+      /// <summary>
+      /// UpdateSessionState updates the state of an SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.UpdateSessionStateResponse> UpdateSessionStateAsync(global::Protos.UpdateSessionStateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateSessionStateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// UpdateSessionState updates the state of an SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.UpdateSessionStateResponse> UpdateSessionStateAsync(global::Protos.UpdateSessionStateRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateSessionState, null, options, request);
+      }
+      /// <summary>
+      /// GetSession retrieves an SSH session by ID.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.GetSessionResponse GetSession(global::Protos.GetSessionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetSession(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// GetSession retrieves an SSH session by ID.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.GetSessionResponse GetSession(global::Protos.GetSessionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetSession, null, options, request);
+      }
+      /// <summary>
+      /// GetSession retrieves an SSH session by ID.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.GetSessionResponse> GetSessionAsync(global::Protos.GetSessionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetSessionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// GetSession retrieves an SSH session by ID.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.GetSessionResponse> GetSessionAsync(global::Protos.GetSessionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetSession, null, options, request);
+      }
+      /// <summary>
+      /// ListSessions lists SSH sessions for the current node.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.ListSessionsResponse ListSessions(global::Protos.ListSessionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListSessions(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ListSessions lists SSH sessions for the current node.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.ListSessionsResponse ListSessions(global::Protos.ListSessionsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListSessions, null, options, request);
+      }
+      /// <summary>
+      /// ListSessions lists SSH sessions for the current node.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.ListSessionsResponse> ListSessionsAsync(global::Protos.ListSessionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListSessionsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ListSessions lists SSH sessions for the current node.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.ListSessionsResponse> ListSessionsAsync(global::Protos.ListSessionsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListSessions, null, options, request);
+      }
+      /// <summary>
+      /// ResumeSession resumes a suspended SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.ResumeSessionResponse ResumeSession(global::Protos.ResumeSessionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ResumeSession(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ResumeSession resumes a suspended SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.ResumeSessionResponse ResumeSession(global::Protos.ResumeSessionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ResumeSession, null, options, request);
+      }
+      /// <summary>
+      /// ResumeSession resumes a suspended SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.ResumeSessionResponse> ResumeSessionAsync(global::Protos.ResumeSessionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ResumeSessionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ResumeSession resumes a suspended SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.ResumeSessionResponse> ResumeSessionAsync(global::Protos.ResumeSessionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ResumeSession, null, options, request);
+      }
+      /// <summary>
+      /// ShareSession creates a share token for an SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.ShareSessionResponse ShareSession(global::Protos.ShareSessionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ShareSession(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ShareSession creates a share token for an SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.ShareSessionResponse ShareSession(global::Protos.ShareSessionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ShareSession, null, options, request);
+      }
+      /// <summary>
+      /// ShareSession creates a share token for an SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.ShareSessionResponse> ShareSessionAsync(global::Protos.ShareSessionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ShareSessionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ShareSession creates a share token for an SSH session.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.ShareSessionResponse> ShareSessionAsync(global::Protos.ShareSessionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ShareSession, null, options, request);
+      }
+      /// <summary>
+      /// PublishSession publishes an SSH session to rune.host.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.PublishSessionResponse PublishSession(global::Protos.PublishSessionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return PublishSession(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// PublishSession publishes an SSH session to rune.host.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.PublishSessionResponse PublishSession(global::Protos.PublishSessionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_PublishSession, null, options, request);
+      }
+      /// <summary>
+      /// PublishSession publishes an SSH session to rune.host.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.PublishSessionResponse> PublishSessionAsync(global::Protos.PublishSessionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return PublishSessionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// PublishSession publishes an SSH session to rune.host.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.PublishSessionResponse> PublishSessionAsync(global::Protos.PublishSessionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_PublishSession, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override NodeServiceClient NewInstance(ClientBaseConfiguration configuration)
@@ -579,7 +1088,14 @@ namespace Protos {
           .AddMethod(__Method_NetworkLockInit, serviceImpl.NetworkLockInit)
           .AddMethod(__Method_NetworkLockSign, serviceImpl.NetworkLockSign)
           .AddMethod(__Method_NetworkLockDisable, serviceImpl.NetworkLockDisable)
-          .AddMethod(__Method_NetworkLockStatus, serviceImpl.NetworkLockStatus).Build();
+          .AddMethod(__Method_NetworkLockStatus, serviceImpl.NetworkLockStatus)
+          .AddMethod(__Method_RegisterSession, serviceImpl.RegisterSession)
+          .AddMethod(__Method_UpdateSessionState, serviceImpl.UpdateSessionState)
+          .AddMethod(__Method_GetSession, serviceImpl.GetSession)
+          .AddMethod(__Method_ListSessions, serviceImpl.ListSessions)
+          .AddMethod(__Method_ResumeSession, serviceImpl.ResumeSession)
+          .AddMethod(__Method_ShareSession, serviceImpl.ShareSession)
+          .AddMethod(__Method_PublishSession, serviceImpl.PublishSession).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -597,6 +1113,13 @@ namespace Protos {
       serviceBinder.AddMethod(__Method_NetworkLockSign, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.NetworkLockSignRequest, global::Protos.NetworkLockSignResponse>(serviceImpl.NetworkLockSign));
       serviceBinder.AddMethod(__Method_NetworkLockDisable, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.NetworkLockDisableRequest, global::Protos.NetworkLockDisableResponse>(serviceImpl.NetworkLockDisable));
       serviceBinder.AddMethod(__Method_NetworkLockStatus, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.NetworkLockStatusResponse>(serviceImpl.NetworkLockStatus));
+      serviceBinder.AddMethod(__Method_RegisterSession, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.RegisterSessionRequest, global::Protos.RegisterSessionResponse>(serviceImpl.RegisterSession));
+      serviceBinder.AddMethod(__Method_UpdateSessionState, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.UpdateSessionStateRequest, global::Protos.UpdateSessionStateResponse>(serviceImpl.UpdateSessionState));
+      serviceBinder.AddMethod(__Method_GetSession, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.GetSessionRequest, global::Protos.GetSessionResponse>(serviceImpl.GetSession));
+      serviceBinder.AddMethod(__Method_ListSessions, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.ListSessionsRequest, global::Protos.ListSessionsResponse>(serviceImpl.ListSessions));
+      serviceBinder.AddMethod(__Method_ResumeSession, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.ResumeSessionRequest, global::Protos.ResumeSessionResponse>(serviceImpl.ResumeSession));
+      serviceBinder.AddMethod(__Method_ShareSession, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.ShareSessionRequest, global::Protos.ShareSessionResponse>(serviceImpl.ShareSession));
+      serviceBinder.AddMethod(__Method_PublishSession, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.PublishSessionRequest, global::Protos.PublishSessionResponse>(serviceImpl.PublishSession));
     }
 
   }

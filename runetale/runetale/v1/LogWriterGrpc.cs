@@ -10,7 +10,7 @@ using grpc = global::Grpc.Core;
 namespace Logserver {
   /// <summary>
   /// LogWriterService receives log uploads from client nodes via a single
-  /// bidirectional stream. All three log types (Loglyph, Orbit, PacketFlowLog)
+  /// bidirectional stream. Two log types (Loglyph, PacketFlowLog)
   /// are multiplexed over one persistent gRPC stream per client.
   ///
   /// Authentication: gRPC metadata "private-id" header.

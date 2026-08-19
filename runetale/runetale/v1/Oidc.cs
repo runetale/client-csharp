@@ -28,22 +28,22 @@ namespace Protos {
             "b2dsZS9wcm90b2J1Zi9lbXB0eS5wcm90byKEAQoNTG9naW5SZXNwb25zZRIL",
             "CgNzdWIYASABKAkSEAoIdGVuYW50SUQYAiABKAkSDgoGZG9tYWluGAMgASgJ",
             "EhIKCnByb3ZpZGVySUQYBCABKAkSDQoFZW1haWwYBSABKAkSEAoIdXNlcm5h",
-            "bWUYBiABKAkSDwoHcGljdHVyZRgHIAEoCSKXAQoMTG9naW5SZXF1ZXN0EgsK",
+            "bWUYBiABKAkSDwoHcGljdHVyZRgHIAEoCSKtAQoMTG9naW5SZXF1ZXN0EgsK",
             "A3N1YhgBIAEoCRIQCgh0ZW5hbnRJRBgCIAEoCRIOCgZkb21haW4YAyABKAkS",
             "EgoKcHJvdmlkZXJJRBgEIAEoCRINCgVlbWFpbBgFIAEoCRIQCgh1c2VybmFt",
-            "ZRgGIAEoCRIPCgdwaWN0dXJlGAcgASgJEhIKCmludml0ZUNvZGUYCCABKAki",
-            "fQoUQXV0aGVudGljYXRlUmVzcG9uc2USDgoGZG9tYWluGAEgASgJEg0KBWVt",
-            "YWlsGAIgASgJEhAKCHVzZXJuYW1lGAMgASgJEgsKA3N1YhgEIAEoCRIUCgxp",
-            "c1JlZ2lzdGVyZWQYBSABKAgSEQoJaXNJbnZpdGVkGAYgASgIMo0BCgtPSURD",
-            "U2VydmljZRI2CgVMb2dpbhIULnByb3Rvcy5Mb2dpblJlcXVlc3QaFS5wcm90",
-            "b3MuTG9naW5SZXNwb25zZSIAEkYKDEF1dGhlbnRpY2F0ZRIWLmdvb2dsZS5w",
-            "cm90b2J1Zi5FbXB0eRocLnByb3Rvcy5BdXRoZW50aWNhdGVSZXNwb25zZSIA",
-            "QghaBi4vb2lkY2IGcHJvdG8z"));
+            "ZRgGIAEoCRIPCgdwaWN0dXJlGAcgASgJEhIKCmludml0ZUNvZGUYCCABKAkS",
+            "FAoMYXV0aFByb3ZpZGVyGAkgASgJIn0KFEF1dGhlbnRpY2F0ZVJlc3BvbnNl",
+            "Eg4KBmRvbWFpbhgBIAEoCRINCgVlbWFpbBgCIAEoCRIQCgh1c2VybmFtZRgD",
+            "IAEoCRILCgNzdWIYBCABKAkSFAoMaXNSZWdpc3RlcmVkGAUgASgIEhEKCWlz",
+            "SW52aXRlZBgGIAEoCDKNAQoLT0lEQ1NlcnZpY2USNgoFTG9naW4SFC5wcm90",
+            "b3MuTG9naW5SZXF1ZXN0GhUucHJvdG9zLkxvZ2luUmVzcG9uc2UiABJGCgxB",
+            "dXRoZW50aWNhdGUSFi5nb29nbGUucHJvdG9idWYuRW1wdHkaHC5wcm90b3Mu",
+            "QXV0aGVudGljYXRlUmVzcG9uc2UiAEIIWgYuL29pZGNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.LoginResponse), global::Protos.LoginResponse.Parser, new[]{ "Sub", "TenantID", "Domain", "ProviderID", "Email", "Username", "Picture" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.LoginRequest), global::Protos.LoginRequest.Parser, new[]{ "Sub", "TenantID", "Domain", "ProviderID", "Email", "Username", "Picture", "InviteCode" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.LoginRequest), global::Protos.LoginRequest.Parser, new[]{ "Sub", "TenantID", "Domain", "ProviderID", "Email", "Username", "Picture", "InviteCode", "AuthProvider" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.AuthenticateResponse), global::Protos.AuthenticateResponse.Parser, new[]{ "Domain", "Email", "Username", "Sub", "IsRegistered", "IsInvited" }, null, null, null, null)
           }));
     }
@@ -504,6 +504,7 @@ namespace Protos {
       username_ = other.username_;
       picture_ = other.picture_;
       inviteCode_ = other.inviteCode_;
+      authProvider_ = other.authProvider_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -609,6 +610,18 @@ namespace Protos {
       }
     }
 
+    /// <summary>Field number for the "authProvider" field.</summary>
+    public const int AuthProviderFieldNumber = 9;
+    private string authProvider_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AuthProvider {
+      get { return authProvider_; }
+      set {
+        authProvider_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -632,6 +645,7 @@ namespace Protos {
       if (Username != other.Username) return false;
       if (Picture != other.Picture) return false;
       if (InviteCode != other.InviteCode) return false;
+      if (AuthProvider != other.AuthProvider) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -647,6 +661,7 @@ namespace Protos {
       if (Username.Length != 0) hash ^= Username.GetHashCode();
       if (Picture.Length != 0) hash ^= Picture.GetHashCode();
       if (InviteCode.Length != 0) hash ^= InviteCode.GetHashCode();
+      if (AuthProvider.Length != 0) hash ^= AuthProvider.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -697,6 +712,10 @@ namespace Protos {
         output.WriteRawTag(66);
         output.WriteString(InviteCode);
       }
+      if (AuthProvider.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(AuthProvider);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -739,6 +758,10 @@ namespace Protos {
         output.WriteRawTag(66);
         output.WriteString(InviteCode);
       }
+      if (AuthProvider.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(AuthProvider);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -772,6 +795,9 @@ namespace Protos {
       }
       if (InviteCode.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(InviteCode);
+      }
+      if (AuthProvider.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AuthProvider);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -808,6 +834,9 @@ namespace Protos {
       }
       if (other.InviteCode.Length != 0) {
         InviteCode = other.InviteCode;
+      }
+      if (other.AuthProvider.Length != 0) {
+        AuthProvider = other.AuthProvider;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -856,6 +885,10 @@ namespace Protos {
             InviteCode = input.ReadString();
             break;
           }
+          case 74: {
+            AuthProvider = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -901,6 +934,10 @@ namespace Protos {
           }
           case 66: {
             InviteCode = input.ReadString();
+            break;
+          }
+          case 74: {
+            AuthProvider = input.ReadString();
             break;
           }
         }

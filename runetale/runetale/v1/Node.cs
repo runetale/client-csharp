@@ -190,61 +190,66 @@ namespace Protos {
             "CSI9ChBTZWN1cml0eVNvZnR3YXJlEgwKBG5hbWUYASABKAkSDAoEdHlwZRgC",
             "IAEoCRINCgVzdGF0ZRgDIAEoCSJFCgpTY3JlZW5Mb2NrEhkKEXBhc3N3b3Jk",
             "X3JlcXVpcmVkGAEgASgIEhwKFGlkbGVfdGltZW91dF9zZWNvbmRzGAIgASgN",
-            "Ij8KDVBvc3R1cmVDaGVja3MSLgoJcHJvY2Vzc2VzGAEgAygLMhsucHJvdG9z",
-            "LlBvc3R1cmVQcm9jZXNzQ2hlY2sidgoTUG9zdHVyZVByb2Nlc3NDaGVjaxIK",
-            "CgJpZBgBIAEoCRIUCgxkaXNwbGF5X25hbWUYAiABKAkSEgoKbGludXhfcGF0",
-            "aBgDIAEoCRITCgtkYXJ3aW5fcGF0aBgEIAEoCRIUCgx3aW5kb3dzX3BhdGgY",
-            "BSABKAkiYgoSUHJvY2Vzc0NoZWNrUmVzdWx0EhAKCGNoZWNrX2lkGAEgASgJ",
-            "EgwKBHBhdGgYAiABKAkSEwoLZmlsZV9leGlzdHMYAyABKAgSFwoPcHJvY2Vz",
-            "c19ydW5uaW5nGAQgASgIKpUBCg9TU0hTZXNzaW9uU3RhdGUSIQodU1NIX1NF",
-            "U1NJT05fU1RBVEVfVU5TUEVDSUZJRUQQABIcChhTU0hfU0VTU0lPTl9TVEFU",
-            "RV9BQ1RJVkUQARIfChtTU0hfU0VTU0lPTl9TVEFURV9TVVNQRU5ERUQQAhIg",
-            "ChxTU0hfU0VTU0lPTl9TVEFURV9URVJNSU5BVEVEEAMqrgEKDlNTSFNlc3Np",
-            "b25Sb2xlEiAKHFNTSF9TRVNTSU9OX1JPTEVfVU5TUEVDSUZJRUQQABIaChZT",
-            "U0hfU0VTU0lPTl9ST0xFX09XTkVSEAESIQodU1NIX1NFU1NJT05fUk9MRV9D",
-            "T0xMQUJPUkFUT1IQAhIbChdTU0hfU0VTU0lPTl9ST0xFX1ZJRVdFUhADEh4K",
-            "GlNTSF9TRVNTSU9OX1JPTEVfUFVCTElTSEVSEAQqsAEKFFNTSFNlc3Npb25W",
-            "aXNpYmlsaXR5EiYKIlNTSF9TRVNTSU9OX1ZJU0lCSUxJVFlfVU5TUEVDSUZJ",
-            "RUQQABIjCh9TU0hfU0VTU0lPTl9WSVNJQklMSVRZX0lOVEVSTkFMEAESKAok",
-            "U1NIX1NFU1NJT05fVklTSUJJTElUWV9BVVRIRU5USUNBVEVEEAISIQodU1NI",
-            "X1NFU1NJT05fVklTSUJJTElUWV9QVUJMSUMQAyqnAwoTU1NIU2Vzc2lvbkV2",
-            "ZW50VHlwZRIhCh1TU0hfU0VTU0lPTl9FVkVOVF9VTlNQRUNJRklFRBAAEh0K",
-            "GVNTSF9TRVNTSU9OX0VWRU5UX0NSRUFURUQQARIdChlTU0hfU0VTU0lPTl9F",
-            "VkVOVF9SRVNVTUVEEAISHwobU1NIX1NFU1NJT05fRVZFTlRfU1VTUEVOREVE",
-            "EAMSIAocU1NIX1NFU1NJT05fRVZFTlRfVEVSTUlOQVRFRBAEEhwKGFNTSF9T",
-            "RVNTSU9OX0VWRU5UX1NIQVJFRBAFEiMKH1NTSF9TRVNTSU9OX0VWRU5UX1NI",
-            "QVJFX1JFVk9LRUQQBhIfChtTU0hfU0VTU0lPTl9FVkVOVF9QVUJMSVNIRUQQ",
-            "BxIhCh1TU0hfU0VTU0lPTl9FVkVOVF9VTlBVQkxJU0hFRBAIEiEKHVNTSF9T",
-            "RVNTSU9OX0VWRU5UX0FDTF9DSEFOR0VEEAkSIQodU1NIX1NFU1NJT05fRVZF",
-            "TlRfVVNFUl9KT0lORUQQChIfChtTU0hfU0VTU0lPTl9FVkVOVF9VU0VSX0xF",
-            "RlQQCzLRCQoLTm9kZVNlcnZpY2USRAoLQ29tcG9zZU5vZGUSFi5nb29nbGUu",
-            "cHJvdG9idWYuRW1wdHkaGy5wcm90b3MuQ29tcG9zZU5vZGVSZXNwb25zZSIA",
-            "EkUKDUdldE5ldHdvcmtNYXASFi5nb29nbGUucHJvdG9idWYuRW1wdHkaGi5w",
-            "cm90b3MuTmV0d29ya01hcFJlc3BvbnNlIgASVQoWQ29ubmVjdE5ldHdvcmtN",
-            "YXBUYWJsZRIZLnByb3Rvcy5OZXR3b3JrTWFwUmVxdWVzdBoaLnByb3Rvcy5O",
-            "ZXR3b3JrTWFwUmVzcG9uc2UiACgBMAESSAoLUm90YXRlV2dLZXkSGi5wcm90",
-            "b3MuUm90YXRlV2dLZXlSZXF1ZXN0GhsucHJvdG9zLlJvdGF0ZVdnS2V5UmVz",
-            "cG9uc2UiABJUCg9OZXR3b3JrTG9ja0luaXQSHi5wcm90b3MuTmV0d29ya0xv",
-            "Y2tJbml0UmVxdWVzdBofLnByb3Rvcy5OZXR3b3JrTG9ja0luaXRSZXNwb25z",
-            "ZSIAElQKD05ldHdvcmtMb2NrU2lnbhIeLnByb3Rvcy5OZXR3b3JrTG9ja1Np",
-            "Z25SZXF1ZXN0Gh8ucHJvdG9zLk5ldHdvcmtMb2NrU2lnblJlc3BvbnNlIgAS",
-            "XQoSTmV0d29ya0xvY2tEaXNhYmxlEiEucHJvdG9zLk5ldHdvcmtMb2NrRGlz",
-            "YWJsZVJlcXVlc3QaIi5wcm90b3MuTmV0d29ya0xvY2tEaXNhYmxlUmVzcG9u",
-            "c2UiABJQChFOZXR3b3JrTG9ja1N0YXR1cxIWLmdvb2dsZS5wcm90b2J1Zi5F",
-            "bXB0eRohLnByb3Rvcy5OZXR3b3JrTG9ja1N0YXR1c1Jlc3BvbnNlIgASVAoP",
-            "UmVnaXN0ZXJTZXNzaW9uEh4ucHJvdG9zLlJlZ2lzdGVyU2Vzc2lvblJlcXVl",
-            "c3QaHy5wcm90b3MuUmVnaXN0ZXJTZXNzaW9uUmVzcG9uc2UiABJdChJVcGRh",
-            "dGVTZXNzaW9uU3RhdGUSIS5wcm90b3MuVXBkYXRlU2Vzc2lvblN0YXRlUmVx",
-            "dWVzdBoiLnByb3Rvcy5VcGRhdGVTZXNzaW9uU3RhdGVSZXNwb25zZSIAEkUK",
-            "CkdldFNlc3Npb24SGS5wcm90b3MuR2V0U2Vzc2lvblJlcXVlc3QaGi5wcm90",
-            "b3MuR2V0U2Vzc2lvblJlc3BvbnNlIgASSwoMTGlzdFNlc3Npb25zEhsucHJv",
-            "dG9zLkxpc3RTZXNzaW9uc1JlcXVlc3QaHC5wcm90b3MuTGlzdFNlc3Npb25z",
-            "UmVzcG9uc2UiABJOCg1SZXN1bWVTZXNzaW9uEhwucHJvdG9zLlJlc3VtZVNl",
-            "c3Npb25SZXF1ZXN0Gh0ucHJvdG9zLlJlc3VtZVNlc3Npb25SZXNwb25zZSIA",
-            "EksKDFNoYXJlU2Vzc2lvbhIbLnByb3Rvcy5TaGFyZVNlc3Npb25SZXF1ZXN0",
-            "GhwucHJvdG9zLlNoYXJlU2Vzc2lvblJlc3BvbnNlIgASUQoOUHVibGlzaFNl",
-            "c3Npb24SHS5wcm90b3MuUHVibGlzaFNlc3Npb25SZXF1ZXN0Gh4ucHJvdG9z",
-            "LlB1Ymxpc2hTZXNzaW9uUmVzcG9uc2UiAEIIWgYuL25vZGViBnByb3RvMw=="));
+            "Iq0BCg1Qb3N0dXJlQ2hlY2tzEi4KCXByb2Nlc3NlcxgBIAMoCzIbLnByb3Rv",
+            "cy5Qb3N0dXJlUHJvY2Vzc0NoZWNrEjAKEG9zX3ZlcnNpb25fY2hlY2sYAiAB",
+            "KAsyFi5wcm90b3MuT1NWZXJzaW9uQ2hlY2sSOgoVZGlza19lbmNyeXB0aW9u",
+            "X2NoZWNrGAMgASgLMhsucHJvdG9zLkRpc2tFbmNyeXB0aW9uQ2hlY2siOAoO",
+            "T1NWZXJzaW9uQ2hlY2sSEwoLbWluX3ZlcnNpb24YASABKAkSEQoJcGxhdGZv",
+            "cm1zGAIgAygJIicKE0Rpc2tFbmNyeXB0aW9uQ2hlY2sSEAoIcmVxdWlyZWQY",
+            "ASABKAgidgoTUG9zdHVyZVByb2Nlc3NDaGVjaxIKCgJpZBgBIAEoCRIUCgxk",
+            "aXNwbGF5X25hbWUYAiABKAkSEgoKbGludXhfcGF0aBgDIAEoCRITCgtkYXJ3",
+            "aW5fcGF0aBgEIAEoCRIUCgx3aW5kb3dzX3BhdGgYBSABKAkiYgoSUHJvY2Vz",
+            "c0NoZWNrUmVzdWx0EhAKCGNoZWNrX2lkGAEgASgJEgwKBHBhdGgYAiABKAkS",
+            "EwoLZmlsZV9leGlzdHMYAyABKAgSFwoPcHJvY2Vzc19ydW5uaW5nGAQgASgI",
+            "KpUBCg9TU0hTZXNzaW9uU3RhdGUSIQodU1NIX1NFU1NJT05fU1RBVEVfVU5T",
+            "UEVDSUZJRUQQABIcChhTU0hfU0VTU0lPTl9TVEFURV9BQ1RJVkUQARIfChtT",
+            "U0hfU0VTU0lPTl9TVEFURV9TVVNQRU5ERUQQAhIgChxTU0hfU0VTU0lPTl9T",
+            "VEFURV9URVJNSU5BVEVEEAMqrgEKDlNTSFNlc3Npb25Sb2xlEiAKHFNTSF9T",
+            "RVNTSU9OX1JPTEVfVU5TUEVDSUZJRUQQABIaChZTU0hfU0VTU0lPTl9ST0xF",
+            "X09XTkVSEAESIQodU1NIX1NFU1NJT05fUk9MRV9DT0xMQUJPUkFUT1IQAhIb",
+            "ChdTU0hfU0VTU0lPTl9ST0xFX1ZJRVdFUhADEh4KGlNTSF9TRVNTSU9OX1JP",
+            "TEVfUFVCTElTSEVSEAQqsAEKFFNTSFNlc3Npb25WaXNpYmlsaXR5EiYKIlNT",
+            "SF9TRVNTSU9OX1ZJU0lCSUxJVFlfVU5TUEVDSUZJRUQQABIjCh9TU0hfU0VT",
+            "U0lPTl9WSVNJQklMSVRZX0lOVEVSTkFMEAESKAokU1NIX1NFU1NJT05fVklT",
+            "SUJJTElUWV9BVVRIRU5USUNBVEVEEAISIQodU1NIX1NFU1NJT05fVklTSUJJ",
+            "TElUWV9QVUJMSUMQAyqnAwoTU1NIU2Vzc2lvbkV2ZW50VHlwZRIhCh1TU0hf",
+            "U0VTU0lPTl9FVkVOVF9VTlNQRUNJRklFRBAAEh0KGVNTSF9TRVNTSU9OX0VW",
+            "RU5UX0NSRUFURUQQARIdChlTU0hfU0VTU0lPTl9FVkVOVF9SRVNVTUVEEAIS",
+            "HwobU1NIX1NFU1NJT05fRVZFTlRfU1VTUEVOREVEEAMSIAocU1NIX1NFU1NJ",
+            "T05fRVZFTlRfVEVSTUlOQVRFRBAEEhwKGFNTSF9TRVNTSU9OX0VWRU5UX1NI",
+            "QVJFRBAFEiMKH1NTSF9TRVNTSU9OX0VWRU5UX1NIQVJFX1JFVk9LRUQQBhIf",
+            "ChtTU0hfU0VTU0lPTl9FVkVOVF9QVUJMSVNIRUQQBxIhCh1TU0hfU0VTU0lP",
+            "Tl9FVkVOVF9VTlBVQkxJU0hFRBAIEiEKHVNTSF9TRVNTSU9OX0VWRU5UX0FD",
+            "TF9DSEFOR0VEEAkSIQodU1NIX1NFU1NJT05fRVZFTlRfVVNFUl9KT0lORUQQ",
+            "ChIfChtTU0hfU0VTU0lPTl9FVkVOVF9VU0VSX0xFRlQQCzLRCQoLTm9kZVNl",
+            "cnZpY2USRAoLQ29tcG9zZU5vZGUSFi5nb29nbGUucHJvdG9idWYuRW1wdHka",
+            "Gy5wcm90b3MuQ29tcG9zZU5vZGVSZXNwb25zZSIAEkUKDUdldE5ldHdvcmtN",
+            "YXASFi5nb29nbGUucHJvdG9idWYuRW1wdHkaGi5wcm90b3MuTmV0d29ya01h",
+            "cFJlc3BvbnNlIgASVQoWQ29ubmVjdE5ldHdvcmtNYXBUYWJsZRIZLnByb3Rv",
+            "cy5OZXR3b3JrTWFwUmVxdWVzdBoaLnByb3Rvcy5OZXR3b3JrTWFwUmVzcG9u",
+            "c2UiACgBMAESSAoLUm90YXRlV2dLZXkSGi5wcm90b3MuUm90YXRlV2dLZXlS",
+            "ZXF1ZXN0GhsucHJvdG9zLlJvdGF0ZVdnS2V5UmVzcG9uc2UiABJUCg9OZXR3",
+            "b3JrTG9ja0luaXQSHi5wcm90b3MuTmV0d29ya0xvY2tJbml0UmVxdWVzdBof",
+            "LnByb3Rvcy5OZXR3b3JrTG9ja0luaXRSZXNwb25zZSIAElQKD05ldHdvcmtM",
+            "b2NrU2lnbhIeLnByb3Rvcy5OZXR3b3JrTG9ja1NpZ25SZXF1ZXN0Gh8ucHJv",
+            "dG9zLk5ldHdvcmtMb2NrU2lnblJlc3BvbnNlIgASXQoSTmV0d29ya0xvY2tE",
+            "aXNhYmxlEiEucHJvdG9zLk5ldHdvcmtMb2NrRGlzYWJsZVJlcXVlc3QaIi5w",
+            "cm90b3MuTmV0d29ya0xvY2tEaXNhYmxlUmVzcG9uc2UiABJQChFOZXR3b3Jr",
+            "TG9ja1N0YXR1cxIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRohLnByb3Rvcy5O",
+            "ZXR3b3JrTG9ja1N0YXR1c1Jlc3BvbnNlIgASVAoPUmVnaXN0ZXJTZXNzaW9u",
+            "Eh4ucHJvdG9zLlJlZ2lzdGVyU2Vzc2lvblJlcXVlc3QaHy5wcm90b3MuUmVn",
+            "aXN0ZXJTZXNzaW9uUmVzcG9uc2UiABJdChJVcGRhdGVTZXNzaW9uU3RhdGUS",
+            "IS5wcm90b3MuVXBkYXRlU2Vzc2lvblN0YXRlUmVxdWVzdBoiLnByb3Rvcy5V",
+            "cGRhdGVTZXNzaW9uU3RhdGVSZXNwb25zZSIAEkUKCkdldFNlc3Npb24SGS5w",
+            "cm90b3MuR2V0U2Vzc2lvblJlcXVlc3QaGi5wcm90b3MuR2V0U2Vzc2lvblJl",
+            "c3BvbnNlIgASSwoMTGlzdFNlc3Npb25zEhsucHJvdG9zLkxpc3RTZXNzaW9u",
+            "c1JlcXVlc3QaHC5wcm90b3MuTGlzdFNlc3Npb25zUmVzcG9uc2UiABJOCg1S",
+            "ZXN1bWVTZXNzaW9uEhwucHJvdG9zLlJlc3VtZVNlc3Npb25SZXF1ZXN0Gh0u",
+            "cHJvdG9zLlJlc3VtZVNlc3Npb25SZXNwb25zZSIAEksKDFNoYXJlU2Vzc2lv",
+            "bhIbLnByb3Rvcy5TaGFyZVNlc3Npb25SZXF1ZXN0GhwucHJvdG9zLlNoYXJl",
+            "U2Vzc2lvblJlc3BvbnNlIgASUQoOUHVibGlzaFNlc3Npb24SHS5wcm90b3Mu",
+            "UHVibGlzaFNlc3Npb25SZXF1ZXN0Gh4ucHJvdG9zLlB1Ymxpc2hTZXNzaW9u",
+            "UmVzcG9uc2UiAEIIWgYuL25vZGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Protos.SSHSessionState), typeof(global::Protos.SSHSessionRole), typeof(global::Protos.SSHSessionVisibility), typeof(global::Protos.SSHSessionEventType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -302,7 +307,9 @@ namespace Protos {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.FirewallStatus), global::Protos.FirewallStatus.Parser, new[]{ "Enabled", "Type" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.SecuritySoftware), global::Protos.SecuritySoftware.Parser, new[]{ "Name", "Type", "State" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.ScreenLock), global::Protos.ScreenLock.Parser, new[]{ "PasswordRequired", "IdleTimeoutSeconds" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PostureChecks), global::Protos.PostureChecks.Parser, new[]{ "Processes" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PostureChecks), global::Protos.PostureChecks.Parser, new[]{ "Processes", "OsVersionCheck", "DiskEncryptionCheck" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.OSVersionCheck), global::Protos.OSVersionCheck.Parser, new[]{ "MinVersion", "Platforms" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protos.DiskEncryptionCheck), global::Protos.DiskEncryptionCheck.Parser, new[]{ "Required" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.PostureProcessCheck), global::Protos.PostureProcessCheck.Parser, new[]{ "Id", "DisplayName", "LinuxPath", "DarwinPath", "WindowsPath" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protos.ProcessCheckResult), global::Protos.ProcessCheckResult.Parser, new[]{ "CheckId", "Path", "FileExists", "ProcessRunning" }, null, null, null, null)
           }));
@@ -18531,6 +18538,8 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public PostureChecks(PostureChecks other) : this() {
       processes_ = other.processes_.Clone();
+      osVersionCheck_ = other.osVersionCheck_ != null ? other.osVersionCheck_.Clone() : null;
+      diskEncryptionCheck_ = other.diskEncryptionCheck_ != null ? other.diskEncryptionCheck_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -18554,6 +18563,36 @@ namespace Protos {
       get { return processes_; }
     }
 
+    /// <summary>Field number for the "os_version_check" field.</summary>
+    public const int OsVersionCheckFieldNumber = 2;
+    private global::Protos.OSVersionCheck osVersionCheck_;
+    /// <summary>
+    /// os_version_check defines minimum OS version requirements.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Protos.OSVersionCheck OsVersionCheck {
+      get { return osVersionCheck_; }
+      set {
+        osVersionCheck_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "disk_encryption_check" field.</summary>
+    public const int DiskEncryptionCheckFieldNumber = 3;
+    private global::Protos.DiskEncryptionCheck diskEncryptionCheck_;
+    /// <summary>
+    /// disk_encryption_check defines disk encryption requirements.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Protos.DiskEncryptionCheck DiskEncryptionCheck {
+      get { return diskEncryptionCheck_; }
+      set {
+        diskEncryptionCheck_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -18570,6 +18609,8 @@ namespace Protos {
         return true;
       }
       if(!processes_.Equals(other.processes_)) return false;
+      if (!object.Equals(OsVersionCheck, other.OsVersionCheck)) return false;
+      if (!object.Equals(DiskEncryptionCheck, other.DiskEncryptionCheck)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -18578,6 +18619,8 @@ namespace Protos {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= processes_.GetHashCode();
+      if (osVersionCheck_ != null) hash ^= OsVersionCheck.GetHashCode();
+      if (diskEncryptionCheck_ != null) hash ^= DiskEncryptionCheck.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -18597,6 +18640,14 @@ namespace Protos {
       output.WriteRawMessage(this);
     #else
       processes_.WriteTo(output, _repeated_processes_codec);
+      if (osVersionCheck_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(OsVersionCheck);
+      }
+      if (diskEncryptionCheck_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(DiskEncryptionCheck);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -18608,6 +18659,14 @@ namespace Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       processes_.WriteTo(ref output, _repeated_processes_codec);
+      if (osVersionCheck_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(OsVersionCheck);
+      }
+      if (diskEncryptionCheck_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(DiskEncryptionCheck);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -18619,6 +18678,12 @@ namespace Protos {
     public int CalculateSize() {
       int size = 0;
       size += processes_.CalculateSize(_repeated_processes_codec);
+      if (osVersionCheck_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OsVersionCheck);
+      }
+      if (diskEncryptionCheck_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DiskEncryptionCheck);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -18632,6 +18697,18 @@ namespace Protos {
         return;
       }
       processes_.Add(other.processes_);
+      if (other.osVersionCheck_ != null) {
+        if (osVersionCheck_ == null) {
+          OsVersionCheck = new global::Protos.OSVersionCheck();
+        }
+        OsVersionCheck.MergeFrom(other.OsVersionCheck);
+      }
+      if (other.diskEncryptionCheck_ != null) {
+        if (diskEncryptionCheck_ == null) {
+          DiskEncryptionCheck = new global::Protos.DiskEncryptionCheck();
+        }
+        DiskEncryptionCheck.MergeFrom(other.DiskEncryptionCheck);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -18651,6 +18728,20 @@ namespace Protos {
             processes_.AddEntriesFrom(input, _repeated_processes_codec);
             break;
           }
+          case 18: {
+            if (osVersionCheck_ == null) {
+              OsVersionCheck = new global::Protos.OSVersionCheck();
+            }
+            input.ReadMessage(OsVersionCheck);
+            break;
+          }
+          case 26: {
+            if (diskEncryptionCheck_ == null) {
+              DiskEncryptionCheck = new global::Protos.DiskEncryptionCheck();
+            }
+            input.ReadMessage(DiskEncryptionCheck);
+            break;
+          }
         }
       }
     #endif
@@ -18668,6 +18759,440 @@ namespace Protos {
             break;
           case 10: {
             processes_.AddEntriesFrom(ref input, _repeated_processes_codec);
+            break;
+          }
+          case 18: {
+            if (osVersionCheck_ == null) {
+              OsVersionCheck = new global::Protos.OSVersionCheck();
+            }
+            input.ReadMessage(OsVersionCheck);
+            break;
+          }
+          case 26: {
+            if (diskEncryptionCheck_ == null) {
+              DiskEncryptionCheck = new global::Protos.DiskEncryptionCheck();
+            }
+            input.ReadMessage(DiskEncryptionCheck);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// OSVersionCheck defines the minimum OS version requirement.
+  /// Client compares its OS version against min_version using semver.
+  /// </summary>
+  public sealed partial class OSVersionCheck : pb::IMessage<OSVersionCheck>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<OSVersionCheck> _parser = new pb::MessageParser<OSVersionCheck>(() => new OSVersionCheck());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<OSVersionCheck> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[55]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public OSVersionCheck() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public OSVersionCheck(OSVersionCheck other) : this() {
+      minVersion_ = other.minVersion_;
+      platforms_ = other.platforms_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public OSVersionCheck Clone() {
+      return new OSVersionCheck(this);
+    }
+
+    /// <summary>Field number for the "min_version" field.</summary>
+    public const int MinVersionFieldNumber = 1;
+    private string minVersion_ = "";
+    /// <summary>
+    /// e.g. "14.0", "22.04", "10.0.22621"
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string MinVersion {
+      get { return minVersion_; }
+      set {
+        minVersion_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "platforms" field.</summary>
+    public const int PlatformsFieldNumber = 2;
+    private static readonly pb::FieldCodec<string> _repeated_platforms_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> platforms_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// platforms this check applies to: "darwin", "linux", "windows"
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Platforms {
+      get { return platforms_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as OSVersionCheck);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(OSVersionCheck other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (MinVersion != other.MinVersion) return false;
+      if(!platforms_.Equals(other.platforms_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (MinVersion.Length != 0) hash ^= MinVersion.GetHashCode();
+      hash ^= platforms_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (MinVersion.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(MinVersion);
+      }
+      platforms_.WriteTo(output, _repeated_platforms_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (MinVersion.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(MinVersion);
+      }
+      platforms_.WriteTo(ref output, _repeated_platforms_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (MinVersion.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(MinVersion);
+      }
+      size += platforms_.CalculateSize(_repeated_platforms_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(OSVersionCheck other) {
+      if (other == null) {
+        return;
+      }
+      if (other.MinVersion.Length != 0) {
+        MinVersion = other.MinVersion;
+      }
+      platforms_.Add(other.platforms_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            MinVersion = input.ReadString();
+            break;
+          }
+          case 18: {
+            platforms_.AddEntriesFrom(input, _repeated_platforms_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            MinVersion = input.ReadString();
+            break;
+          }
+          case 18: {
+            platforms_.AddEntriesFrom(ref input, _repeated_platforms_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// DiskEncryptionCheck defines disk encryption requirements.
+  /// </summary>
+  public sealed partial class DiskEncryptionCheck : pb::IMessage<DiskEncryptionCheck>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DiskEncryptionCheck> _parser = new pb::MessageParser<DiskEncryptionCheck>(() => new DiskEncryptionCheck());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<DiskEncryptionCheck> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[56]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DiskEncryptionCheck() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DiskEncryptionCheck(DiskEncryptionCheck other) : this() {
+      required_ = other.required_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DiskEncryptionCheck Clone() {
+      return new DiskEncryptionCheck(this);
+    }
+
+    /// <summary>Field number for the "required" field.</summary>
+    public const int RequiredFieldNumber = 1;
+    private bool required_;
+    /// <summary>
+    /// if true, all disks must be encrypted
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Required {
+      get { return required_; }
+      set {
+        required_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as DiskEncryptionCheck);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(DiskEncryptionCheck other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Required != other.Required) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Required != false) hash ^= Required.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Required != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Required);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Required != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Required);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Required != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(DiskEncryptionCheck other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Required != false) {
+        Required = other.Required;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Required = input.ReadBool();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Required = input.ReadBool();
             break;
           }
         }
@@ -18695,7 +19220,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[55]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[57]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19051,7 +19576,7 @@ namespace Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[56]; }
+      get { return global::Protos.NodeReflection.Descriptor.MessageTypes[58]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

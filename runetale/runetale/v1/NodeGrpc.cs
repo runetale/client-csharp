@@ -103,6 +103,10 @@ namespace Protos {
     static readonly grpc::Marshaller<global::Protos.PublishSessionRequest> __Marshaller_protos_PublishSessionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.PublishSessionRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Protos.PublishSessionResponse> __Marshaller_protos_PublishSessionResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.PublishSessionResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.SetDNSChallengeRequest> __Marshaller_protos_SetDNSChallengeRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.SetDNSChallengeRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Protos.SetDNSChallengeResponse> __Marshaller_protos_SetDNSChallengeResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Protos.SetDNSChallengeResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse> __Method_ComposeNode = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Protos.ComposeNodeResponse>(
@@ -223,6 +227,14 @@ namespace Protos {
         "PublishSession",
         __Marshaller_protos_PublishSessionRequest,
         __Marshaller_protos_PublishSessionResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Protos.SetDNSChallengeRequest, global::Protos.SetDNSChallengeResponse> __Method_SetDNSChallenge = new grpc::Method<global::Protos.SetDNSChallengeRequest, global::Protos.SetDNSChallengeResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "SetDNSChallenge",
+        __Marshaller_protos_SetDNSChallengeRequest,
+        __Marshaller_protos_SetDNSChallengeResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -396,6 +408,20 @@ namespace Protos {
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Protos.PublishSessionResponse> PublishSession(global::Protos.PublishSessionRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// SetDNSChallenge writes, or with an empty value removes, the ACME DNS-01
+      /// TXT record for one of the calling node's own names, so the node can get
+      /// a certificate for it without holding DNS credentials.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Protos.SetDNSChallengeResponse> SetDNSChallenge(global::Protos.SetDNSChallengeRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -1071,6 +1097,62 @@ namespace Protos {
       {
         return CallInvoker.AsyncUnaryCall(__Method_PublishSession, null, options, request);
       }
+      /// <summary>
+      /// SetDNSChallenge writes, or with an empty value removes, the ACME DNS-01
+      /// TXT record for one of the calling node's own names, so the node can get
+      /// a certificate for it without holding DNS credentials.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.SetDNSChallengeResponse SetDNSChallenge(global::Protos.SetDNSChallengeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SetDNSChallenge(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// SetDNSChallenge writes, or with an empty value removes, the ACME DNS-01
+      /// TXT record for one of the calling node's own names, so the node can get
+      /// a certificate for it without holding DNS credentials.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Protos.SetDNSChallengeResponse SetDNSChallenge(global::Protos.SetDNSChallengeRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_SetDNSChallenge, null, options, request);
+      }
+      /// <summary>
+      /// SetDNSChallenge writes, or with an empty value removes, the ACME DNS-01
+      /// TXT record for one of the calling node's own names, so the node can get
+      /// a certificate for it without holding DNS credentials.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.SetDNSChallengeResponse> SetDNSChallengeAsync(global::Protos.SetDNSChallengeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SetDNSChallengeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// SetDNSChallenge writes, or with an empty value removes, the ACME DNS-01
+      /// TXT record for one of the calling node's own names, so the node can get
+      /// a certificate for it without holding DNS credentials.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Protos.SetDNSChallengeResponse> SetDNSChallengeAsync(global::Protos.SetDNSChallengeRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_SetDNSChallenge, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override NodeServiceClient NewInstance(ClientBaseConfiguration configuration)
@@ -1099,7 +1181,8 @@ namespace Protos {
           .AddMethod(__Method_ListSessions, serviceImpl.ListSessions)
           .AddMethod(__Method_ResumeSession, serviceImpl.ResumeSession)
           .AddMethod(__Method_ShareSession, serviceImpl.ShareSession)
-          .AddMethod(__Method_PublishSession, serviceImpl.PublishSession).Build();
+          .AddMethod(__Method_PublishSession, serviceImpl.PublishSession)
+          .AddMethod(__Method_SetDNSChallenge, serviceImpl.SetDNSChallenge).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -1124,6 +1207,7 @@ namespace Protos {
       serviceBinder.AddMethod(__Method_ResumeSession, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.ResumeSessionRequest, global::Protos.ResumeSessionResponse>(serviceImpl.ResumeSession));
       serviceBinder.AddMethod(__Method_ShareSession, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.ShareSessionRequest, global::Protos.ShareSessionResponse>(serviceImpl.ShareSession));
       serviceBinder.AddMethod(__Method_PublishSession, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.PublishSessionRequest, global::Protos.PublishSessionResponse>(serviceImpl.PublishSession));
+      serviceBinder.AddMethod(__Method_SetDNSChallenge, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Protos.SetDNSChallengeRequest, global::Protos.SetDNSChallengeResponse>(serviceImpl.SetDNSChallenge));
     }
 
   }
